@@ -20,10 +20,7 @@ public class PlainText extends Document {
 
         System.out.println(" ------------ Testing Class PlainText ------------ ");
         PlainText testXML = new PlainText(testXMLpath);
-
-        System.out.println( "Plain Text Document: \n" + testXML.getPlainContent()) ;
-        System.out.println( "Processed Plain Text Document: \n" + testXML.getProcessedContent())  ;
-
+        System.out.println(testXML.toString());
 
     }
 

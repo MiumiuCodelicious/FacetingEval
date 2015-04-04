@@ -8,7 +8,7 @@ import java.io.*;
  * Generic document class.
  */
 
-public abstract class Document{
+public abstract class Document extends Object{
     protected String docID;
     protected String filelocation;
     protected String plainContent;
@@ -30,7 +30,7 @@ public abstract class Document{
     }
 
     private void setProcessedContent(){
-        this.processedContent = basicProcess(this.plainContent);
+        this.processedContent = process(this.plainContent);
     }
 
 
@@ -77,10 +77,15 @@ public abstract class Document{
     * Remove anything that is not made of alphabets or numbers: punctuations, 's, stop words
     * */
 
-    public static String basicProcess(String filecontent){
+    public static String process(String filecontent){
         filecontent = filecontent.replaceAll("[^a-zA-Z0-9\\s]", " ").replaceAll("\\s+", " ");
         filecontent = Utility.StopWordHandler.removeStopWord(filecontent.toLowerCase());
         return filecontent;
+    }
+
+    public String toString(){
+        return getClass().getName() + " [ID = " + this.getDocID() + ", file location = " + this.getFileLocation() + "\nplain content:\n" +
+                this.getPlainContent() + "\nprocessed content:\n" + this.getProcessedContent();
     }
 
 

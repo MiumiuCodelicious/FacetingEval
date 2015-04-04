@@ -1,6 +1,6 @@
 package Document;
 
-import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -10,45 +10,46 @@ public class InfographicXML extends LuceneSolrXML {
 
     public InfographicXML(String GXMLid){
         super(GXMLid);
-        removeGraphWord();
+        setProcessedContent();
+        setFieldMap();
     }
 
-    private void removeGraphWord(){
-        this.processedContent = Utility.StopWordHandler.removeGraphWord(this.processedContent);
+    public static String process(String filecontent){
+        return Utility.StopWordHandler.removeGraphWord( LuceneSolrXML.process(filecontent) );
+    }
+
+    private void setProcessedContent(){
+        this.processedContent = this.process(this.plainContent);
+    }
+
+    private void setFieldMap(){
+        this.fieldMap = this.getFields();
+    }
+
+
+    public HashMap<String, ArrayList> getFields(){
+        this.fieldMap = super.getFields();
         if (this.fieldMap != null) {
             for (String field : this.fieldMap.keySet()) {
-                String[] values = this.fieldMap.get(field);
-                for (int i = 0; i < values.length ; i ++) {
-                    values[i] = Utility.StopWordHandler.removeGraphWord( this.fieldMap.get(field)[i] ) ;
-                }
+                ArrayList<String> values = this.fieldMap.get(field);
+                for (int i = 0; i < values.size() ; i ++)
+                    values.set(i, Utility.StopWordHandler.removeGraphWord(values.get(i)) );
                 this.fieldMap.put(field, values);
             }
         }
+        return this.fieldMap;
     }
 
 
 
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String args[]) {
 
         String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Document/testInfographicXML.xml";
         System.out.println(" ------------ Testing Class LuceneSolrXML ------------ ");
         LuceneSolrXML testXML = new LuceneSolrXML(testXMLpath);
-        System.out.println( "Plain Graphic XML: " + testXML.getPlainContent());
-        System.out.println( "Processed (stripped) Graphic XML: " + testXML.getProcessedContent());
 
-        HashMap<String, String[]> XMLfields = testXML.getFieldMap();
-        System.out.println("Graphic XML Field - Values: ");
-
-        if (XMLfields != null) {
-            for (String field : XMLfields.keySet()) {
-                String values = "";
-                for (String value : XMLfields.get(field)) {
-                    values += value + "\n";
-                }
-                System.out.println(field + ": \n" + values );
-            }
-        }
+        System.out.println(testXML.toString());
 
 
     }
