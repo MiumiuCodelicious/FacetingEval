@@ -13,6 +13,8 @@ public class PlainText extends Document {
         super(filelocation, docID);
     }
 
+    public PlainText(String filelocation, String filecontent, String docID) { super(filelocation, filecontent, docID); }
+
 
     /* This is the simplest implementation of plain text documents */
     public static void main (String args[]){

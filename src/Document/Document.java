@@ -14,15 +14,33 @@ public abstract class Document extends Object{
     protected String plainContent;
     protected String processedContent;
 
+    /* Constructor 1 with minimum control */
     public Document(String filelocation){
         this.filelocation = filelocation;
+        setDefautDocID(filelocation);
         setPlainContent();
         setProcessedContent();
     }
 
+    /* Constructor give control to set docID */
     public Document(String filelocation, String docID){
         this(filelocation);
         this.docID = docID;
+    }
+
+    /* Constructor 3 give control to set location, professed file content, and docID */
+    public Document(String filelocation, String filecontent, String docID){
+        this(filelocation, docID);
+        this.processedContent = filecontent;
+    }
+
+
+
+    /* The default docID will be the document name
+    * Careful if your document may have the same names!
+    * */
+    private void setDefautDocID(String filelocation){
+        this.docID = filelocation.substring( filelocation.lastIndexOf("/")+1 , filelocation.length() );
     }
 
     private void setPlainContent(){
@@ -62,6 +80,7 @@ public abstract class Document extends Object{
                     sbuild.append(line + "\n");
                 }
                 readstr = sbuild.toString();
+                br.close();
             }catch (IOException  e){
                 System.out.println("Crashed in Document.Document.readdoc() ");
                 e.printStackTrace();
