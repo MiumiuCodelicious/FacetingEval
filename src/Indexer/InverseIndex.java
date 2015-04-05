@@ -1,6 +1,5 @@
 package Indexer;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -10,7 +9,7 @@ import Utility.Stemmer;
 /**
  * Created by Jewel Li on 15-4-4. ivanka@udel.edu
  */
-public class InversedIndex{
+public class InverseIndex{
 
     /* InveredIndex data is implemented as a 2-dimensional ArrayList<Integer> */
     private int DOC_SIZE = 250;
@@ -31,7 +30,7 @@ public class InversedIndex{
      * @TODO
      * The initialization is too dirty...
       * */
-    public InversedIndex(){
+    public InverseIndex(){
         ArrayList<Integer> postinglist = new ArrayList<Integer>(Collections.nCopies(DOC_SIZE, 0));
         this.wordByDocIndex = new ArrayList<ArrayList<Integer>>(Collections.nCopies(WORD_SIZE, postinglist));
     }
@@ -174,7 +173,7 @@ public class InversedIndex{
 
 
     public static void main(String args[]){
-        System.out.println(" ------------ Testing Class InversedIndex ------------ ");
+        System.out.println(" ------------ Testing Class InverseIndex ------------ ");
 
         String testdocpath1 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/ArthurRimbaud.txt";
         String testdocpath2 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/OscarWilde.txt";
@@ -183,7 +182,7 @@ public class InversedIndex{
         Document doc2 = new LuceneSolrXML(testdocpath2);
         Document doc3 = new LuceneSolrXML(testdocpath3);
 
-        InversedIndex index = new InversedIndex();
+        InverseIndex index = new InverseIndex();
         index.setDocNum(5); index.setWordNum(50);
         index.adddoc(doc1);
         index.adddoc(doc2);
