@@ -1,4 +1,4 @@
-package Indexer;
+package Index;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +9,7 @@ import Utility.Stemmer;
 /**
  * Created by Jewel Li on 15-4-4. ivanka@udel.edu
  */
-public class InverseIndex{
+public class InverseIndex extends Object{
 
     /* InveredIndex data is implemented as a 2-dimensional ArrayList<Integer> */
     private int DOC_SIZE = 250;
@@ -37,9 +37,10 @@ public class InverseIndex{
 
 
 
-    /*  Add Generic Document
-    * Return 1 if succeed, otherwise return 0
-    * */
+    /* ------------------------------------------------------------------------------------------------
+     * Add Document
+     * Return 1 if succeed, otherwise return 0
+     * */
     public int adddoc(Document d){
         try {
             /* add d's docID to docMap */
@@ -65,6 +66,10 @@ public class InverseIndex{
                     ArrayList<Integer> postinglist = this.wordByDocIndex.get(this.wordMap.get(word));
                     postinglist.set(dindex, dmap.get(word));
                     this.wordByDocIndex.set(this.wordMap.get(word), postinglist);
+
+                    if (Utility.Options.DEBUG == true) {
+                        System.out.println("postinglist for word " + word + ": " + postinglist.toString());
+                    }
                 }
             }
         }catch (NullPointerException e){
@@ -88,8 +93,10 @@ public class InverseIndex{
         /* Get field in d */
         ArrayList<String> fieldlist = d.getFieldMap().get(fieldname);
         String fieldcontent = "";
-        for (String f : fieldlist){
-            fieldcontent += f + " ";
+        if (fieldlist != null) {
+            for (String f : fieldlist) {
+                fieldcontent += f + " ";
+            }
         }
         PlainText pd = new PlainText(d.getFileLocation(), fieldcontent, d.getDocID());
         adddoc(pd);
@@ -100,7 +107,8 @@ public class InverseIndex{
     * Return 1 if succeed, otherwise return 0
     * */
     public int adddoc(InfographicXML d, String fieldname){
-        adddoc((LuceneSolrXML)d, fieldname);
+        LuceneSolrXML dd = (LuceneSolrXML)d;
+        adddoc((LuceneSolrXML) d, fieldname);
         return 1;
     }
 
@@ -108,10 +116,24 @@ public class InverseIndex{
     /* Helper function to turn the content string of a document into a HashMap of word by wordcount */
     private HashMap<String, Integer> singleDocMap(String filecontent){
         HashMap<String, Integer> map = new HashMap<String, Integer>();
-        for (String word : filecontent.split(" ")){
-            map = incrementMap(Stemmer.mystem(word), map);
+        for (String word : filecontent.split("\\s+")){
+            if (word.length() > 2) {
+                map = incrementMap(Stemmer.mystem(word), map);
+            }
         }
         return map;
+    }
+
+
+
+
+
+    /* Get posting list
+    * ------------------------------------------------------------------------------------------
+    * */
+    public ArrayList<Integer> getPostinglist(String wordkey){
+        int wordindex = this.wordMap.get(wordkey);
+        return this.wordByDocIndex.get(wordindex);
     }
 
 
@@ -169,6 +191,17 @@ public class InverseIndex{
         this.WORD_SIZE = totalWordNumber;
     }
 
+    public int getDOC_SIZE(){
+        return DOC_SIZE;
+    }
+
+    public int getWORD_SIZE(){
+        return WORD_SIZE;
+    }
+
+    public String toString(){
+        return "Object " + getClass().getName() + ":" + "Total word size=" + this.getWORD_SIZE() + ".Total doc size=" + this.getDOC_SIZE() + "\n";
+    }
 
 
 
