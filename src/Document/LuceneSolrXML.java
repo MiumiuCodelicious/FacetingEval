@@ -1,6 +1,5 @@
 package Document;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -54,6 +53,7 @@ public class LuceneSolrXML extends Document{
         return this.fieldMap;
     }
 
+
     /*
      * Simply remove all XML tags and nothing else
      * If needed, modify this method to use more complex parser for more complex XMLs
@@ -79,9 +79,9 @@ public class LuceneSolrXML extends Document{
      * Field values (use list because multiple values might exist in XML) are values in the returned HashMap
      * */
     public HashMap<String, ArrayList> getFields(){
+
         Pattern fieldtag_excl_name = Pattern.compile("<( *)field( *)name( *)=( *)\"");
         Pattern fieldtag = Pattern.compile("<( *)field( *)name( *)=( *)\".*\"( *)>");
-        Pattern closeFieldtag = Pattern.compile("<( *)/field( *)>");
         Pattern adddoctag = Pattern.compile("<( *)/?((add)|(doc))( *)>");
         String filecontent;
 
@@ -91,36 +91,33 @@ public class LuceneSolrXML extends Document{
             if (this.plainContent.length() < 2) return null;
             filecontent = this.plainContent.replaceAll(adddoctag.toString(), "");
 
-            Matcher fieldtag_excl_name_matcher = fieldtag_excl_name.matcher(filecontent);
-            Matcher fieldtag_matcher = fieldtag.matcher(filecontent);
-            Matcher closeFieldtag_matcher = closeFieldtag.matcher(filecontent);
+            for (String xmlfield : filecontent.split("<( *)/field( *)>")) {
+                Matcher fieldtag_excl_name_matcher = fieldtag_excl_name.matcher(xmlfield);
+                Matcher fieldtag_matcher = fieldtag.matcher(xmlfield);
 
-            while (fieldtag_excl_name_matcher.find() && fieldtag_matcher.find()) {
+                if (fieldtag_excl_name_matcher.find() && fieldtag_matcher.find()) {
 
-                String field_name = filecontent.substring(fieldtag_excl_name_matcher.end(), fieldtag_matcher.end()).replaceAll("\"( *)>", "");
-                String field_content = "";
+                    String field_name = xmlfield.substring( fieldtag_excl_name_matcher.end(), fieldtag_matcher.end() ).replaceAll("\"( *)>", "");
+                    String field_content = Document.process(xmlfield.substring(fieldtag_matcher.end(), xmlfield.length()).trim());
+                    ArrayList<String> value = new ArrayList<String>();
 
-                if (closeFieldtag_matcher.find()) {
-                    field_content = Document.process(filecontent.substring(fieldtag_matcher.end(), closeFieldtag_matcher.start()).trim());
+                    /* regular fields are put in the fieldMap */
+                    if (this.fieldMap != null && this.fieldMap.containsKey(field_name)) {
+                        value = this.fieldMap.get(field_name);
+                    }
+                    if (value.add(field_content) && this.fieldMap != null) {
+                        this.fieldMap.put(field_name, value);
+                    }
+
                 }
-
-                ArrayList<String> value = new ArrayList<String>();
-                if ( this.fieldMap != null && this.fieldMap.containsKey(field_name)) {
-                    value = this.fieldMap.get(field_name);
-                }
-                if (value.add(field_content) && this.fieldMap!=null) {
-                    this.fieldMap.put(field_name, value);
-                }
-
 
             }
+
 
         }
         return this.fieldMap;
 
     }
-
-
 
 
     public String toString(){

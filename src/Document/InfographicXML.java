@@ -8,8 +8,8 @@ import java.util.HashMap;
  */
 public class InfographicXML extends LuceneSolrXML {
 
-    public InfographicXML(String GXMLid){
-        super(GXMLid);
+    public InfographicXML(String GXMLpath){
+        super(GXMLpath);
         setProcessedContent();
         setFieldMap();
     }

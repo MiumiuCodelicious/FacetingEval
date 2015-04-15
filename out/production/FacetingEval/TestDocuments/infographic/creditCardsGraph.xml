@@ -1,0 +1,50 @@
+<add><doc>
+<field name="id">set_5_4</field>
+<field name="allX">
+ | morgan stanley | goldman sachs | bank of america | jp morgan | citigroup
+</field>
+<field name="allXExp">
+compani compani compani compani compani busi busi busi busi busi billion billion billion billion billion financi financi financi financi financi secur secur secur secur invest invest invest invest york york york york asset asset asset asset
+</field>
+<field name="mergedX">
+ | morgan stanley | goldman sachs | bank of america | jp morgan | citigroup compani compani compani compani compani busi busi busi busi busi billion billion billion billion billion financi financi financi financi financi secur secur secur secur invest invest invest invest york york york york asset asset asset asset
+</field>
+<field name="otherX">
+morgan stanley | goldman sachs | bank of america | jp morgan | citigroup
+</field>
+<field name="otherXExp">
+compani compani compani compani compani busi busi busi busi busi billion billion billion billion billion financi financi financi financi financi secur secur secur secur invest invest invest invest york york york york asset asset asset asset firm firm firm employe employe employe bloomberg bloomberg bloomberg financ financ financ inc inc inc street street street stock stock stock corpor corpor corpor
+</field>
+<field name="merged_otherX">
+morgan stanley | goldman sachs | bank of america | jp morgan | citigroup compani compani compani compani compani busi busi busi busi busi billion billion billion billion billion financi financi financi financi financi secur secur secur secur invest invest invest invest york york york york asset asset asset asset firm firm firm employe employe employe bloomberg bloomberg bloomberg financ financ financ inc inc inc street street street stock stock stock corpor corpor corpor
+</field>
+<field name="Y">
+percentage of revenue from equity underwriting in 2012
+</field>
+<field name="YExp">
+stock company shares capital finance business shareholders private companies value financial investors securities price investment money investments exchange venture buying shareholder share financing selling assets preferred accounting broker typically insurance
+</field>
+<field name="merged_Y">
+percentage of revenue from equity underwriting in 2012 stock company shares capital finance business shareholders private companies value financial investors securities price investment money investments exchange venture buying shareholder share financing selling assets preferred accounting broker typically insurance
+</field>
+<field name="all">
+ | morgan stanley | goldman sachs | bank of america | jp morgan | citigroup | percentage of revenue from equity underwriting in 2012 |
+</field>
+<field name="allExp">
+company business financial corporation investment united securities management september billion companies services history firm money finance bankamerica federal city jpmorgan travelers chase private stock corporate york mortgage insurance assets exchange
+</field>
+<field name="merged_All">
+ | morgan stanley | goldman sachs | bank of america | jp morgan | citigroup | percentage of revenue from equity underwriting in 2012 |  company business financial corporation investment united securities management september billion companies services history firm money finance bankamerica federal city jpmorgan travelers chase private stock corporate york mortgage insurance assets exchange
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+</doc></add>

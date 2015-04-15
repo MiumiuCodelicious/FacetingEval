@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="infographic">
+<!-- schame name can only be one of the following: plaintext, lucene, infographic -->
+<!-- lucene will also work for solr XMLs -->
+
+<!--
+This is the document schema file. This file should be named "schema.xml" and
+ should be in the conf directory under the FacetingEval home
+ (i.e. ./FacetingEval/schema.xml by default)
+ or located where the classloader for the FacetingEvaluMain can find it.
+-->
+
+    <field name="id" indexed="false" stored="true" multiValued="false"/>
+    <field name="mergedX" indexed="true" stored="true" multiValued="true"/>
+    <field name="focusX" indexed="true" stored="true" multiValued="true"/>
+    <field name="otherX" indexed="true" stored="true" multiValued="true"/>
+    <field name="merged_Y" indexed="true" stored="true" multiValued="true"/>
+    <field name="merged_All" indexed="true" stored="true" multiValued="true"/>
+
+    <field name="facet_X" faceted="true" indexed="true" stored="true" multivalued="true"/>
+    <field name="facet_Y" faceted="true" indexed="true" stored="true" multivalued="true"/>
+
+</schema>

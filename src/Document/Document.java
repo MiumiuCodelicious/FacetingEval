@@ -1,6 +1,9 @@
 package Document;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.IOException;
 
 /**
  * Created by Jewel Li on 15-4-3. ivanka@udel.edu

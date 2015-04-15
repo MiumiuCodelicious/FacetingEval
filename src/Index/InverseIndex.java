@@ -3,7 +3,10 @@ package Index;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Map;
+
 import Document.*;
+import Utility.Options;
 import Utility.Stemmer;
 
 /**
@@ -14,6 +17,7 @@ public class InverseIndex extends Object{
     /* InveredIndex data is implemented as a 2-dimensional ArrayList<Integer> */
     private int DOC_SIZE = 250;
     private int WORD_SIZE = 1000;
+    private int MAX_WORD_LENGTH = 20;
     private ArrayList<ArrayList<Integer>> wordByDocIndex ;
 
     /* Document frequency list */
@@ -41,7 +45,7 @@ public class InverseIndex extends Object{
      * Add Document
      * Return 1 if succeed, otherwise return 0
      * */
-    public int adddoc(Document d){
+    public int adddoc(Document d, String deliminiter){
         try {
             /* add d's docID to docMap */
             addToMap(d.getDocID(), this.docMap.size(), this.docMap);
@@ -51,7 +55,8 @@ public class InverseIndex extends Object{
              * 2) increment document frequency
              * 3) add words in d to wordByDocIndex
              * */
-            HashMap<String, Integer> dmap = singleDocMap(d.getProcessedContent());
+
+            HashMap<String, Integer> dmap = singleDocMap(d.getProcessedContent(), deliminiter);
             for (String word : dmap.keySet()) {
                 if (this.wordMap != null && !this.wordMap.containsKey(word)) {
 
@@ -81,8 +86,8 @@ public class InverseIndex extends Object{
     /* add a plain text document
     * Return 1 if succeed, otherwise return 0
     * */
-    public int adddoc(PlainText d){
-        adddoc((Document)d);
+    public int adddoc(PlainText d, String deliminiter){
+        adddoc((Document)d, deliminiter);
         return 1;
     }
 
@@ -91,7 +96,12 @@ public class InverseIndex extends Object{
     * */
     public int adddoc(LuceneSolrXML d, String fieldname){
         /* Get field in d */
-        ArrayList<String> fieldlist = d.getFieldMap().get(fieldname);
+        String deliminiter = " ";
+        ArrayList<String> fieldlist;
+        if (fieldname.contains("facet")){
+            deliminiter = "|";
+        }
+        fieldlist = d.getFieldMap().get(fieldname);
         String fieldcontent = "";
         if (fieldlist != null) {
             for (String f : fieldlist) {
@@ -99,7 +109,7 @@ public class InverseIndex extends Object{
             }
         }
         PlainText pd = new PlainText(d.getFileLocation(), fieldcontent, d.getDocID());
-        adddoc(pd);
+        adddoc(pd, deliminiter);
         return 1;
     }
 
@@ -114,9 +124,9 @@ public class InverseIndex extends Object{
 
 
     /* Helper function to turn the content string of a document into a HashMap of word by wordcount */
-    private HashMap<String, Integer> singleDocMap(String filecontent){
+    private HashMap<String, Integer> singleDocMap(String content, String deliminiter){
         HashMap<String, Integer> map = new HashMap<String, Integer>();
-        for (String word : filecontent.split("\\s+")){
+        for (String word : content.split(deliminiter)){
             if (word.length() > 2) {
                 map = incrementMap(Stemmer.mystem(word), map);
             }
@@ -128,7 +138,7 @@ public class InverseIndex extends Object{
 
 
 
-    /* Get posting list
+    /* Get utility functions
     * ------------------------------------------------------------------------------------------
     * */
     public ArrayList<Integer> getPostinglist(String wordkey){
@@ -136,6 +146,21 @@ public class InverseIndex extends Object{
         return this.wordByDocIndex.get(wordindex);
     }
 
+    public int getIndexOfWord(String word){
+        return this.wordMap.get(word);
+    }
+
+    public int getIndexOfDoc(String docID){
+        return this.docMap.get(docID);
+    }
+
+    public String getWordByIndex(int wordIndex){
+        return getStringByIndex(wordIndex, this.wordMap);
+    }
+
+    public String getDocByIndex(int docIndex){
+        return getStringByIndex(docIndex, this.docMap);
+    }
 
 
 
@@ -166,7 +191,14 @@ public class InverseIndex extends Object{
     }
 
 
-
+    static <T> String getStringByIndex(int index, HashMap<String, Integer> map){
+        for (Map.Entry<String, Integer> kv : map.entrySet()){
+            if (kv.getValue() == index){
+                return kv.getKey();
+            }
+        }
+        return null;
+    }
 
 
     /* Regular Get and Set Functions
@@ -200,7 +232,23 @@ public class InverseIndex extends Object{
     }
 
     public String toString(){
-        return "Object " + getClass().getName() + ":" + "Total word size=" + this.getWORD_SIZE() + ".Total doc size=" + this.getDOC_SIZE() + "\n";
+        String returnstr = "Object " + getClass().getName() + ":" + "Total word size=" + this.getWORD_SIZE() + ".Total doc size=" + this.getDOC_SIZE() + "\n";
+        int wordsize = Math.min( WORD_SIZE, Options.MAX_INDEX_WORDS_TO_PRINT);
+        int docsize = Math.min( DOC_SIZE, Options.MAX_INDEX_DOCS_TO_PRINT );
+
+        returnstr += "Doc:\t\t\t";
+        for (int d = 0; d < docsize; d ++) {    returnstr += getDocByIndex(d) + "\t";   }
+        returnstr += "\n";
+
+        for (int i = 0; i < wordsize; i ++){
+            String word = "";
+            if ( ( word = getWordByIndex(i)) != null ) {
+                returnstr += "Word " + word;
+                for (int j = 0; j < MAX_WORD_LENGTH - word.length(); j++) {   returnstr += " ";    }
+                returnstr += ":\t\t" + this.wordByDocIndex.get(i).subList(0, docsize).toString() + "\n";
+            }
+        }
+        return returnstr;
     }
 
 
@@ -208,23 +256,21 @@ public class InverseIndex extends Object{
     public static void main(String args[]){
         System.out.println(" ------------ Testing Class InverseIndex ------------ ");
 
-        String testdocpath1 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/ArthurRimbaud.txt";
-        String testdocpath2 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/OscarWilde.txt";
-        String testdocpath3 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/Schopenhauer.txt";
+        String testdocpath1 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/plaintext/ArthurRimbaud.txt";
+        String testdocpath2 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/plaintext/OscarWilde.txt";
+        String testdocpath3 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/plaintext/Schopenhauer.txt";
         Document doc1 = new LuceneSolrXML(testdocpath1);
         Document doc2 = new LuceneSolrXML(testdocpath2);
         Document doc3 = new LuceneSolrXML(testdocpath3);
 
         InverseIndex index = new InverseIndex();
         index.setDocNum(5); index.setWordNum(50);
-        index.adddoc(doc1);
-        index.adddoc(doc2);
-        index.adddoc(doc3);
+        index.adddoc(doc1, " ");
+        index.adddoc(doc2, " ");
+        index.adddoc(doc3, " ");
 
         System.out.println(index.getDocMap().toString());
         System.out.println(index.getWordMap().toString());
-        System.out.println("Word-index Map = " + index.getWordMap().toString());
-        System.out.println("Doc-index Map = " + index.getDocMap().toString());
     }
 
 
