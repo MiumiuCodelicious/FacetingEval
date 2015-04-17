@@ -3,6 +3,7 @@ package Index;
 import Document.InfographicXML;
 import Document.LuceneSolrXML;
 import Document.PlainText;
+import Utility.Options;
 
 import java.util.HashMap;
 import java.io.File;
@@ -66,7 +67,9 @@ public class IndexReader implements IndexReaderInterface {
         File docdir = new File(dir);
         if (docdir.exists() && docdir.isDirectory()){
             for (File doc : docdir.listFiles()) {
-                addSingleDoc(doctype, doc.getAbsolutePath());
+                if (doc.getName().contains(".xml")) {
+                    addSingleDoc(doctype, doc.getAbsolutePath());
+                }
             }
         }
 
@@ -75,34 +78,42 @@ public class IndexReader implements IndexReaderInterface {
 
 
     private void addSingleDoc(String doctype, String docpath){
+        if (doctype.equals("luncene") || doctype.equals("infographic")) {
+            LuceneSolrXML lucenedoc = new LuceneSolrXML(docpath);
+            addDocFacet(lucenedoc);
+        }
         for (String field : indexBucket.keySet()){
             if (doctype.equals("plaintext")){
                 PlainText plaintextdoc = new PlainText(docpath);
                 indexBucket.get(field).adddoc(plaintextdoc, " ");
-                System.out.println("Added plain text " + plaintextdoc.getDocID() + " to index.");
+                if (Options.DEBUG == true) {
+                    System.out.println("Added plain text " + plaintextdoc.getDocID() + " to index.");
+                }
             }else if (doctype.equals("lucene")){
                 LuceneSolrXML lucenedoc = new LuceneSolrXML(docpath);
                 indexBucket.get(field).adddoc(lucenedoc, field);
-                System.out.println("Added lucene/solr XML " + lucenedoc.getDocID() + " field " + field + " to index.");
-                addDocFacet(lucenedoc);
+                if (Options.DEBUG == true) {
+                    System.out.println("Added lucene/solr XML " + lucenedoc.getDocID() + " field " + field + " to index.");
+                }
             }else if (doctype.equals("infographic")){
                 InfographicXML infographicdoc = new InfographicXML(docpath);
                 indexBucket.get(field).adddoc(infographicdoc, field);
-                System.out.println("Added infographic XML " + infographicdoc.getDocID() + " field " + field + " to index.");
-                addDocFacet(infographicdoc);
+                if (Options.DEBUG == true) {
+                    System.out.println("Added infographic XML " + infographicdoc.getDocID() + " field " + field + " to index.");
+                }
             }
         }
+        if (Options.DEBUG == true) {    System.out.println("\n");   }
     }
 
 
-    /*
-     * @TODO now, adddoc() belong to InverseIndex class. This class does not parse by "|" for facets
-     */
     private void addDocFacet(LuceneSolrXML doc){
         if ( !facetBucket.isEmpty() ) {
             for (String facet : facetBucket.keySet()) {
                 facetBucket.get(facet).adddoc(doc, facet);
-                System.out.println("Add Facet " + doc.getDocID() + " facet " + facet + ".");
+                if (Options.DEBUG == true) {
+                    System.out.println("Add Facet " + facet + " from " + doc.getDocID() + ":" + doc.getFieldMap().get(facet));
+                }
             }
         }
     }
@@ -141,7 +152,7 @@ public class IndexReader implements IndexReaderInterface {
 
     static <T> void printIndex( HashMap<String,InverseIndex> bucket, String field){
         if ( bucket != null && bucket.containsKey(field) ){
-            System.out.println( "Printing Indexed " + field + ": " + bucket.get(field).toString() ) ;
+            System.out.println("Printing Indexed " + field + ": " + bucket.get(field).toString() ) ;
         }
     }
 
@@ -153,10 +164,18 @@ public class IndexReader implements IndexReaderInterface {
         }
     }
 
+    /* Indexed fields and facets defined in schema.xml should be the keys of indexBucket and keys of facetBucket */
+    public void printSchema(){
+        System.out.println("Schema defined indexed fields: " + indexBucket.keySet().toString());
+        System.out.println("Schema defined facet fields: " + facetBucket.keySet().toString());
+    }
+
     public static void main (String args[]){
         IndexReader indexreader = new IndexReader();
         String current = System.getProperty("user.dir");
-        indexreader.buildIndex(current + "/src/TestDocuments/infographic");
+        indexreader.buildIndex(current + "/src/TestDocuments/infographic/smallerXYFacets/");
+        indexreader.printSchema();
+
         indexreader.printAllFacets();
         indexreader.printAllIndexes();
 

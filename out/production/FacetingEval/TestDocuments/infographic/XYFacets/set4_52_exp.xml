@@ -1,0 +1,57 @@
+<add><doc>
+<field name="id">set_4_52.xml</field>
+<field name="allX">
+ipad | iphone | ipod | macintosh
+</field>
+<field name="allXExp">
+apple apple apple apple ios ios ios iphone iphone iphone generation generation generation original original original available available available software software software 
+</field>
+<field name="mergedX">
+ipad | iphone | ipod | macintosh | apple apple apple apple ios ios ios iphone iphone iphone generation generation generation original original original available available available software software software 
+</field>
+<field name="focusX">
+ipad
+</field>
+<field name="otherX">
+iphone | ipod | macintosh
+</field>
+<field name="otherXExp">
+apple apple apple software software software iphone iphone ios ios original original available available touch touch generation generation hardware hardware computer computer interface interface 
+</field>
+<field name="merged_otherX">
+iphone | ipod | macintosh | apple apple apple software software software iphone iphone ios ios original original available available touch touch generation generation hardware hardware computer computer interface interface 
+</field>
+<field name="Y">
+years to sell 55 million units
+</field>
+<field name="YExp">
+strategy units game genre rts real energy time hour example kilowatt gamespy watt articles gameplay features resource titles resources history sup elements based computer building tactics production gamespot electricity rack 
+</field>
+<field name="merged_Y">
+years to sell 55 million units | strategy units game genre rts real energy time hour example kilowatt gamespy watt articles gameplay features resource titles resources history sup elements based computer building tactics production gamespot electricity rack 
+</field>
+<field name="all">
+ipad | iphone | ipod | macintosh | years to sell 55 million units |  years to sell 55 million units 
+</field>
+<field name="allExp">
+strategy units game genre rts real energy time hour example kilowatt gamespy watt articles gameplay features resource titles resources history sup elements based computer building tactics production gamespot electricity rack 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+available | apple | generation | ios | iphone | original | software | ipad  |  iphone  |  ipod  |  macintosh
+
+</field>
+<field name="facet_Y">
+Glossary_of_professional_wrestling_terms
+</field>
+</add></dcoc>

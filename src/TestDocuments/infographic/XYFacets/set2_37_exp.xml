@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_2_37.xml</field>
+<field name="allX">
+ | american express | discover | chase | barclaycard | industry average | u.s. bank | citibank | wells fargo | capital one | bank of america | ge capital | hsbc
+</field>
+<field name="allXExp">
+united united united united united united united united united united united company company company company company company company company company company company business business business business business business business business business business business financial financial financial financial financial financial financial financial financial financial financial services services services services services services services services services services services corporation corporation corporation corporation corporation corporation corporation 
+</field>
+<field name="mergedX">
+ | american express | discover | chase | barclaycard | industry average | u.s. bank | citibank | wells fargo | capital one | bank of america | ge capital | hsbc | united united united united united united united united united united united company company company company company company company company company company company business business business business business business business business business business business financial financial financial financial financial financial financial financial financial financial financial services services services services services services services services services services services corporation corporation corporation corporation corporation corporation corporation 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+american express | discover | chase | barclaycard | industry average | u.s. bank | citibank | wells fargo | capital one | bank of america | ge capital | hsbc
+</field>
+<field name="otherXExp">
+united united united united united united united united united united united company company company company company company company company company company company business business business business business business business business business business business financial financial financial financial financial financial financial financial financial financial financial services services services services services services services services services services services corporation corporation corporation corporation corporation corporation corporation 
+</field>
+<field name="merged_otherX">
+american express | discover | chase | barclaycard | industry average | u.s. bank | citibank | wells fargo | capital one | bank of america | ge capital | hsbc | united united united united united united united united united united united company company company company company company company company company company company business business business business business business business business business business business financial financial financial financial financial financial financial financial financial financial financial services services services services services services services services services services services corporation corporation corporation corporation corporation corporation corporation 
+</field>
+<field name="Y">
+j.d. power's card satisfaction ranking
+</field>
+<field name="YExp">
+satisfaction customer management job electric power theory energy monopoly information atonement single ranking contentment user factors singles performance customers price electrical aquinas organizational curve company reactive jennie apparent service product 
+</field>
+<field name="merged_Y">
+j.d. power's card satisfaction ranking | satisfaction customer management job electric power theory energy monopoly information atonement single ranking contentment user factors singles performance customers price electrical aquinas organizational curve company reactive jennie apparent service product 
+</field>
+<field name="all">
+ | american express | discover | chase | barclaycard | industry average | u.s. bank | citibank | wells fargo | capital one | bank of america | ge capital | hsbc | j.d. power's card satisfaction ranking |  still the one american express topped j.d. power's card satisfaction rankings for the sixth straight year 
+</field>
+<field name="allExp">
+satisfaction customer management job electric power theory energy monopoly information atonement single ranking contentment user factors singles performance customers price electrical aquinas organizational curve company reactive jennie apparent service product 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+united | financial | business | corporation | company | services |  american express  |  discover  |  chase  |  barclaycard  |  industry average  |  u.s. bank  |  citibank  |  wells fargo  |  capital one  |  bank of america  |  ge capital  |  hsbc
+
+</field>
+<field name="facet_Y">
+J._D._Power | For_Inspiration_and_Recognition_of_Science_and_Technology | Customer_satisfaction
+</field>
+</add></dcoc>

@@ -1,0 +1,57 @@
+<add><doc>
+<field name="id">set_2_46.xml</field>
+<field name="allX">
+industry average | american express | discover | chase | barclaycard | u.s. bank | wells fargo | capital one | bank of america | ge capital retail bank | citi | hscbc
+</field>
+<field name="allXExp">
+services services services services services services services services services united united united united united united united united company company company company company company company company financial financial financial financial financial financial financial financial business business business business business business business business investment investment investment investment investment investment 
+</field>
+<field name="mergedX">
+industry average | american express | discover | chase | barclaycard | u.s. bank | wells fargo | capital one | bank of america | ge capital retail bank | citi | hscbc | services services services services services services services services services united united united united united united united united company company company company company company company company financial financial financial financial financial financial financial financial business business business business business business business business investment investment investment investment investment investment 
+</field>
+<field name="focusX">
+industry average industry
+</field>
+<field name="otherX">
+american express | discover | chase | barclaycard | u.s. bank | wells fargo | capital one | bank of america | ge capital retail bank | citi | hscbc
+</field>
+<field name="otherXExp">
+company company company company company company company company financial financial financial financial financial financial financial financial services services services services services services services services business business business business business business business business united united united united united united united investment investment investment investment investment investment 
+</field>
+<field name="merged_otherX">
+american express | discover | chase | barclaycard | u.s. bank | wells fargo | capital one | bank of america | ge capital retail bank | citi | hscbc | company company company company company company company company financial financial financial financial financial financial financial financial services services services services services services services services business business business business business business business business united united united united united united united investment investment investment investment investment investment 
+</field>
+<field name="Y">
+customer satisfaction index ranking
+</field>
+<field name="YExp">
+customer metrics customers satisfaction services service ranking meaning business purchase sales kunde purchases client management measures product performance managers economics word obsolete transactions contractual specified situations stakeholder sense retained recency 
+</field>
+<field name="merged_Y">
+customer satisfaction index ranking | customer metrics customers satisfaction services service ranking meaning business purchase sales kunde purchases client management measures product performance managers economics word obsolete transactions contractual specified situations stakeholder sense retained recency 
+</field>
+<field name="all">
+industry average | american express | discover | chase | barclaycard | u.s. bank | wells fargo | capital one | bank of america | ge capital retail bank | citi | hscbc | customer satisfaction index ranking |  customer satisfaction index ranking 
+</field>
+<field name="allExp">
+customer metrics customers satisfaction services service ranking meaning business purchase sales kunde purchases client management measures product performance managers economics word obsolete transactions contractual specified situations stakeholder sense retained recency 
+</field>
+<field name="IMCategory">
+Rank
+</field>
+<field name="Query-Get-Rank">6</field>
+<field name="Query-Maximum-Minimum-Multiple">4</field>
+<field name="Query-Maximum-Minimum-Single">4</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">1</field>
+<field name="Query-Rank-All">5</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+united | financial | business | company | services | investment | industry average  |  american express  |  discover  |  chase  |  barclaycard  |  u.s. bank  |  wells fargo  |  capital one  |  bank of america  |  ge capital retail bank  |  citi  |  hscbc
+
+</field>
+<field name="facet_Y">
+Customer_satisfaction | Index_(economics)
+</field>
+</add></dcoc>

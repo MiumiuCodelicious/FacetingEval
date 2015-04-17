@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_4_11.xml</field>
+<field name="allX">
+ | 2009 | 2010 | 2014
+</field>
+<field name="allXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="mergedX">
+ | 2009 | 2010 | 2014 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2009 | 2010 | 2014
+</field>
+<field name="otherXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="merged_otherX">
+2009 | 2010 | 2014 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="Y">
+mobile gaming end-user revenues worldwide 
+</field>
+<field name="YExp">
+video players computer online console play genres mmorpgs device software history example mobile display development include educational virtual electronic casual personal platforms commonly industry based generated educate serious using world 
+</field>
+<field name="merged_Y">
+mobile gaming end-user revenues worldwide  | video players computer online console play genres mmorpgs device software history example mobile display development include educational virtual electronic casual personal platforms commonly industry based generated educate serious using world 
+</field>
+<field name="all">
+ | 2009 | 2010 | 2014 | mobile gaming end-user revenues worldwide  |  mobile gaming end-user revenues worldwide, 2009, 2010, &amp; 2014 billions 
+</field>
+<field name="allExp">
+video players computer online console play genres mmorpgs device software history example mobile display development include educational virtual electronic casual personal platforms commonly industry based generated educate serious using world 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Mob_(video_gaming) | Video_game
+</field>
+</add></dcoc>

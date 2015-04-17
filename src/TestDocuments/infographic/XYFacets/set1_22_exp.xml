@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_1_22.xml</field>
+<field name="allX">
+ | 2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014
+</field>
+<field name="allXExp">
+time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="mergedX">
+ | 2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014 | time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014
+</field>
+<field name="otherXExp">
+time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="merged_otherX">
+2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014 | time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="Y">
+tata motors revenues
+</field>
+<field name="YExp">
+revenue motors company engine income vehicle sales business accounting combustion stroke engines commercial vehicles cycle venture based car india financial government fuel internal bus cylinder tatamotors companies earnings activities daewoo 
+</field>
+<field name="merged_Y">
+tata motors revenues | revenue motors company engine income vehicle sales business accounting combustion stroke engines commercial vehicles cycle venture based car india financial government fuel internal bus cylinder tatamotors companies earnings activities daewoo 
+</field>
+<field name="all">
+ | 2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014 | tata motors revenues |  tata motors revenues ($billions) 
+</field>
+<field name="allExp">
+revenue motors company engine income vehicle sales business accounting combustion stroke engines commercial vehicles cycle venture based car india financial government fuel internal bus cylinder tatamotors companies earnings activities daewoo 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Tata_Motors | Revenue
+</field>
+</add></dcoc>

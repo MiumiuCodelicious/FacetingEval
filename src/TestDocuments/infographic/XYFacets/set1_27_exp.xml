@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_27.xml</field>
+<field name="allX">
+2012 | 2020e | 
+</field>
+<field name="allXExp">
+
+</field>
+<field name="mergedX">
+2012 | 2020e |  | 
+</field>
+<field name="focusX">
+2012 | 2020e
+</field>
+<field name="otherX">
+</field>
+<field name="otherXExp">
+
+</field>
+<field name="merged_otherX">
+
+</field>
+<field name="Y">
+compact car sales million units
+</field>
+<field name="YExp">
+automobile vehicle ford engine family convert energy abbr vauxhall company sales volkswagen production launched benz fiat included international vehicles peugeot saloon escort passenger model engines cuft renault focus astra hour 
+</field>
+<field name="merged_Y">
+compact car sales million units | automobile vehicle ford engine family convert energy abbr vauxhall company sales volkswagen production launched benz fiat included international vehicles peugeot saloon escort passenger model engines cuft renault focus astra hour 
+</field>
+<field name="all">
+2012 | 2020e |  | compact car sales million units |  compact car sales are expected to rise 
+</field>
+<field name="allExp">
+automobile vehicle ford engine family convert energy abbr vauxhall company sales volkswagen production launched benz fiat included international vehicles peugeot saloon escort passenger model engines cuft renault focus astra hour 
+</field>
+<field name="IMCategory">
+Relative_Difference
+</field>
+<field name="Query-Get-Rank">2</field>
+<field name="Query-Maximum-Minimum-Multiple">2</field>
+<field name="Query-Maximum-Minimum-Single">2</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">6</field>
+<field name="Query-Rank-All">4</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+ | 2012  |  2020e  |  
+
+</field>
+<field name="facet_Y">
+Compact_car | Sales
+</field>
+</add></dcoc>

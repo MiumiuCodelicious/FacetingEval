@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_4_30.xml</field>
+<field name="allX">
+ | growth after 3 days | growth after 5 days | growth after 7 days
+</field>
+<field name="allXExp">
+day day day economic economic economic population population population exponential exponential exponential theory theory theory capital capital capital tumor tumor tumor example example example hours hours hours time time time countries countries countries increase increase increase rate rate rate production production production hormone hormone hormone rotation rotation rotation value value value math math math productivity productivity productivity average average average period period period economy economy economy increases increases increases earth earth earth investment investment investment increased increased increased country country country living living living transformational transformational transformational defined defined defined 
+</field>
+<field name="mergedX">
+ | growth after 3 days | growth after 5 days | growth after 7 days | day day day economic economic economic population population population exponential exponential exponential theory theory theory capital capital capital tumor tumor tumor example example example hours hours hours time time time countries countries countries increase increase increase rate rate rate production production production hormone hormone hormone rotation rotation rotation value value value math math math productivity productivity productivity average average average period period period economy economy economy increases increases increases earth earth earth investment investment investment increased increased increased country country country living living living transformational transformational transformational defined defined defined 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+growth after 3 days | growth after 5 days | growth after 7 days
+</field>
+<field name="otherXExp">
+day day day economic economic economic population population population exponential exponential exponential theory theory theory capital capital capital tumor tumor tumor example example example hours hours hours time time time countries countries countries increase increase increase rate rate rate production production production hormone hormone hormone rotation rotation rotation value value value math math math productivity productivity productivity average average average period period period economy economy economy increases increases increases earth earth earth investment investment investment increased increased increased country country country living living living transformational transformational transformational defined defined defined 
+</field>
+<field name="merged_otherX">
+growth after 3 days | growth after 5 days | growth after 7 days | day day day economic economic economic population population population exponential exponential exponential theory theory theory capital capital capital tumor tumor tumor example example example hours hours hours time time time countries countries countries increase increase increase rate rate rate production production production hormone hormone hormone rotation rotation rotation value value value math math math productivity productivity productivity average average average period period period economy economy economy increases increases increases earth earth earth investment investment investment increased increased increased country country country living living living transformational transformational transformational defined defined defined 
+</field>
+<field name="Y">
+price growth in cumulative revenue after three, five, and seven days
+</field>
+<field name="YExp">
+day revenue days hours rotation time calendar week earth units sun period defined solar daytime minutes astronomy language income example called average based century cycle economic dag sidereal length leap 
+</field>
+<field name="merged_Y">
+price growth in cumulative revenue after three, five, and seven days | day revenue days hours rotation time calendar week earth units sun period defined solar daytime minutes astronomy language income example called average based century cycle economic dag sidereal length leap 
+</field>
+<field name="all">
+ | growth after 3 days | growth after 5 days | growth after 7 days | price growth in cumulative revenue after three, five, and seven days |  iphone price drops positively affect revenue growth in cumulative revenue after three, five, and seven days 
+</field>
+<field name="allExp">
+day revenue days hours rotation time calendar week earth units sun period defined solar daytime minutes astronomy language income example called average based century cycle economic dag sidereal length leap 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+defined | period | rate | economic | earth | investment | increased | living | productivity | increase | production | capital | math | economy | hormone | theory | hours | increases | transformational | rotation | day | population | exponential | countries | country | average | value | tumor | time | example
+</field>
+<field name="facet_Y">
+Price | Revenue
+</field>
+</add></dcoc>

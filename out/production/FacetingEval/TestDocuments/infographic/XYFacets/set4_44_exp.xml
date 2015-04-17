@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_4_44.xml</field>
+<field name="allX">
+1985 | 1997 | 1982 | 1988 | 1991 | 1994 | 2000 | 2003 | 2006 | 2009 | 2012
+</field>
+<field name="allXExp">
+time time time time time time time time time century century century century century century century century century decade decade decade decade decade decade decade decade decade era era era era era era era era era period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month week week week week week week week week week day day day day day day day day day date date date date date date date date date hour hour hour hour hour hour hour hour hour age age age age age age age age age 
+</field>
+<field name="mergedX">
+1985 | 1997 | 1982 | 1988 | 1991 | 1994 | 2000 | 2003 | 2006 | 2009 | 2012 | time time time time time time time time time century century century century century century century century century decade decade decade decade decade decade decade decade decade era era era era era era era era era period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month week week week week week week week week week day day day day day day day day day date date date date date date date date date hour hour hour hour hour hour hour hour hour age age age age age age age age age 
+</field>
+<field name="focusX">
+1985 | 1997
+</field>
+<field name="otherX">
+1982 | 1988 | 1991 | 1994 | 2000 | 2003 | 2006 | 2009 | 2012
+</field>
+<field name="otherXExp">
+time time time time time time time time time century century century century century century century century century decade decade decade decade decade decade decade decade decade era era era era era era era era era period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month week week week week week week week week week day day day day day day day day day date date date date date date date date date hour hour hour hour hour hour hour hour hour age age age age age age age age age 
+</field>
+<field name="merged_otherX">
+1982 | 1988 | 1991 | 1994 | 2000 | 2003 | 2006 | 2009 | 2012 | time time time time time time time time time century century century century century century century century century decade decade decade decade decade decade decade decade decade era era era era era era era era era period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month week week week week week week week week week day day day day day day day day day date date date date date date date date date hour hour hour hour hour hour hour hour hour age age age age age age age age age 
+</field>
+<field name="Y">
+apple monthly price, semi-log scale
+</field>
+<field name="YExp">
+apple macintosh jobs company software computer fortune history retrieved earthquake mac magazine products introduced sculley online wozniak personal inc technology store magnitude hardware lowendmac operating ios portable microsoft computers september 
+</field>
+<field name="merged_Y">
+apple monthly price, semi-log scale | apple macintosh jobs company software computer fortune history retrieved earthquake mac magazine products introduced sculley online wozniak personal inc technology store magnitude hardware lowendmac operating ios portable microsoft computers september 
+</field>
+<field name="all">
+1985 | 1997 | 1982 | 1988 | 1991 | 1994 | 2000 | 2003 | 2006 | 2009 | 2012 | apple monthly price, semi-log scale |  apple jobs ousted jobs returns 
+</field>
+<field name="allExp">
+apple macintosh jobs company software computer fortune history retrieved earthquake mac magazine products introduced sculley online wozniak personal inc technology store magnitude hardware lowendmac operating ios portable microsoft computers september 
+</field>
+<field name="IMCategory">
+Contrast_Point
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">6</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Apple_Inc. | Price | Semi-log_plot | Richter_magnitude_scale
+</field>
+</add></dcoc>

@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_1_25.xml</field>
+<field name="allX">
+ | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12
+</field>
+<field name="allXExp">
+time time time time time time time time time time time time time century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month week week week week week week week week week week week week week day day day day day day day day day day day day day date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age 
+</field>
+<field name="mergedX">
+ | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | time time time time time time time time time time time time time century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month week week week week week week week week week week week week week day day day day day day day day day day day day day date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12
+</field>
+<field name="otherXExp">
+time time time time time time time time time time time time time century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month week week week week week week week week week week week week week day day day day day day day day day day day day day date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age 
+</field>
+<field name="merged_otherX">
+00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | time time time time time time time time time time time time time century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month week week week week week week week week week week week week week day day day day day day day day day day day day day date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age 
+</field>
+<field name="Y">
+co2 g/km
+</field>
+<field name="YExp">
+colombia continental airlines airline united population colombian pacific republic country los angeles independence service serling territory spanish city cordillera routes gdp denver venezuela language official ecuador industry world granada cities 
+</field>
+<field name="merged_Y">
+co2 g/km | colombia continental airlines airline united population colombian pacific republic country los angeles independence service serling territory spanish city cordillera routes gdp denver venezuela language official ecuador industry world granada cities 
+</field>
+<field name="all">
+ | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | co2 g/km |  
+</field>
+<field name="allExp">
+colombia continental airlines airline united population colombian pacific republic country los angeles independence service serling territory spanish city cordillera routes gdp denver venezuela language official ecuador industry world granada cities 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+
+</field>
+</add></dcoc>

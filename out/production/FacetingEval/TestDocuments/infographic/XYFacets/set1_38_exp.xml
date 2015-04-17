@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_38.xml</field>
+<field name="allX">
+ | ford focus | toyota corolla | ford f | zhiguang's | toyota camry | ford fiesta | volkswagen golf | chevrolet cruze | honda civic | honda cr-v
+</field>
+<field name="allXExp">
+company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production september september september september september september september september automobile automobile automobile automobile automobile automobile automobile automobile sales sales sales sales sales sales sales motor motor motor motor motor motor motor vehicle vehicle vehicle vehicle vehicle vehicle vehicle engine engine engine engine engine engine engine united united united united united united model model model model model model 
+</field>
+<field name="mergedX">
+ | ford focus | toyota corolla | ford f | zhiguang's | toyota camry | ford fiesta | volkswagen golf | chevrolet cruze | honda civic | honda cr-v | company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production september september september september september september september september automobile automobile automobile automobile automobile automobile automobile automobile sales sales sales sales sales sales sales motor motor motor motor motor motor motor vehicle vehicle vehicle vehicle vehicle vehicle vehicle engine engine engine engine engine engine engine united united united united united united model model model model model model 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+ford focus | toyota corolla | ford f | zhiguang's | toyota camry | ford fiesta | volkswagen golf | chevrolet cruze | honda civic | honda cr-v
+</field>
+<field name="otherXExp">
+company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production september september september september september september september september automobile automobile automobile automobile automobile automobile automobile automobile sales sales sales sales sales sales sales motor motor motor motor motor motor motor vehicle vehicle vehicle vehicle vehicle vehicle vehicle engine engine engine engine engine engine engine united united united united united united model model model model model model automotive automotive automotive automotive automotive corporation corporation corporation corporation corporation history history history history history 
+</field>
+<field name="merged_otherX">
+ford focus | toyota corolla | ford f | zhiguang's | toyota camry | ford fiesta | volkswagen golf | chevrolet cruze | honda civic | honda cr-v | company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production september september september september september september september september automobile automobile automobile automobile automobile automobile automobile automobile sales sales sales sales sales sales sales motor motor motor motor motor motor motor vehicle vehicle vehicle vehicle vehicle vehicle vehicle engine engine engine engine engine engine engine united united united united united united model model model model model model automotive automotive automotive automotive automotive corporation corporation corporation corporation corporation history history history history history 
+</field>
+<field name="Y">
+polk's car rankings
+</field>
+<field name="YExp">
+automobile vehicle engine benz company polk production daimler powered automobiles united history vehicles industry gasoline combustion engines internal georgano france electric energy produced costs fuel dmg patent henry passenger germany 
+</field>
+<field name="merged_Y">
+polk's car rankings | automobile vehicle engine benz company polk production daimler powered automobiles united history vehicles industry gasoline combustion engines internal georgano france electric energy produced costs fuel dmg patent henry passenger germany 
+</field>
+<field name="all">
+ | ford focus | toyota corolla | ford f | zhiguang's | toyota camry | ford fiesta | volkswagen golf | chevrolet cruze | honda civic | honda cr-v | polk's car rankings |  polk's car rankings (in terms of units sold in 2012) 
+</field>
+<field name="allExp">
+automobile vehicle engine benz company polk production daimler powered automobiles united history vehicles industry gasoline combustion engines internal georgano france electric energy produced costs fuel dmg patent henry passenger germany 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+engine | united | september | automobile | company | vehicles | sales | production | motor | vehicle | model |  ford focus  |  toyota corolla  |  ford f  |  zhiguang's  |  toyota camry  |  ford fiesta  |  volkswagen golf  |  chevrolet cruze  |  honda civic  |  honda cr-v
+
+</field>
+<field name="facet_Y">
+James_K._Polk | Automobile
+</field>
+</add></dcoc>

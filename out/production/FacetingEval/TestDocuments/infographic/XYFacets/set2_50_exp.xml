@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_2_50.xml</field>
+<field name="allX">
+ | american express company | discover financial services | mastercard inc | visa inc | ind
+</field>
+<field name="allXExp">
+united united united united company company company company business business business business companies companies companies companies financial financial financial financial 
+</field>
+<field name="mergedX">
+ | american express company | discover financial services | mastercard inc | visa inc | ind | united united united united company company company company business business business business companies companies companies companies financial financial financial financial 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+american express company | discover financial services | mastercard inc | visa inc | ind
+</field>
+<field name="otherXExp">
+united united united united company company company company business business business business companies companies companies companies financial financial financial financial history history history 
+</field>
+<field name="merged_otherX">
+american express company | discover financial services | mastercard inc | visa inc | ind | united united united united company company company company business business business business companies companies companies companies financial financial financial financial history history history 
+</field>
+<field name="Y">
+revenue (billions)
+</field>
+<field name="YExp">
+revenue income accounting sales business company financial government earnings activities companies revenues currency statement department expense received businesses based williams irs reserve agency accounts individuals united services positive referred includes 
+</field>
+<field name="merged_Y">
+revenue (billions) | revenue income accounting sales business company financial government earnings activities companies revenues currency statement department expense received businesses based williams irs reserve agency accounts individuals united services positive referred includes 
+</field>
+<field name="all">
+ | american express company | discover financial services | mastercard inc | visa inc | ind | revenue (billions) |  revenue (billions) 
+</field>
+<field name="allExp">
+revenue income accounting sales business company financial government earnings activities companies revenues currency statement department expense received businesses based williams irs reserve agency accounts individuals united services positive referred includes 
+</field>
+<field name="IMCategory">
+General
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+financial | company | united | companies | business |  american express company  |  discover financial services  |  mastercard inc  |  visa inc  |  ind
+
+</field>
+<field name="facet_Y">
+Revenue
+</field>
+</add></dcoc>

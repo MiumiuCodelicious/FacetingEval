@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_3_6.xml</field>
+<field name="allX">
+ | age 18-34 | ages 35-44 | ages 45-54 | ages 55+
+</field>
+<field name="allXExp">
+age age age age history history history history period period period period ages ages ages ages periodization periodization periodization renaissance renaissance renaissance middle middle middle century century century historical historical historical cultural cultural cultural origins origins origins connotations connotations connotations negative negative negative usage usage usage labels labels labels historians historians historians beginning beginning beginning term term term europe europe europe named named named defined defined defined events events events time time time applied applied applied architecture architecture architecture baroque baroque baroque era era era names names names individuals individuals individuals culture culture culture 
+</field>
+<field name="mergedX">
+ | age 18-34 | ages 35-44 | ages 45-54 | ages 55+ | age age age age history history history history period period period period ages ages ages ages periodization periodization periodization renaissance renaissance renaissance middle middle middle century century century historical historical historical cultural cultural cultural origins origins origins connotations connotations connotations negative negative negative usage usage usage labels labels labels historians historians historians beginning beginning beginning term term term europe europe europe named named named defined defined defined events events events time time time applied applied applied architecture architecture architecture baroque baroque baroque era era era names names names individuals individuals individuals culture culture culture 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+age 18-34 | ages 35-44 | ages 45-54 | ages 55+
+</field>
+<field name="otherXExp">
+age age age age history history history history period period period period ages ages ages ages periodization periodization periodization renaissance renaissance renaissance middle middle middle century century century historical historical historical cultural cultural cultural origins origins origins connotations connotations connotations negative negative negative usage usage usage labels labels labels historians historians historians beginning beginning beginning term term term europe europe europe named named named defined defined defined events events events time time time applied applied applied architecture architecture architecture baroque baroque baroque era era era names names names individuals individuals individuals culture culture culture 
+</field>
+<field name="merged_otherX">
+age 18-34 | ages 35-44 | ages 45-54 | ages 55+ | age age age age history history history history period period period period ages ages ages ages periodization periodization periodization renaissance renaissance renaissance middle middle middle century century century historical historical historical cultural cultural cultural origins origins origins connotations connotations connotations negative negative negative usage usage usage labels labels labels historians historians historians beginning beginning beginning term term term europe europe europe named named named defined defined defined events events events time time time applied applied applied architecture architecture architecture baroque baroque baroque era era era names names names individuals individuals individuals culture culture culture 
+</field>
+<field name="Y">
+% agree of licensed drivers - by age group
+</field>
+<field name="YExp">
+driving age ageing vehicle license volume people pages issue journal elderly automobile licensing health countries licence road gerontologist required successful safety mortality senescence doi benz adults physical pmid occupational effects 
+</field>
+<field name="merged_Y">
+% agree of licensed drivers - by age group | driving age ageing vehicle license volume people pages issue journal elderly automobile licensing health countries licence road gerontologist required successful safety mortality senescence doi benz adults physical pmid occupational effects 
+</field>
+<field name="all">
+ | age 18-34 | ages 35-44 | ages 45-54 | ages 55+ | % agree of licensed drivers - by age group |  millennials are choosing to drive less in the past year, i have consciously made an effort to reduce how much i drive, and instead take public transportation, bike / walk or carpool when possible.  
+</field>
+<field name="allExp">
+driving age ageing vehicle license volume people pages issue journal elderly automobile licensing health countries licence road gerontologist required successful safety mortality senescence doi benz adults physical pmid occupational effects 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+named | century | defined | labels | ages | period | middle | names | negative | usage | events | era | europe | renaissance | cultural | historians | beginning | applied | connotations | term | origins | culture | age | periodization | individuals | architecture | historical | time | baroque | history |  age 18-34  |  ages 35-44  |  ages 45-54  |  ages 55+
+
+</field>
+<field name="facet_Y">
+License | Driving
+</field>
+</add></dcoc>

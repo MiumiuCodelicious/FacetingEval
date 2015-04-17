@@ -100,7 +100,7 @@ public abstract class Document extends Object{
     * */
 
     public static String process(String filecontent){
-        filecontent = filecontent.replaceAll("[^a-zA-Z0-9\\s]", " ").replaceAll("\\s+", " ");
+        filecontent = filecontent.replaceAll("[^a-zA-Z0-9\\|\\s]", " ").replaceAll("\\s+", " ");
         filecontent = Utility.StopWordHandler.removeStopWord(filecontent.toLowerCase());
         return filecontent;
     }

@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_5_39.xml</field>
+<field name="allX">
+ | 2nd quarter 2009 | 1st quarter 2009 | 4th quarter 2008
+</field>
+<field name="allXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="mergedX">
+ | 2nd quarter 2009 | 1st quarter 2009 | 4th quarter 2008 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2nd quarter 2009 | 1st quarter 2009 | 4th quarter 2008
+</field>
+<field name="otherXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="merged_otherX">
+2nd quarter 2009 | 1st quarter 2009 | 4th quarter 2008 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="Y">
+goldman sachs profits and losses in billions of dollars
+</field>
+<field name="YExp">
+united coins currency coin eagle gold money value reserve silver cent issued flag bill pound federal referred century islands mint spanish continental coinage denominations alongside cornell constitution peso currencies note 
+</field>
+<field name="merged_Y">
+goldman sachs profits and losses in billions of dollars | united coins currency coin eagle gold money value reserve silver cent issued flag bill pound federal referred century islands mint spanish continental coinage denominations alongside cornell constitution peso currencies note 
+</field>
+<field name="all">
+ | 2nd quarter 2009 | 1st quarter 2009 | 4th quarter 2008 | goldman sachs profits and losses in billions of dollars |  back in shape goldman sachs profits and losses in billions of dollars 
+</field>
+<field name="allExp">
+united coins currency coin eagle gold money value reserve silver cent issued flag bill pound federal referred century islands mint spanish continental coinage denominations alongside cornell constitution peso currencies note 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Goldman_Sachs | Profit_(accounting) | Cost
+</field>
+</add></dcoc>

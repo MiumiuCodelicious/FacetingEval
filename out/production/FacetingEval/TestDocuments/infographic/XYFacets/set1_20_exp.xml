@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_20.xml</field>
+<field name="allX">
+ | maruti suzuki | hyundai motors | tata motors | ford india | general motors | volkswagen-india | toyota kirloskar | honda | skoda auto india | nissan motors | renault | m&amp;m | volkswagen-audi | mercedes-benz | fiat india | hindustan motors | tata-jlr | volkswagen-porsche
+</field>
+<field name="allXExp">
+company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles engine engine engine engine engine engine engine engine engine engine automobile automobile automobile automobile automobile automobile automobile automobile automobile vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle production production production production production production production production 
+</field>
+<field name="mergedX">
+ | maruti suzuki | hyundai motors | tata motors | ford india | general motors | volkswagen-india | toyota kirloskar | honda | skoda auto india | nissan motors | renault | m&amp;m | volkswagen-audi | mercedes-benz | fiat india | hindustan motors | tata-jlr | volkswagen-porsche | company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles engine engine engine engine engine engine engine engine engine engine automobile automobile automobile automobile automobile automobile automobile automobile automobile vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle production production production production production production production production 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+maruti suzuki | hyundai motors | tata motors | ford india | general motors | volkswagen-india | toyota kirloskar | honda | skoda auto india | nissan motors | renault | m&amp;m | volkswagen-audi | mercedes-benz | fiat india | hindustan motors | tata-jlr | volkswagen-porsche
+</field>
+<field name="otherXExp">
+company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles engine engine engine engine engine engine engine engine engine engine automobile automobile automobile automobile automobile automobile automobile automobile automobile vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle production production production production production production production production 
+</field>
+<field name="merged_otherX">
+maruti suzuki | hyundai motors | tata motors | ford india | general motors | volkswagen-india | toyota kirloskar | honda | skoda auto india | nissan motors | renault | m&amp;m | volkswagen-audi | mercedes-benz | fiat india | hindustan motors | tata-jlr | volkswagen-porsche | company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles engine engine engine engine engine engine engine engine engine engine automobile automobile automobile automobile automobile automobile automobile automobile automobile vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle production production production production production production production production 
+</field>
+<field name="Y">
+number of cars sold
+</field>
+<field name="YExp">
+automobile vehicle engine benz company production daimler powered automobiles vehicles history industry gasoline combustion internal engines georgano france produced energy electric costs fuel dmg patent germany safety assembly benefits passenger 
+</field>
+<field name="merged_Y">
+number of cars sold | automobile vehicle engine benz company production daimler powered automobiles vehicles history industry gasoline combustion internal engines georgano france produced energy electric costs fuel dmg patent germany safety assembly benefits passenger 
+</field>
+<field name="all">
+ | maruti suzuki | hyundai motors | tata motors | ford india | general motors | volkswagen-india | toyota kirloskar | honda | skoda auto india | nissan motors | renault | m&amp;m | volkswagen-audi | mercedes-benz | fiat india | hindustan motors | tata-jlr | volkswagen-porsche | number of cars sold |  car sales december 2012 total: 1,41083 dec 2011: 161,247 
+</field>
+<field name="allExp">
+automobile vehicle engine benz company production daimler powered automobiles vehicles history industry gasoline combustion internal engines georgano france produced energy electric costs fuel dmg patent germany safety assembly benefits passenger 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+engine | automobile | company | vehicles | production | vehicle |  maruti suzuki  |  hyundai motors  |  tata motors  |  ford india  |  general motors  |  volkswagen-india  |  toyota kirloskar  |  honda  |  skoda auto india  |  nissan motors  |  renault  |  m&amp;m  |  volkswagen-audi  |  mercedes-benz  |  fiat india  |  hindustan motors  |  tata-jlr  |  volkswagen-porsche
+
+</field>
+<field name="facet_Y">
+Automobile
+</field>
+</add></dcoc>

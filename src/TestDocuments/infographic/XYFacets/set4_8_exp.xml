@@ -1,0 +1,52 @@
+<add><doc>
+<field name="id">set_4_8.xml</field>
+<field name="allX">
+ | at&amp;t | verizon | comcast | directv | twc | dish | charter
+</field>
+<field name="allXExp">
+service service service service service service company company company company company company television television television television television television customers customers customers customers customers network network network network network communications communications communications communications services services services services united united united united cable cable cable cable business business business business systems systems systems systems 
+</field>
+<field name="mergedX">
+ | at&amp;t | verizon | comcast | directv | twc | dish | charter | service service service service service service company company company company company company television television television television television television customers customers customers customers customers network network network network network communications communications communications communications services services services services united united united united cable cable cable cable business business business business systems systems systems systems 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+at&amp;t | verizon | comcast | directv | twc | dish | charter
+</field>
+<field name="otherXExp">
+service service service service service service company company company company company company television television television television television television customers customers customers customers customers network network network network network communications communications communications communications services services services services united united united united cable cable cable cable business business business business systems systems systems systems 
+</field>
+<field name="merged_otherX">
+at&amp;t | verizon | comcast | directv | twc | dish | charter | service service service service service service company company company company company company television television television television television television customers customers customers customers customers network network network network network communications communications communications communications services services services services united united united united cable cable cable cable business business business business systems systems systems systems 
+</field>
+<field name="Y">
+</field>
+<field name="YExp">
+
+</field>
+<field name="merged_Y">
+
+</field>
+<field name="all">
+ | at&amp;t | verizon | comcast | directv | twc | dish | charter |  |  
+</field>
+<field name="allExp">
+
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+customers | united | network | service | company | television | business | communications | systems | services | cable |  at&amp;t  |  verizon  |  comcast  |  directv  |  twc  |  dish  |  charter
+
+</field>
+</add></dcoc>

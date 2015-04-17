@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_5_17-1.xml</field>
+<field name="allX">
+ | danske bank a/s united kingdom | bank of ireland united kingdom | goldman sachs united states | banque cantonale vaudoise switzerland | hsbc united kingdom
+</field>
+<field name="allXExp">
+history history history history history country country country country country population population population population population language language language language language gdp gdp gdp gdp gdp national national national national national nominal nominal nominal nominal nominal established established established established established house house house house house united united united united countries countries countries countries europe europe europe europe 
+</field>
+<field name="mergedX">
+ | danske bank a/s united kingdom | bank of ireland united kingdom | goldman sachs united states | banque cantonale vaudoise switzerland | hsbc united kingdom | history history history history history country country country country country population population population population population language language language language language gdp gdp gdp gdp gdp national national national national national nominal nominal nominal nominal nominal established established established established established house house house house house united united united united countries countries countries countries europe europe europe europe 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+danske bank a/s united kingdom | bank of ireland united kingdom | goldman sachs united states | banque cantonale vaudoise switzerland | hsbc united kingdom
+</field>
+<field name="otherXExp">
+history history history history history country country country country country population population population population population language language language language language gdp gdp gdp gdp gdp national national national national national nominal nominal nominal nominal nominal established established established established established house house house house house united united united united countries countries countries countries europe europe europe europe wales wales wales britain britain britain scots scots scots statistics statistics statistics location location location british british british england england england languages languages languages office office office book book book republic republic republic century century century 
+</field>
+<field name="merged_otherX">
+danske bank a/s united kingdom | bank of ireland united kingdom | goldman sachs united states | banque cantonale vaudoise switzerland | hsbc united kingdom | history history history history history country country country country country population population population population population language language language language language gdp gdp gdp gdp gdp national national national national national nominal nominal nominal nominal nominal established established established established established house house house house house united united united united countries countries countries countries europe europe europe europe wales wales wales britain britain britain scots scots scots statistics statistics statistics location location location british british british england england england languages languages languages office office office book book book republic republic republic century century century 
+</field>
+<field name="Y">
+change from previous year in compensation
+</field>
+<field name="YExp">
+mathematics metamorphosis mathematical theory change study insects geometry development called science rapae pieris single hormone proof history external structure stage newts larvae gills topology adult math mathematicians growth greek tadpoles 
+</field>
+<field name="merged_Y">
+change from previous year in compensation | mathematics metamorphosis mathematical theory change study insects geometry development called science rapae pieris single hormone proof history external structure stage newts larvae gills topology adult math mathematicians growth greek tadpoles 
+</field>
+<field name="all">
+ | danske bank a/s united kingdom | bank of ireland united kingdom | goldman sachs united states | banque cantonale vaudoise switzerland | hsbc united kingdom | change from previous year in compensation |  bankers compensation top five banks by compensation increase in 2012 
+</field>
+<field name="allExp">
+mathematics metamorphosis mathematical theory change study insects geometry development called science rapae pieris single hormone proof history external structure stage newts larvae gills topology adult math mathematicians growth greek tadpoles 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+gdp | established | united | language | countries | country | national | europe | nominal | house | history | population |  danske bank a/s united kingdom  |  bank of ireland united kingdom  |  goldman sachs united states  |  banque cantonale vaudoise switzerland  |  hsbc united kingdom
+
+</field>
+<field name="facet_Y">
+Gravitropism
+</field>
+</add></dcoc>

@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_5_42.xml</field>
+<field name="allX">
+ | jpm | baml | ave. | c | cs | ms | gs
+</field>
+<field name="allXExp">
+history history history history 
+</field>
+<field name="mergedX">
+ | jpm | baml | ave. | c | cs | ms | gs | history history history history 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+jpm | baml | ave. | c | cs | ms | gs
+</field>
+<field name="otherXExp">
+history history history history united united united language language language 
+</field>
+<field name="merged_otherX">
+jpm | baml | ave. | c | cs | ms | gs | history history history history united united united language language language 
+</field>
+<field name="Y">
+change in ficc revenues - q3 2013 vs q3 2012 %
+</field>
+<field name="YExp">
+united country territories gdp population america countries history language climate national federal american species pacific republic established independence house official people service indigenous nominal world native citizens economy rights contiguous 
+</field>
+<field name="merged_Y">
+change in ficc revenues - q3 2013 vs q3 2012 % | united country territories gdp population america countries history language climate national federal american species pacific republic established independence house official people service indigenous nominal world native citizens economy rights contiguous 
+</field>
+<field name="all">
+ | jpm | baml | ave. | c | cs | ms | gs | change in ficc revenues - q3 2013 vs q3 2012 % |  end of the road for ficc? 
+</field>
+<field name="allExp">
+united country territories gdp population america countries history language climate national federal american species pacific republic established independence house official people service indigenous nominal world native citizens economy rights contiguous 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+history |  jpm  |  baml  |  ave.  |  c  |  cs  |  ms  |  gs
+
+</field>
+<field name="facet_Y">
+Revenue | United_States
+</field>
+</add></dcoc>

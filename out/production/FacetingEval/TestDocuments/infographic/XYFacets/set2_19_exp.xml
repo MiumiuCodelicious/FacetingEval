@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_2_19.xml</field>
+<field name="allX">
+ | increased interest rate | increased fees | lowered credit limit | increased minimum payment | reduced rewards program
+</field>
+<field name="allXExp">
+
+</field>
+<field name="mergedX">
+ | increased interest rate | increased fees | lowered credit limit | increased minimum payment | reduced rewards program | 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+increased interest rate | increased fees | lowered credit limit | increased minimum payment | reduced rewards program
+</field>
+<field name="otherXExp">
+money money money financial financial financial example example example 
+</field>
+<field name="merged_otherX">
+increased interest rate | increased fees | lowered credit limit | increased minimum payment | reduced rewards program | money money money financial financial financial example example example 
+</field>
+<field name="Y">
+percent of consumers
+</field>
+<field name="YExp">
+consumer consumers protection economics customer math law percentage citation commodity intelligence consumidor references person customization economy services consumption consuming theory agency significance studies consumerdaddy times domestic political business overby vanderbilt 
+</field>
+<field name="merged_Y">
+percent of consumers | consumer consumers protection economics customer math law percentage citation commodity intelligence consumidor references person customization economy services consumption consuming theory agency significance studies consumerdaddy times domestic political business overby vanderbilt 
+</field>
+<field name="all">
+ | increased interest rate | increased fees | lowered credit limit | increased minimum payment | reduced rewards program | percent of consumers |  forty-five percent of consumers said their credit card issuer has made one or more of the following changes to their account, up from 33% in june.  
+</field>
+<field name="allExp">
+consumer consumers protection economics customer math law percentage citation commodity intelligence consumidor references person customization economy services consumption consuming theory agency significance studies consumerdaddy times domestic political business overby vanderbilt 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+ |  increased interest rate  |  increased fees  |  lowered credit limit  |  increased minimum payment  |  reduced rewards program
+
+</field>
+<field name="facet_Y">
+Consumer
+</field>
+</add></dcoc>

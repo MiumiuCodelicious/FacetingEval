@@ -10,6 +10,7 @@ This is the document schema file. This file should be named "schema.xml" and
  or located where the classloader for the FacetingEvaluMain can find it.
 -->
 
+
     <field name="id" indexed="false" stored="true" multiValued="false"/>
     <field name="mergedX" indexed="true" stored="true" multiValued="true"/>
     <field name="focusX" indexed="true" stored="true" multiValued="true"/>

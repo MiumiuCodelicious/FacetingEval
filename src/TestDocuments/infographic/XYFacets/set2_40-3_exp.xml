@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_2_40-3.xml</field>
+<field name="allX">
+ | visa | mastercard | american express | discover | j.c. bamford
+</field>
+<field name="allXExp">
+united united united united united card card card card company company company company financial financial financial financial 
+</field>
+<field name="mergedX">
+ | visa | mastercard | american express | discover | j.c. bamford | united united united united united card card card card company company company company financial financial financial financial 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+visa | mastercard | american express | discover | j.c. bamford
+</field>
+<field name="otherXExp">
+united united united united united card card card card company company company company financial financial financial financial debit debit debit bank bank bank credit credit credit business business business issued issued issued history history history 
+</field>
+<field name="merged_otherX">
+visa | mastercard | american express | discover | j.c. bamford | united united united united united card card card card company company company company financial financial financial financial debit debit debit bank bank bank credit credit credit business business business issued issued issued history history history 
+</field>
+<field name="Y">
+total transactions on the network (billions)
+</field>
+<field name="YExp">
+computer company electronic communications protocol devices communication internet technology money companies lan information systems suite technologies computers using ethernet oil transaction transmission based financial backbone users transfer service connections payment 
+</field>
+<field name="merged_Y">
+total transactions on the network (billions) | computer company electronic communications protocol devices communication internet technology money companies lan information systems suite technologies computers using ethernet oil transaction transmission based financial backbone users transfer service connections payment 
+</field>
+<field name="all">
+ | visa | mastercard | american express | discover | j.c. bamford | total transactions on the network (billions) |  
+</field>
+<field name="allExp">
+computer company electronic communications protocol devices communication internet technology money companies lan information systems suite technologies computers using ethernet oil transaction transmission based financial backbone users transfer service connections payment 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+company | united | financial | card |  visa  |  mastercard  |  american express  |  discover  |  j.c. bamford
+
+</field>
+<field name="facet_Y">
+Electronic_funds_transfer | Computer_network
+</field>
+</add></dcoc>

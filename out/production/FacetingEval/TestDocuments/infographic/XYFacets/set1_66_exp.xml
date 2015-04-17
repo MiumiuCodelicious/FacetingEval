@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_66.xml</field>
+<field name="allX">
+ | ford | general motors | toyota motor | honda motor
+</field>
+<field name="allXExp">
+company company company company automobile automobile automobile automobile vehicles vehicles vehicles vehicles vehicle vehicle vehicle vehicle sales sales sales september september september automotive automotive automotive 
+</field>
+<field name="mergedX">
+ | ford | general motors | toyota motor | honda motor | company company company company automobile automobile automobile automobile vehicles vehicles vehicles vehicles vehicle vehicle vehicle vehicle sales sales sales september september september automotive automotive automotive 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+ford | general motors | toyota motor | honda motor
+</field>
+<field name="otherXExp">
+company company company company automobile automobile automobile automobile vehicles vehicles vehicles vehicles vehicle vehicle vehicle vehicle sales sales sales september september september automotive automotive automotive 
+</field>
+<field name="merged_otherX">
+ford | general motors | toyota motor | honda motor | company company company company automobile automobile automobile automobile vehicles vehicles vehicles vehicles vehicle vehicle vehicle vehicle sales sales sales september september september automotive automotive automotive 
+</field>
+<field name="Y">
+forward price/earnings
+</field>
+<field name="YExp">
+math price asset contract future futures value income spot cost risk finance carry underlying buy discrete time currency rate dividend continuous andy suppose measure party money storage convenience financial derivatives 
+</field>
+<field name="merged_Y">
+forward price/earnings | math price asset contract future futures value income spot cost risk finance carry underlying buy discrete time currency rate dividend continuous andy suppose measure party money storage convenience financial derivatives 
+</field>
+<field name="all">
+ | ford | general motors | toyota motor | honda motor | forward price/earnings |  
+</field>
+<field name="allExp">
+math price asset contract future futures value income spot cost risk finance carry underlying buy discrete time currency rate dividend continuous andy suppose measure party money storage convenience financial derivatives 
+</field>
+<field name="IMCategory">
+General
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+september | automobile | company | vehicles | sales | automotive | vehicle |  ford  |  general motors  |  toyota motor  |  honda motor
+
+</field>
+<field name="facet_Y">
+Forward_contract | Price | Income
+</field>
+</add></dcoc>

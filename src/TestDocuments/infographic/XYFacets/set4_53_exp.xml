@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_4_53.xml</field>
+<field name="allX">
+q1 - 2013 actual | q1 - 2013 guidance | q1 2012 | q2 2012 | q4 2012 | q3 2012 | q3 2011 | q4 2011 | q1 2011
+</field>
+<field name="allXExp">
+time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age guidance navigation system military missile shuttle inertial relative gps target information nasa control space vehicle developed homing ballistic missiles history flight radar applications multiple laning reference jpl imus vector rocket 
+</field>
+<field name="mergedX">
+q1 - 2013 actual | q1 - 2013 guidance | q1 2012 | q2 2012 | q4 2012 | q3 2012 | q3 2011 | q4 2011 | q1 2011 | time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age guidance navigation system military missile shuttle inertial relative gps target information nasa control space vehicle developed homing ballistic missiles history flight radar applications multiple laning reference jpl imus vector rocket 
+</field>
+<field name="focusX">
+q1 - 2013 actual | q1 - 2013 guidance system
+</field>
+<field name="otherX">
+q1 2012 | q2 2012 | q4 2012 | q3 2012 | q3 2011 | q4 2011 | q1 2011
+</field>
+<field name="otherXExp">
+time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="merged_otherX">
+q1 2012 | q2 2012 | q4 2012 | q3 2012 | q3 2011 | q4 2011 | q1 2011 | time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="Y">
+highest revenue quarters
+</field>
+<field name="YExp">
+revenue abcdef fiscal united income financial tax government calendar accounting irs business companies company pers sales govt republic individuals personal corporations treasury corporation country publications begins singapore jurisdictions runs reporting 
+</field>
+<field name="merged_Y">
+highest revenue quarters | revenue abcdef fiscal united income financial tax government calendar accounting irs business companies company pers sales govt republic individuals personal corporations treasury corporation country publications begins singapore jurisdictions runs reporting 
+</field>
+<field name="all">
+q1 - 2013 actual | q1 - 2013 guidance | q1 2012 | q2 2012 | q4 2012 | q3 2012 | q3 2011 | q4 2011 | q1 2011 | highest revenue quarters |  highest revenue quarters  macstories 
+</field>
+<field name="allExp">
+revenue abcdef fiscal united income financial tax government calendar accounting irs business companies company pers sales govt republic individuals personal corporations treasury corporation country publications begins singapore jurisdictions runs reporting 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+time | year | quarter
+</field>
+<field name="facet_Y">
+Revenue | Fiscal_year
+</field>
+</add></dcoc>

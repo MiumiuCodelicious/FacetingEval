@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_50.xml</field>
+<field name="allX">
+ | oems | information technology and connectivity companies | tier 1 suppliers | lifestyle companies from the time industry | new suppliers from converging industries
+</field>
+<field name="allXExp">
+companies companies companies companies 
+</field>
+<field name="mergedX">
+ | oems | information technology and connectivity companies | tier 1 suppliers | lifestyle companies from the time industry | new suppliers from converging industries | companies companies companies companies 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+oems | information technology and connectivity companies | tier 1 suppliers | lifestyle companies from the time industry | new suppliers from converging industries
+</field>
+<field name="otherXExp">
+companies companies companies companies company company company product product product services services services economic economic economic activities activities activities manufacturing manufacturing manufacturing service service service 
+</field>
+<field name="merged_otherX">
+oems | information technology and connectivity companies | tier 1 suppliers | lifestyle companies from the time industry | new suppliers from converging industries | companies companies companies companies company company company product product product services services services economic economic economic activities activities activities manufacturing manufacturing manufacturing service service service 
+</field>
+<field name="Y">
+control over the revenue from in-car connectivity
+</field>
+<field name="YExp">
+connected system revenue theory math stability space example closed api loop stable output income feedback topological analysis desired using accounting function input called poles dynamics language company value programming interface 
+</field>
+<field name="merged_Y">
+control over the revenue from in-car connectivity | connected system revenue theory math stability space example closed api loop stable output income feedback topological analysis desired using accounting function input called poles dynamics language company value programming interface 
+</field>
+<field name="all">
+ | oems | information technology and connectivity companies | tier 1 suppliers | lifestyle companies from the time industry | new suppliers from converging industries | control over the revenue from in-car connectivity |  control over the revenue from in-car connectivity by 2025 time = telecommunications, information technology, media and entertainment 
+</field>
+<field name="allExp">
+connected system revenue theory math stability space example closed api loop stable output income feedback topological analysis desired using accounting function input called poles dynamics language company value programming interface 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+companies |  oems  |  information technology and connectivity companies  |  tier 1 suppliers  |  lifestyle companies from the time industry  |  new suppliers from converging industries
+
+</field>
+<field name="facet_Y">
+Control_theory | Revenue | Application_programming_interface
+</field>
+</add></dcoc>

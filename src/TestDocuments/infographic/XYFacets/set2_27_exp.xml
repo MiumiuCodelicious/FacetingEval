@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_2_27.xml</field>
+<field name="allX">
+ | 2007 | 2008 | 2009 | 2010 | 2011 | trailing twelve months
+</field>
+<field name="allXExp">
+time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="mergedX">
+ | 2007 | 2008 | 2009 | 2010 | 2011 | trailing twelve months | time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2007 | 2008 | 2009 | 2010 | 2011 | trailing twelve months
+</field>
+<field name="otherXExp">
+time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="merged_otherX">
+2007 | 2008 | 2009 | 2010 | 2011 | trailing twelve months | time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="Y">
+revenue / shareholder equity (x)
+</field>
+<field name="YExp">
+equity stock company shares revenue shareholders business finance accounting value capital income shareholder financial money assets investors companies corporation share price owners exchange buying example preferred directors selling private investment 
+</field>
+<field name="merged_Y">
+revenue / shareholder equity (x) | equity stock company shares revenue shareholders business finance accounting value capital income shareholder financial money assets investors companies corporation share price owners exchange buying example preferred directors selling private investment 
+</field>
+<field name="all">
+ | 2007 | 2008 | 2009 | 2010 | 2011 | trailing twelve months | revenue / shareholder equity (x) |  revenue / shareholder equity (x) axp-us 
+</field>
+<field name="allExp">
+equity stock company shares revenue shareholders business finance accounting value capital income shareholder financial money assets investors companies corporation share price owners exchange buying example preferred directors selling private investment 
+</field>
+<field name="IMCategory">
+Falling_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Revenue | Equity_(finance)
+</field>
+</add></dcoc>

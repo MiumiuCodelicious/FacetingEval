@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_5_28.xml</field>
+<field name="allX">
+ | jp morgan chase | goldman sachs | citigroup
+</field>
+<field name="allXExp">
+company company company business business business financial financial financial management management management september september september united united united companies companies companies york york york 
+</field>
+<field name="mergedX">
+ | jp morgan chase | goldman sachs | citigroup | company company company business business business financial financial financial management management management september september september united united united companies companies companies york york york 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+jp morgan chase | goldman sachs | citigroup
+</field>
+<field name="otherXExp">
+company company company business business business financial financial financial management management management september september september united united united companies companies companies york york york investment investment securities securities services services history history firm firm corporation corporation finance finance crisis crisis treasury treasury 
+</field>
+<field name="merged_otherX">
+jp morgan chase | goldman sachs | citigroup | company company company business business business financial financial financial management management management september september september united united united companies companies companies york york york investment investment securities securities services services history history firm firm corporation corporation finance finance crisis crisis treasury treasury 
+</field>
+<field name="Y">
+third quarter net income july to september 2008
+</field>
+<field name="YExp">
+income earnings expense accounting tax company abcdef revenue operating depreciation amortization cost sales dividend fiscal united multicol subtracted typically preferred line financial reporting statement calendar bottom include government called usage 
+</field>
+<field name="merged_Y">
+third quarter net income july to september 2008 | income earnings expense accounting tax company abcdef revenue operating depreciation amortization cost sales dividend fiscal united multicol subtracted typically preferred line financial reporting statement calendar bottom include government called usage 
+</field>
+<field name="all">
+ | jp morgan chase | goldman sachs | citigroup | third quarter net income july to september 2008 |  bank profits and losses third quarter net income - billions of dollars  
+</field>
+<field name="allExp">
+income earnings expense accounting tax company abcdef revenue operating depreciation amortization cost sales dividend fiscal united multicol subtracted typically preferred line financial reporting statement calendar bottom include government called usage 
+</field>
+<field name="IMCategory">
+General
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+management | financial | business | september | company | companies | united | york |  jp morgan chase  |  goldman sachs  |  citigroup
+
+</field>
+<field name="facet_Y">
+Third_World | Net_income
+</field>
+</add></dcoc>

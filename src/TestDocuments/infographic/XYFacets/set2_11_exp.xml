@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_2_11.xml</field>
+<field name="allX">
+ | anz | cba | nab | wbc | sgb | wbc/sgb
+</field>
+<field name="allXExp">
+bank bank bank bank bank australia australia australia australia australia company company company company company business business business business business established established established established established services services services services financial financial financial financial 
+</field>
+<field name="mergedX">
+ | anz | cba | nab | wbc | sgb | wbc/sgb | bank bank bank bank bank australia australia australia australia australia company company company company company business business business business business established established established established established services services services services financial financial financial financial 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+anz | cba | nab | wbc | sgb | wbc/sgb
+</field>
+<field name="otherXExp">
+bank bank bank bank bank australia australia australia australia australia company company company company company business business business business business established established established established established services services services services financial financial financial financial 
+</field>
+<field name="merged_otherX">
+anz | cba | nab | wbc | sgb | wbc/sgb | bank bank bank bank bank australia australia australia australia australia company company company company company business business business business business established established established established established services services services services financial financial financial financial 
+</field>
+<field name="Y">
+credit card market share (%)
+</field>
+<field name="YExp">
+financial merchant transaction exchange money balance finance bank charge payment charges transactions customer issuing customers cardholder purchase issuer company value stock example consumer fees services pay issued rate trading currency 
+</field>
+<field name="merged_Y">
+credit card market share (%) | financial merchant transaction exchange money balance finance bank charge payment charges transactions customer issuing customers cardholder purchase issuer company value stock example consumer fees services pay issued rate trading currency 
+</field>
+<field name="all">
+ | anz | cba | nab | wbc | sgb | wbc/sgb | credit card market share (%) |  strong lending market share position 
+</field>
+<field name="allExp">
+financial merchant transaction exchange money balance finance bank charge payment charges transactions customer issuing customers cardholder purchase issuer company value stock example consumer fees services pay issued rate trading currency 
+</field>
+<field name="IMCategory">
+General
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+established | australia | financial | business | company | services | bank |  anz  |  cba  |  nab  |  wbc  |  sgb  |  wbc/sgb
+
+</field>
+<field name="facet_Y">
+Credit_card | Market_share
+</field>
+</add></dcoc>

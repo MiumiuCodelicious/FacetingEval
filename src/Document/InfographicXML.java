@@ -45,7 +45,7 @@ public class InfographicXML extends LuceneSolrXML {
 
     public static void main(String args[]) {
 
-        String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Document/testInfographicXML.xml";
+        String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/infographic/XYFacets/set1_1_exp.xml";
         System.out.println(" ------------ Testing Class LuceneSolrXML ------------ ");
         LuceneSolrXML testXML = new LuceneSolrXML(testXMLpath);
 

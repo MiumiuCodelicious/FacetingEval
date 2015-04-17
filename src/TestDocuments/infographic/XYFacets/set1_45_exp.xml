@@ -1,0 +1,57 @@
+<add><doc>
+<field name="id">set_1_45.xml</field>
+<field name="allX">
+total industry | jaguar land rover n.a. | bmw group | american honda | toyota motor sales | nissan n.a. | total industry | daimler ag | general motors | ford motor co. | chrysler group | hyundai-kia | vw group of america
+</field>
+<field name="allXExp">
+company company company company company company company company company company company united united united united united united united united vehicles vehicles vehicles vehicles vehicles vehicles vehicles 
+</field>
+<field name="mergedX">
+total industry | jaguar land rover n.a. | bmw group | american honda | toyota motor sales | nissan n.a. | total industry | daimler ag | general motors | ford motor co. | chrysler group | hyundai-kia | vw group of america | company company company company company company company company company company company united united united united united united united united vehicles vehicles vehicles vehicles vehicles vehicles vehicles 
+</field>
+<field name="focusX">
+total industry s.a.
+</field>
+<field name="otherX">
+jaguar land rover n.a. | bmw group | american honda | toyota motor sales | nissan n.a. | total industry | daimler ag | general motors | ford motor co. | chrysler group | hyundai-kia | vw group of america
+</field>
+<field name="otherXExp">
+company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles united united united united united united united 
+</field>
+<field name="merged_otherX">
+jaguar land rover n.a. | bmw group | american honda | toyota motor sales | nissan n.a. | total industry | daimler ag | general motors | ford motor co. | chrysler group | hyundai-kia | vw group of america | company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles united united united united united united united 
+</field>
+<field name="Y">
+sales increases by oem
+</field>
+<field name="YExp">
+manufacturer original equipment sol company companies esto ibm value puebla prensa sinaloa contradictory reseller added automotive definition product mexico luis editorial chiapas chihuahua potosi confusing purchasing durango jalisco mexicana webopedia 
+</field>
+<field name="merged_Y">
+sales increases by oem | manufacturer original equipment sol company companies esto ibm value puebla prensa sinaloa contradictory reseller added automotive definition product mexico luis editorial chiapas chihuahua potosi confusing purchasing durango jalisco mexicana webopedia 
+</field>
+<field name="all">
+total industry | jaguar land rover n.a. | bmw group | american honda | toyota motor sales | nissan n.a. | total industry | daimler ag | general motors | ford motor co. | chrysler group | hyundai-kia | vw group of america | sales increases by oem |  sales increases by oem - august 2013 year-over-year growth 
+</field>
+<field name="allExp">
+manufacturer original equipment sol company companies esto ibm value puebla prensa sinaloa contradictory reseller added automotive definition product mexico luis editorial chiapas chihuahua potosi confusing purchasing durango jalisco mexicana webopedia 
+</field>
+<field name="IMCategory">
+Rank
+</field>
+<field name="Query-Get-Rank">6</field>
+<field name="Query-Maximum-Minimum-Multiple">4</field>
+<field name="Query-Maximum-Minimum-Single">4</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">1</field>
+<field name="Query-Rank-All">5</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+company | united | vehicles | total industry  |  jaguar land rover n.a.  |  bmw group  |  american honda  |  toyota motor sales  |  nissan n.a.  |  total industry  |  daimler ag  |  general motors  |  ford motor co.  |  chrysler group  |  hyundai-kia  |  vw group of america
+
+</field>
+<field name="facet_Y">
+Sales | Original_equipment_manufacturer
+</field>
+</add></dcoc>

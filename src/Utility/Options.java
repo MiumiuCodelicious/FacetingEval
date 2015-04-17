@@ -5,8 +5,8 @@ package Utility;
  */
 public class Options {
 
-    public static boolean DEBUG = false;
-    public static int MAX_INDEX_WORDS_TO_PRINT = 100;
-    public static int MAX_INDEX_DOCS_TO_PRINT = 10;
+    public static boolean DEBUG = true;
+    public static int MAX_INDEX_WORDS_TO_PRINT = 500;
+    public static int MAX_INDEX_DOCS_TO_PRINT = 20;
 
 }

@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_4_1-1.xml</field>
+<field name="allX">
+ | qualcomm | apple | mediatek
+</field>
+<field name="allXExp">
+company company company products products products 
+</field>
+<field name="mergedX">
+ | qualcomm | apple | mediatek | company company company products products products 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+qualcomm | apple | mediatek
+</field>
+<field name="otherXExp">
+company company company products products products technology technology united united companies companies software software 
+</field>
+<field name="merged_otherX">
+qualcomm | apple | mediatek | company company company products products products technology technology united united companies companies software software 
+</field>
+<field name="Y">
+revenue share - smartphones
+</field>
+<field name="YExp">
+revenue income company accounting sales business mobile iphone apple financial phone government operating earnings activities companies applications based revenues currency nokia received dividend windows statement department expense businesses feature party 
+</field>
+<field name="merged_Y">
+revenue share - smartphones | revenue income company accounting sales business mobile iphone apple financial phone government operating earnings activities companies applications based revenues currency nokia received dividend windows statement department expense businesses feature party 
+</field>
+<field name="all">
+ | qualcomm | apple | mediatek | revenue share - smartphones |  revenue share - smartphones 
+</field>
+<field name="allExp">
+revenue income company accounting sales business mobile iphone apple financial phone government operating earnings activities companies applications based revenues currency nokia received dividend windows statement department expense businesses feature party 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+company | products |  qualcomm  |  apple  |  mediatek
+
+</field>
+<field name="facet_Y">
+Revenue | Share_(finance) | Smartphone
+</field>
+</add></dcoc>
