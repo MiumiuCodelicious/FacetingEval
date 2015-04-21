@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_5_41.xml</field>
+<field name="allX">
+ | citigroup | bank of america | jpmorgan | goldman sachs | wells fargo
+</field>
+<field name="allXExp">
+company company company company company financial financial financial financial financial business business business business business billion billion billion billion billion united united united united united history history history history services services services services corporation corporation corporation corporation companies companies companies companies investment investment investment investment securities securities securities securities 
+</field>
+<field name="mergedX">
+ | citigroup | bank of america | jpmorgan | goldman sachs | wells fargo | company company company company company financial financial financial financial financial business business business business business billion billion billion billion billion united united united united united history history history history services services services services corporation corporation corporation corporation companies companies companies companies investment investment investment investment securities securities securities securities 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+citigroup | bank of america | jpmorgan | goldman sachs | wells fargo
+</field>
+<field name="otherXExp">
+company company company company company financial financial financial financial financial business business business business business billion billion billion billion billion united united united united united history history history history services services services services corporation corporation corporation corporation companies companies companies companies investment investment investment investment securities securities securities securities treasury treasury treasury management management management finance finance finance 
+</field>
+<field name="merged_otherX">
+citigroup | bank of america | jpmorgan | goldman sachs | wells fargo | company company company company company financial financial financial financial financial business business business business business billion billion billion billion billion united united united united united history history history history services services services services corporation corporation corporation corporation companies companies companies companies investment investment investment investment securities securities securities securities treasury treasury treasury management management management finance finance finance 
+</field>
+<field name="Y">
+annual % growth in revenues, q1 2011
+</field>
+<field name="YExp">
+revenue economic income business accounting company theory capital sales countries production financial government example services currency companies activities productivity earnings economy inflation reserve increase country rate revenues population transformational gdp 
+</field>
+<field name="merged_Y">
+annual % growth in revenues, q1 2011 | revenue economic income business accounting company theory capital sales countries production financial government example services currency companies activities productivity earnings economy inflation reserve increase country rate revenues population transformational gdp 
+</field>
+<field name="all">
+ | citigroup | bank of america | jpmorgan | goldman sachs | wells fargo | annual % growth in revenues, q1 2011 |  what recovery? annual % growth in revenues, q1 2011 
+</field>
+<field name="allExp">
+revenue economic income business accounting company theory capital sales countries production financial government example services currency companies activities productivity earnings economy inflation reserve increase country rate revenues population transformational gdp 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+billion | united | financial | business | corporation | company | companies | securities | services | investment | history |  citigroup  |  bank of america  |  jpmorgan  |  goldman sachs  |  wells fargo
+
+</field>
+<field name="facet_Y">
+Revenue
+</field>
+</add></dcoc>

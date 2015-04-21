@@ -1,0 +1,45 @@
+<add><doc>
+<field name="id">set1_10_exp.xml</field>
+<field name="allX">
+q1 2012 | q1 2013 | 
+</field>
+<field name="allXExp">
+
+</field>
+<field name="mergedX">
+q1 2012 | q1 2013 |  | 
+</field>
+<field name="focusX">
+q1 2012 | q1 2013
+</field>
+<field name="otherX">
+</field>
+<field name="otherXExp">
+
+</field>
+<field name="merged_otherX">
+
+</field>
+<field name="Y">
+total revenue of u.s. automobile manufacturers in billion euros
+</field>
+<field name="YExp">
+automobile subsidiary division vehicle motor company automotive china car global industry chn production people coins benz flag revenue united engine republic porsche corporation daimler volkswagen automobiles europe currency vehicles germany 
+</field>
+<field name="merged_Y">
+total revenue of u.s. automobile manufacturers in billion euros | automobile subsidiary division vehicle motor company automotive china car global industry chn production people coins benz flag revenue united engine republic porsche corporation daimler volkswagen automobiles europe currency vehicles germany 
+</field>
+<field name="all">
+q1 2012 | q1 2013 |  | total revenue of u.s. automobile manufacturers in billion euros |  total revenue of u.s. automobile manufacturers in the fourth quarter of 2012 and 2013 (in billion euros) 
+</field>
+<field name="allExp">
+automobile subsidiary division vehicle motor company automotive china car global industry chn production people coins benz flag revenue united engine republic porsche corporation daimler volkswagen automobiles europe currency vehicles germany 
+</field>
+<field name="facet_X">
+ | q1 2012  |  q1 2013  |  
+
+</field>
+<field name="facet_Y">
+Revenue | Automotive_industry
+</field>
+</add></dcoc>

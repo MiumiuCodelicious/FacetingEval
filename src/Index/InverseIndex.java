@@ -245,7 +245,7 @@ public class InverseIndex extends Object{
     }
 
     public String toString(){
-        String returnstr = "Object " + getClass().getName() + ":" + "Total word size=" + this.getWORD_SIZE() + ".Total doc size=" + this.getDOC_SIZE() + "\n";
+        String returnstr = "Object: " + getClass().getName() + "; " + "total word size=" + this.getWORD_SIZE() + "; total doc size=" + this.getDOC_SIZE() + "\n";
         int wordsize = Math.min( WORD_SIZE, Options.MAX_INDEX_WORDS_TO_PRINT);
         int docsize = Math.min( DOC_SIZE, Options.MAX_INDEX_DOCS_TO_PRINT );
 
@@ -269,9 +269,9 @@ public class InverseIndex extends Object{
     public static void main(String args[]){
         System.out.println(" ------------ Testing Class InverseIndex ------------ ");
 
-        String testdocpath1 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/plaintext/ArthurRimbaud.txt";
-        String testdocpath2 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/plaintext/OscarWilde.txt";
-        String testdocpath3 = "/Users/divinityelle/Documents/FacetingEval/src/TestDocuments/plaintext/Schopenhauer.txt";
+        String testdocpath1 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/ArthurRimbaud.txt";
+        String testdocpath2 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/OscarWilde.txt";
+        String testdocpath3 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/Schopenhauer.txt";
         Document doc1 = new LuceneSolrXML(testdocpath1);
         Document doc2 = new LuceneSolrXML(testdocpath2);
         Document doc3 = new LuceneSolrXML(testdocpath3);

@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_5_27-2.xml</field>
+<field name="allX">
+ | '07 | '08 | '09
+</field>
+<field name="allXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="mergedX">
+ | '07 | '08 | '09 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+'07 | '08 | '09
+</field>
+<field name="otherXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="merged_otherX">
+'07 | '08 | '09 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="Y">
+goldman sachs earnings per share
+</field>
+<field name="YExp">
+sachs firm investment company earnings income mortgage business securities bank preferred financial trading finance stock money crisis eps dividends september billion exchange mbox goldmansachs management operations reserve companies weinberg united 
+</field>
+<field name="merged_Y">
+goldman sachs earnings per share | sachs firm investment company earnings income mortgage business securities bank preferred financial trading finance stock money crisis eps dividends september billion exchange mbox goldmansachs management operations reserve companies weinberg united 
+</field>
+<field name="all">
+ | '07 | '08 | '09 | goldman sachs earnings per share |  a quick return to profitability after posting a rare loss in the fourth quarter of 2008, goldman sachs is poised for a rebound in its latest period.  
+</field>
+<field name="allExp">
+sachs firm investment company earnings income mortgage business securities bank preferred financial trading finance stock money crisis eps dividends september billion exchange mbox goldmansachs management operations reserve companies weinberg united 
+</field>
+<field name="IMCategory">
+Change_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Goldman_Sachs | Earnings_per_share
+</field>
+</add></dcoc>

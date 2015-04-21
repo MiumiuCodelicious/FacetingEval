@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_5_25.xml</field>
+<field name="allX">
+ | apr-10 | jul-10 | oct-10 | jan-11 | apr-11 | jul-11 | oct-11 | jan-12 | apr-12 | jul-12 | oct-12 | jan-13 | apr-13 | jul-13
+</field>
+<field name="allXExp">
+time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age 
+</field>
+<field name="mergedX">
+ | apr-10 | jul-10 | oct-10 | jan-11 | apr-11 | jul-11 | oct-11 | jan-12 | apr-12 | jul-12 | oct-12 | jan-13 | apr-13 | jul-13 | time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+apr-10 | jul-10 | oct-10 | jan-11 | apr-11 | jul-11 | oct-11 | jan-12 | apr-12 | jul-12 | oct-12 | jan-13 | apr-13 | jul-13
+</field>
+<field name="otherXExp">
+time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age 
+</field>
+<field name="merged_otherX">
+apr-10 | jul-10 | oct-10 | jan-11 | apr-11 | jul-11 | oct-11 | jan-12 | apr-12 | jul-12 | oct-12 | jan-13 | apr-13 | jul-13 | time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age 
+</field>
+<field name="Y">
+jcp revenue ($mm)
+</field>
+<field name="YExp">
+wrestling portuguese revenue language professional wrestler referee income jsr opponent portugal match company languages submission sales accounting java camoes dialects loudspeaker rules countries hlp official business ring geografia cvc million 
+</field>
+<field name="merged_Y">
+jcp revenue ($mm) | wrestling portuguese revenue language professional wrestler referee income jsr opponent portugal match company languages submission sales accounting java camoes dialects loudspeaker rules countries hlp official business ring geografia cvc million 
+</field>
+<field name="all">
+ | apr-10 | jul-10 | oct-10 | jan-11 | apr-11 | jul-11 | oct-11 | jan-12 | apr-12 | jul-12 | oct-12 | jan-13 | apr-13 | jul-13 | jcp revenue ($mm) |  
+</field>
+<field name="allExp">
+wrestling portuguese revenue language professional wrestler referee income jsr opponent portugal match company languages submission sales accounting java camoes dialects loudspeaker rules countries hlp official business ring geografia cvc million 
+</field>
+<field name="IMCategory">
+Change_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year | month
+</field>
+<field name="facet_Y">
+Jim_Crockett_Promotions | Revenue | Million
+</field>
+</add></dcoc>

@@ -1,0 +1,57 @@
+<add><doc>
+<field name="id">set_4_17.xml</field>
+<field name="allX">
+iphone | procter  &amp; gamble | boeing | home depot | microsoft | johnson &amp; johnson | united tech | caterpillar | pfizer | intel | cisco | coca-cola | merck | disney | goldman sachs | du pont | amex | 3m | mcdonalds | travelers | nike | visa
+</field>
+<field name="allXExp">
+company company company company company company company company company company company company company company company company company company united united united united united united united united united united united united united united united united united business business business business business business business business business business business business business business 
+</field>
+<field name="mergedX">
+iphone | procter  &amp; gamble | boeing | home depot | microsoft | johnson &amp; johnson | united tech | caterpillar | pfizer | intel | cisco | coca-cola | merck | disney | goldman sachs | du pont | amex | 3m | mcdonalds | travelers | nike | visa | company company company company company company company company company company company company company company company company company company united united united united united united united united united united united united united united united united united business business business business business business business business business business business business business business 
+</field>
+<field name="focusX">
+iphone
+</field>
+<field name="otherX">
+procter  &amp; gamble | boeing | home depot | microsoft | johnson &amp; johnson | united tech | caterpillar | pfizer | intel | cisco | coca-cola | merck | disney | goldman sachs | du pont | amex | 3m | mcdonalds | travelers | nike | visa
+</field>
+<field name="otherXExp">
+company company company company company company company company company company company company company company company company company company united united united united united united united united united united united united united united united united united business business business business business business business business business business business business business business 
+</field>
+<field name="merged_otherX">
+procter  &amp; gamble | boeing | home depot | microsoft | johnson &amp; johnson | united tech | caterpillar | pfizer | intel | cisco | coca-cola | merck | disney | goldman sachs | du pont | amex | 3m | mcdonalds | travelers | nike | visa | company company company company company company company company company company company company company company company company company company united united united united united united united united united united united united united united united united united business business business business business business business business business business business business business business 
+</field>
+<field name="Y">
+trailing 12 month revenues ($ billions)
+</field>
+<field name="YExp">
+trailing facing suspension wheels axle edge turnouts revenue locomotive arm railway surfaces aviation crossings directions locomotives rear income moveable wheel control railways truck switch train aircraft flap surface steam diamond 
+</field>
+<field name="merged_Y">
+trailing 12 month revenues ($ billions) | trailing facing suspension wheels axle edge turnouts revenue locomotive arm railway surfaces aviation crossings directions locomotives rear income moveable wheel control railways truck switch train aircraft flap surface steam diamond 
+</field>
+<field name="all">
+iphone | procter  &amp; gamble | boeing | home depot | microsoft | johnson &amp; johnson | united tech | caterpillar | pfizer | intel | cisco | coca-cola | merck | disney | goldman sachs | du pont | amex | 3m | mcdonalds | travelers | nike | visa | trailing 12 month revenues ($ billions) |  iphone sales beat out these entire companies 
+</field>
+<field name="allExp">
+trailing facing suspension wheels axle edge turnouts revenue locomotive arm railway surfaces aviation crossings directions locomotives rear income moveable wheel control railways truck switch train aircraft flap surface steam diamond 
+</field>
+<field name="IMCategory">
+Max
+</field>
+<field name="Query-Get-Rank">3</field>
+<field name="Query-Maximum-Minimum-Multiple">6</field>
+<field name="Query-Maximum-Minimum-Single">6</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">1</field>
+<field name="Query-Rank-All">5</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+company | united | business | iphone  |  procter  &amp; gamble  |  boeing  |  home depot  |  microsoft  |  johnson &amp; johnson  |  united tech  |  caterpillar  |  pfizer  |  intel  |  cisco  |  coca-cola  |  merck  |  disney  |  goldman sachs  |  du pont  |  amex  |  3m  |  mcdonalds  |  travelers  |  nike  |  visa
+
+</field>
+<field name="facet_Y">
+Trailing_edge | Revenue
+</field>
+</add></dcoc>

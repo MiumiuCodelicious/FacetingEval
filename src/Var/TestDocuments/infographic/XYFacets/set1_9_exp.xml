@@ -1,0 +1,57 @@
+<add><doc>
+<field name="id">set_1_9.xml</field>
+<field name="allX">
+total market | peugeot | toyota | vw | fiat | audi | citroen | lancia | ford | renault | opel
+</field>
+<field name="allXExp">
+company company company company company company company company company company production production production production production production production produced produced produced produced produced produced vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile 
+</field>
+<field name="mergedX">
+total market | peugeot | toyota | vw | fiat | audi | citroen | lancia | ford | renault | opel | company company company company company company company company company company production production production production production production production produced produced produced produced produced produced vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile 
+</field>
+<field name="focusX">
+total market s.a.
+</field>
+<field name="otherX">
+peugeot | toyota | vw | fiat | audi | citroen | lancia | ford | renault | opel
+</field>
+<field name="otherXExp">
+company company company company company company company company company production production production production production production production produced produced produced produced produced produced vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile engine engine engine engine engine europe europe europe europe europe 
+</field>
+<field name="merged_otherX">
+peugeot | toyota | vw | fiat | audi | citroen | lancia | ford | renault | opel | company company company company company company company company company production production production production production production production produced produced produced produced produced produced vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile engine engine engine engine engine europe europe europe europe europe 
+</field>
+<field name="Y">
+sales change oct/12 - oct/11
+</field>
+<field name="YExp">
+chinese overseas shenzhen constellation huaqiaocheng territories treaty culture holding company islands constellations nanshan town oktant european valley parks lexuriserv cyprus united external happy oktanten customs pole netherlands references union station 
+</field>
+<field name="merged_Y">
+sales change oct/12 - oct/11 | chinese overseas shenzhen constellation huaqiaocheng territories treaty culture holding company islands constellations nanshan town oktant european valley parks lexuriserv cyprus united external happy oktanten customs pole netherlands references union station 
+</field>
+<field name="all">
+total market | peugeot | toyota | vw | fiat | audi | citroen | lancia | ford | renault | opel | sales change oct/12 - oct/11 |  top 10 car makers by sales change oct/12 - oct/11 
+</field>
+<field name="allExp">
+chinese overseas shenzhen constellation huaqiaocheng territories treaty culture holding company islands constellations nanshan town oktant european valley parks lexuriserv cyprus united external happy oktanten customs pole netherlands references union station 
+</field>
+<field name="IMCategory">
+Rank
+</field>
+<field name="Query-Get-Rank">6</field>
+<field name="Query-Maximum-Minimum-Multiple">4</field>
+<field name="Query-Maximum-Minimum-Single">4</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">1</field>
+<field name="Query-Rank-All">5</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+produced | automobile | company | production | vehicles | total market  |  peugeot  |  toyota  |  vw  |  fiat  |  audi  |  citroen  |  lancia  |  ford  |  renault  |  opel
+
+</field>
+<field name="facet_Y">
+Sales
+</field>
+</add></dcoc>

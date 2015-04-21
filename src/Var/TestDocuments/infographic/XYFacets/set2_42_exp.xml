@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_2_42.xml</field>
+<field name="allX">
+ | gemalto | giesecke &amp; devrient | oberthur | cpi | perfect | versatile | toppan | intelcav | abacicard | morpho
+</field>
+<field name="allXExp">
+company company company company company 
+</field>
+<field name="mergedX">
+ | gemalto | giesecke &amp; devrient | oberthur | cpi | perfect | versatile | toppan | intelcav | abacicard | morpho | company company company company company 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+gemalto | giesecke &amp; devrient | oberthur | cpi | perfect | versatile | toppan | intelcav | abacicard | morpho
+</field>
+<field name="otherXExp">
+company company company company company 
+</field>
+<field name="merged_otherX">
+gemalto | giesecke &amp; devrient | oberthur | cpi | perfect | versatile | toppan | intelcav | abacicard | morpho | company company company company company 
+</field>
+<field name="Y">
+shipments of payment cards worldwide 2010 (million)
+</field>
+<field name="YExp">
+sup million leyland milion square units digits volume fibonacci objects debit prime credit power sum cubic check contains dictionary fingers openoffice money harmonic milyon hundred gonal etherington parties taxpayer wedderburn 
+</field>
+<field name="merged_Y">
+shipments of payment cards worldwide 2010 (million) | sup million leyland milion square units digits volume fibonacci objects debit prime credit power sum cubic check contains dictionary fingers openoffice money harmonic milyon hundred gonal etherington parties taxpayer wedderburn 
+</field>
+<field name="all">
+ | gemalto | giesecke &amp; devrient | oberthur | cpi | perfect | versatile | toppan | intelcav | abacicard | morpho | shipments of payment cards worldwide 2010 (million) |  shipments of payment cards worldwide 2010 (million) 
+</field>
+<field name="allExp">
+sup million leyland milion square units digits volume fibonacci objects debit prime credit power sum cubic check contains dictionary fingers openoffice money harmonic milyon hundred gonal etherington parties taxpayer wedderburn 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+company |  gemalto  |  giesecke &amp; devrient  |  oberthur  |  cpi  |  perfect  |  versatile  |  toppan  |  intelcav  |  abacicard  |  morpho
+
+</field>
+<field name="facet_Y">
+Payment_card | Worldwide_(Audio_Adrenaline_album)
+</field>
+</add></dcoc>

@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_65.xml</field>
+<field name="allX">
+2009 | 2015 | 
+</field>
+<field name="allXExp">
+
+</field>
+<field name="mergedX">
+2009 | 2015 |  | 
+</field>
+<field name="focusX">
+2009 | 2015
+</field>
+<field name="otherX">
+</field>
+<field name="otherXExp">
+
+</field>
+<field name="merged_otherX">
+
+</field>
+<field name="Y">
+years of battery life
+</field>
+<field name="YExp">
+battery batteries rechargeable energy charge cell discharge charging voltage sup lithium electric electrolyte ion acid automotive discharged nickel types density electrical plates cycle lead storage power cadmium negative charger applications 
+</field>
+<field name="merged_Y">
+years of battery life | battery batteries rechargeable energy charge cell discharge charging voltage sup lithium electric electrolyte ion acid automotive discharged nickel types density electrical plates cycle lead storage power cadmium negative charger applications 
+</field>
+<field name="all">
+2009 | 2015 |  | years of battery life |  expected lifetime of a typical electric vehicle battery 3.5x increase will allow batteries to maintain performance throughout vehicle's lifetime 
+</field>
+<field name="allExp">
+battery batteries rechargeable energy charge cell discharge charging voltage sup lithium electric electrolyte ion acid automotive discharged nickel types density electrical plates cycle lead storage power cadmium negative charger applications 
+</field>
+<field name="IMCategory">
+Relative_Difference
+</field>
+<field name="Query-Get-Rank">2</field>
+<field name="Query-Maximum-Minimum-Multiple">2</field>
+<field name="Query-Maximum-Minimum-Single">2</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">6</field>
+<field name="Query-Rank-All">4</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+ | 2009  |  2015  |  
+
+</field>
+<field name="facet_Y">
+Rechargeable_battery
+</field>
+</add></dcoc>

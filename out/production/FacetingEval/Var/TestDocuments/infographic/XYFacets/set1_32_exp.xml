@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_1_32.xml</field>
+<field name="allX">
+ | fy 09 | 10 | 11 | 12 | 13
+</field>
+<field name="allXExp">
+time time time time time century century century century century decade decade decade decade decade era era era era era period period period period period fiscal fiscal fiscal fiscal fiscal year year year year year season season season season season quarter quarter quarter quarter quarter month month month month month week week week week week day day day day day date date date date date hour hour hour hour hour age age age age age 
+</field>
+<field name="mergedX">
+ | fy 09 | 10 | 11 | 12 | 13 | time time time time time century century century century century decade decade decade decade decade era era era era era period period period period period fiscal fiscal fiscal fiscal fiscal year year year year year season season season season season quarter quarter quarter quarter quarter month month month month month week week week week week day day day day day date date date date date hour hour hour hour hour age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+fy 09 | 10 | 11 | 12 | 13
+</field>
+<field name="otherXExp">
+time time time time time century century century century century decade decade decade decade decade era era era era era period period period period period fiscal fiscal fiscal fiscal fiscal year year year year year season season season season season quarter quarter quarter quarter quarter month month month month month week week week week week day day day day day date date date date date hour hour hour hour hour age age age age age 
+</field>
+<field name="merged_otherX">
+fy 09 | 10 | 11 | 12 | 13 | time time time time time century century century century century decade decade decade decade decade era era era era era period period period period period fiscal fiscal fiscal fiscal fiscal year year year year year season season season season season quarter quarter quarter quarter quarter month month month month month week week week week week day day day day day date date date date date hour hour hour hour hour age age age age age 
+</field>
+<field name="Y">
+toyota's profit
+</field>
+<field name="YExp">
+toyota company toyoda corporation motor production vehicles aichi september automotive financial city toyopet automobile cars kiichiro lexus global manufacturing worldwide japanese chinese ranking services scion oica philosophy automaker principles business 
+</field>
+<field name="merged_Y">
+toyota's profit | toyota company toyoda corporation motor production vehicles aichi september automotive financial city toyopet automobile cars kiichiro lexus global manufacturing worldwide japanese chinese ranking services scion oica philosophy automaker principles business 
+</field>
+<field name="all">
+ | fy 09 | 10 | 11 | 12 | 13 | toyota's profit |  brighter outlook toyota's profit in billions 
+</field>
+<field name="allExp">
+toyota company toyoda corporation motor production vehicles aichi september automotive financial city toyopet automobile cars kiichiro lexus global manufacturing worldwide japanese chinese ranking services scion oica philosophy automaker principles business 
+</field>
+<field name="IMCategory">
+Change_Trend_Return
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Toyota | Profit_(accounting)
+</field>
+</add></dcoc>

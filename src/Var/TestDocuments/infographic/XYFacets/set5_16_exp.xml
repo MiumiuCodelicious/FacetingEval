@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_5_16.xml</field>
+<field name="allX">
+ | jun 00 | jun 01 | jun 02 | jun 03 | jun 04 | jun 05 | jun 06 | jun 07 | jun 08 | jun 09
+</field>
+<field name="allXExp">
+time time time time time time time time time time century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month week week week week week week week week week week day day day day day day day day day day date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age 
+</field>
+<field name="mergedX">
+ | jun 00 | jun 01 | jun 02 | jun 03 | jun 04 | jun 05 | jun 06 | jun 07 | jun 08 | jun 09 | time time time time time time time time time time century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month week week week week week week week week week week day day day day day day day day day day date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+jun 00 | jun 01 | jun 02 | jun 03 | jun 04 | jun 05 | jun 06 | jun 07 | jun 08 | jun 09
+</field>
+<field name="otherXExp">
+time time time time time time time time time time century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month week week week week week week week week week week day day day day day day day day day day date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age 
+</field>
+<field name="merged_otherX">
+jun 00 | jun 01 | jun 02 | jun 03 | jun 04 | jun 05 | jun 06 | jun 07 | jun 08 | jun 09 | time time time time time time time time time time century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month week week week week week week week week week week day day day day day day day day day day date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age 
+</field>
+<field name="Y">
+goldman sachs group revenue growth
+</field>
+<field name="YExp">
+sachs investment firm economic business mortgage securities company trading crisis billion money exchange reserve management goldmansachs september financial finance stock weinberg federal subprime treasury companies bonus offering magazine united fortune 
+</field>
+<field name="merged_Y">
+goldman sachs group revenue growth | sachs investment firm economic business mortgage securities company trading crisis billion money exchange reserve management goldmansachs september financial finance stock weinberg federal subprime treasury companies bonus offering magazine united fortune 
+</field>
+<field name="all">
+ | jun 00 | jun 01 | jun 02 | jun 03 | jun 04 | jun 05 | jun 06 | jun 07 | jun 08 | jun 09 | goldman sachs group revenue growth |  bank of america 
+</field>
+<field name="allExp">
+sachs investment firm economic business mortgage securities company trading crisis billion money exchange reserve management goldmansachs september financial finance stock weinberg federal subprime treasury companies bonus offering magazine united fortune 
+</field>
+<field name="IMCategory">
+Change_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year | month
+</field>
+<field name="facet_Y">
+Goldman_Sachs
+</field>
+</add></dcoc>

@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_4_2.xml</field>
+<field name="allX">
+ | ios | android | other | symbian | rim | windows
+</field>
+<field name="allXExp">
+release release release release release software software software software interface interface interface interface 
+</field>
+<field name="mergedX">
+ | ios | android | other | symbian | rim | windows | release release release release release software software software software interface interface interface interface 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+ios | android | other | symbian | rim | windows
+</field>
+<field name="otherXExp">
+release release release release release software software software software interface interface interface interface applications applications applications released released released devices devices devices operating operating operating features features features september september september source source source technology technology technology 
+</field>
+<field name="merged_otherX">
+ios | android | other | symbian | rim | windows | release release release release release software software software software interface interface interface interface applications applications applications released released released devices devices devices operating operating operating features features features september september september source source source technology technology technology 
+</field>
+<field name="Y">
+traffic share % of traffic
+</field>
+<field name="YExp">
+congestion road vehicles lane drivers vehicle highway countries capacity rules priority intersection cities pages car signs jam pedestrian city transport volume overtaking reduce example united driving crossing mints parking management 
+</field>
+<field name="merged_Y">
+traffic share % of traffic | congestion road vehicles lane drivers vehicle highway countries capacity rules priority intersection cities pages car signs jam pedestrian city transport volume overtaking reduce example united driving crossing mints parking management 
+</field>
+<field name="all">
+ | ios | android | other | symbian | rim | windows | traffic share % of traffic |  traffic share mobile phone os  
+</field>
+<field name="allExp">
+congestion road vehicles lane drivers vehicle highway countries capacity rules priority intersection cities pages car signs jam pedestrian city transport volume overtaking reduce example united driving crossing mints parking management 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+release | interface | software |  ios  |  android  |  other  |  symbian  |  rim  |  windows
+
+</field>
+<field name="facet_Y">
+Traffic_congestion | SHARE_(computing)
+</field>
+</add></dcoc>

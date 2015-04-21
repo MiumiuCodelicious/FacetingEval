@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_4_13.xml</field>
+<field name="allX">
+ | messaging | voice cll | checking time | music | gaming | social media | camera | alarm | news &amp; alerts | calendar | web | search | other
+</field>
+<field name="allXExp">
+
+</field>
+<field name="mergedX">
+ | messaging | voice cll | checking time | music | gaming | social media | camera | alarm | news &amp; alerts | calendar | web | search | other | 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+messaging | voice cll | checking time | music | gaming | social media | camera | alarm | news &amp; alerts | calendar | web | search | other
+</field>
+<field name="otherXExp">
+
+</field>
+<field name="merged_otherX">
+messaging | voice cll | checking time | music | gaming | social media | camera | alarm | news &amp; alerts | calendar | web | search | other | 
+</field>
+<field name="Y">
+# of times typical user checks phone per day
+</field>
+<field name="YExp">
+times york company newspaper telephone september united nytimes building paper sulzberger circulation pulitzer headquarters timeline business wqew daily sections sunday nytco family national ochs moved square publishing balcony girls city 
+</field>
+<field name="merged_Y">
+# of times typical user checks phone per day | times york company newspaper telephone september united nytimes building paper sulzberger circulation pulitzer headquarters timeline business wqew daily sections sunday nytco family national ochs moved square publishing balcony girls city 
+</field>
+<field name="all">
+ | messaging | voice cll | checking time | music | gaming | social media | camera | alarm | news &amp; alerts | calendar | web | search | other | # of times typical user checks phone per day |  
+</field>
+<field name="allExp">
+times york company newspaper telephone september united nytimes building paper sulzberger circulation pulitzer headquarters timeline business wqew daily sections sunday nytco family national ochs moved square publishing balcony girls city 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+ |  messaging  |  voice cll  |  checking time  |  music  |  gaming  |  social media  |  camera  |  alarm  |  news &amp; alerts  |  calendar  |  web  |  search  |  other
+
+</field>
+<field name="facet_Y">
+The_New_York_Times | Typical | User_(computing) | Check_(chess) | Telephone
+</field>
+</add></dcoc>

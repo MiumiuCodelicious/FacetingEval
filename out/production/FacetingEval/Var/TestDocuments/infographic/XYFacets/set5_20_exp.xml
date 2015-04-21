@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_5_20.xml</field>
+<field name="allX">
+ | a 2008 | s | o | n | d | j | f | m | a | m | j | j 2009
+</field>
+<field name="allXExp">
+time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="mergedX">
+ | a 2008 | s | o | n | d | j | f | m | a | m | j | j 2009 | time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+a 2008 | s | o | n | d | j | f | m | a | m | j | j 2009
+</field>
+<field name="otherXExp">
+time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="merged_otherX">
+a 2008 | s | o | n | d | j | f | m | a | m | j | j 2009 | time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="Y">
+goldman sachs figures in dollars
+</field>
+<field name="YExp">
+united coins currency coin eagle gold money value reserve silver cent issued flag bill pound federal referred century islands mint spanish continental coinage denominations cornell alongside constitution peso dime currencies 
+</field>
+<field name="merged_Y">
+goldman sachs figures in dollars | united coins currency coin eagle gold money value reserve silver cent issued flag bill pound federal referred century islands mint spanish continental coinage denominations cornell alongside constitution peso dime currencies 
+</field>
+<field name="all">
+ | a 2008 | s | o | n | d | j | f | m | a | m | j | j 2009 | goldman sachs figures in dollars |  goldman sachs 
+</field>
+<field name="allExp">
+united coins currency coin eagle gold money value reserve silver cent issued flag bill pound federal referred century islands mint spanish continental coinage denominations cornell alongside constitution peso dime currencies 
+</field>
+<field name="IMCategory">
+Change_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Goldman_Sachs | Figure_skating
+</field>
+</add></dcoc>

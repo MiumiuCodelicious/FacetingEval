@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_68.xml</field>
+<field name="allX">
+ | porsche | lincoln(ford) | buick (gm) | lexus (toyota) | mercury (ford) | toyota  | honda | mercedes-benz | acura (honda) | hyundai | cadillac (gm)
+</field>
+<field name="allXExp">
+company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile automobile automobile automobile automotive automotive automotive automotive automotive automotive automotive automotive september september september september september september september september vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle sales sales sales sales sales sales sales sales motor motor motor motor motor motor motor motor production production production production production production production cars cars cars cars cars cars cars 
+</field>
+<field name="mergedX">
+ | porsche | lincoln(ford) | buick (gm) | lexus (toyota) | mercury (ford) | toyota  | honda | mercedes-benz | acura (honda) | hyundai | cadillac (gm) | company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile automobile automobile automobile automotive automotive automotive automotive automotive automotive automotive automotive september september september september september september september september vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle sales sales sales sales sales sales sales sales motor motor motor motor motor motor motor motor production production production production production production production cars cars cars cars cars cars cars 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+porsche | lincoln(ford) | buick (gm) | lexus (toyota) | mercury (ford) | toyota  | honda | mercedes-benz | acura (honda) | hyundai | cadillac (gm)
+</field>
+<field name="otherXExp">
+company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile automobile automobile automobile automotive automotive automotive automotive automotive automotive automotive automotive september september september september september september september september vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle sales sales sales sales sales sales sales sales motor motor motor motor motor motor motor motor production production production production production production production cars cars cars cars cars cars cars 
+</field>
+<field name="merged_otherX">
+porsche | lincoln(ford) | buick (gm) | lexus (toyota) | mercury (ford) | toyota  | honda | mercedes-benz | acura (honda) | hyundai | cadillac (gm) | company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles automobile automobile automobile automobile automobile automobile automobile automobile automobile automotive automotive automotive automotive automotive automotive automotive automotive september september september september september september september september vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle sales sales sales sales sales sales sales sales motor motor motor motor motor motor motor motor production production production production production production production cars cars cars cars cars cars cars 
+</field>
+<field name="Y">
+problems per 100 vehicles, top 12 brands
+</field>
+<field name="YExp">
+company identity product names consumers service quality example people business associated called dictionary services value promise consumer muji values elements customers cultural successful importance awareness create perception characteristics merriamassociates differences 
+</field>
+<field name="merged_Y">
+problems per 100 vehicles, top 12 brands | company identity product names consumers service quality example people business associated called dictionary services value promise consumer muji values elements customers cultural successful importance awareness create perception characteristics merriamassociates differences 
+</field>
+<field name="all">
+ | porsche | lincoln(ford) | buick (gm) | lexus (toyota) | mercury (ford) | toyota  | honda | mercedes-benz | acura (honda) | hyundai | cadillac (gm) | problems per 100 vehicles, top 12 brands |  badges of honour  j.d. power vehicle dependability study, 2010 
+</field>
+<field name="allExp">
+company identity product names consumers service quality example people business associated called dictionary services value promise consumer muji values elements customers cultural successful importance awareness create perception characteristics merriamassociates differences 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+motor | september | automobile | company | vehicles | sales | production | automotive | vehicle | cars |  porsche  |  lincoln(ford)  |  buick (gm)  |  lexus (toyota)  |  mercury (ford)  |  toyota   |  honda  |  mercedes-benz  |  acura (honda)  |  hyundai  |  cadillac (gm)
+
+</field>
+<field name="facet_Y">
+Vehicle
+</field>
+</add></dcoc>

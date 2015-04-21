@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_4_1-2.xml</field>
+<field name="allX">
+ | apple | samsung | mediatek
+</field>
+<field name="allXExp">
+company company company 
+</field>
+<field name="mergedX">
+ | apple | samsung | mediatek | company company company 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+apple | samsung | mediatek
+</field>
+<field name="otherXExp">
+company company company apple apple products products business business companies companies sales sales united united 
+</field>
+<field name="merged_otherX">
+apple | samsung | mediatek | company company company apple apple products products business business companies companies sales sales united united 
+</field>
+<field name="Y">
+revenue share - tablets
+</field>
+<field name="YExp">
+revenue income company accounting sales business financial government activities earnings companies revenues currency received dividend based statement department expense businesses williams irs reserve tax organization agency bank accounts individuals includes 
+</field>
+<field name="merged_Y">
+revenue share - tablets | revenue income company accounting sales business financial government activities earnings companies revenues currency received dividend based statement department expense businesses williams irs reserve tax organization agency bank accounts individuals includes 
+</field>
+<field name="all">
+ | apple | samsung | mediatek | revenue share - tablets |  revenue share - tablets 
+</field>
+<field name="allExp">
+revenue income company accounting sales business financial government activities earnings companies revenues currency received dividend based statement department expense businesses williams irs reserve tax organization agency bank accounts individuals includes 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+company |  apple  |  samsung  |  mediatek
+
+</field>
+<field name="facet_Y">
+Revenue | Share_(finance) | Graphics_tablet
+</field>
+</add></dcoc>

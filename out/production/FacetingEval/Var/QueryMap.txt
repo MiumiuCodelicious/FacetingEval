@@ -1,0 +1,455 @@
+qid: 1.1.1
+How do the total revenues earned by each major car manufacturer compare ?
+
+qid: 1.1.2
+How does the revenue earned by Ford compare every four years ?
+
+qid: 1.1.3
+How has Ford revenue changed since 2000 ?
+
+qid: 1.1.4
+How do the total revenues earned by each major car manufacturer compare ?
+
+qid: 1.2.1
+How does the revenue of Ford and Toyota compare to that of other car manufacturing companies ?
+
+qid: 1.2.2
+How has Ford revenue changed over the past 10 years ?
+
+qid: 1.2.3
+How has Ford revenue changed over the past 10 years ?
+
+qid: 1.2.4
+How do the revenues of 4 top car manufacturing companies compare ?
+
+qid: 1.4.2
+What is the Ford revenue model every four years beginning in 2000 ?
+
+qid: 1.4.3
+How has the revenue model of Ford changed over time ?
+
+qid: 1.4.4
+How do Ford , BMW , Toyota , and Honda compare in terms of revenue ?
+
+qid: 1.5.1
+How does Fords revenue compare to that of Toyota ?
+
+qid: 1.5.2
+How does the revenue of Ford compare in 2008 to 2000 ?
+
+qid: 1.5.3
+How has Fords revenue changed from 2000 to 2008 ?
+
+qid: 1.5.4
+How does Fords manufacturing revenue compare to that of BMW , Toyota and Honda ?
+
+qid: 1.6.1
+How much revenue do Ford , BMW , Toyota , and Honda earn ?
+
+qid: 1.6.2
+How much revenue did Ford earn every four years after 2000 ?
+
+qid: 1.6.3
+How much revenue did Ford earn from 2000 to 2008 ?
+
+qid: 1.6.4
+How much revenue do Ford , BMW , Toyota , and Honda earn ?
+
+qid: 1.7.1
+How does Ford rank compared to other car dealers in terms of revenue ?
+
+qid: 1.7.2
+How has Fords revenue changed over the last 12 years ?
+
+qid: 1.7.3
+How has Fords revenue changed over the last 12 years ?
+
+qid: 1.7.4
+How does Ford rank compared to other car dealers in terms of revenue ?
+
+qid: 1.8.1
+What is the revenue of the top car manufacturing companies ?
+
+qid: 1.8.2
+What is the revenue of Ford in 2000 , 2004 and 2008 ?
+
+qid: 1.8.3
+What is the revenue trend of the company Ford since 2000 ?
+
+qid: 1.8.4
+What company has the highest revenue :  Ford , BMW , Toyota , or Honda ?
+
+qid: 2.1.2
+How does the revenue earned by major credit card companies compare in 2010 ?
+
+qid: 2.2.1
+How has the revenue of the Credit Card Companies changed in the past two years ?
+
+qid: 2.2.2
+How do Visa and Discover compare in 2010 ?
+
+qid: 2.2.4
+What credit card company made the most money in 2008 ?
+
+qid: 2.3.1
+How has the total revenue of credit card companies changed over the past several years ?
+
+qid: 2.3.2
+How do Visa and Discover compare against other top credit card companies ?
+
+qid: 2.3.3
+How does the revenue of Visa , Mastercard , Discover , and American Express compare ?
+
+qid: 2.4.1
+How much revenue have credit card companies gained over the past five years ?
+
+qid: 2.4.2
+What credit card company gained the most revenue in 2010 ?
+
+qid: 2.7.1
+How has the revenue model of credit card companies changed over the past 3 years ?
+
+qid: 2.7.2
+What are the most profitable credit card companies in 2010 ?
+
+qid: 2.7.3
+How do Visa , Mastercard , Discover and American Express relate in terms of revenue models ?
+
+qid: 2.8.1
+How does the revenue of credit card companies in 2007 compare to the revenue in 2009 ?
+
+qid: 2.8.2
+How does the revenue in 2010 of Discover compare to other credit card companies ?
+
+qid: 2.9.2
+How do Visa and Discover differ from Mastercard and American Express in 2010 ?
+
+qid: 2.10.1
+How has the total revenue of credit card companies changed from 2007 to 2009 ?
+
+qid: 2.10.2
+In 2010 , how do the revenues of Visa and Discover compare with other credit card companies ?
+
+qid: 2.11.2
+What are the two top credit card companies economically speaking ?
+
+qid: 2.12.1
+How has the revenue for credit card companies changed from 2007 to 2009 ?
+
+qid: 2.12.2
+How does the revenue for Visa and Discover compare to Mastercard and American Express ?
+
+qid: 2.13.1
+How does the revenue of credit card companies compare from 2008 to 2009 ?
+
+qid: 2.13.2
+How does the revenue of Discover compare to American Express in 2010 ?
+
+qid: 2.13.3
+How does the revenue of American Express in 2008 compare to Discover , Mastercard , and Visa during the same year ?
+
+qid: 2.13.4
+How does the revenue of Visa in 2007 compare to 2008 and 2009 ?
+
+qid: 2.14.1
+How has the revenue of Credit Card Companies changed over time from 2007 to 2009 ?
+
+qid: 2.14.2
+How does the revenue of various credit card companies compare to each other ?
+
+qid: 2.15.1
+How much revenue ( in millions ) did credit card companies earn from 2007 to 2009 ?
+
+qid: 2.15.2
+How much revenue ( in millions ) did the top four credit card companies earn in 2010 ?
+
+qid: 2.16.1
+How has the credit card industry changed over the last 5 years ?
+
+qid: 2.16.2
+How does Visa compare to other credit card companies ?
+
+qid: 2.16.3
+How does Mastercard compare to other credit card companies ?
+
+qid: 2.16.4
+Does Visa or Mastercard make more money ?
+
+qid: 2.17.1
+What is the revenue of the top credit card companies ?
+
+qid: 2.17.2
+In 2010 , what is the revenue of the top credit companies ?
+
+qid: 3.1.2
+How has the revenue of Avis fluctuated over the past several decades ?
+
+qid: 3.1.4
+How does the revenue of Avis compare to that of other companies ?
+
+qid: 3.2.2
+What is the Avis revenue model over the past 20 years ?
+
+qid: 3.2.3
+How does Hertz and Avis compare in terms of revenue ?
+
+qid: 3.2.4
+How does Avis compare to its competitors in terms of revenue ?
+
+qid: 3.3.2
+How has Avis revenue changed over the course of the past 15 years ?
+
+qid: 3.3.4
+How does Avis revenue compare to other companies in the year 2010 ?
+
+qid: 3.4.1
+How does the revenue of HERTZ compare to AVIS in 1995 ?
+
+qid: 3.4.2
+How has the revenue of AVIS changed from 1995 to 2010 ?
+
+qid: 3.4.3
+How does the revenue of AVIS compare to HERTZ in 2000 ?
+
+qid: 3.4.4
+How does AVIS revenue compare to HERTZ and Budget in 2010 ?
+
+qid: 3.5.2
+How does the revenue of Avis change from 1995 to 2010 ?
+
+qid: 3.5.4
+How does the revenue of Avis compare to other companies in 2010 ?
+
+qid: 3.6.1
+How has Hertz revenue changed over the last 15 years ?
+
+qid: 3.6.2
+How has Avis revenue changed over the last 15 years ?
+
+qid: 3.6.3
+Did Avis or Hertz have a greater revenue in 2010 ?
+
+qid: 3.6.4
+How does Avis rank compared to other car rental companies in revenue ?
+
+qid: 4.1.2
+How has Total Mobile revenue changed over the past twenty years ?
+
+qid: 4.1.3
+How has Apple revenue changed over the past twenty years ?
+
+qid: 4.2.2
+What is Apples revenue during the past decade ?
+
+qid: 4.2.3
+What is Apples revenue during the past decade ?
+
+qid: 4.3.2
+How has the total revenue of all mobile sales increased over the years ?
+
+qid: 4.3.3
+How has Apple revenue fluctuated over the years ?
+
+qid: 4.4.1
+What is the difference in revenue between Nokia , Apple , and Blackberry ?
+
+qid: 4.5.1
+How does Nokia , Apple , and Blackberry compare in terms of revenue ?
+
+qid: 4.5.2
+What is the trend of the total mobile revenue over the past 20 years ?
+
+qid: 4.5.3
+What is the revenue model of Apple over the past 20 years ?
+
+qid: 4.6.2
+How has the total mobile revenue changed since the 1990 ?
+
+qid: 4.6.3
+What is the revenue pattern change of Apple over the past 20 years ?
+
+qid: 4.6.4
+How does the revenue of Blackberry compare to that of other companies ?
+
+qid: 4.7.1
+How did Nokia , Apple , and Blackbery compare side by side ?
+
+qid: 4.8.1
+What company had the highest revenue in 2005 ?
+
+qid: 4.8.2
+What year was the total mobile revenue at a minimum ?
+
+qid: 4.8.3
+At what year does Apple Revenue increase at the highest rate ?
+
+qid: 4.9.1
+How does the revenue of Nokia from 2005 - 2010 compare to the revenue of Apple and Blackberry during that same time period ?
+
+qid: 4.9.2
+How has the total mobile revenue changed from 1990 to 2010 ?
+
+qid: 4.9.3
+How has the total mobile revenue changed from 1990 to 2010 ?
+
+qid: 4.9.4
+How does the revenue of Apple compare to that of Blackberry and Nokia ?
+
+qid: 4.10.2
+What is the total mobile revenue from 1990 to 2010 ?
+
+qid: 4.10.3
+How much revenue did Apple earn from 1990 to 2010 ?
+
+qid: 4.11.2
+What is the total mobile revenue since the 90s ?
+
+qid: 4.11.3
+What is the revenue of Apple ?
+
+qid: 4.11.4
+How do the revenues of the companies Nokia , Apple , and Blackberry compare ?
+
+qid: 5.1.1
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?
+
+qid: 5.1.2
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?
+
+qid: 5.1.3
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?
+
+qid: 5.1.4
+How has revenue earned by Goldman Sachs changed over the past twenty years ?
+
+qid: 5.2.1
+How does Goldman Sachs revenue in 1995 compare to that of 2010 ?
+
+qid: 5.2.2
+How does Goldman Sachs revenue in 1990 compare to that of 2000 ?
+
+qid: 5.2.3
+How does Goldman Sachs revenue in 2005 - 2010 rank among those of the past 15 years ?
+
+qid: 5.2.4
+How has Goldman Sachs revenue changed in the last 20 years ?
+
+qid: 5.3.1
+How much money did Goldman Sachs make in the 21st century ?
+
+qid: 5.3.2
+How much money did Goldman Sachs make in the last 20 years ?
+
+qid: 5.3.3
+How does Goldman Sachs revenue in five year terms compare ?
+
+qid: 5.3.4
+How much money did Goldman Sachs make in the last 20 years ?
+
+qid: 5.4.1
+How does Goldman Sachs revenue in five year terms compare ?
+
+qid: 5.4.3
+Has the revenue for Goldman Sachs been steadily increasing ?
+
+qid: 5.4.4
+How does the fluctuation in the revenue of Goldman Sachs compare from 1990 to 2011 ?
+
+qid: 5.6.1
+What is the revenue growth of Goldman Sachs starting in 1995 ?
+
+qid: 5.6.2
+What is the revenue growth of Goldman Sachs starting in 1990 ?
+
+qid: 5.6.3
+How has the revenue model of Goldman Sachs decreased over time ?
+
+qid: 5.6.4
+What is the revenue model of Goldman Sachs over the past 20 years ?
+
+qid: 5.7.1
+How does the revenue of Goldman Sachs compare over the past 15 years ?
+
+qid: 5.7.2
+What was the revenue of Goldman Sachs in 1990 compared to future revenues ?
+
+qid: 5.7.3
+What was the revenue of Goldman Sachs in 2005 compared to previous years ?
+
+qid: 5.7.4
+How has there been a change in Goldman Sachs revenue since 1990 ?
+
+qid: 5.8.2
+What were the revenues of Goldman Sachs from 1990 to 2010 ?
+
+qid: 5.8.3
+How does the revenue of Goldman Sachs from 2005 to 2010 compare with previous years ?
+
+qid: 5.8.4
+How does the trend in revenue of Goldman Sachs change from 1990 to 2010 ?
+
+qid: 5.9.1
+During what time periods has Goldman Sachs revenue been higher than other time periods ?
+
+qid: 5.9.2
+How has Goldman Sachs revenue changed over time ?
+
+qid: 5.9.3
+How does the Goldman Sachs revenue for the past 5 years compare to other 5 year periods ?
+
+qid: 5.9.4
+How has Goldman Sachs revenue changed over the course of the past 20 years ?
+
+qid: 5.10.1
+How does revenue for Goldman sachs change from 1990 to 2010 ?
+
+qid: 5.10.2
+How does revenue for Goldman sachs change from 1990 to 2000 ?
+
+qid: 5.10.3
+What 5 year range is the revenue for Goldman Sachs the lowest ?
+
+qid: 5.10.4
+In what year is the revenue for Goldman Sachs is the lowest ?
+
+qid: 5.11.1
+How does the revenue of Goldman Sachs from 2005 - 2010 compare to the years 1995 - 2000 ?
+
+qid: 5.11.2
+How does the revenue of Goldman Sachs compare in the years 2005 - 2010 to the years 2000 - 2005 ?
+
+qid: 5.11.3
+How does the revenue of Goldman Sachs in the years 2005 - 2010 compare to the revenue in 1995 - 2000 ?
+
+qid: 5.11.4
+How has the revenue of Goldman Sachs changed from 2005 to 2010 ?
+
+qid: 5.12.1
+How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?
+
+qid: 5.12.2
+How has the revenue of Goldman Sachs varied over 5 year intervals from 1995 to 2010 ?
+
+qid: 5.13.1
+How much revenue did Goldman Sachs earn from 1995 to 2010 ?
+
+qid: 5.14.1
+What is the revenue of Goldman Sachs ?
+
+qid: 5.14.2
+What is the revenue of the company Goldman Sachs ?
+
+qid: 5.14.3
+What is the revenue of Goldman Sachs since the 90s ?
+
+qid: 5.14.4
+How has the revenue of the company Goldman Sachs changed since the 90s ?
+
+qid: 5.15.1
+Has Goldman Sachs been increasing in revenue over the last 15 years ?
+
+qid: 5.15.2
+Has Goldman Sachs been increasing in revenue over the last 20 years ?
+
+qid: 5.15.3
+What is the revenue for Goldman Sachs ?

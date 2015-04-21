@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_4_7.xml</field>
+<field name="allX">
+ | 2008 | 2009 | 2010 | 2011 | 2012 | 2013
+</field>
+<field name="allXExp">
+time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="mergedX">
+ | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2008 | 2009 | 2010 | 2011 | 2012 | 2013
+</field>
+<field name="otherXExp">
+time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="merged_otherX">
+2008 | 2009 | 2010 | 2011 | 2012 | 2013 | time time time time time time century century century century century century decade decade decade decade decade decade era era era era era era period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year season season season season season season quarter quarter quarter quarter quarter quarter month month month month month month week week week week week week day day day day day day date date date date date date hour hour hour hour hour hour age age age age age age 
+</field>
+<field name="Y">
+global revenue for nand flash for smart phones millions of u.s. dollars
+</field>
+<field name="YExp">
+mobile memory united camera apple coins iphone device applications devices currency nokia operating digital based storage interface technology cell windows block software coin launched system using party feature android ios 
+</field>
+<field name="merged_Y">
+global revenue for nand flash for smart phones millions of u.s. dollars | mobile memory united camera apple coins iphone device applications devices currency nokia operating digital based storage interface technology cell windows block software coin launched system using party feature android ios 
+</field>
+<field name="all">
+ | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | global revenue for nand flash for smart phones millions of u.s. dollars |  global revenue for nand flash for smart phones 
+</field>
+<field name="allExp">
+mobile memory united camera apple coins iphone device applications devices currency nokia operating digital based storage interface technology cell windows block software coin launched system using party feature android ios 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Earth | Revenue | Flash_memory | Smartphone
+</field>
+</add></dcoc>

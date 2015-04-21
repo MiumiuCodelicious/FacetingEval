@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_4_54-2.xml</field>
+<field name="allX">
+ | windows &amp; windows live | business division | server &amp; tools | entertainment &amp; devices | online services
+</field>
+<field name="allXExp">
+
+</field>
+<field name="mergedX">
+ | windows &amp; windows live | business division | server &amp; tools | entertainment &amp; devices | online services | 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+windows &amp; windows live | business division | server &amp; tools | entertainment &amp; devices | online services
+</field>
+<field name="otherXExp">
+operating operating operating internet internet internet computer computer computer example example example provide provide provide 
+</field>
+<field name="merged_otherX">
+windows &amp; windows live | business division | server &amp; tools | entertainment &amp; devices | online services | operating operating operating internet internet internet computer computer computer example example example provide provide provide 
+</field>
+<field name="Y">
+microsoft q3 revenue by division (million)
+</field>
+<field name="YExp">
+windows company business software gates computing office operating services dos justice division computer ibm interpreter networking interactive cbs certified management united harvnb department divisions increase security revenue tools online companies 
+</field>
+<field name="merged_Y">
+microsoft q3 revenue by division (million) | windows company business software gates computing office operating services dos justice division computer ibm interpreter networking interactive cbs certified management united harvnb department divisions increase security revenue tools online companies 
+</field>
+<field name="all">
+ | windows &amp; windows live | business division | server &amp; tools | entertainment &amp; devices | online services | microsoft q3 revenue by division (million) |  microsoft q3 revenue by division (million) fy11 
+</field>
+<field name="allExp">
+windows company business software gates computing office operating services dos justice division computer ibm interpreter networking interactive cbs certified management united harvnb department divisions increase security revenue tools online companies 
+</field>
+<field name="IMCategory">
+General
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+ |  windows &amp; windows live  |  business division  |  server &amp; tools  |  entertainment &amp; devices  |  online services
+
+</field>
+<field name="facet_Y">
+Microsoft | Revenue | Division_(business)
+</field>
+</add></dcoc>

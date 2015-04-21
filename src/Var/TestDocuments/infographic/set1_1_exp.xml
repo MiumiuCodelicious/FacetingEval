@@ -1,0 +1,51 @@
+<add><doc>
+<field name="id">set_1_1.xml</field>
+<field name="allX">
+ | toyota | volkswagen | general motors | daimler | ford | honda | nissan | bmw | hyundai | psa
+</field>
+<field name="allXExp">
+company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production automobile automobile automobile automobile automobile automobile automobile engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle 
+</field>
+<field name="mergedX">
+ | toyota | volkswagen | general motors | daimler | ford | honda | nissan | bmw | hyundai | psa | company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production automobile automobile automobile automobile automobile automobile automobile engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+toyota | volkswagen | general motors | daimler | ford | honda | nissan | bmw | hyundai | psa
+</field>
+<field name="otherXExp">
+company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production automobile automobile automobile automobile automobile automobile automobile engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle 
+</field>
+<field name="merged_otherX">
+toyota | volkswagen | general motors | daimler | ford | honda | nissan | bmw | hyundai | psa | company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production automobile automobile automobile automobile automobile automobile automobile engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle 
+</field>
+<field name="Y">
+revenue of the leading car manufacturers worldwide in 2012
+</field>
+<field name="YExp">
+automobile subsidiary division vehicle company automotive china global industry chn production people benz flag engine republic porsche corporation united automobiles vehicles germany america manufacturers stake holds powered north europe companies 
+</field>
+<field name="merged_Y">
+revenue of the leading car manufacturers worldwide in 2012 | automobile subsidiary division vehicle company automotive china global industry chn production people benz flag engine republic porsche corporation united automobiles vehicles germany america manufacturers stake holds powered north europe companies 
+</field>
+<field name="all">
+ | toyota | volkswagen | general motors | daimler | ford | honda | nissan | bmw | hyundai | psa | revenue of the leading car manufacturers worldwide in 2012 |  revenue of the leading car manufacturers worldwide in 2012 (in billion euros) 
+</field>
+<field name="allExp">
+automobile subsidiary division vehicle company automotive china global industry chn production people benz flag engine republic porsche corporation united automobiles vehicles germany america manufacturers stake holds powered north europe companies 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field><field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field><field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field><field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field><field name="Query-Trend">1</field>
+<field name="facet_X">
+company vehicles engine automobile production
+</field>
+<field name="facet_Y">
+revenue
+</field>
+</add></dcoc>

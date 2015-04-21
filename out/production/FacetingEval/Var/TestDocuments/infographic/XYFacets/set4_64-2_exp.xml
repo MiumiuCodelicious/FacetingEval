@@ -1,0 +1,57 @@
+<add><doc>
+<field name="id">set_4_64-2.xml</field>
+<field name="allX">
+carriers | google | bbc | nokia | facebook | webmails | youtube | microsoft | wikipedia | yahoo!
+</field>
+<field name="allXExp">
+company company company company company company company technology technology technology technology technology technology september september september september september online online online online online 
+</field>
+<field name="mergedX">
+carriers | google | bbc | nokia | facebook | webmails | youtube | microsoft | wikipedia | yahoo! | company company company company company company company technology technology technology technology technology technology september september september september september online online online online online 
+</field>
+<field name="focusX">
+carriers aircraft
+</field>
+<field name="otherX">
+google | bbc | nokia | facebook | webmails | youtube | microsoft | wikipedia | yahoo!
+</field>
+<field name="otherXExp">
+company company company company company company company technology technology technology technology technology technology september september september september september online online online online online 
+</field>
+<field name="merged_otherX">
+google | bbc | nokia | facebook | webmails | youtube | microsoft | wikipedia | yahoo! | company company company company company company company technology technology technology technology technology technology september september september september september online online online online online 
+</field>
+<field name="Y">
+mobile web site's share of uk mobile internet users
+</field>
+<field name="YExp">
+website mobile information berners network history websites wide computer protocol hypertext server world site software browser united services pages technology users cern phone language system service resource lee university using 
+</field>
+<field name="merged_Y">
+mobile web site's share of uk mobile internet users | website mobile information berners network history websites wide computer protocol hypertext server world site software browser united services pages technology users cern phone language system service resource lee university using 
+</field>
+<field name="all">
+carriers | google | bbc | nokia | facebook | webmails | youtube | microsoft | wikipedia | yahoo! | mobile web site's share of uk mobile internet users |  mobile web site's share of uk mobile internet users 2008 
+</field>
+<field name="allExp">
+website mobile information berners network history websites wide computer protocol hypertext server world site software browser united services pages technology users cern phone language system service resource lee university using 
+</field>
+<field name="IMCategory">
+Max
+</field>
+<field name="Query-Get-Rank">3</field>
+<field name="Query-Maximum-Minimum-Multiple">6</field>
+<field name="Query-Maximum-Minimum-Single">6</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">1</field>
+<field name="Query-Rank-All">5</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+september | company | technology | online | carriers  |  google  |  bbc  |  nokia  |  facebook  |  webmails  |  youtube  |  microsoft  |  wikipedia  |  yahoo!
+
+</field>
+<field name="facet_Y">
+Mobile_Web | World_Wide_Web | Share_(finance) | United_Kingdom | User_(computing)
+</field>
+</add></dcoc>

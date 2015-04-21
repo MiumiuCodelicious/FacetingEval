@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_2_5.xml</field>
+<field name="allX">
+ | 2012 | 2013
+</field>
+<field name="allXExp">
+time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="mergedX">
+ | 2012 | 2013 | time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2012 | 2013
+</field>
+<field name="otherXExp">
+time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="merged_otherX">
+2012 | 2013 | time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="Y">
+axp | nyse
+</field>
+<field name="YExp">
+exchange stock trading register instructions alpha york history railway integer floating timeline instruction bit architecture building city registers street dow national historic station floor djia closed glasgow traders exchanges composite 
+</field>
+<field name="merged_Y">
+axp | nyse | exchange stock trading register instructions alpha york history railway integer floating timeline instruction bit architecture building city registers street dow national historic station floor djia closed glasgow traders exchanges composite 
+</field>
+<field name="all">
+ | 2012 | 2013 | axp | nyse |  american express axp | nyse 
+</field>
+<field name="allExp">
+exchange stock trading register instructions alpha york history railway integer floating timeline instruction bit architecture building city registers street dow national historic station floor djia closed glasgow traders exchanges composite 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+DEC_Alpha | New_York_Stock_Exchange
+</field>
+</add></dcoc>

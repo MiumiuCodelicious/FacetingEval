@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_5_11.xml</field>
+<field name="allX">
+ | 3q10 | 4q10 | 1q11 | 2q11 | 3q11 | 4q11 | 1q12
+</field>
+<field name="allXExp">
+time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="mergedX">
+ | 3q10 | 4q10 | 1q11 | 2q11 | 3q11 | 4q11 | 1q12 | time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+3q10 | 4q10 | 1q11 | 2q11 | 3q11 | 4q11 | 1q12
+</field>
+<field name="otherXExp">
+time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="merged_otherX">
+3q10 | 4q10 | 1q11 | 2q11 | 3q11 | 4q11 | 1q12 | time time time time time time time century century century century century century century decade decade decade decade decade decade decade era era era era era era era period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year season season season season season season season quarter quarter quarter quarter quarter quarter quarter month month month month month month month week week week week week week week day day day day day day day date date date date date date date hour hour hour hour hour hour hour age age age age age age age 
+</field>
+<field name="Y">
+gs investment banking revenue ($mn)
+</field>
+<field name="YExp">
+investment united financial business finance securities trading money capital exchange customers funds customer country risk loans companies goldman management services sachs countries private commercial savings products lending history credit transactions 
+</field>
+<field name="merged_Y">
+gs investment banking revenue ($mn) | investment united financial business finance securities trading money capital exchange customers funds customer country risk loans companies goldman management services sachs countries private commercial savings products lending history credit transactions 
+</field>
+<field name="all">
+ | 3q10 | 4q10 | 1q11 | 2q11 | 3q11 | 4q11 | 1q12 | gs investment banking revenue ($mn) |  gs investment banking revenue ($mn) 
+</field>
+<field name="allExp">
+investment united financial business finance securities trading money capital exchange customers funds customer country risk loans companies goldman management services sachs countries private commercial savings products lending history credit transactions 
+</field>
+<field name="IMCategory">
+General
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">0</field>
+<field name="facet_X">
+time | year | quarter
+</field>
+<field name="facet_Y">
+United_States | Investment_banking | Revenue | Manhattan
+</field>
+</add></dcoc>

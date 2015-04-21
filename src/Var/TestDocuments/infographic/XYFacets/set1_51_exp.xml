@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_51.xml</field>
+<field name="allX">
+ | access to real0time traffic updates from your car's navigation system | access to music streaming sites | a service where you can access media on your home computer | the ability to browse the internet directly from your car's dashboard | access to news and opinion websites | the ability to update social media directly from your car's dashboard | a file-sharing service where people you know could send media directly to your ... | the ability to view streaming media
+</field>
+<field name="allXExp">
+history history history history history history history history computer computer computer computer computer television television television television television information information information information information 
+</field>
+<field name="mergedX">
+ | access to real0time traffic updates from your car's navigation system | access to music streaming sites | a service where you can access media on your home computer | the ability to browse the internet directly from your car's dashboard | access to news and opinion websites | the ability to update social media directly from your car's dashboard | a file-sharing service where people you know could send media directly to your ... | the ability to view streaming media | history history history history history history history history computer computer computer computer computer television television television television television information information information information information 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+access to real0time traffic updates from your car's navigation system | access to music streaming sites | a service where you can access media on your home computer | the ability to browse the internet directly from your car's dashboard | access to news and opinion websites | the ability to update social media directly from your car's dashboard | a file-sharing service where people you know could send media directly to your ... | the ability to view streaming media
+</field>
+<field name="otherXExp">
+history history history history history history history history computer computer computer computer computer television television television television television information information information information information 
+</field>
+<field name="merged_otherX">
+access to real0time traffic updates from your car's navigation system | access to music streaming sites | a service where you can access media on your home computer | the ability to browse the internet directly from your car's dashboard | access to news and opinion websites | the ability to update social media directly from your car's dashboard | a file-sharing service where people you know could send media directly to your ... | the ability to view streaming media | history history history history history history history history computer computer computer computer computer television television television television television information information information information information 
+</field>
+<field name="Y">
+connected consumers
+</field>
+<field name="YExp">
+consumer consumers protection economics customer law commodity intelligence citation consumidor person theory references customization economy services consumption consuming agency significance studies consumerdaddy domestic political business overby vanderbilt economic buy journal 
+</field>
+<field name="merged_Y">
+connected consumers | consumer consumers protection economics customer law commodity intelligence citation consumidor person theory references customization economy services consumption consuming agency significance studies consumerdaddy domestic political business overby vanderbilt economic buy journal 
+</field>
+<field name="all">
+ | access to real0time traffic updates from your car's navigation system | access to music streaming sites | a service where you can access media on your home computer | the ability to browse the internet directly from your car's dashboard | access to news and opinion websites | the ability to update social media directly from your car's dashboard | a file-sharing service where people you know could send media directly to your ... | the ability to view streaming media | connected consumers |  new technology for cars connected consumers want access to traffic info and media if the following features or service were available on your car, how frequently would you use it? 
+</field>
+<field name="allExp">
+consumer consumers protection economics customer law commodity intelligence citation consumidor person theory references customization economy services consumption consuming agency significance studies consumerdaddy domestic political business overby vanderbilt economic buy journal 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+information | television | computer | history |  access to real0time traffic updates from your car's navigation system  |  access to music streaming sites  |  a service where you can access media on your home computer  |  the ability to browse the internet directly from your car's dashboard  |  access to news and opinion websites  |  the ability to update social media directly from your car's dashboard  |  a file-sharing service where people you know could send media directly to your ...  |  the ability to view streaming media
+
+</field>
+<field name="facet_Y">
+Connectedness | Consumer
+</field>
+</add></dcoc>

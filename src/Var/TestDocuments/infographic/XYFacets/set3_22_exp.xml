@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_3_22.xml</field>
+<field name="allX">
+ | oct | 2012 | apr | jul
+</field>
+<field name="allXExp">
+time time time time century century century century decade decade decade decade era era era era period period period period fiscal fiscal fiscal fiscal year year year year season season season season quarter quarter quarter quarter month month month month week week week week day day day day date date date date hour hour hour hour age age age age 
+</field>
+<field name="mergedX">
+ | oct | 2012 | apr | jul | time time time time century century century century decade decade decade decade era era era era period period period period fiscal fiscal fiscal fiscal year year year year season season season season quarter quarter quarter quarter month month month month week week week week day day day day date date date date hour hour hour hour age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+oct | 2012 | apr | jul
+</field>
+<field name="otherXExp">
+time time time time century century century century decade decade decade decade era era era era period period period period fiscal fiscal fiscal fiscal year year year year season season season season quarter quarter quarter quarter month month month month week week week week day day day day date date date date hour hour hour hour age age age age 
+</field>
+<field name="merged_otherX">
+oct | 2012 | apr | jul | time time time time century century century century decade decade decade decade era era era era period period period period fiscal fiscal fiscal fiscal year year year year season season season season quarter quarter quarter quarter month month month month week week week week day day day day date date date date hour hour hour hour age age age age 
+</field>
+<field name="Y">
+1 year price - zip
+</field>
+<field name="YExp">
+code office city digits delivery mail example assigned county address citation facility service postnet united located sectional postal post cities barcode names served digit acceptable kentucky postage englewood counties scottsdale 
+</field>
+<field name="merged_Y">
+1 year price - zip | code office city digits delivery mail example assigned county address citation facility service postnet united located sectional postal post cities barcode names served digit acceptable kentucky postage englewood counties scottsdale 
+</field>
+<field name="all">
+ | oct | 2012 | apr | jul | 1 year price - zip |  1 year price - zip 
+</field>
+<field name="allExp">
+code office city digits delivery mail example assigned county address citation facility service postnet united located sectional postal post cities barcode names served digit acceptable kentucky postage englewood counties scottsdale 
+</field>
+<field name="IMCategory">
+Falling_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year | month
+</field>
+<field name="facet_Y">
+Price,_Wisconsin | ZIP_code
+</field>
+</add></dcoc>

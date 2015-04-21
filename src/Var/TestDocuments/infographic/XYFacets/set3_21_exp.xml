@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_3_21.xml</field>
+<field name="allX">
+ | 10am | 12pm | 2pm | 4pm
+</field>
+<field name="allXExp">
+clock clock clock hour hour hour noon noon noon midnight midnight midnight day day day meridiem meridiem meridiem minutes minutes minutes time time time ante ante ante countries countries countries notation notation notation smallcaps smallcaps smallcaps citation citation citation confusion confusion confusion nist nist nist phrases phrases phrases abbreviations abbreviations abbreviations listings listings listings digital digital digital language language language analog analog analog five five five means means means guides guides guides divided divided divided usage usage usage numbered numbered numbered generated generated generated united united united using using using 
+</field>
+<field name="mergedX">
+ | 10am | 12pm | 2pm | 4pm | clock clock clock hour hour hour noon noon noon midnight midnight midnight day day day meridiem meridiem meridiem minutes minutes minutes time time time ante ante ante countries countries countries notation notation notation smallcaps smallcaps smallcaps citation citation citation confusion confusion confusion nist nist nist phrases phrases phrases abbreviations abbreviations abbreviations listings listings listings digital digital digital language language language analog analog analog five five five means means means guides guides guides divided divided divided usage usage usage numbered numbered numbered generated generated generated united united united using using using 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+10am | 12pm | 2pm | 4pm
+</field>
+<field name="otherXExp">
+clock clock clock hour hour hour noon noon noon midnight midnight midnight day day day meridiem meridiem meridiem minutes minutes minutes time time time ante ante ante countries countries countries notation notation notation smallcaps smallcaps smallcaps citation citation citation confusion confusion confusion nist nist nist phrases phrases phrases abbreviations abbreviations abbreviations listings listings listings digital digital digital language language language analog analog analog five five five means means means guides guides guides divided divided divided usage usage usage numbered numbered numbered generated generated generated united united united using using using 
+</field>
+<field name="merged_otherX">
+10am | 12pm | 2pm | 4pm | clock clock clock hour hour hour noon noon noon midnight midnight midnight day day day meridiem meridiem meridiem minutes minutes minutes time time time ante ante ante countries countries countries notation notation notation smallcaps smallcaps smallcaps citation citation citation confusion confusion confusion nist nist nist phrases phrases phrases abbreviations abbreviations abbreviations listings listings listings digital digital digital language language language analog analog analog five five five means means means guides guides guides divided divided divided usage usage usage numbered numbered numbered generated generated generated united united united using using using 
+</field>
+<field name="Y">
+avis budget group car
+</field>
+<field name="YExp">
+automobile company vehicle engine benz production powered daimler companies history automobiles industry vehicles rental gasoline rent combustion electric engines united internal georgano magazine france ford tram fuel energy produced costs 
+</field>
+<field name="merged_Y">
+avis budget group car | automobile company vehicle engine benz production powered daimler companies history automobiles industry vehicles rental gasoline rent combustion electric engines united internal georgano magazine france ford tram fuel energy produced costs 
+</field>
+<field name="all">
+ | 10am | 12pm | 2pm | 4pm | avis budget group car |  avis budget group, inc 
+</field>
+<field name="allExp">
+automobile company vehicle engine benz production powered daimler companies history automobiles industry vehicles rental gasoline rent combustion electric engines united internal georgano magazine france ford tram fuel energy produced costs 
+</field>
+<field name="IMCategory">
+Change_Trend_Return
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+meridiem | citation | midnight | smallcaps | ante | guides | analog | united | clock | noon | digital | usage | divided | notation | means | confusion | generated | five | using | day | numbered | language | hour | countries | phrases | listings | time | minutes | abbreviations | nist
+</field>
+<field name="facet_Y">
+Avis_Rent_a_Car_System | Budget_Rent_a_Car | Automobile
+</field>
+</add></dcoc>

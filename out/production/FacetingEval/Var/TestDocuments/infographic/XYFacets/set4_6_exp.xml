@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_4_6.xml</field>
+<field name="allX">
+ | 2008 | 2009 | 2010
+</field>
+<field name="allXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="mergedX">
+ | 2008 | 2009 | 2010 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2008 | 2009 | 2010
+</field>
+<field name="otherXExp">
+time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="merged_otherX">
+2008 | 2009 | 2010 | time time time century century century decade decade decade era era era period period period fiscal fiscal fiscal year year year season season season quarter quarter quarter month month month week week week day day day date date date hour hour hour age age age 
+</field>
+<field name="Y">
+mobile communications and consumer electronics
+</field>
+<field name="YExp">
+mobile phone telephone communication communications telecommunication telecommunications electronics information digital signal called radio transmission noise frequency history electrical example system morse optical using television charger network modulation semaphore receiver channel 
+</field>
+<field name="merged_Y">
+mobile communications and consumer electronics | mobile phone telephone communication communications telecommunication telecommunications electronics information digital signal called radio transmission noise frequency history electrical example system morse optical using television charger network modulation semaphore receiver channel 
+</field>
+<field name="all">
+ | 2008 | 2009 | 2010 | mobile communications and consumer electronics |  immersion corporation mobile communications and consumer electronics 
+</field>
+<field name="allExp">
+mobile phone telephone communication communications telecommunication telecommunications electronics information digital signal called radio transmission noise frequency history electrical example system morse optical using television charger network modulation semaphore receiver channel 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Mobile_phone | Consumer_electronics
+</field>
+</add></dcoc>

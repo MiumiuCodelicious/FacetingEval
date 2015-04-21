@@ -149,7 +149,7 @@ public class LuceneSolrXML extends Document{
     * */
     public static void main(String args[])  {
 
-        String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Document/testSolrXML.xml";
+        String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Var/Document/testSolrXML.xml";
         System.out.println(" ------------ Testing Class LuceneSolrXML ------------ ");
         LuceneSolrXML testXML = new LuceneSolrXML(testXMLpath);
 

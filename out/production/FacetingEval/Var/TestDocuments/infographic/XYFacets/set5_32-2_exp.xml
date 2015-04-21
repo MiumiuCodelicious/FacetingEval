@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_5_32-2.xml</field>
+<field name="allX">
+ | 2012 | '13
+</field>
+<field name="allXExp">
+time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="mergedX">
+ | 2012 | '13 | time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+2012 | '13
+</field>
+<field name="otherXExp">
+time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="merged_otherX">
+2012 | '13 | time time century century decade decade era era period period fiscal fiscal year year season season quarter quarter month month week week day day date date hour hour age age 
+</field>
+<field name="Y">
+goldman sachs group debt underwriting
+</field>
+<field name="YExp">
+sachs investment firm securities underwriting business bank financial company mortgage money finance exchange trading crisis insurance billion companies treasury united stock goldmansachs september management risk reserve weinberg offering subprime bonds 
+</field>
+<field name="merged_Y">
+goldman sachs group debt underwriting | sachs investment firm securities underwriting business bank financial company mortgage money finance exchange trading crisis insurance billion companies treasury united stock goldmansachs september management risk reserve weinberg offering subprime bonds 
+</field>
+<field name="all">
+ | 2012 | '13 | goldman sachs group debt underwriting |  goldman sachs group's revenue in debt underwriting, quarterly  
+</field>
+<field name="allExp">
+sachs investment firm securities underwriting business bank financial company mortgage money finance exchange trading crisis insurance billion companies treasury united stock goldmansachs september management risk reserve weinberg offering subprime bonds 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Goldman_Sachs | Debt | Underwriting
+</field>
+</add></dcoc>

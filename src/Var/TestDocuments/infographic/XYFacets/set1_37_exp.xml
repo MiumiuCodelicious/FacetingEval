@@ -1,0 +1,52 @@
+<add><doc>
+<field name="id">set_1_37.xml</field>
+<field name="allX">
+ | saturn | volvo | bmw | honda | infiniti | cadillac | toyota | gm | lexus | saab | subaru | acura | rover | jaguar | nissan | mazda | mercedes | isuzu | volkswagen | ford | hyundai | chrysler | audi | kia | porsche
+</field>
+<field name="allXExp">
+company company company company company company company company company company company company company company company company company company company company company company company company company car car car car car car car car car car car car car car car car car car car car car car car car vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production production production production production production production production production production engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle 
+</field>
+<field name="mergedX">
+ | saturn | volvo | bmw | honda | infiniti | cadillac | toyota | gm | lexus | saab | subaru | acura | rover | jaguar | nissan | mazda | mercedes | isuzu | volkswagen | ford | hyundai | chrysler | audi | kia | porsche | company company company company company company company company company company company company company company company company company company company company company company company company company car car car car car car car car car car car car car car car car car car car car car car car car vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production production production production production production production production production production engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+saturn | volvo | bmw | honda | infiniti | cadillac | toyota | gm | lexus | saab | subaru | acura | rover | jaguar | nissan | mazda | mercedes | isuzu | volkswagen | ford | hyundai | chrysler | audi | kia | porsche
+</field>
+<field name="otherXExp">
+company company company company company company company company company company company company company company company company company company company company company company company company company car car car car car car car car car car car car car car car car car car car car car car car car vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production production production production production production production production production production engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile 
+</field>
+<field name="merged_otherX">
+saturn | volvo | bmw | honda | infiniti | cadillac | toyota | gm | lexus | saab | subaru | acura | rover | jaguar | nissan | mazda | mercedes | isuzu | volkswagen | ford | hyundai | chrysler | audi | kia | porsche | company company company company company company company company company company company company company company company company company company company company company company company company company car car car car car car car car car car car car car car car car car car car car car car car car vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles production production production production production production production production production production production production production production production production production production engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine engine vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile automobile 
+</field>
+<field name="Y">
+</field>
+<field name="YExp">
+
+</field>
+<field name="merged_Y">
+
+</field>
+<field name="all">
+ | saturn | volvo | bmw | honda | infiniti | cadillac | toyota | gm | lexus | saab | subaru | acura | rover | jaguar | nissan | mazda | mercedes | isuzu | volkswagen | ford | hyundai | chrysler | audi | kia | porsche |  |  
+</field>
+<field name="allExp">
+
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+engine | car | company | vehicles | production | vehicle |  saturn  |  volvo  |  bmw  |  honda  |  infiniti  |  cadillac  |  toyota  |  gm  |  lexus  |  saab  |  subaru  |  acura  |  rover  |  jaguar  |  nissan  |  mazda  |  mercedes  |  isuzu  |  volkswagen  |  ford  |  hyundai  |  chrysler  |  audi  |  kia  |  porsche
+
+</field>
+</add></dcoc>

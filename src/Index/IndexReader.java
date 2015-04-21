@@ -67,7 +67,7 @@ public class IndexReader implements IndexReaderInterface {
         File docdir = new File(dir);
         if (docdir.exists() && docdir.isDirectory()){
             for (File doc : docdir.listFiles()) {
-                if (doc.getName().contains(".xml")) {
+                if (doc.getName().endsWith(".xml")) {
                     addSingleDoc(doctype, doc.getAbsolutePath());
                 }
             }
@@ -167,13 +167,13 @@ public class IndexReader implements IndexReaderInterface {
     /* Indexed fields and facets defined in schema.xml should be the keys of indexBucket and keys of facetBucket */
     public void printSchema(){
         System.out.println("Schema defined indexed fields: " + indexBucket.keySet().toString());
-        System.out.println("Schema defined facet fields: " + facetBucket.keySet().toString());
+        System.out.println("Schema defined facet fields: " + facetBucket.keySet().toString() + "\n");
     }
 
     public static void main (String args[]){
         IndexReader indexreader = new IndexReader();
         String current = System.getProperty("user.dir");
-        indexreader.buildIndex(current + "/src/TestDocuments/infographic/smallerXYFacets/");
+        indexreader.buildIndex(current + "/src/Var/TestDocuments/infographic/smallerXYFacets/");
         indexreader.printSchema();
 
         indexreader.printAllFacets();

@@ -1,0 +1,55 @@
+<add><doc>
+<field name="id">set_4_61-2.xml</field>
+<field name="allX">
+ | '97 | '98 | '99 | '00 | '01 dotcom crash 9/11 | '02 | '03 | '04 | '05 | '06 | '07 | '08 | '09 recession | '10 | '11
+</field>
+<field name="allXExp">
+time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age 
+</field>
+<field name="mergedX">
+ | '97 | '98 | '99 | '00 | '01 dotcom crash 9/11 | '02 | '03 | '04 | '05 | '06 | '07 | '08 | '09 recession | '10 | '11 | time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+'97 | '98 | '99 | '00 | '01 dotcom crash 9/11 | '02 | '03 | '04 | '05 | '06 | '07 | '08 | '09 recession | '10 | '11
+</field>
+<field name="otherXExp">
+time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age recession economic recessions economy business policy shaped months spending united nber money cycle economics economists gdp unemployment jobs indicators rates activity firms quarters investment stock employment liquidity monetary government depression 
+</field>
+<field name="merged_otherX">
+'97 | '98 | '99 | '00 | '01 dotcom crash 9/11 | '02 | '03 | '04 | '05 | '06 | '07 | '08 | '09 recession | '10 | '11 | time time time time time time time time time time time time time time century century century century century century century century century century century century century century decade decade decade decade decade decade decade decade decade decade decade decade decade decade era era era era era era era era era era era era era era period period period period period period period period period period period period period period fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal fiscal year year year year year year year year year year year year year year season season season season season season season season season season season season season season quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter quarter month month month month month month month month month month month month month month week week week week week week week week week week week week week week day day day day day day day day day day day day day day date date date date date date date date date date date date date date hour hour hour hour hour hour hour hour hour hour hour hour hour hour age age age age age age age age age age age age age age recession economic recessions economy business policy shaped months spending united nber money cycle economics economists gdp unemployment jobs indicators rates activity firms quarters investment stock employment liquidity monetary government depression 
+</field>
+<field name="Y">
+apple's revenue growth rate (year-over-year)
+</field>
+<field name="YExp">
+revenue apple economic income company business accounting sales theory capital inflation money countries financial government companies production services example increase currency macintosh math earnings activities sub population reserve jobs revenues 
+</field>
+<field name="merged_Y">
+apple's revenue growth rate (year-over-year) | revenue apple economic income company business accounting sales theory capital inflation money countries financial government companies production services example increase currency macintosh math earnings activities sub population reserve jobs revenues 
+</field>
+<field name="all">
+ | '97 | '98 | '99 | '00 | '01 dotcom crash 9/11 | '02 | '03 | '04 | '05 | '06 | '07 | '08 | '09 recession | '10 | '11 | apple's revenue growth rate (year-over-year) |  revenue growth rate (year-over-year) "weak" year for apple is a great year for everyone else: 20% y/y growth 
+</field>
+<field name="allExp">
+revenue apple economic income company business accounting sales theory capital inflation money countries financial government companies production services example increase currency macintosh math earnings activities sub population reserve jobs revenues 
+</field>
+<field name="IMCategory">
+Rising_Trend
+</field>
+<field name="Query-Get-Rank">0</field>
+<field name="Query-Maximum-Minimum-Multiple">0</field>
+<field name="Query-Maximum-Minimum-Single">0</field>
+<field name="Query-General-Multiple">0</field>
+<field name="Query-General-Single">0</field>
+<field name="Query-Relative-Difference">0</field>
+<field name="Query-Rank-All">0</field>
+<field name="Query-Trend">6</field>
+<field name="facet_X">
+time | year
+</field>
+<field name="facet_Y">
+Apple_Inc. | Revenue | Compound_annual_growth_rate
+</field>
+</add></dcoc>

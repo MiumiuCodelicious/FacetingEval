@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_1_6-1.xml</field>
+<field name="allX">
+ | gm | ford | toyota | honda | chrysler | nissan | hyundai | volkswagen | subaru | bmw | mazda | mercedes-benz | mitsubishi | jaguar / land rover | suzuki
+</field>
+<field name="allXExp">
+company company company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles car car car car car car car car car car car car vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle motor motor motor motor motor motor motor motor motor production production production production production production production production production engine engine engine engine engine engine engine engine engine 
+</field>
+<field name="mergedX">
+ | gm | ford | toyota | honda | chrysler | nissan | hyundai | volkswagen | subaru | bmw | mazda | mercedes-benz | mitsubishi | jaguar / land rover | suzuki | company company company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles car car car car car car car car car car car car vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle motor motor motor motor motor motor motor motor motor production production production production production production production production production engine engine engine engine engine engine engine engine engine 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+gm | ford | toyota | honda | chrysler | nissan | hyundai | volkswagen | subaru | bmw | mazda | mercedes-benz | mitsubishi | jaguar / land rover | suzuki
+</field>
+<field name="otherXExp">
+company company company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles car car car car car car car car car car car car vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle motor motor motor motor motor motor motor motor motor production production production production production production production production production engine engine engine engine engine engine engine engine engine automotive automotive automotive automotive automotive automotive automotive automotive 
+</field>
+<field name="merged_otherX">
+gm | ford | toyota | honda | chrysler | nissan | hyundai | volkswagen | subaru | bmw | mazda | mercedes-benz | mitsubishi | jaguar / land rover | suzuki | company company company company company company company company company company company company company company company vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles vehicles car car car car car car car car car car car car vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle vehicle motor motor motor motor motor motor motor motor motor production production production production production production production production production engine engine engine engine engine engine engine engine engine automotive automotive automotive automotive automotive automotive automotive automotive 
+</field>
+<field name="Y">
+sales
+</field>
+<field name="YExp">
+sales business selling customer example process customers salesman involves outside citation transaction consumer department organization improve potential service seller departments represents functions agents management information professional salesperson companies engineering parties 
+</field>
+<field name="merged_Y">
+sales | sales business selling customer example process customers salesman involves outside citation transaction consumer department organization improve potential service seller departments represents functions agents management information professional salesperson companies engineering parties 
+</field>
+<field name="all">
+ | gm | ford | toyota | honda | chrysler | nissan | hyundai | volkswagen | subaru | bmw | mazda | mercedes-benz | mitsubishi | jaguar / land rover | suzuki | sales |  sales figure ytd 
+</field>
+<field name="allExp">
+sales business selling customer example process customers salesman involves outside citation transaction consumer department organization improve potential service seller departments represents functions agents management information professional salesperson companies engineering parties 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+engine | car | company | vehicles | production | motor | vehicle |  gm  |  ford  |  toyota  |  honda  |  chrysler  |  nissan  |  hyundai  |  volkswagen  |  subaru  |  bmw  |  mazda  |  mercedes-benz  |  mitsubishi  |  jaguar / land rover  |  suzuki
+
+</field>
+<field name="facet_Y">
+Sales
+</field>
+</add></dcoc>

@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_2_40-2.xml</field>
+<field name="allX">
+ | visa | mastercard | american express | discover | j.c. bamford
+</field>
+<field name="allXExp">
+country country country country united united united united 
+</field>
+<field name="mergedX">
+ | visa | mastercard | american express | discover | j.c. bamford | country country country country united united united united 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+visa | mastercard | american express | discover | j.c. bamford
+</field>
+<field name="otherXExp">
+country country country country united united united united card card card issued issued issued bank bank bank credit credit credit company company company people people people 
+</field>
+<field name="merged_otherX">
+visa | mastercard | american express | discover | j.c. bamford | country country country country united united united united card card card issued issued issued bank bank bank credit credit credit company company company people people people 
+</field>
+<field name="Y">
+total payments volume (united states $ billions)
+</field>
+<field name="YExp">
+united country history population language countries gdp football established territories digit international book canada national nominal languages times kingdom mexico federal house independence people wales university australia family america britain 
+</field>
+<field name="merged_Y">
+total payments volume (united states $ billions) | united country history population language countries gdp football established territories digit international book canada national nominal languages times kingdom mexico federal house independence people wales university australia family america britain 
+</field>
+<field name="all">
+ | visa | mastercard | american express | discover | j.c. bamford | total payments volume (united states $ billions) |  
+</field>
+<field name="allExp">
+united country history population language countries gdp football established territories digit international book canada national nominal languages times kingdom mexico federal house independence people wales university australia family america britain 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+country | united |  visa  |  mastercard  |  american express  |  discover  |  j.c. bamford
+
+</field>
+<field name="facet_Y">
+United_States
+</field>
+</add></dcoc>

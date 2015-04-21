@@ -1,0 +1,56 @@
+<add><doc>
+<field name="id">set_5_4.xml</field>
+<field name="allX">
+ | morgan stanley | goldman sachs | bank of america | jp morgan | citigroup
+</field>
+<field name="allXExp">
+business business business business business company company company company company financial financial financial financial financial companies companies companies companies companies united united united united united management management management management securities securities securities securities september september september september investment investment investment investment services services services services billion billion billion billion finance finance finance finance corporation corporation corporation corporation 
+</field>
+<field name="mergedX">
+ | morgan stanley | goldman sachs | bank of america | jp morgan | citigroup | business business business business business company company company company company financial financial financial financial financial companies companies companies companies companies united united united united united management management management management securities securities securities securities september september september september investment investment investment investment services services services services billion billion billion billion finance finance finance finance corporation corporation corporation corporation 
+</field>
+<field name="focusX">
+</field>
+<field name="otherX">
+morgan stanley | goldman sachs | bank of america | jp morgan | citigroup
+</field>
+<field name="otherXExp">
+business business business business business company company company company company financial financial financial financial financial companies companies companies companies companies united united united united united management management management management securities securities securities securities september september september september investment investment investment investment services services services services billion billion billion billion finance finance finance finance corporation corporation corporation corporation firm firm firm magazine magazine magazine history history history 
+</field>
+<field name="merged_otherX">
+morgan stanley | goldman sachs | bank of america | jp morgan | citigroup | business business business business business company company company company company financial financial financial financial financial companies companies companies companies companies united united united united united management management management management securities securities securities securities september september september september investment investment investment investment services services services services billion billion billion billion finance finance finance finance corporation corporation corporation corporation firm firm firm magazine magazine magazine history history history 
+</field>
+<field name="Y">
+percentage of revenue from equity underwriting in 2012
+</field>
+<field name="YExp">
+stock equity company shares capital finance business shareholders private companies value financial investors securities price investment underwriting money investments revenue exchange venture buying shareholder share financing selling assets preferred accounting 
+</field>
+<field name="merged_Y">
+percentage of revenue from equity underwriting in 2012 | stock equity company shares capital finance business shareholders private companies value financial investors securities price investment underwriting money investments revenue exchange venture buying shareholder share financing selling assets preferred accounting 
+</field>
+<field name="all">
+ | morgan stanley | goldman sachs | bank of america | jp morgan | citigroup | percentage of revenue from equity underwriting in 2012 | 
+</field>
+<field name="allExp">
+stock equity company shares capital finance business shareholders private companies value financial investors securities price investment underwriting money investments revenue exchange venture buying shareholder share financing selling assets preferred accounting 
+</field>
+<field name="IMCategory">
+Rank_All
+</field>
+<field name="Query-Get-Rank">4</field>
+<field name="Query-Maximum-Minimum-Multiple">5</field>
+<field name="Query-Maximum-Minimum-Single">5</field>
+<field name="Query-General-Multiple">6</field>
+<field name="Query-General-Single">6</field>
+<field name="Query-Relative-Difference">2</field>
+<field name="Query-Rank-All">6</field>
+<field name="Query-Trend">1</field>
+<field name="facet_X">
+billion | united | financial | finance | business | september | corporation | company | companies | securities | management | services | investment |  morgan stanley  |  goldman sachs  |  bank of america  |  jp morgan  |  citigroup
+
+</field>
+<field name="facet_Y">
+Revenue | Private_equity | Underwriting
+</field>
+</add></dcoc>
