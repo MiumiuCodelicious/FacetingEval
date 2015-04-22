@@ -33,12 +33,12 @@ public class IndexReader implements IndexReaderInterface {
     }
 
 
+    /* @TODO
+     * build index from a given list of document IDs. */
+    public void buildIndex(String dir, String[] docIDs){
 
-    /*
-    * @TODO Here here. Add a private HashSet<String> facet;
-    * Then in readSchema(), detect defined facet.
-    * Then in IndexReader, all need to be updated as well.
-    * */
+    }
+
 
     /* get schema for multi-field XML or treat as plain document */
     private void setSchemaFields(){
