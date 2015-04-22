@@ -1,7 +1,6 @@
 package Index;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,33 +9,39 @@ import Utility.Options;
 import Utility.Stemmer;
 
 /**
- * Created by Jewel Li on 15-4-4. ivanka@udel.edu
+ * @author Jewel Li on 15-4-4. ivanka@udel.edu
  */
 public class InverseIndex extends Object{
 
-    /* InveredIndex data is implemented as a 2-dimensional ArrayList<Integer> */
-    private int DOC_SIZE = 20;
-    private int WORD_SIZE = 500;
+    /**
+     *  InveredIndex data is implemented as a 2-dimensional ArrayList<Integer>
+     *  */
+    private int DOC_SIZE = 300;
+    private int WORD_SIZE = 2000;
     private int MAX_WORD_LENGTH = 20;
     private ArrayList<ArrayList<Integer>> wordByDocIndex ;
 
-    /* Document frequency list */
+    /**
+     * Document frequency list
+     * */
     private HashMap<String, Integer> docFreq = new HashMap<String, Integer>();
 
-    /* A Map to map word string to its index location */
+    /**
+     * A Map to map word string to its index location
+     * */
     private HashMap<String, Integer> wordMap = new HashMap<String, Integer>();
 
-    /* A map to map doc ID (string) to its index location */
+    /**
+     *  A map to map doc ID (string) to its index location
+     *  */
     private HashMap<String, Integer> docMap = new HashMap<String, Integer>();
 
 
-    /* Simple Initialization of wordByDocIndex into a 1000 * 3000 matrix
+    /** Simple Initialization of wordByDocIndex into a WORD_SIZE * DOC_SIZE matrix
      * @TODO
-     * The initialization is too dirty...
+     * The initialization is dirty...
       * */
     public InverseIndex(){
-//        ArrayList<Integer> postinglist = new ArrayList<Integer>(Collections.nCopies(DOC_SIZE, 0));
-//        this.wordByDocIndex = new ArrayList<ArrayList<Integer>>(Collections.nCopies(WORD_SIZE, postinglist));
        wordByDocIndex = new ArrayList<ArrayList<Integer>>();
         for ( int wi = 0; wi < WORD_SIZE ; wi++){
             ArrayList<Integer>  postinglist = new ArrayList<Integer>();
@@ -49,9 +54,10 @@ public class InverseIndex extends Object{
 
 
 
-    /* ------------------------------------------------------------------------------------------------
-     * Add Document
-     * Return 1 if succeed, otherwise return 0
+    /**
+     * @param d     Add a single document d
+     * @param deliminiter     the deliminiter to use to parse a document, default sholud be white space.
+     * @return 1 if document is successfully added, otherwise 0
      * */
     public int adddoc(Document d, String deliminiter){
         try {
@@ -63,7 +69,6 @@ public class InverseIndex extends Object{
              * 2) increment document frequency
              * 3) add words in d to wordByDocIndex
              * */
-
 
             HashMap<String, Integer> dmap = singleDocMap(d.getProcessedContent(), deliminiter);
             for (String word : dmap.keySet()) {
@@ -89,17 +94,18 @@ public class InverseIndex extends Object{
         return 1;
     }
 
-    /* add a plain text document
-    * Return 1 if succeed, otherwise return 0
-    * */
+    /**
+     * Polymorphism add a plain text document
+     * */
     public int adddoc(PlainText d, String deliminiter){
         adddoc((Document)d, deliminiter);
         return 1;
     }
 
-    /* add a specific field @param field in Lucene or Solr standard XML document
-    * Return 1 if succeed, otherwise return 0
-    * */
+    /**
+     * Polymorphism add a specific field @param field in Lucene or Solr standard XML document
+     * @param fieldname     each field in structured XML document is treated as a single plain text document.
+     * */
     public int adddoc(LuceneSolrXML d, String fieldname){
         /* Get field in d */
         String deliminiter = " ";
@@ -122,9 +128,9 @@ public class InverseIndex extends Object{
         return 1;
     }
 
-    /* add a specific field @param field in an Infographics XML document, which is also in the Lucene or Solr standard XML format
-    * Return 1 if succeed, otherwise return 0
-    * */
+    /**
+     * Polymorphism add a specific field @param field in an Infographics XML document, which is also in the Lucene or Solr standard XML format
+     * */
     public int adddoc(InfographicXML d, String fieldname){
         LuceneSolrXML dd = (LuceneSolrXML)d;
         adddoc((LuceneSolrXML) d, fieldname);
@@ -132,7 +138,9 @@ public class InverseIndex extends Object{
     }
 
 
-    /* Helper function to turn the content string of a document into a HashMap of word by wordcount */
+    /**
+     *  Helper function to turn the content string of a document into a HashMap of word by wordcount
+     *  */
     private HashMap<String, Integer> singleDocMap(String content, String deliminiter){
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         for (String word : content.split(deliminiter)){
@@ -145,36 +153,8 @@ public class InverseIndex extends Object{
 
 
 
-
-
-    /* Get utility functions
-    * ------------------------------------------------------------------------------------------
-    * */
-    public ArrayList<Integer> getPostinglist(String wordkey){
-        int wordindex = this.wordMap.get(wordkey);
-        return this.wordByDocIndex.get(wordindex);
-    }
-
-    public int getIndexOfWord(String word){
-        return this.wordMap.get(word);
-    }
-
-    public int getIndexOfDoc(String docID){
-        return this.docMap.get(docID);
-    }
-
-    public String getWordByIndex(int wordIndex){
-        return getStringByIndex(wordIndex, this.wordMap);
-    }
-
-    public String getDocByIndex(int docIndex){
-        return getStringByIndex(docIndex, this.docMap);
-    }
-
-
-
-    /* Template Functions
-     * -----------------------------------------------------------------------------------------
+    /**
+     *  Template Functions
      */
 
     /* add a T t to a Hashmap, with t being the key, and index as value */
@@ -187,7 +167,11 @@ public class InverseIndex extends Object{
         return map;
     }
 
-    /* Increase the Integer value by 1 given key T */
+    /**
+     *  @param t key data type
+     *  @param map a hashmap HashMap<T, Integer>
+     *  Increament the Integer value of key t by 1
+     *  */
     static <T> HashMap<T, Integer> incrementMap(T t, HashMap<T, Integer> map){
         if (map != null && t != null){
             if (map.containsKey(t)){
@@ -210,16 +194,42 @@ public class InverseIndex extends Object{
     }
 
 
-    /* Regular Get and Set Functions
-     * -----------------------------------------------------------------------------------------
-     */
+    /**
+     *  Regular Get and Set functions for private class variables
+     * */
 
-    /* get function for the wordMap, containing each word and its index in the inversed index */
+     public ArrayList<Integer> getPostinglist(String wordkey){
+        int wordindex = this.wordMap.get(wordkey);
+        return this.wordByDocIndex.get(wordindex);
+    }
+
+    public int getIndexOfWord(String word){
+        return this.wordMap.get(word);
+    }
+
+    public int getIndexOfDoc(String docID){
+        return this.docMap.get(docID);
+    }
+
+    public String getWordByIndex(int wordIndex){
+        return getStringByIndex(wordIndex, this.wordMap);
+    }
+
+    public String getDocByIndex(int docIndex){
+        return getStringByIndex(docIndex, this.docMap);
+    }
+
+
+    /**
+     *  get function for the wordMap, containing each word and its index in the inversed index
+     *  */
     public HashMap<String, Integer> getWordMap(){
         return this.wordMap;
     }
 
-    /* get function for the docMap, containing eaach document's docID and its index in the inversed index */
+    /**
+     * get function for the docMap, containing eaach document's docID and its index in the inversed index
+     * */
     public HashMap<String, Integer> getDocMap(){
         return this.docMap;
     }

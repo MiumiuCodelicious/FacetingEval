@@ -6,7 +6,10 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 /**
- * Created by Jewel Li on 15-4-5. ivanka@udel.edu
+ * @author Jewel Li on 15-4-5. ivanka@udel.edu
+ * Default (..and hard coded..) path to schema.xml is under /src/schema.xml
+ * @TODO Instead of hard coding schema file path, let users define it in config.xml
+ * @TODO Use Java XML document processor!
  */
 public class SchemaReader {
 
@@ -67,6 +70,11 @@ public class SchemaReader {
         }
     }
 
+    /**
+     * @param v     field attribute, "name", "indexed", "stored", "multiValued", "faceted"
+     * @param line  a line in schema.xml
+     * @return the actual value
+     */
     private String getFieldValue(String v, String line) {
         Pattern p = Pattern.compile(v + "( *)=( *)\"");
         Pattern p_end = Pattern.compile(v + "( *)=( *)\"([a-zA-Z0-9_-]+)\"");
@@ -79,6 +87,12 @@ public class SchemaReader {
         }
     }
 
+    /**
+     * @param fieldname     user defined XML field name
+     * @param v             the attribute of this field
+     * @param line          a line in schema.xml
+     * @param set           which field set to add this field to
+     */
     private void addField(String fieldname, String v, String line, HashSet<String> set){
         String value = getFieldValue(v, line);
         if (value != null && value.equals("true")){

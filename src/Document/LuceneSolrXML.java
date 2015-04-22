@@ -5,11 +5,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.HashMap;
 /**
- * Created by Jewel Li on 15-4-3. ivanka@udel.edu
+ * @author Jewel Li on 15-4-3. ivanka@udel.edu
  *
  * Document objects for standard XML used by Lucene and Solr.
  *
- * Note!!!: this class process Lucene/Solr XMLs assuming all XML fields start with a new line!!!
+ * IMPORTANT: this class process Lucene/Solr XMLs assuming all XML fields start with a new line!!!
  *
  * Example XML below:
  * <add>
@@ -73,7 +73,7 @@ public class LuceneSolrXML extends Document{
 
 
 
-    /*
+    /**
      * Extract each "field"-"content list" list pair into HashMap
      * Field name will be keys in the returned HashMap
      * Field values (use list because multiple values might exist in XML) are values in the returned HashMap
@@ -144,9 +144,6 @@ public class LuceneSolrXML extends Document{
 
 
 
-    /*
-    * Test main function
-    * */
     public static void main(String args[])  {
 
         String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Var/Document/testSolrXML.xml";

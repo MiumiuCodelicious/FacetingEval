@@ -6,10 +6,12 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 /**
- * Created by Jewel Li on 15-4-17. ivanka@udel.edu
+ * @author Jewel Li on 15-4-17. ivanka@udel.edu
  *
- * You can define your own query ID, and store the query ID to actual query mapping in a separate file, named for example "QueryMapping.txt".
- * The Ranked Result file must follow this format:
+ * @param result_path  a string path to the text file storing ranked list of documents for each query (details below)
+ * @param query_map_path   a string path to the text file storing the mapping of each query to a unique String type Qid (query id)
+ *
+ * The Ranked Result file (result_path) must follow this format:
  * --------------------------------+
  * Qid: 2.3.3                      |
  * DocID1   5.81916274628  1       |
@@ -21,6 +23,11 @@ import java.util.regex.Matcher;
  * The third field is optional. Query Qid, DocID, and score are mandatory.
  *
  * IMPORTANT: No empty is allowed between the retrieved documents for each query.
+ *
+ *
+ * In the query mapping file (query_map_path), you can define your own query ID,
+ * and store the query ID to actual query mapping in a separate file,
+ * example in the unit test main function: "/src/Var/QueryMap.txt".
  *
  */
 public class ReadRankedResult implements ReadRankedResultInterface {
@@ -37,19 +44,22 @@ public class ReadRankedResult implements ReadRankedResultInterface {
     }
 
 
-    /* read ranked result of 1 or more queries */
+    /**
+     * @param resultPath    a text file storing the ranked list of documents for each query. Format defined in class comment.
+     *  read ranked result of 1 or more queries
+     *  */
     private void readRankedResult(String resultPath){
         String resultContent = Document.readdoc(resultPath);
         /* chunk up the entire file into retrieval results for each query */
         StringBuilder perQueryBuilder = new StringBuilder();
         String prevQid = "";
-        prevQid = getQid( resultContent.split("\n")[0] );
+        prevQid = extractQid(resultContent.split("\n")[0]);
         for ( String line : resultContent.split("\n") ){
-            if ( getQid(line) != null ){
+            if ( extractQid(line) != null ){
                 if (perQueryBuilder.length() > 1) {
                     perQueryBuilder.deleteCharAt(perQueryBuilder.lastIndexOf("\n"));
-                    resultPerQuery(prevQid, perQueryBuilder);
-                    prevQid = getQid(line);
+                    resultPerQuery(prevQid, perQueryBuilder.toString());
+                    prevQid = extractQid(line);
                 }
                 perQueryBuilder.setLength(0);
                 continue;
@@ -59,9 +69,13 @@ public class ReadRankedResult implements ReadRankedResultInterface {
     }
 
 
-    /* read ranked result for a single query */
-    private void resultPerQuery(String Qid, StringBuilder perQueryBuilder){
-        String[] lines =  perQueryBuilder.toString().split("\n");
+    /**
+     * @param Qid                   a String unique query ID
+     * @param perQueryResult        a StringBuilder containing the ranked list of documents for the query Qid.
+     * read ranked result for a single query
+     * */
+    private void resultPerQuery(String Qid, String perQueryResult){
+        String[] lines =  perQueryResult.split("\n");
         String[][] results = new String[lines.length][3];
         int index = 0;
         for ( String line : lines ) {
@@ -78,7 +92,7 @@ public class ReadRankedResult implements ReadRankedResultInterface {
 
 
 
-    private String getQid(String line){
+    private String extractQid(String line){
         Pattern p_id = Pattern.compile("qid:");
         Matcher m_id = p_id.matcher(line.toLowerCase());
         if (m_id.find()){
@@ -89,14 +103,17 @@ public class ReadRankedResult implements ReadRankedResultInterface {
     }
 
 
-    /* read in query Map */
+    /**
+     *  @param queryPath    the String file path to a file mapping each query to a query ID. See format in class comment.
+     *  read in query Map
+     *  */
     private void readQueries(String queryPath){
         String queries = Document.readdoc(queryPath);
         String qid = "";
         // read queries line by line.
         for (String line : queries.split("\n")){
-            if ( getQid(line) != null){
-                qid = getQid(line);
+            if ( extractQid(line) != null){
+                qid = extractQid(line);
             }else if( line.length() > 3 && !qid.equals("") ){
                 queryMap.put( qid, line );
             }
@@ -111,8 +128,20 @@ public class ReadRankedResult implements ReadRankedResultInterface {
         return this.resultMap;
     }
 
+    /**
+     * @param Qid   String query ID
+     * @return  2-D String array [each document][docID, score, relevance]
+     */
+    public String[][] getResult(String Qid){
+        if (resultMap.containsKey(Qid)){
+            return resultMap.get(Qid);
+        }
+        return null;
+    }
 
-    /* Entire ranked result to string */
+    /**
+     * Entire ranked result to string
+     * */
     public String toString(){
         StringBuilder query = new StringBuilder();
         for ( String Qid :  resultMap.keySet() ){
@@ -122,9 +151,14 @@ public class ReadRankedResult implements ReadRankedResultInterface {
     }
 
 
-    /* Ranked result for a particular query to string */
+    /**
+     *  @param Qid      result for a particular query (with ID = Qid) to string
+     *  */
     public String toString(String Qid){
         StringBuilder result = new StringBuilder();
+        if (!resultMap.containsKey(Qid)) {
+            return null;
+        }
         for ( String[] doc : resultMap.get(Qid) ){
             result.append( doc[0] + "\t" + doc[1] + "\t" + doc[2] + "\n");
         }

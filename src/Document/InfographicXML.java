@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * Created by Jewel Li on 15-4-3. ivanka@udel.edu
+ * @author Jewel Li on 15-4-3. ivanka@udel.edu
  */
 public class InfographicXML extends LuceneSolrXML {
 

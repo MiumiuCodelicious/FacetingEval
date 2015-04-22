@@ -2,7 +2,7 @@ package Utility;
 import java.util.HashSet;
 
 /**
- * Created by Jewel Li on 15-4-3. ivanka@udel.edu
+ * @author Jewel Li on 15-4-3. ivanka@udel.edu
  */
 public class StopWordHandler {
 

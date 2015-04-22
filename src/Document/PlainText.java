@@ -1,8 +1,10 @@
 package Document;
 
 /**
- * Created by Jewel Li on 15-4-4. ivanka@udel.edu
+ * @author Jewel Li on 15-4-4. ivanka@udel.edu
+ * This is the simplest implementation of plain text documents
  */
+
 public class PlainText extends Document {
 
     public PlainText(String filelocation){
@@ -16,7 +18,6 @@ public class PlainText extends Document {
     public PlainText(String filelocation, String filecontent, String docID) { super(filelocation, filecontent, docID); }
 
 
-    /* This is the simplest implementation of plain text documents */
     public static void main (String args[]){
         String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Document/ArthurRimbaud.txt";
 

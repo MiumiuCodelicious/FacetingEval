@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.io.File;
 
 /**
- * Created by Jewel Li on 15-4-5. ivanka@udel.edu
+ * @author Jewel Li on 15-4-5. ivanka@udel.edu
  */
 public class IndexReader implements IndexReaderInterface {
 
@@ -17,14 +17,16 @@ public class IndexReader implements IndexReaderInterface {
     private HashMap<String, InverseIndex> facetBucket;
     private String doctype;
 
-    /* Constructor */
+    /** Constructor */
     public IndexReader(){
 
     }
 
 
 
-    /* build index from a given directory. the directory must be flat-structured */
+    /**
+     * build index from a given directory. the directory must be flat-structured. No recursive index.
+     * */
     public void buildIndex(String dir){
         indexBucket = new HashMap<String, InverseIndex>();
         facetBucket = new HashMap<String, InverseIndex>();
@@ -33,14 +35,17 @@ public class IndexReader implements IndexReaderInterface {
     }
 
 
-    /* @TODO
-     * build index from a given list of document IDs. */
+    /**
+     * @TODO build index from a given list of document IDs. */
     public void buildIndex(String dir, String[] docIDs){
 
     }
 
 
-    /* get schema for multi-field XML or treat as plain document */
+    /**
+     * WARNING: the location to schema file is hard coded: /src/schema.xml
+     * get schema defined in /src/schema.xml for multi-field XML or treat as plain document
+     *  */
     private void setSchemaFields(){
         SchemaReader schema = new SchemaReader();
         if (schema.readSchema() == -1 ) {System.out.println("Error, schema not read."); return;}
@@ -119,10 +124,10 @@ public class IndexReader implements IndexReaderInterface {
     }
 
 
-    /* write entire index to file
-    * @TODO
-    * Haven't figured this out yet..
-    * */
+    /**
+     *  write entire index to file
+     * @TODO Haven't figured this out yet..
+     * */
     public void writeIndex(){}
 
 
@@ -130,25 +135,35 @@ public class IndexReader implements IndexReaderInterface {
         return this.doctype;
     }
 
-    /* Print a single field index */
+    /**
+     * Print a single field index
+     *  */
     public void printIndex(String field){
         printIndex(indexBucket, field);
     }
 
-    /* Print each field index in the entire index bucket */
+    /**
+     * Print each field index in the entire index bucket
+     *  */
     public void printAllIndexes(){
         printAllIndexes(indexBucket);
     }
 
-    /* Print a single facet index */
+    /**
+     * Print a single facet index
+     *  */
     public void printFacet(String facet){
         printIndex(facetBucket, facet);
     }
 
-    /* Print each facet index in the entire facet bucket */
+    /**
+     * Print each facet index in the entire facet bucket
+     * */
     public void printAllFacets(){
         printAllIndexes(facetBucket);
     }
+
+
 
     static <T> void printIndex( HashMap<String,InverseIndex> bucket, String field){
         if ( bucket != null && bucket.containsKey(field) ){
@@ -164,7 +179,9 @@ public class IndexReader implements IndexReaderInterface {
         }
     }
 
-    /* Indexed fields and facets defined in schema.xml should be the keys of indexBucket and keys of facetBucket */
+    /**
+     * Indexed fields and facets defined in schema.xml should be the keys of indexBucket and keys of facetBucket
+     * */
     public void printSchema(){
         System.out.println("Schema defined indexed fields: " + indexBucket.keySet().toString());
         System.out.println("Schema defined facet fields: " + facetBucket.keySet().toString() + "\n");
@@ -173,7 +190,7 @@ public class IndexReader implements IndexReaderInterface {
     public static void main (String args[]){
         IndexReader indexreader = new IndexReader();
         String current = System.getProperty("user.dir");
-        indexreader.buildIndex(current + "/src/Var/TestDocuments/infographic/smallerXYFacets/");
+        indexreader.buildIndex(current + "/src/Var/TestDocuments/infographic/XYFacets/");
         indexreader.printSchema();
 
         indexreader.printAllFacets();

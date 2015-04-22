@@ -1,7 +1,7 @@
 package Score;
 
 /**
- * Created by Jewel Li on 15-4-5. ivanka@udel.edu
+ * @author Jewel Li on 15-4-5. ivanka@udel.edu
  */
 public class BM25Similarity extends Similarity{
 

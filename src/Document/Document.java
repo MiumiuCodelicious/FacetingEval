@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 /**
- * Created by Jewel Li on 15-4-3. ivanka@udel.edu
+ * @author Jewel Li on 15-4-3. ivanka@udel.edu
  *
  * Generic document class.
  */
@@ -17,7 +17,10 @@ public abstract class Document extends Object{
     protected String plainContent;
     protected String processedContent;
 
-    /* Constructor 1 with minimum control */
+    /**
+     * @param filelocation the path to the file
+     * Constructor with minimum control
+     * */
     public Document(String filelocation){
         this.filelocation = filelocation;
         setDefautDocID(filelocation);
@@ -25,7 +28,9 @@ public abstract class Document extends Object{
         setProcessedContent();
     }
 
-    /* Constructor give control to set docID */
+    /**
+     * Constructor give control to set docID
+     * */
     public Document(String filelocation, String docID){
         this(filelocation);
         this.docID = docID;
@@ -39,9 +44,10 @@ public abstract class Document extends Object{
 
 
 
-    /* The default docID will be the document name
-    * Careful if your document may have the same names!
-    * */
+    /**
+     * The default docID will be the document name
+     * Will cause ERROR if your documents have duplicate names!
+     * */
     private void setDefautDocID(String filelocation){
         this.docID = filelocation.substring( filelocation.lastIndexOf("/")+1 , filelocation.length() );
     }
@@ -68,9 +74,9 @@ public abstract class Document extends Object{
         return this.processedContent;
     }
 
-    /*
-    * Static method readdoc() can read any pure text document given it's file location
-    * */
+    /**
+     * Static method readdoc() can read any pure text document given it's file location
+     * */
     public static String readdoc(String filelocation) {
         String readstr = "";
         File f = new File(filelocation);
@@ -93,10 +99,12 @@ public abstract class Document extends Object{
             return null;
     }
 
-    /*
-    * A basic document processing function
-    * To lowercase
-    * Remove anything that is not made of alphabets or numbers: punctuations, 's, stop words
+    /**
+     * @param filecontent String content of the file
+     * A basic document processing function
+     * Lowercase
+     * Remove anything that is not made of alphabets, "|", or numbers: punctuations, 's, stop words
+     * "|" is maintained because it is used as facet value deliminiter.
     * */
 
     public static String process(String filecontent){
