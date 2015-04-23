@@ -198,23 +198,69 @@ public class InverseIndex extends Object{
      *  Regular Get and Set functions for private class variables
      * */
 
+    /**
+     * @param wordkey   when you just know the word itself in string, retrieve it's posting list with this function.
+     * @return  the posting list of the given word
+     */
      public ArrayList<Integer> getPostinglist(String wordkey){
-        int wordindex = this.wordMap.get(wordkey);
-        return this.wordByDocIndex.get(wordindex);
+         int wordindex = -1;
+         if ( wordByDocIndex != null &&  (wordindex = this.wordMap.get(wordkey)) != -1 && wordindex < WORD_SIZE ) {
+             return this.wordByDocIndex.get(wordindex);
+         }else{
+            return null;
+         }
     }
 
+    /**
+     *
+     * @param wordindex when you already know the word index, retrieve it's posting list with this function.
+     * @return  the posting list of the given word
+     */
+    public ArrayList<Integer> getPostinglist(int wordindex){
+        if ( wordByDocIndex != null && wordindex > -1 && wordindex < WORD_SIZE) {
+            return this.wordByDocIndex.get(wordindex);
+        }else{
+            return null;
+        }
+    }
+
+
+    /**
+     * @param word   get the integer index of the word
+     * @return  integer index of the word
+     */
     public int getIndexOfWord(String word){
-        return this.wordMap.get(word);
+        if (wordMap != null && wordMap.containsKey(word)){
+            return this.wordMap.get(word);
+        }else{
+            return -1;
+        }
     }
 
-    public int getIndexOfDoc(String docID){
-        return this.docMap.get(docID);
+    /**
+     * @param docID   get the integer index of the document
+     * @return  integer index of the document
+     */
+    public int getIndexOfDoc(String docID) {
+        if (docMap != null && docMap.containsKey(docID)) {
+            return this.docMap.get(docID);
+        }else{
+            return -1;
+        }
     }
 
+    /**
+     * @param wordIndex   get the actual word given an integer index
+     * @return  the actual word in String
+     */
     public String getWordByIndex(int wordIndex){
         return getStringByIndex(wordIndex, this.wordMap);
     }
 
+    /**
+     * @param docIndex   get the actual document ID (name) given an integer index
+     * @return  the actual document ID (name) in String
+     */
     public String getDocByIndex(int docIndex){
         return getStringByIndex(docIndex, this.docMap);
     }

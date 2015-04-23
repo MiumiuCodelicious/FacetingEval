@@ -18,13 +18,22 @@ import java.util.ArrayList;
 
 public interface FacetStatsInterface {
 
+
     /**
-     * @return <code>ArrayList<String></code> of facet values
+     * @param docID a single document ID
+     * @return <code>ArrayList<String></code> of facet values in a single document
      * */
     ArrayList<String> getDocFacets(String docID);
 
-    getFacets();
+    /**
+     * @return  the average number of facet values in the collection
+     * */
+    float avgFacetNum();
 
+    /**
+     * @return  the average number of documents for each facet value
+     * */
+    float avgDocNum();
 
 
 

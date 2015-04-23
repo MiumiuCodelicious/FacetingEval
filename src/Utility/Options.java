@@ -5,7 +5,12 @@ package Utility;
  */
 public class Options {
 
-    public static boolean DEBUG = true;
+    public static boolean DEBUG = false;
+
+    /**
+     * @see Index.IndexReader  When printing a portion of the index, how many words and documents to print
+     * @see Index.IndexReaderInterface
+     */
     public static int MAX_INDEX_WORDS_TO_PRINT = 500;
     public static int MAX_INDEX_DOCS_TO_PRINT = 30;
 

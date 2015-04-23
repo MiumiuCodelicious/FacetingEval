@@ -6,6 +6,7 @@ import Document.PlainText;
 import Utility.Options;
 
 import java.util.HashMap;
+import java.util.Set;
 import java.io.File;
 
 /**
@@ -15,7 +16,7 @@ public class IndexReader implements IndexReaderInterface {
 
     private HashMap<String, InverseIndex> indexBucket;
     private HashMap<String, InverseIndex> facetBucket;
-    private String doctype;
+    private String doctype = "plaintext";
 
     /** Constructor */
     public IndexReader(){
@@ -31,14 +32,7 @@ public class IndexReader implements IndexReaderInterface {
         indexBucket = new HashMap<String, InverseIndex>();
         facetBucket = new HashMap<String, InverseIndex>();
         setSchemaFields();
-        readdocs(dir, this.getDoctype());
-    }
-
-
-    /**
-     * @TODO build index from a given list of document IDs. */
-    public void buildIndex(String dir, String[] docIDs){
-
+        readdocs(dir, this.getDocType());
     }
 
 
@@ -131,9 +125,83 @@ public class IndexReader implements IndexReaderInterface {
     public void writeIndex(){}
 
 
-    public String getDoctype(){
+    public String getDocType(){
         return this.doctype;
     }
+
+    /**
+     * From the indexed index bucket, get a field index.
+     * @param field     field name
+     * @return  the inverse index of the given field
+     */
+    public InverseIndex getIndex(String field){
+        return getFromBucket(field, this.indexBucket);
+    }
+
+    /**
+     * From the indexed index bucket, get a field index.
+     * @param facet     facet name
+     * @return  the inverse index of the given facet
+     */
+    public InverseIndex getFacetIndex(String facet) {
+        return getFromBucket(facet, this.facetBucket);
+    }
+
+    /**
+     * @param key       field name
+     * @param bucket    inverse index bucket
+     * @param <T>       inverse index
+     * @return          return the index of the given field
+     * Template function to get a single field index from a bucket.
+     * Bucket is a <code>HashMap<String, InverseIndex></code>.
+     * Field name is a string, which is also the key in the bucket.
+     */
+    public <T> T getFromBucket(String key, HashMap<String, T> bucket) {
+        if (bucket != null) {
+            if (bucket.containsKey(key)) {
+                return bucket.get(key);
+            }else{
+                System.out.println("Indexed document type " + getDocType() + " does not contain " + key + " field.");
+                return null;
+            }
+        }
+        System.out.println("The given inverse index bucket is empty.");
+        return null;
+    }
+
+    /**
+     * Get all indexed fields defined by user in schema.xml
+     * @return  a set of field names in string type.
+     */
+    public Set<String> getIndexedFields(){
+        return getKeyset(this.indexBucket);
+    }
+
+    /**
+     * Get all facet values defined by user in schema.xml
+     * @return  set of facet values in String type.
+     */
+    public Set<String> getFacetedFields(){
+        return getKeyset(this.facetBucket);
+    }
+
+    /**
+     * Template function for getting the entire key set from a inverse index bucket (HashMap).
+     * @param bucket    inverse index bucket <code>HashMap<String, InverseIndex></></code>
+     * @param <K>       key, string type field/facet name.
+     * @param <T>       inverse index.
+     * @return          key set
+     */
+    public <K, T> Set<K> getKeyset(HashMap<K, T> bucket){
+        if (bucket != null){
+            return bucket.keySet();
+        }else{
+            System.out.println("The given inverse index bucket is empty.");
+            return null;
+        }
+    }
+
+
 
     /**
      * Print a single field index
@@ -186,6 +254,8 @@ public class IndexReader implements IndexReaderInterface {
         System.out.println("Schema defined indexed fields: " + indexBucket.keySet().toString());
         System.out.println("Schema defined facet fields: " + facetBucket.keySet().toString() + "\n");
     }
+
+
 
     public static void main (String args[]){
         IndexReader indexreader = new IndexReader();
