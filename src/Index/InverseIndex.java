@@ -111,7 +111,7 @@ public class InverseIndex extends Object{
         String deliminiter = " ";
         ArrayList<String> fieldlist;
         if (fieldname.contains("facet")){
-            deliminiter = "\\|";
+            deliminiter = "\\s*\\|\\s*";
         }
         fieldlist = d.getFieldMap().get(fieldname);
         String fieldcontent = "";
@@ -144,8 +144,8 @@ public class InverseIndex extends Object{
     private HashMap<String, Integer> singleDocMap(String content, String deliminiter){
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         for (String word : content.split(deliminiter)){
-            if (word.length() > 2) {
-                map = incrementMap(Stemmer.mystem(word), map);
+            if (word.trim().length() > 2) {
+                map = incrementMap(Stemmer.mystem(word.trim()), map);
             }
         }
         return map;
@@ -204,7 +204,7 @@ public class InverseIndex extends Object{
      */
      public ArrayList<Integer> getPostinglist(String wordkey){
          int wordindex = -1;
-         if ( wordByDocIndex != null &&  (wordindex = this.wordMap.get(wordkey)) != -1 && wordindex < WORD_SIZE ) {
+         if ( wordByDocIndex != null &&  (wordindex = getIndexOfWord(wordkey)) != -1 && wordindex < WORD_SIZE ) {
              return this.wordByDocIndex.get(wordindex);
          }else{
             return null;

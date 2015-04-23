@@ -2,6 +2,7 @@ package Faceting;
 
 import Index.InverseIndex;
 
+import java.lang.reflect.Array;
 import java.util.*;
 import java.util.Map.Entry;
 
@@ -65,7 +66,10 @@ public class FacetStats implements FacetStatsInterface {
         }
         ArrayList<String> facetlist = new ArrayList<String>();
         int doc = facetIndex.getIndexOfDoc(docID);
-        if (doc < 0 ) { return null; }
+        if (doc < 0 ) {
+            System.out.println("Erorr: no such document " + docID + ".");
+            return null;
+        }
 
         // for each facet value in the facet index, check if tagged in this document
         for (int fvindex = 0; fvindex < facetIndex.getWORD_SIZE(); fvindex ++ ){
@@ -76,6 +80,32 @@ public class FacetStats implements FacetStatsInterface {
         return facetlist;
     }
 
+
+    /**
+     * Given a facet value name, return an ArrayList of all documents tagged with it.
+     * @param facetname     String facet value name
+     * @return  an <code>ArrayList<String></code> of document IDs.
+     */
+    public ArrayList<String> getFacetDocs( String facetname ){
+        if (facetIndex == null){
+            System.out.println("Error: no facet index is given. ");
+            return null;
+        }
+        ArrayList<String> doclist = new ArrayList<String>();
+        ArrayList<Integer> postinglist = facetIndex.getPostinglist(facetname);
+
+        if ( postinglist == null){
+            System.out.println("Error: no such facet value " + facetname + ".");
+            return null;
+        }
+
+        for ( int doc = 0; doc < facetIndex.getDOC_SIZE(); doc ++ ){
+            if ( postinglist.get(doc) > 0){
+                doclist.add( facetIndex.getDocByIndex(doc) );
+            }
+        }
+        return doclist;
+    }
 
 
     /**
@@ -96,7 +126,10 @@ public class FacetStats implements FacetStatsInterface {
      * Keys in docCover is each document ID, values are the number of facet values in each document.
      */
     private void setDocCover() {
-        if (docMap == null){ return; }
+        if (docMap == null){
+            System.out.println("Error: Index is empty.");
+            return;
+        }
         for (String docID : docMap.keySet()) {
             docCover.put(docID, getDocFacets(docID).size());
         }
@@ -109,7 +142,10 @@ public class FacetStats implements FacetStatsInterface {
      * Keys in facetCover is each facet value, values are the number of documents tagged with each facet value.
      */
     private void setFacetCover(){
-        if (facetMap == null) { return; }
+        if (facetMap == null) {
+            System.out.println("Erorr: No facets indexed.");
+            return;
+        }
         for (String facetname : facetMap.keySet()){
             int total = 0 ;
             for ( int doc : facetIndex.getPostinglist(facetname) ){
@@ -169,10 +205,13 @@ public class FacetStats implements FacetStatsInterface {
         List<Entry<String, Integer>> sortedFacets = sortMapComparator(map, asc);
         int counter = 0;
         for (Map.Entry<String, Integer> entry : sortedFacets) {
-            if (counter > 10) {
+            if (counter > 30) {
                 break;
             }
             counter ++;
+            if (entry.getKey().equals("revenue ")) {
+                System.out.println("Revenue exists!!!!");
+            }
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
         System.out.println();
@@ -235,16 +274,24 @@ public class FacetStats implements FacetStatsInterface {
         for ( String facetname : indexreader.getFacetedFields() ){
             System.out.println("Analyzing Facet field " + facetname + "..................");
             FacetStats fstats = new FacetStats( indexreader.getFacetIndex(facetname) );
-            String expdoc = "set5_9-2_exp.xml";
-            System.out.println(expdoc + " is tagged with" + facetname + " values: " + fstats.getDocFacets(expdoc).toString() );
+
+//            String expdoc = "set1_10_exp.xml";
+//            System.out.println(expdoc + " is tagged with" + facetname + " values: " + fstats.getDocFacets(expdoc).toString() );
+            String expfacet = "revenue";
+            ArrayList<String> doclist;
+            if ( (doclist = fstats.getFacetDocs(expfacet)) != null) {
+                System.out.println("Documents tagged with " + expfacet + " in " + facetname + " are : " + doclist.toString());
+            }
 
             System.out.println("Average" + facetname + " value number in each document is " + fstats.avgFacetNum() );
             System.out.println("Average document number tagged with each facet value " + facetname + " is : " + fstats.avgDocNum() );
+            System.out.println("");
 
             fstats.printTopFacet();
             fstats.printBottomFacet();
             fstats.printTopDoc();
             fstats.printBottomDoc();
+
 
             System.out.println("");
 
