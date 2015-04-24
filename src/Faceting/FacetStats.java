@@ -209,10 +209,7 @@ public class FacetStats implements FacetStatsInterface {
                 break;
             }
             counter ++;
-            if (entry.getKey().equals("revenue ")) {
-                System.out.println("Revenue exists!!!!");
-            }
-            System.out.println(entry.getKey() + ": " + entry.getValue());
+            System.out.println("\t" + entry.getKey() + " : " + entry.getValue());
         }
         System.out.println();
     }
@@ -265,26 +262,31 @@ public class FacetStats implements FacetStatsInterface {
 
 
     public static void main (String args[]){
+        /*
+         The following code block is to create inverse indexes of a given document collection.
+         This prep work must be done to analyze facet statistics.
+         */
         Index.IndexReader indexreader = new Index.IndexReader();
         String current = System.getProperty("user.dir");
         indexreader.buildIndex(current + "/src/Var/TestDocuments/infographic/XYFacets/");
         indexreader.printAllFacets();
 
+
         System.out.println(" -------- Facet Index Prepared -------- ");
         for ( String facetname : indexreader.getFacetedFields() ){
-            System.out.println("Analyzing Facet field " + facetname + "..................");
+            System.out.println("Analyzing Facet field " + facetname + "..................\n");
             FacetStats fstats = new FacetStats( indexreader.getFacetIndex(facetname) );
 
-//            String expdoc = "set1_10_exp.xml";
+//            String expdoc = "set3_21_exp.xml";
 //            System.out.println(expdoc + " is tagged with" + facetname + " values: " + fstats.getDocFacets(expdoc).toString() );
-            String expfacet = "revenue";
-            ArrayList<String> doclist;
-            if ( (doclist = fstats.getFacetDocs(expfacet)) != null) {
-                System.out.println("Documents tagged with " + expfacet + " in " + facetname + " are : " + doclist.toString());
-            }
+//            String expfacet = "revenue";
+//            ArrayList<String> doclist;
+//            if ( (doclist = fstats.getFacetDocs(expfacet)) != null) {
+//                System.out.println("Documents tagged with " + expfacet + " in " + facetname + " are : " + doclist.toString());
+//            }
 
-            System.out.println("Average" + facetname + " value number in each document is " + fstats.avgFacetNum() );
-            System.out.println("Average document number tagged with each facet value " + facetname + " is : " + fstats.avgDocNum() );
+            System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum() );
+            System.out.println("Average number of documents tagged with each facet value in the " + facetname + " field is : " + fstats.avgDocNum() );
             System.out.println("");
 
             fstats.printTopFacet();
