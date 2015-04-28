@@ -26,6 +26,7 @@ public class IndexReader implements IndexReaderInterface {
 
 
     /**
+     * @param dir  relative (to project home) directory to files to index.
      * build index from a given directory. the directory must be flat-structured. No recursive index.
      * */
     public void buildIndex(String dir){
@@ -35,6 +36,17 @@ public class IndexReader implements IndexReaderInterface {
         readdocs(dir, this.getDocType());
     }
 
+    /**
+     * Second Constructor: build index from a given directory, only index the given list of documents
+     * @param dir   relative (to project home) directory to files to index.
+     * @param docIDs    a list of document IDs to to be indexed.
+     */
+    public void buildIndex(String dir, String[] docIDs){
+        indexBucket = new HashMap<String, InverseIndex>();
+        facetBucket = new HashMap<String, InverseIndex>();
+        setSchemaFields();
+        readdocs(dir, this.getDocType(), docIDs);
+    }
 
     /**
      * WARNING: the location to schema file is hard coded: /src/schema.xml
@@ -71,7 +83,23 @@ public class IndexReader implements IndexReaderInterface {
                 }
             }
         }
+    }
 
+    public void readdocs(String dir, String doctype, String[] docIDs){
+        File docdir = new File(dir);
+        if (docdir.exists() && docdir.isDirectory()){
+            for (String doc : docIDs) {
+                if (doc.endsWith(".xml")) {
+                    String filepath;
+                    if (dir.endsWith("/")){
+                        filepath = dir + doc;
+                    }else{
+                        filepath = dir + "/" + doc;
+                    }
+                    addSingleDoc(doctype, filepath);
+                }
+            }
+        }
     }
 
 

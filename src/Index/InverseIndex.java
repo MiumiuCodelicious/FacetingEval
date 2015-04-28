@@ -54,6 +54,7 @@ public class InverseIndex extends Object{
 
 
 
+
     /**
      * @param d     Add a single document d
      * @param deliminiter     the deliminiter to use to parse a document, default sholud be white space.
@@ -95,7 +96,7 @@ public class InverseIndex extends Object{
     }
 
     /**
-     * Polymorphism add a plain text document
+     * Override: add a plain text document
      * */
     public int adddoc(PlainText d, String deliminiter){
         adddoc((Document)d, deliminiter);
@@ -103,7 +104,7 @@ public class InverseIndex extends Object{
     }
 
     /**
-     * Polymorphism add a specific field @param field in Lucene or Solr standard XML document
+     * Override: add a specific field @param field in Lucene or Solr standard XML document
      * @param fieldname     each field in structured XML document is treated as a single plain text document.
      * */
     public int adddoc(LuceneSolrXML d, String fieldname){
@@ -129,7 +130,7 @@ public class InverseIndex extends Object{
     }
 
     /**
-     * Polymorphism add a specific field @param field in an Infographics XML document, which is also in the Lucene or Solr standard XML format
+     * Override: add a specific field @param field in an Infographics XML document, which is also in the Lucene or Solr standard XML format
      * */
     public int adddoc(InfographicXML d, String fieldname){
         LuceneSolrXML dd = (LuceneSolrXML)d;

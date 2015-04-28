@@ -2,7 +2,6 @@ package Faceting;
 
 import Index.InverseIndex;
 
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.Map.Entry;
 
@@ -26,6 +25,7 @@ public class FacetStats implements FacetStatsInterface {
      * Value: the number of documents covered
      * */
     private HashMap<String, Integer> facetCover = new HashMap<String, Integer>();
+    private HashMap<String, Integer> subFacetCover = new HashMap<String, Integer>();
     /**
      * how many facet values are tagged in each document
      * Key: doc ID
@@ -44,22 +44,13 @@ public class FacetStats implements FacetStatsInterface {
         }
     }
 
-    /**
-     * @TODO I want to do this: let the user give a list of docIDs and get stats about only these documents
-     * @param index
-     * @param docIDs
-     */
-    public FacetStats(InverseIndex index, String[] docIDs){
-
-    }
-
 
     /**
      * Given a document by its ID, get an ArrayList of facet values in String format.
      * @param docID  the String ID of a document
      * @return <code>ArrayList<String></code> of facet values
      * */
-    public ArrayList<String> getDocFacets(String docID){
+    public ArrayList<String> getFacetsInDoc(String docID){
         if (facetIndex == null){
             System.out.println("Error: no facet index is given. ");
             return null;
@@ -86,7 +77,7 @@ public class FacetStats implements FacetStatsInterface {
      * @param facetname     String facet value name
      * @return  an <code>ArrayList<String></code> of document IDs.
      */
-    public ArrayList<String> getFacetDocs( String facetname ){
+    public ArrayList<String> getDocsInFacet( String facetname ){
         if (facetIndex == null){
             System.out.println("Error: no facet index is given. ");
             return null;
@@ -121,6 +112,21 @@ public class FacetStats implements FacetStatsInterface {
         return ( docCover.size() > 0 ) ? (float)total/docCover.size() : 0.0f ;
     }
 
+
+    /**
+     * Overloading function of avgFacetNum()
+     * @param docIDs    a list of document IDs
+     * @return
+     */
+    public float avgFacetNum(String[] docIDs){
+        if (docCover.isEmpty()) {   setDocCover();  }
+        int total = 0;
+        for (String doc : docIDs) {
+            total += docCover.get(doc) ;
+        }
+        return ( docIDs.length > 0 ) ? (float)total/docIDs.length : 0.0f ;
+    }
+
     /**
      * Initialize key-value pairs in private class member HashMap docCover.
      * Keys in docCover is each document ID, values are the number of facet values in each document.
@@ -131,9 +137,10 @@ public class FacetStats implements FacetStatsInterface {
             return;
         }
         for (String docID : docMap.keySet()) {
-            docCover.put(docID, getDocFacets(docID).size());
+            docCover.put(docID, getFacetsInDoc(docID).size());
         }
     }
+
 
 
 
@@ -157,7 +164,31 @@ public class FacetStats implements FacetStatsInterface {
         }
     }
 
-
+    /**
+     * Overload function setFacetCover()
+     * @param docIDs    a list of given document IDs
+     */
+    private void setFacetCover(String[] docIDs) {
+        subFacetCover.clear();
+        if (facetMap == null) {
+            System.out.println("Erorr: No facets indexed.");
+            return;
+        }
+        for (String facetname : facetMap.keySet()) {
+            int total = 0;
+            boolean hasdoc = false;
+            ArrayList<Integer> postinglist = facetIndex.getPostinglist(facetname);
+            for (int doc = 0; doc < postinglist.size(); doc ++) {
+                if (this.contains(facetIndex.getDocByIndex(doc), docIDs) && postinglist.get(doc) > 0) {
+                    total++;
+                    hasdoc = true;
+                }
+            }
+            if (hasdoc == true) {
+                subFacetCover.put(facetname, total);
+            }
+        }
+    }
 
 
 
@@ -170,12 +201,24 @@ public class FacetStats implements FacetStatsInterface {
         printSorted(facetCover, true);
     }
 
+    public void printTopFacet(String[] docIDs){
+        System.out.println("Top facet values with the most number of documents are: ");
+        setFacetCover(docIDs);
+        printSorted(subFacetCover, true);
+    }
+
     /**
      * Print the facet values that cover the minimum number of documents.
      */
     public void printBottomFacet(){
         System.out.println("Bottom facet values with the least number of documents are: ");
         printSorted(facetCover, false);
+    }
+
+    public void printBottomFacet(String[] docIDs){
+        System.out.println("Bottom facet values with the least number of documents are: ");
+        setFacetCover(docIDs);
+        printSorted(subFacetCover, false);
     }
 
     /**
@@ -186,6 +229,11 @@ public class FacetStats implements FacetStatsInterface {
         printSorted(docCover, true);
     }
 
+    public void printTopDoc(String[] docIDs){
+        System.out.println("Top documents that contain the most number of facet values are: ");
+        printSortedDoc(docCover, true, docIDs);
+    }
+
     /**
      * Print the documents that are tagged with the least number of facet values.
      */
@@ -194,6 +242,10 @@ public class FacetStats implements FacetStatsInterface {
         printSorted(docCover, false);
     }
 
+    public void printBottomDoc(String[] docIDs){
+        System.out.println("Bottom documents that contain the least number of facet values are: ");
+        printSortedDoc(docCover, false, docIDs);
+    }
 
     /**
      * Given a <code>HashMap<String, Integer></code> map, print the top sorted Entries.
@@ -202,9 +254,9 @@ public class FacetStats implements FacetStatsInterface {
      */
     private void printSorted( HashMap<String, Integer> map, boolean highest) {
         boolean asc = !highest;
-        List<Entry<String, Integer>> sortedFacets = sortMapComparator(map, asc);
+        List<Entry<String, Integer>> sortedMap = sortMapComparator(map, asc);
         int counter = 0;
-        for (Map.Entry<String, Integer> entry : sortedFacets) {
+        for (Map.Entry<String, Integer> entry : sortedMap) {
             if (counter > 30) {
                 break;
             }
@@ -214,6 +266,27 @@ public class FacetStats implements FacetStatsInterface {
         System.out.println();
     }
 
+    private void printSortedDoc( HashMap<String, Integer> map, boolean highest, String[] docIDs ){
+        boolean asc = !highest;
+        List<Entry<String, Integer>> sortedMap = sortMapComparator(map, asc);
+        for (Map.Entry<String, Integer> entry : sortedMap) {
+            if (this.contains(entry.getKey(), docIDs)) {
+                System.out.println("\t" + entry.getKey() + " : " + entry.getValue());
+            }
+        }
+        System.out.println();
+    }
+
+
+
+    private <T> boolean contains(T ele, T[] list){
+        for ( T e : list){
+            if ( e.equals(ele) ){
+                return true;
+            }
+        }
+        return false;
+    }
 
     /**
      * Need to write a comparator to sort Map by Key.
@@ -258,7 +331,14 @@ public class FacetStats implements FacetStatsInterface {
         return ( facetCover.size() > 0 )  ?  (float)total/facetCover.size()  :  0.0f;
     }
 
-
+    public float avgDocNum(String[] docIDs){
+        setFacetCover(docIDs);
+        int total = 0;
+        for (Integer v : subFacetCover.values()){
+            total += v.intValue();
+        }
+        return ( subFacetCover.size() > 0 )  ?  (float)total/subFacetCover.size()  :  0.0f;
+    }
 
 
     public static void main (String args[]){
@@ -278,15 +358,15 @@ public class FacetStats implements FacetStatsInterface {
             FacetStats fstats = new FacetStats( indexreader.getFacetIndex(facetname) );
 
 //            String expdoc = "set3_21_exp.xml";
-//            System.out.println(expdoc + " is tagged with" + facetname + " values: " + fstats.getDocFacets(expdoc).toString() );
+//            System.out.println(expdoc + " is tagged with" + facetname + " values: " + fstats.getFacetsInDoc(expdoc).toString() );
 //            String expfacet = "revenue";
 //            ArrayList<String> doclist;
-//            if ( (doclist = fstats.getFacetDocs(expfacet)) != null) {
+//            if ( (doclist = fstats.getDocsInFacet(expfacet)) != null) {
 //                System.out.println("Documents tagged with " + expfacet + " in " + facetname + " are : " + doclist.toString());
 //            }
 
-            System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum() );
-            System.out.println("Average number of documents tagged with each facet value in the " + facetname + " field is : " + fstats.avgDocNum() );
+            System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum());
+            System.out.println("Average number of documents tagged with each facet value in the " + facetname + " field is : " + fstats.avgDocNum());
             System.out.println("");
 
             fstats.printTopFacet();
@@ -294,8 +374,23 @@ public class FacetStats implements FacetStatsInterface {
             fstats.printTopDoc();
             fstats.printBottomDoc();
 
+            System.out.println("");
+
+            System.out.println("Given a specific list of documents:\nset1_31_exp.xml, set4_15_exp.xml, set4_64-1_exp.xml, set1_54-1_exp.xml, set4_25_exp.xml\n");
+            String[] sublist = {"set1_31_exp.xml", "set4_15_exp.xml", "set4_64-1_exp.xml", "set1_54-1_exp.xml", "set4_25_exp.xml"};
+            System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum(sublist));
+            System.out.println("Average number of documents tagged with each facet value in the " + facetname + " field is : " + fstats.avgDocNum(sublist));
+            System.out.println("");
+
+            fstats.printTopFacet(sublist);
+            fstats.printBottomFacet(sublist);
+            fstats.printTopDoc(sublist);
+            fstats.printBottomDoc(sublist);
 
             System.out.println("");
+
+
+
 
         }
 
