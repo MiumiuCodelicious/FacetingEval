@@ -17,6 +17,7 @@ public class FacetStats implements FacetStatsInterface {
     private InverseIndex facetIndex;
     private HashMap<String, Integer> docMap;
     private HashMap<String, Integer> facetMap;
+    public static int NUMBER_FACETS_FOR_EVAL = 30;
 
 
     /**
@@ -340,6 +341,10 @@ public class FacetStats implements FacetStatsInterface {
         return ( subFacetCover.size() > 0 )  ?  (float)total/subFacetCover.size()  :  0.0f;
     }
 
+
+    public void setNumberFacetsForEval(int no){
+        NUMBER_FACETS_FOR_EVAL = no;
+    }
 
     public static void main (String args[]){
         /*

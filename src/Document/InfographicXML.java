@@ -8,18 +8,18 @@ import java.util.HashMap;
  */
 public class InfographicXML extends LuceneSolrXML {
 
-    public InfographicXML(String GXMLpath){
-        super(GXMLpath);
+    public InfographicXML(String GXMLpath, boolean stem_choice){
+        super(GXMLpath, stem_choice);
         setProcessedContent();
         setFieldMap();
     }
 
-    public static String process(String filecontent){
-        return Utility.StopWordHandler.removeGraphWord( LuceneSolrXML.process(filecontent) );
+    public static String process(String filecontent, boolean stem){
+        return Utility.StopWordHandler.removeGraphWord( LuceneSolrXML.process(filecontent, stem) );
     }
 
     private void setProcessedContent(){
-        this.processedContent = this.process(this.plainContent);
+        this.processedContent = this.process(this.plainContent, this.stem);
     }
 
     private void setFieldMap(){
@@ -47,7 +47,7 @@ public class InfographicXML extends LuceneSolrXML {
 
         String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/infographic/XYFacets/set1_1_exp.xml";
         System.out.println(" ------------ Testing Class LuceneSolrXML ------------ ");
-        LuceneSolrXML testXML = new LuceneSolrXML(testXMLpath);
+        LuceneSolrXML testXML = new LuceneSolrXML(testXMLpath, true);
 
         System.out.println(testXML.toString());
 

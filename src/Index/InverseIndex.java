@@ -110,9 +110,11 @@ public class InverseIndex extends Object{
     public int adddoc(LuceneSolrXML d, String fieldname){
         /* Get field in d */
         String deliminiter = " ";
+        boolean stem = true;
         ArrayList<String> fieldlist;
         if (fieldname.contains("facet")){
             deliminiter = "\\s*\\|\\s*";
+            stem = false;
         }
         fieldlist = d.getFieldMap().get(fieldname);
         String fieldcontent = "";
@@ -124,7 +126,7 @@ public class InverseIndex extends Object{
                 fieldcontent += f + " ";
             }
         }
-        PlainText pt = new PlainText(d.getFileLocation(), fieldcontent, d.getDocID());
+        PlainText pt = new PlainText(d.getFileLocation(), fieldcontent, d.getDocID(), stem);
         adddoc(pt, deliminiter);
         return 1;
     }
@@ -329,9 +331,9 @@ public class InverseIndex extends Object{
         String testdocpath1 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/ArthurRimbaud.txt";
         String testdocpath2 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/OscarWilde.txt";
         String testdocpath3 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/Schopenhauer.txt";
-        Document doc1 = new LuceneSolrXML(testdocpath1);
-        Document doc2 = new LuceneSolrXML(testdocpath2);
-        Document doc3 = new LuceneSolrXML(testdocpath3);
+        Document doc1 = new LuceneSolrXML(testdocpath1, true);
+        Document doc2 = new LuceneSolrXML(testdocpath2, true);
+        Document doc3 = new LuceneSolrXML(testdocpath3, true);
 
         InverseIndex index = new InverseIndex();
         index.adddoc(doc1, " ");

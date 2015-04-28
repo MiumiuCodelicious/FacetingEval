@@ -106,24 +106,24 @@ public class IndexReader implements IndexReaderInterface {
 
     private void addSingleDoc(String doctype, String docpath){
         if (doctype.equals("luncene") || doctype.equals("infographic")) {
-            LuceneSolrXML lucenedoc = new LuceneSolrXML(docpath);
+            LuceneSolrXML lucenedoc = new LuceneSolrXML(docpath, true);
             addDocFacet(lucenedoc);
         }
         for (String field : indexBucket.keySet()){
             if (doctype.equals("plaintext")){
-                PlainText plaintextdoc = new PlainText(docpath);
+                PlainText plaintextdoc = new PlainText(docpath, true);
                 indexBucket.get(field).adddoc(plaintextdoc, " ");
                 if (Options.DEBUG == true) {
                     System.out.println("Added plain text " + plaintextdoc.getDocID() + " to index.");
                 }
             }else if (doctype.equals("lucene")){
-                LuceneSolrXML lucenedoc = new LuceneSolrXML(docpath);
+                LuceneSolrXML lucenedoc = new LuceneSolrXML(docpath, true);
                 indexBucket.get(field).adddoc(lucenedoc, field);
                 if (Options.DEBUG == true) {
                     System.out.println("Added lucene/solr XML " + lucenedoc.getDocID() + " field " + field + " to index.");
                 }
             }else if (doctype.equals("infographic")){
-                InfographicXML infographicdoc = new InfographicXML(docpath);
+                InfographicXML infographicdoc = new InfographicXML(docpath, true);
                 indexBucket.get(field).adddoc(infographicdoc, field);
                 if (Options.DEBUG == true) {
                     System.out.println("Added infographic XML " + infographicdoc.getDocID() + " field " + field + " to index.");

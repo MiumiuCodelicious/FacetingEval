@@ -8,9 +8,6 @@ import java.util.regex.Matcher;
 /**
  * @author Jewel Li on 15-4-17. ivanka@udel.edu
  *
- * @param result_path  a string path to the text file storing ranked list of documents for each query (details below)
- * @param query_map_path   a string path to the text file storing the mapping of each query to a unique String type Qid (query id)
- *
  * The Ranked Result file (result_path) must follow this format:
  * --------------------------------+
  * Qid: 2.3.3                      |
@@ -20,7 +17,8 @@ import java.util.regex.Matcher;
  * --------------------------------+
  *
  * Second field is the score for each document. Third field is the relevance judgement for each field.
- * The third field is optional. Query Qid, DocID, and score are mandatory.
+ * The third field is optional, however, when missing the document is by default of relevance grade 0.
+ * Query Qid, DocID, and score are mandatory.
  *
  * IMPORTANT: No empty is allowed between the retrieved documents for each query.
  *
@@ -35,7 +33,10 @@ public class ReadRankedResult implements ReadRankedResultInterface {
     private HashMap<String, String> queryMap;
     private HashMap<String, String[][]> resultMap;
 
-
+    /**
+     * @param result_path  a string path to the text file storing ranked list of documents for each query (details below)
+     * @param query_map_path   a string path to the text file storing the mapping of each query to a unique String type Qid (query id)
+     */
     public ReadRankedResult(String result_path, String query_map_path){
         queryMap = new HashMap<String, String>();
         resultMap = new HashMap<String, String[][]>();
@@ -66,6 +67,7 @@ public class ReadRankedResult implements ReadRankedResultInterface {
             }
             perQueryBuilder.append( line + "\n" );
         }
+        resultPerQuery(prevQid, perQueryBuilder.toString());
     }
 
 

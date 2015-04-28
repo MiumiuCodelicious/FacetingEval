@@ -16,12 +16,14 @@ public abstract class Document extends Object{
     protected String filelocation;
     protected String plainContent;
     protected String processedContent;
+    protected boolean stem;
 
     /**
      * @param filelocation the path to the file
      * Constructor with minimum control
      * */
-    public Document(String filelocation){
+    public Document(String filelocation, boolean stem_choice){
+        stem = stem_choice;
         this.filelocation = filelocation;
         setDefautDocID(filelocation);
         setPlainContent();
@@ -31,14 +33,14 @@ public abstract class Document extends Object{
     /**
      * Constructor give control to set docID
      * */
-    public Document(String filelocation, String docID){
-        this(filelocation);
+    public Document(String filelocation, String docID, boolean stem_choice){
+        this(filelocation, stem_choice);
         this.docID = docID;
     }
 
     /* Constructor 3 give control to set location, professed file content, and docID */
-    public Document(String filelocation, String filecontent, String docID){
-        this(filelocation, docID);
+    public Document(String filelocation, String filecontent, String docID, boolean stem){
+        this(filelocation, docID, stem);
         this.processedContent = filecontent;
     }
 
@@ -49,7 +51,7 @@ public abstract class Document extends Object{
      * Will cause ERROR if your documents have duplicate names!
      * */
     private void setDefautDocID(String filelocation){
-        this.docID = filelocation.substring( filelocation.lastIndexOf("/")+1 , filelocation.length() );
+        this.docID = filelocation.substring(filelocation.lastIndexOf("/") + 1, filelocation.length());
     }
 
     private void setPlainContent(){
@@ -57,7 +59,7 @@ public abstract class Document extends Object{
     }
 
     private void setProcessedContent(){
-        this.processedContent = process(this.plainContent);
+        this.processedContent = process(this.plainContent, stem);
     }
 
 
@@ -107,9 +109,11 @@ public abstract class Document extends Object{
      * "|" is maintained because it is used as facet value deliminiter.
     * */
 
-    public static String process(String filecontent){
+    public static String process(String filecontent, boolean stem){
         filecontent = filecontent.replaceAll("[^a-zA-Z0-9\\|\\s]", " ").replaceAll("\\s+", " ");
-        filecontent = Utility.StopWordHandler.removeStopWord(filecontent.toLowerCase());
+        if (stem == true) {
+            filecontent = Utility.StopWordHandler.removeStopWord(filecontent.toLowerCase());
+        }
         return filecontent;
     }
 

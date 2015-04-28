@@ -29,20 +29,20 @@ public class LuceneSolrXML extends Document{
 
     protected HashMap<String, ArrayList> fieldMap;
 
-    public LuceneSolrXML(String XMLpath){
-        super(XMLpath);
+    public LuceneSolrXML(String XMLpath,  boolean stem_choice){
+        super(XMLpath, stem_choice);
         setProcessedContent();
         setFieldMap();
     }
 
-    public LuceneSolrXML(String XMLpath, String XMLid){
-        super(XMLpath, XMLid);
+    public LuceneSolrXML(String XMLpath, String XMLid, boolean stem_choice){
+        super(XMLpath, XMLid, stem_choice);
         setProcessedContent();
         setFieldMap();
     }
 
     private void setProcessedContent(){
-        this.processedContent = process(this.plainContent);
+        this.processedContent = process(this.plainContent, this.stem);
     }
 
     private void setFieldMap(){
@@ -58,7 +58,7 @@ public class LuceneSolrXML extends Document{
      * Simply remove all XML tags and nothing else
      * If needed, modify this method to use more complex parser for more complex XMLs
      * */
-    public static String process(String filecontent){
+    public static String process(String filecontent, boolean stem){
 
         Pattern fieldtag = Pattern.compile("<( *)field( *)name( *)=( *)\".*\"( *)>");
         Pattern adddoctag = Pattern.compile("<( *)((add)|(doc))( *)>");
@@ -66,7 +66,8 @@ public class LuceneSolrXML extends Document{
 
         if (filecontent != null) {
             if (filecontent.length() < 2) return "";
-            filecontent = Document.process(filecontent.replaceAll("(" + fieldtag.toString() + ")|(" + closetag.toString() + ")|(" + adddoctag.toString() + ")", "")) ;
+            if (stem == true)
+            filecontent = Document.process(filecontent.replaceAll("(" + fieldtag.toString() + ")|(" + closetag.toString() + ")|(" + adddoctag.toString() + ")", ""), stem) ;
         }
         return filecontent;
     }
@@ -98,7 +99,7 @@ public class LuceneSolrXML extends Document{
                 if (fieldtag_excl_name_matcher.find() && fieldtag_matcher.find()) {
 
                     String field_name = xmlfield.substring( fieldtag_excl_name_matcher.end(), fieldtag_matcher.end() ).replaceAll("\"( *)>", "");
-                    String field_content = Document.process(xmlfield.substring(fieldtag_matcher.end(), xmlfield.length()).trim());
+                    String field_content = Document.process(xmlfield.substring(fieldtag_matcher.end(), xmlfield.length()).trim(), this.stem);
                     ArrayList<String> value = new ArrayList<String>();
 
                     /* regular fields are put in the fieldMap */
@@ -148,7 +149,7 @@ public class LuceneSolrXML extends Document{
 
         String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Var/Document/testSolrXML.xml";
         System.out.println(" ------------ Testing Class LuceneSolrXML ------------ ");
-        LuceneSolrXML testXML = new LuceneSolrXML(testXMLpath);
+        LuceneSolrXML testXML = new LuceneSolrXML(testXMLpath, true);
 
         System.out.println(testXML.toString());
 
