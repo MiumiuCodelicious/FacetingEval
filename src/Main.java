@@ -13,16 +13,6 @@ import java.lang.reflect.Array;
 public class Main {
 
 
-    public static <T> T[] fetchColumn(T[][] input_matrix, int column_no){
-        if (input_matrix.length < 1){   return null;    }
-        T[] col = (T[]) Array.newInstance(input_matrix.getClass().getComponentType().getComponentType(), input_matrix.length);
-        int rowno = 0;
-        for (T[] row : input_matrix){
-            col[rowno] = row[column_no];
-            rowno ++;
-        }
-        return col;
-    }
 
     public static void main(String args[]){
 
@@ -59,22 +49,34 @@ public class Main {
         for ( String facetname : indexreader.getFacetedFields() ) {
 
             System.out.println("Analyzing Facet field " + facetname + "..................\n");
+
             FacetStats fstats = new FacetStats(indexreader.getFacetIndex(facetname));
             fstats.setNumberFacetsForEval(10);
             int ndcg_topK = 10;
+            FacetRanker franker = new FacetRanker(indexreader.getFacetIndex(facetname));
+
 
             /**
-             * Step 3.1 For each query, analyze its retrieved document list.
+             * Step 4 For each query, get ranked list of documents.
              */
             for (String Qid : mixtureModel.getQueryMap().keySet()) {
 
-                System.out.println( "Qid: " + Qid + " " + mixtureModel.getQueryMap().get(Qid) );
+                System.out.println("Qid: " + Qid + " " + mixtureModel.getQueryMap().get(Qid));
+
+                /**
+                 * Step 4.1 Evaluate the nDCG of the original ranked list.
+                 */
+                int rank = 0;
                 for ( float v :  DiscountedCumulativeGain.nDCG(mixtureModel.getResult(Qid), ndcg_topK)  ) {
-                    System.out.print(v + "\t");
+                    System.out.print("nDCG@" + (rank + 1) + "= " + v + "\t");
+                    rank ++;
                 }
                 System.out.print("\n");
 
-                String[] rankedDocID = fetchColumn(mixtureModel.getResult(Qid), 0) ;
+                /**
+                 * Step 4.2 Analyze basic facet statistics for a query's ranked documents.
+                 */
+                String[] rankedDocID = FacetRanker.fetchColumn(mixtureModel.getResult(Qid), 0) ;
                 if (rankedDocID != null) {
                     System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum(rankedDocID));
                     System.out.println("Average number of documents tagged with each facet value in the " + facetname + " field is : " + fstats.avgDocNum(rankedDocID));
@@ -87,6 +89,21 @@ public class Main {
                 }else{
                     System.out.println("Returned 0 documents for query.");
                 }
+
+                /**
+                 * Step 4.3 Rank facet values for a query's ranked documents.
+                 */
+
+                rank = 0;
+                for ( float zipf : franker.zipfianDist(rankedDocID.length) ){
+                    System.out.print("zipf@" + (rank + 1) + "= " + zipf + "\t");
+                    rank ++;
+                }
+                System.out.println();
+
+
+
+
             }
         }
 
