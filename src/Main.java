@@ -1,10 +1,10 @@
 
-import Rank.*;
-import Faceting.*;
+import Ranker.*;
+import Ranker.Faceting.*;
+import Ranker.Evaluation.DiscountedCumulativeGain;
 import Utility.Options;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
 
 /**
  * @author Jewel Li on 15-4-3. ivanka@udel.edu
@@ -33,7 +33,7 @@ public class Main {
 
         String current_dir = System.getProperty("user.dir");
         String collection_dir = "/src/Var/TestDocuments/infographic/XYFacets/";
-        Index.IndexReader indexreader = new Index.IndexReader();
+        Indexer.IndexReader indexreader = new Indexer.IndexReader();
         indexreader.buildIndex(current_dir + collection_dir);
 
 
@@ -44,7 +44,7 @@ public class Main {
          * Step 2. Get basic document ranking.
          * Assume you have your own retrieval result to play with.
          * Rank.ReadRankedResult class reads in each query and the list of retrieved documents for each query.
-         * @see Rank.ReadRankedResult
+         * @see Ranker.ReadRankedResult
          * */
         ReadRankedResult mixtureModel = new ReadRankedResult( current_dir + "/src/Var/mixture_model_6_ranked_result.txt", current_dir + "/src/Var/QueryMap.txt") ;
         if (Options.DEBUG == true) {
@@ -61,12 +61,19 @@ public class Main {
             System.out.println("Analyzing Facet field " + facetname + "..................\n");
             FacetStats fstats = new FacetStats(indexreader.getFacetIndex(facetname));
             fstats.setNumberFacetsForEval(10);
+            int ndcg_topK = 10;
 
             /**
              * Step 3.1 For each query, analyze its retrieved document list.
              */
             for (String Qid : mixtureModel.getQueryMap().keySet()) {
+
                 System.out.println( "Qid: " + Qid + " " + mixtureModel.getQueryMap().get(Qid) );
+                for ( float v :  DiscountedCumulativeGain.nDCG(mixtureModel.getResult(Qid), ndcg_topK)  ) {
+                    System.out.print(v + "\t");
+                }
+                System.out.print("\n");
+
                 String[] rankedDocID = fetchColumn(mixtureModel.getResult(Qid), 0) ;
                 if (rankedDocID != null) {
                     System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum(rankedDocID));
@@ -75,8 +82,6 @@ public class Main {
 
                     fstats.printTopFacet(rankedDocID);
                     fstats.printBottomFacet(rankedDocID);
-                    fstats.printTopDoc(rankedDocID);
-                    fstats.printBottomDoc(rankedDocID);
 
                     System.out.println("");
                 }else{

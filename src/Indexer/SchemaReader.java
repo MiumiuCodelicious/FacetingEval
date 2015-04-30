@@ -1,4 +1,4 @@
-package Index;
+package Indexer;
 
 import java.io.*;
 import java.util.HashSet;

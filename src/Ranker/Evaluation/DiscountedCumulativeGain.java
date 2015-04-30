@@ -1,4 +1,4 @@
-package Rank.Evaluation;
+package Ranker.Evaluation;
 
 import java.util.Collections;
 import java.util.ArrayList;
@@ -28,7 +28,7 @@ public class DiscountedCumulativeGain {
      * @param topK      an integer indicating the top K documents to evaluate
      * @return  a float[] array containing DCG@K from 0 to topK
      */
-    public float[] DCG(String[][] rankedlist, int topK){
+    public static float[] DCG(String[][] rankedlist, int topK){
         if (rankedlist == null || rankedlist.length < 1 || topK < 0 ){
             return null;
         }
@@ -39,7 +39,7 @@ public class DiscountedCumulativeGain {
         return dcg(rellist, topK);
     }
 
-    private float[] dcg(int[] rellist, int topK){
+    private static float[] dcg(int[] rellist, int topK){
         float[] dcglist = new float[topK];
         for ( int r = 0; r < topK; r ++ ){
             float delta = (float)(Math.pow(2, rellist[r]) -1) / ((float)Math.log(r+2) / (float)Math.log(2));
@@ -59,7 +59,7 @@ public class DiscountedCumulativeGain {
      * @param topK  a float[] array containing ideal DCG@K from 0 to topK
      * @return
      */
-    public float[] iDCG(String[][] rankedlist, int topK){
+    public static float[] iDCG(String[][] rankedlist, int topK){
         ArrayList<Integer> ideallist = new ArrayList<Integer>();
         int rellist[] = new int[rankedlist.length];
         for ( int r = 0; r < topK; r ++){
@@ -76,7 +76,7 @@ public class DiscountedCumulativeGain {
 
 
 
-    public float[] nDCG(String[][] rankedlist, int topK){
+    public static float[] nDCG(String[][] rankedlist, int topK){
         float[] nDCG = new float[topK];
         float[] DCG = DCG(rankedlist, topK);
         float[] iDCG = iDCG(rankedlist, topK);
@@ -104,7 +104,7 @@ public class DiscountedCumulativeGain {
 
     public static void main(String[] args){
         String current = System.getProperty("user.dir");
-        Rank.ReadRankedResult mixtureModel = new Rank.ReadRankedResult( current + "/src/Var/mixture_model_6_ranked_result.txt", current + "/src/Var/QueryMap.txt") ;
+        Ranker.ReadRankedResult mixtureModel = new Ranker.ReadRankedResult( current + "/src/Var/mixture_model_6_ranked_result.txt", current + "/src/Var/QueryMap.txt") ;
 
         DiscountedCumulativeGain dcg = new DiscountedCumulativeGain();
 

@@ -1,4 +1,4 @@
-package Rank;
+package Ranker;
 
 import Document.Document;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package Faceting;
+package Ranker.Faceting;
 
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Statistics about facets in anu given document collection.
  * This collection should be specified by a given list of document IDs.
  *
- * @see Index.InverseIndex
+ * @see Indexer.InverseIndex
  * An inverse index must have been built already to analyze facet statistics.
  * Otherwise, build an inverse index.
  *

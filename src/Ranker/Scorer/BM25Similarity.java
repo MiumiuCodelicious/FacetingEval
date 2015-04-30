@@ -1,4 +1,4 @@
-package Score;
+package Ranker.Scorer;
 
 /**
  * @author Jewel Li on 15-4-5. ivanka@udel.edu

@@ -1,4 +1,4 @@
-package Index;
+package Indexer;
 
 import Document.InfographicXML;
 import Document.LuceneSolrXML;

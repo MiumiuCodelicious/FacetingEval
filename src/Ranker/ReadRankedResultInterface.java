@@ -1,4 +1,4 @@
-package Rank;
+package Ranker;
 import java.util.HashMap;
 
 /**
