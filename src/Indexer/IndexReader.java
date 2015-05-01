@@ -178,13 +178,12 @@ public class IndexReader implements IndexReaderInterface {
     /**
      * @param key       field name
      * @param bucket    inverse index bucket
-     * @param <T>       inverse index
      * @return          return the index of the given field
      * Template function to get a single field index from a bucket.
      * Bucket is a <code>HashMap<String, InverseIndex></code>.
      * Field name is a string, which is also the key in the bucket.
      */
-    public <T> T getFromBucket(String key, HashMap<String, T> bucket) {
+    public InverseIndex getFromBucket(String key, HashMap<String, InverseIndex> bucket) {
         if (bucket != null) {
             if (bucket.containsKey(key)) {
                 return bucket.get(key);
@@ -202,7 +201,7 @@ public class IndexReader implements IndexReaderInterface {
      * @return  a set of field names in string type.
      */
     public Set<String> getIndexedFields(){
-        return getKeyset(this.indexBucket);
+        return Utility.TemplateFunctions.getKeyset(this.indexBucket);
     }
 
     /**
@@ -210,24 +209,9 @@ public class IndexReader implements IndexReaderInterface {
      * @return  set of facet values in String type.
      */
     public Set<String> getFacetedFields(){
-        return getKeyset(this.facetBucket);
+        return Utility.TemplateFunctions.getKeyset(this.facetBucket);
     }
 
-    /**
-     * Template function for getting the entire key set from a inverse index bucket (HashMap).
-     * @param bucket    inverse index bucket <code>HashMap<String, InverseIndex></></code>
-     * @param <K>       key, string type field/facet name.
-     * @param <T>       inverse index.
-     * @return          key set
-     */
-    public <K, T> Set<K> getKeyset(HashMap<K, T> bucket){
-        if (bucket != null){
-            return bucket.keySet();
-        }else{
-            System.out.println("The given inverse index bucket is empty.");
-            return null;
-        }
-    }
 
 
 
@@ -261,19 +245,20 @@ public class IndexReader implements IndexReaderInterface {
 
 
 
-    static <T> void printIndex( HashMap<String,InverseIndex> bucket, String field){
+    public static void printIndex( HashMap<String,InverseIndex> bucket, String field){
         if ( bucket != null && bucket.containsKey(field) ){
             System.out.println("Printing Indexed " + field + ": " + bucket.get(field).toString() ) ;
         }
     }
 
-    static <T> void printAllIndexes( HashMap<String,InverseIndex> bucket ){
+    public static void printAllIndexes( HashMap<String,InverseIndex> bucket ){
         if (bucket != null){
             for (String fieldkey : bucket.keySet()){
                 printIndex(bucket, fieldkey);
             }
         }
     }
+
 
     /**
      * Indexed fields and facets defined in schema.xml should be the keys of indexBucket and keys of facetBucket

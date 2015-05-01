@@ -63,7 +63,7 @@ public class InverseIndex extends Object{
     public int adddoc(Document d, String deliminiter){
         try {
             /* add d's docID to docMap */
-            addToMap(d.getDocID(), docMap.size(), docMap);
+            Utility.TemplateFunctions.addToMap(d.getDocID(), docMap.size(), docMap);
 
             /*
              * 1) add words in d to wordMap,
@@ -74,10 +74,10 @@ public class InverseIndex extends Object{
             HashMap<String, Integer> dmap = singleDocMap(d.getProcessedContent(), deliminiter);
             for (String word : dmap.keySet()) {
                 /* add word to word map containing each word and its index in the inversed index */
-                wordMap = addToMap(word, wordMap.size(), wordMap);
+                wordMap = Utility.TemplateFunctions.addToMap(word, wordMap.size(), wordMap);
 
                 /* increase word count in document frequency HashMap */
-                docFreq = incrementMap(word, docFreq);
+                docFreq = Utility.TemplateFunctions.incrementMap(word, docFreq);
 
                 /* update index */
                 ArrayList<Integer> postinglist = wordByDocIndex.get(wordMap.get(word));
@@ -148,7 +148,7 @@ public class InverseIndex extends Object{
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         for (String word : content.split(deliminiter)){
             if (word.trim().length() > 2) {
-                map = incrementMap(Stemmer.mystem(word.trim()), map);
+                map = Utility.TemplateFunctions.incrementMap(Stemmer.mystem(word.trim()), map);
             }
         }
         return map;
@@ -160,34 +160,8 @@ public class InverseIndex extends Object{
      *  Template Functions
      */
 
-    /* add a T t to a Hashmap, with t being the key, and i as value */
-    static <T> HashMap<T, Integer> addToMap(T t, int i, HashMap<T, Integer> map) {
-        if (map != null && t != null) {
-            if (!map.containsKey(t)){
-                map.put(t, i);
-            }
-        }
-        return map;
-    }
 
-    /**
-     *  @param t key data type
-     *  @param map a hashmap HashMap<T, Integer>
-     *  Increament the Integer value of key t by 1
-     *  */
-    static <T> HashMap<T, Integer> incrementMap(T t, HashMap<T, Integer> map){
-        if (map != null && t != null){
-            if (map.containsKey(t)){
-                map.put(t, map.get(t) + 1 );
-            }else{
-                map.put(t, 1);
-            }
-        }
-        return map;
-    }
-
-
-    static <T> String getStringByIndex(int index, HashMap<String, Integer> map){
+    private String getStringByIndex(int index, HashMap<String, Integer> map){
         for (Map.Entry<String, Integer> kv : map.entrySet()){
             if (kv.getValue() == index){
                 return kv.getKey();

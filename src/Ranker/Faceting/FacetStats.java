@@ -193,7 +193,7 @@ public class FacetStats implements FacetStatsInterface {
             boolean hasdoc = false;
             ArrayList<Integer> postinglist = facetIndex.getPostinglist(facetname);
             for (int doc = 0; doc < postinglist.size(); doc ++) {
-                if ( postinglist.get(doc) > 0 && this.contains(facetIndex.getDocByIndex(doc), docIDs) >= 0 ) {
+                if ( postinglist.get(doc) > 0 && Utility.TemplateFunctions.contains(facetIndex.getDocByIndex(doc), docIDs) >= 0 ) {
                     total++;
                     hasdoc = true;
                 }
@@ -281,26 +281,6 @@ public class FacetStats implements FacetStatsInterface {
         }
         System.out.println();
     }
-
-
-    /**
-     * Use this template function for Primitive Types to test whether a list contains the value of an element ele
-     * @param ele   the element to look for
-     * @param list  the list to look in
-     * @param <T>   Primitive types only
-     * @return      true if list contains an element of the same value, false if not.
-     */
-    public static <T> int contains(T ele, T[] list){
-        int index = 0;
-        for ( T e : list){
-            if ( e.equals(ele) ) {
-                return index;
-            }
-            index ++;
-        }
-        return -1;
-    }
-
 
     /**
      * Need to write a comparator to sort Map by Value.

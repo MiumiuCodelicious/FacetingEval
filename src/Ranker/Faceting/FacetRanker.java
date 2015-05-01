@@ -18,7 +18,6 @@ public class FacetRanker {
 
     private InverseIndex facetIndex;
 
-    private HashMap<String, Integer> docMap;
     private HashMap<String, Integer> facetMap;
 
     private HashMap<String, Integer> subFacetCover = new HashMap<String, Integer>();
@@ -30,8 +29,8 @@ public class FacetRanker {
 
     public FacetRanker(InverseIndex index){
         if (index != null) {
+
             facetIndex = index;
-            docMap = index.getDocMap();
             facetMap = index.getWordMap();
         }
 
@@ -79,7 +78,7 @@ public class FacetRanker {
         float[] return_dist = new float[reRanked_docs.length];
 
         for (int pos = 0; pos < reRanked_docs.length; pos ++){
-            int original_pos = FacetStats.contains(reRanked_docs[pos], original_docs);
+            int original_pos = Utility.TemplateFunctions.contains(reRanked_docs[pos], original_docs);
             if ( original_pos >= 0 ){
                 return_dist[pos] = zipf[original_pos];
             }
@@ -112,7 +111,7 @@ public class FacetRanker {
         for (int newr = 0; newr < facet_docIDs.length; newr ++){
 
             /* if original ids comtain the new id */
-            int oldr = FacetStats.contains( facet_docIDs[newr][0], ids);
+            int oldr = Utility.TemplateFunctions.contains(facet_docIDs[newr][0], ids);
 
             /* If old rank < -1, document lost in new ranked list */
             if ( oldr > -1 ){
@@ -164,7 +163,7 @@ public class FacetRanker {
             boolean hasdoc = false;
             ArrayList<Integer> postinglist = facetIndex.getPostinglist(facetname);
             for (int doc = 0; doc < postinglist.size(); doc ++) {
-                if ( FacetStats.contains(facetIndex.getDocByIndex(doc), docIDs) >=0 && postinglist.get(doc) > 0) {
+                if ( Utility.TemplateFunctions.contains(facetIndex.getDocByIndex(doc), docIDs) >=0 && postinglist.get(doc) > 0) {
                     total++;
                     hasdoc = true;
                 }
@@ -257,7 +256,8 @@ public class FacetRanker {
         if ( zipfianDist(docs) < 1 )   return null;
 
         HashMap<String, Float> facetExpPromo = new HashMap<String, Float>();
-        for ( String facetvalue : subFacetCover.keySet() ){
+        for ( String facetvalue : subFacetCover.keySet() )
+        {
             facetExpPromo.put( facetvalue, expectedPromo(originalDocIDs, facetvalue) );
         }
         return sortMapComparator(facetExpPromo, false);
