@@ -93,13 +93,7 @@ public class Main {
                 /**
                  * Step 4.3 Rank facet values for a query's ranked documents.
                  */
-
-                rank = 0;
-                for ( float zipf : franker.zipfianDist(rankedDocID.length) ){
-                    System.out.print("zipf@" + (rank + 1) + "= " + zipf + "\t");
-                    rank ++;
-                }
-                System.out.println();
+                franker.expectedPromo(mixtureModel.getResult(Qid), facetname);
 
 
 

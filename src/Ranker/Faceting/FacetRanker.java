@@ -17,10 +17,12 @@ public class FacetRanker {
 
 
     private InverseIndex facetIndex;
+
     private HashMap<String, Integer> docMap;
     private HashMap<String, Integer> facetMap;
 
     private HashMap<String, Integer> subFacetCover = new HashMap<String, Integer>();
+
 
     public FacetRanker(InverseIndex index){
         if (index != null) {
@@ -28,14 +30,17 @@ public class FacetRanker {
             docMap = index.getDocMap();
             facetMap = index.getWordMap();
         }
+
     }
 
 
     /**
      * Estimate an Zipfian distribution from a given ranked list of documents.
-     * @param length    length of the list of ranked documents to estimate Zipfian distribution about.
+     * @param length    the length of original document list, varies by query.
      * @return  a float[] array containing a probability for each document in the given docIDs.
      */
+
+
     public float[] zipfianDist(int length){
 
         if (length < 0) return null;
@@ -71,19 +76,19 @@ public class FacetRanker {
      */
     public int[] rankPromotion(String[][] original_docIDs, String[][] facet_docIDs){
 
-        int[] promo = new int[original_docIDs.length];
+        int[] promo = new int[facet_docIDs.length];
 
         /* Get a list of doc IDs from the new ranked list */
-        String[] ids = fetchColumn(facet_docIDs, 0);
+        String[] ids = fetchColumn(original_docIDs, 0);
 
-        for (int oldr = 0; oldr < original_docIDs.length; oldr ++){
+        for (int newr = 0; newr < facet_docIDs.length; newr ++){
 
-            int newr = FacetStats.contains( original_docIDs[oldr][0], ids);
+            /* if original ids comtain the new id */
+            int oldr = FacetStats.contains( facet_docIDs[newr][0], ids);
+
             /* If old rank < -1, document lost in new ranked list */
             if ( oldr > -1 ){
-                promo[oldr] = newr - oldr;
-            }else{
-                promo[oldr] = 0 - oldr;
+                promo[newr] = newr - oldr;
             }
         }
         return promo;
@@ -115,6 +120,7 @@ public class FacetRanker {
     }
 
 
+
     /**
      * Pull out the facet values covered in the given list of document IDs, and store these facet values in class variable subFacetCover.
      * @param docIDs    a list of given document IDs
@@ -139,6 +145,65 @@ public class FacetRanker {
                 subFacetCover.put(facetname, total);
             }
         }
+    }
+
+
+    /**
+     * Given a specific facet value, re-rank
+     * @param docIDs    original list of ranked documents
+     * @param facetvalue    the chosen facet value
+     * @return          new ranked list of documents covered by the given facet value
+     */
+    private String[][] reRankDocs(String[][] docIDs, String facetvalue){
+        if (docIDs == null || facetIndex.getPostinglist(facetvalue) == null){
+            return null;
+        }
+        /* Pull facets */
+        String[][] reRankedDocs;
+        String[] docs = fetchColumn(docIDs, 0);
+        pullFacets(docs);
+        if ( subFacetCover != null && subFacetCover.containsKey(facetvalue) ){
+            reRankedDocs = new String[ subFacetCover.get(facetvalue) ] [ docIDs[0].length ] ;
+        }else{
+            return null;
+        }
+
+        for (int i = 0; i < docIDs.length; i ++){
+            for (int covered : facetIndex.getPostinglist(facetvalue)){
+                if ( docIDs[i][0].equals(  facetIndex.getDocByIndex(covered) )  ) {
+                    reRankedDocs[i] = docIDs[i];
+                }
+            }
+        }
+        return reRankedDocs;
+
+    }
+
+
+    /**
+     * Given an original ranked list of documents and a chosen facet value, create the new ranked list of documents covered by this facet value.
+     * @param original_DocIDs    a 2D String array. Outer elements are each document, inner elements are: docID, score, relevance.
+     * @param facetvalue    the chosen facet value
+     * @return      a float number of Expected Promotion for the chosen facet value.
+     */
+    public float expectedPromo(String[][] original_DocIDs, String facetvalue){
+        float EP = 0.0f;
+
+        String[][] reRankedDocs = reRankDocs(original_DocIDs, facetvalue);
+        float[] prob = zipfianDist(reRankedDocs.length);
+        int[] promo = rankPromotion(original_DocIDs, reRankedDocs);
+
+        for (int r = 0; r < reRankedDocs.length; r ++){
+            EP += prob[r] * promo[r];
+            System.out.println("Expected promo = " + (prob[r] * promo[r]) ) ;
+        }
+        return EP;
+    }
+
+
+
+    public void rankFacets(String[][] original_DocIDs){
+        
     }
 
 
