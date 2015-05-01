@@ -193,7 +193,7 @@ public class FacetStats implements FacetStatsInterface {
             boolean hasdoc = false;
             ArrayList<Integer> postinglist = facetIndex.getPostinglist(facetname);
             for (int doc = 0; doc < postinglist.size(); doc ++) {
-                if ( this.contains(facetIndex.getDocByIndex(doc), docIDs) >= 0 && postinglist.get(doc) > 0) {
+                if ( postinglist.get(doc) > 0 && this.contains(facetIndex.getDocByIndex(doc), docIDs) >= 0 ) {
                     total++;
                     hasdoc = true;
                 }
@@ -303,7 +303,7 @@ public class FacetStats implements FacetStatsInterface {
 
 
     /**
-     * Need to write a comparator to sort Map by Key.
+     * Need to write a comparator to sort Map by Value.
      * @param map   HashMap to sort
      * @param asc     if true, ascending; if false, decreasing.
      */
@@ -358,6 +358,10 @@ public class FacetStats implements FacetStatsInterface {
     public void setNumberFacetsForEval(int no){
         NUMBER_TO_PRINT = no;
     }
+
+
+
+
 
     public static void main (String args[]){
         /*

@@ -160,7 +160,7 @@ public class InverseIndex extends Object{
      *  Template Functions
      */
 
-    /* add a T t to a Hashmap, with t being the key, and index as value */
+    /* add a T t to a Hashmap, with t being the key, and i as value */
     static <T> HashMap<T, Integer> addToMap(T t, int i, HashMap<T, Integer> map) {
         if (map != null && t != null) {
             if (!map.containsKey(t)){

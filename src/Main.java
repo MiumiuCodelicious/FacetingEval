@@ -5,6 +5,8 @@ import Ranker.Evaluation.DiscountedCumulativeGain;
 import Utility.Options;
 
 import java.lang.reflect.Array;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author Jewel Li on 15-4-3. ivanka@udel.edu
@@ -59,7 +61,13 @@ public class Main {
             /**
              * Step 4 For each query, get ranked list of documents.
              */
+
+            int testnumber = 5;
             for (String Qid : mixtureModel.getQueryMap().keySet()) {
+                if (testnumber <= 0){
+                    break;
+                }
+                testnumber --;
 
                 System.out.println("Qid: " + Qid + " " + mixtureModel.getQueryMap().get(Qid));
 
@@ -93,8 +101,20 @@ public class Main {
                 /**
                  * Step 4.3 Rank facet values for a query's ranked documents.
                  */
-                franker.expectedPromo(mixtureModel.getResult(Qid), facetname);
-
+                int counter = 0;
+                List<Map.Entry<String, Float>> sortedFacetsByPromo = franker.rankFacets(mixtureModel.getResult(Qid));
+                if (sortedFacetsByPromo == null) {
+                    System.out.println("Error in getting sorted facet values by expected promotion. ");
+                    return;
+                }
+                for (Map.Entry<String, Float> facet : sortedFacetsByPromo) {
+                    if (counter > 30) {
+                        break;
+                    }
+                    counter++;
+                    System.out.println(facet.getKey() + ":\t" + facet.getValue().toString());
+                }
+                System.out.println();
 
 
 
