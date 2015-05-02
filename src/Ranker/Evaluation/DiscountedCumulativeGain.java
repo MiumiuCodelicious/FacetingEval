@@ -32,16 +32,32 @@ public class DiscountedCumulativeGain {
         if (rankedlist == null || rankedlist.length < 1 || topK < 0 ){
             return null;
         }
-        int[] rellist = new int[rankedlist.length];
+
+        int[] rellist = new int[topK];
+
         for (int r = 0; r < topK; r ++ ){
+            if (r+1 >= rankedlist.length){
+                rellist[r] = 0;
+                continue;
+            }
             rellist[r] = Integer.parseInt( rankedlist[r][2] );
         }
         return dcg(rellist, topK);
     }
 
+
+
     private static float[] dcg(int[] rellist, int topK){
+
         float[] dcglist = new float[topK];
+
+        int size = Math.min(rellist.length, topK);
+
         for ( int r = 0; r < topK; r ++ ){
+            if (r+1 >= size){
+                dcglist[r] = dcglist[r-1];
+                continue;
+            }
             float delta = (float)(Math.pow(2, rellist[r]) -1) / ((float)Math.log(r+2) / (float)Math.log(2));
             if ( r > 0 ) {
                 dcglist[r] = dcglist[r - 1] + delta;
@@ -60,12 +76,20 @@ public class DiscountedCumulativeGain {
      * @return
      */
     public static float[] iDCG(String[][] rankedlist, int topK){
+
         ArrayList<Integer> ideallist = new ArrayList<Integer>();
-        int rellist[] = new int[rankedlist.length];
+
+        int rellist[] = new int[topK];
+
         for ( int r = 0; r < topK; r ++){
+            if ( r+1 >= rankedlist.length ){
+                ideallist.add(0);
+                continue;
+            }
             ideallist.add(  Integer.parseInt(rankedlist[r][2]) );
         }
         Collections.sort(ideallist, Collections.reverseOrder());
+
         int r = 0;
         for (int rel : ideallist ){
             rellist[r] = rel;
@@ -80,6 +104,7 @@ public class DiscountedCumulativeGain {
         float[] nDCG = new float[topK];
         float[] DCG = DCG(rankedlist, topK);
         float[] iDCG = iDCG(rankedlist, topK);
+
         for ( int r = 0; r < topK; r ++ ){
             if (iDCG[r] > 0) {
                 nDCG[r] = DCG[r] / iDCG[r];

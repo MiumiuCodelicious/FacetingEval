@@ -15,8 +15,7 @@ import java.util.Map;
 public class Main {
 
 
-
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
         /**
          * Step 1. First of all, create inverse indexes of a given document collection.
@@ -38,7 +37,7 @@ public class Main {
          * Rank.ReadRankedResult class reads in each query and the list of retrieved documents for each query.
          * @see Ranker.ReadRankedResult
          * */
-        ReadRankedResult mixtureModel = new ReadRankedResult( current_dir + "/src/Var/mixture_model_6_ranked_result.txt", current_dir + "/src/Var/QueryMap.txt") ;
+        ReadRankedResult mixtureModel = new ReadRankedResult(current_dir + "/src/Var/mixture_model_6_ranked_result.txt", current_dir + "/src/Var/QueryMap.txt");
         if (Options.DEBUG == true) {
             System.out.println(mixtureModel.getQueryMap().toString());
             System.out.println(mixtureModel.toString());
@@ -48,12 +47,12 @@ public class Main {
         /**
          * Step 3. Analyze each facet field.
          */
-        for ( String facetname : indexreader.getFacetedFields() ) {
+        for (String facetname : indexreader.getFacetedFields()) {
 
             System.out.println("Analyzing Facet field " + facetname + "..................\n");
 
             FacetStats fstats = new FacetStats(indexreader.getFacetIndex(facetname));
-            fstats.setNumberFacetsForEval(10);
+            fstats.setNumberFacetsForEval(20);
             int ndcg_topK = 10;
             FacetRanker franker = new FacetRanker(indexreader.getFacetIndex(facetname));
 
@@ -62,39 +61,44 @@ public class Main {
              * Step 4 For each query, get ranked list of documents.
              */
 
-            int testnumber = 5;
-            for (String Qid : mixtureModel.getQueryMap().keySet()) {
-                if (testnumber <= 0){
-                    break;
-                }
-                testnumber --;
 
-                System.out.println("Qid: " + Qid + " " + mixtureModel.getQueryMap().get(Qid));
+            int low_ndcg_query_number = 0, high_ndcg_query_number = 0;
+
+            for (String Qid : mixtureModel.getQueryMap().keySet()) {
+//                if (Qid.equals("2.16.1") == false) {
+//                    continue;
+//                }
 
                 /**
                  * Step 4.1 Evaluate the nDCG of the original ranked list.
                  */
-                int rank = 0;
-                for ( float v :  DiscountedCumulativeGain.nDCG(mixtureModel.getResult(Qid), ndcg_topK)  ) {
-                    System.out.print("nDCG@" + (rank + 1) + "= " + v + "\t");
-                    rank ++;
+                float[] original_nDCG = DiscountedCumulativeGain.nDCG(mixtureModel.getResult(Qid), ndcg_topK);
+
+                if (original_nDCG[ndcg_topK-1] > 0.9) {
+                    high_ndcg_query_number ++;
+                    continue;
                 }
-                System.out.print("\n");
+                low_ndcg_query_number ++;
+
+                System.out.println("Qid: " + Qid + " " + mixtureModel.getQueryMap().get(Qid));
+
+                System.out.print("Original Ranking nDCG@" + (ndcg_topK) + " = " + original_nDCG[ndcg_topK-1] + "\n");
+
 
                 /**
                  * Step 4.2 Analyze basic facet statistics for a query's ranked documents.
                  */
-                String[] rankedDocID = FacetRanker.fetchColumn(mixtureModel.getResult(Qid), 0) ;
+                String[] rankedDocID = FacetRanker.fetchColumn(mixtureModel.getResult(Qid), 0);
                 if (rankedDocID != null) {
                     System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum(rankedDocID));
                     System.out.println("Average number of documents tagged with each facet value in the " + facetname + " field is : " + fstats.avgDocNum(rankedDocID));
                     System.out.println("");
 
-                    fstats.printTopFacet(rankedDocID);
-                    fstats.printBottomFacet(rankedDocID);
+//                    fstats.printTopFacet(rankedDocID);
+//                    fstats.printBottomFacet(rankedDocID);
+//                    System.out.println("");
 
-                    System.out.println("");
-                }else{
+                } else {
                     System.out.println("Returned 0 documents for query.");
                 }
 
@@ -108,16 +112,37 @@ public class Main {
                     return;
                 }
                 for (Map.Entry<String, Float> facet : sortedFacetsByPromo) {
-                    if (counter > 30) {
+                    if (counter > 20) {
                         break;
                     }
                     counter++;
-                    System.out.println(facet.getKey() + ":\t" + facet.getValue().toString());
+                    System.out.print( "Facet: " + facet.getKey() + ":\t" + facet.getValue().toString() + "\t" );
+
+                    /* Evaluate each facet value print the nDCG change resulting from that facet value. */
+                    String[][] facetDocs = franker.reRankDocs(mixtureModel.getResult(Qid), facet.getKey());
+
+                    float[] facet_nDCG = DiscountedCumulativeGain.nDCG(facetDocs, ndcg_topK);
+
+
+                    System.out.print(" nDCG@" + (ndcg_topK) + " = " + facet_nDCG[ndcg_topK - 1] + "\tnDCG@" + ndcg_topK + " Change = " + (facet_nDCG[ndcg_topK - 1] - original_nDCG[ndcg_topK - 1]));
+
+
+                    if (facet_nDCG[ndcg_topK-1] - original_nDCG[ndcg_topK-1] > 0){
+                        System.out.print(" ** \n");
+                    }else{
+                        System.out.print("\n");
+                    }
+
                 }
                 System.out.println();
 
             }
-        }
+
+            System.out.println("There are " + high_ndcg_query_number + " queries with nDCG@" + ndcg_topK + " > 0.9");
+            System.out.println("There are " + low_ndcg_query_number + " queries with nDCG@" + ndcg_topK + " <= 0.9");
 
         }
+
+    }
+
 }

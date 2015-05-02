@@ -155,7 +155,7 @@ public class FacetRanker {
     private int pullFacets(String[] docIDs) {
         subFacetCover.clear();
         if (facetMap == null) {
-            System.out.println("Erorr: No facets indexed.");
+            System.out.println("Error: No facets indexed.");
             return 0;
         }
         for (String facetname : facetMap.keySet()) {
@@ -182,7 +182,7 @@ public class FacetRanker {
      * @param facetvalue    the chosen facet value
      * @return          new ranked list of documents covered by the given facet value
      */
-    private String[][] reRankDocs(String[][] docIDs, String facetvalue){
+    public String[][] reRankDocs(String[][] docIDs, String facetvalue){
         String[] docs = fetchColumn(docIDs, 0);
         if (docIDs == null || facetIndex.getPostinglist(facetvalue) == null){
             return null;
@@ -256,8 +256,8 @@ public class FacetRanker {
         if ( zipfianDist(docs) < 1 )   return null;
 
         HashMap<String, Float> facetExpPromo = new HashMap<String, Float>();
-        for ( String facetvalue : subFacetCover.keySet() )
-        {
+
+        for ( String facetvalue : subFacetCover.keySet() ) {
             facetExpPromo.put( facetvalue, expectedPromo(originalDocIDs, facetvalue) );
         }
         return sortMapComparator(facetExpPromo, false);

@@ -16,14 +16,12 @@ public abstract class Document extends Object{
     protected String filelocation;
     protected String plainContent;
     protected String processedContent;
-    protected boolean stem;
 
     /**
      * @param filelocation the path to the file
      * Constructor with minimum control
      * */
-    public Document(String filelocation, boolean stem_choice){
-        stem = stem_choice;
+    public Document(String filelocation){
         this.filelocation = filelocation;
         setDefautDocID(filelocation);
         setPlainContent();
@@ -33,14 +31,14 @@ public abstract class Document extends Object{
     /**
      * Constructor give control to set docID
      * */
-    public Document(String filelocation, String docID, boolean stem_choice){
-        this(filelocation, stem_choice);
+    public Document(String filelocation, String docID){
+        this(filelocation);
         this.docID = docID;
     }
 
     /* Constructor 3 give control to set location, professed file content, and docID */
-    public Document(String filelocation, String filecontent, String docID, boolean stem){
-        this(filelocation, docID, stem);
+    public Document(String filelocation, String filecontent, String docID){
+        this(filelocation, docID);
         this.processedContent = filecontent;
     }
 
@@ -59,7 +57,7 @@ public abstract class Document extends Object{
     }
 
     private void setProcessedContent(){
-        this.processedContent = process(this.plainContent, stem);
+        this.processedContent = process(this.plainContent);
     }
 
 
@@ -109,11 +107,10 @@ public abstract class Document extends Object{
      * "|" is maintained because it is used as facet value deliminiter.
     * */
 
-    public static String process(String filecontent, boolean stem){
+    public static String process(String filecontent){
+
         filecontent = filecontent.replaceAll("[^a-zA-Z0-9\\|\\s]", " ").replaceAll("\\s+", " ");
-        if (stem == true) {
-            filecontent = Utility.StopWordHandler.removeStopWord(filecontent.toLowerCase());
-        }
+        filecontent = Utility.StopWordHandler.removeStopWord(filecontent.toLowerCase());
         return filecontent;
     }
 

@@ -60,7 +60,7 @@ public class InverseIndex extends Object{
      * @param deliminiter     the deliminiter to use to parse a document, default sholud be white space.
      * @return 1 if document is successfully added, otherwise 0
      * */
-    public int adddoc(Document d, String deliminiter){
+    public int adddoc(Document d, String deliminiter, boolean stem){
         try {
             /* add d's docID to docMap */
             Utility.TemplateFunctions.addToMap(d.getDocID(), docMap.size(), docMap);
@@ -71,7 +71,7 @@ public class InverseIndex extends Object{
              * 3) add words in d to wordByDocIndex
              * */
 
-            HashMap<String, Integer> dmap = singleDocMap(d.getProcessedContent(), deliminiter);
+            HashMap<String, Integer> dmap = singleDocMap(d.getProcessedContent(), deliminiter, stem);
             for (String word : dmap.keySet()) {
                 /* add word to word map containing each word and its index in the inversed index */
                 wordMap = Utility.TemplateFunctions.addToMap(word, wordMap.size(), wordMap);
@@ -98,8 +98,8 @@ public class InverseIndex extends Object{
     /**
      * Override: add a plain text document
      * */
-    public int adddoc(PlainText d, String deliminiter){
-        adddoc((Document)d, deliminiter);
+    public int adddoc(PlainText d, String deliminiter, boolean stem){
+        adddoc((Document)d, deliminiter, stem);
         return 1;
     }
 
@@ -126,8 +126,8 @@ public class InverseIndex extends Object{
                 fieldcontent += f + " ";
             }
         }
-        PlainText pt = new PlainText(d.getFileLocation(), fieldcontent, d.getDocID(), stem);
-        adddoc(pt, deliminiter);
+        PlainText pt = new PlainText(d.getFileLocation(), fieldcontent, d.getDocID());
+        adddoc(pt, deliminiter, stem);
         return 1;
     }
 
@@ -144,11 +144,18 @@ public class InverseIndex extends Object{
     /**
      *  Helper function to turn the content string of a document into a HashMap of word by wordcount
      *  */
-    private HashMap<String, Integer> singleDocMap(String content, String deliminiter){
+    private HashMap<String, Integer> singleDocMap(String content, String deliminiter, boolean stem){
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         for (String word : content.split(deliminiter)){
             if (word.trim().length() > 2) {
-                map = Utility.TemplateFunctions.incrementMap(Stemmer.mystem(word.trim()), map);
+                String clean_word;
+                if (stem == true) {
+                    clean_word = Stemmer.mystem(word.trim());
+                }else{
+                    clean_word = word.trim();
+                }
+
+                map = Utility.TemplateFunctions.incrementMap(clean_word, map);
             }
         }
         return map;
@@ -305,14 +312,14 @@ public class InverseIndex extends Object{
         String testdocpath1 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/ArthurRimbaud.txt";
         String testdocpath2 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/OscarWilde.txt";
         String testdocpath3 = "/Users/divinityelle/Documents/FacetingEval/src/Var/TestDocuments/plaintext/Schopenhauer.txt";
-        Document doc1 = new LuceneSolrXML(testdocpath1, true);
-        Document doc2 = new LuceneSolrXML(testdocpath2, true);
-        Document doc3 = new LuceneSolrXML(testdocpath3, true);
+        Document doc1 = new LuceneSolrXML(testdocpath1);
+        Document doc2 = new LuceneSolrXML(testdocpath2);
+        Document doc3 = new LuceneSolrXML(testdocpath3);
 
         InverseIndex index = new InverseIndex();
-        index.adddoc(doc1, " ");
-        index.adddoc(doc2, " ");
-        index.adddoc(doc3, " ");
+        index.adddoc(doc1, " ", false);
+        index.adddoc(doc2, " ", false);
+        index.adddoc(doc3, " ", false);
 
         System.out.println(index.getDocMap().toString());
         System.out.println(index.getWordMap().toString());

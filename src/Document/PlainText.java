@@ -7,22 +7,22 @@ package Document;
 
 public class PlainText extends Document {
 
-    public PlainText(String filelocation, boolean stem_choice){
-        super(filelocation, stem_choice);
+    public PlainText(String filelocation){
+        super(filelocation);
     }
 
-    public PlainText(String filelocation, String docID, boolean stem_choice){
-        super(filelocation, docID, stem_choice);
+    public PlainText(String filelocation, String docID){
+        super(filelocation, docID);
     }
 
-    public PlainText(String filelocation, String filecontent, String docID, boolean stem_choice) { super(filelocation, filecontent, docID, stem_choice); }
+    public PlainText(String filelocation, String filecontent, String docID) { super(filelocation, filecontent, docID); }
 
 
     public static void main (String args[]){
         String testXMLpath = "/Users/divinityelle/Documents/FacetingEval/src/Document/ArthurRimbaud.txt";
 
         System.out.println(" ------------ Testing Class PlainText ------------ ");
-        PlainText testXML = new PlainText(testXMLpath, true);
+        PlainText testXML = new PlainText(testXMLpath);
         System.out.println(testXML.toString());
 
     }
