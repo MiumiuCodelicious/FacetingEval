@@ -1,0 +1,26 @@
+ccg(19,
+ rp('S[wq]',
+  fa('S[wq]',
+   fa('S[wq]/(S[dcl]\NP)',
+    lf(19,1,'(S[wq]/(S[dcl]\NP))/N'),
+    lf(19,2,'N')),
+   fa('S[dcl]\NP',
+    lf(19,3,'(S[dcl]\NP)/(S[ng]\NP)'),
+    ba('S[ng]\NP',
+     fa('S[ng]\NP',
+      lf(19,4,'(S[ng]\NP)/NP'),
+      fa('NP[nb]',
+       lf(19,5,'NP[nb]/N'),
+       lf(19,6,'N'))),
+     lf(19,7,'(S[X]\NP)\(S[X]\NP)')))),
+  lf(19,8,'.'))).
+
+w(19, 1, 'Which', 'which', 'WDT', 'I-NP', 'O', '(S[wq]/(S[dcl]\NP))/N').
+w(19, 2, 'carmakers', 'carmaker', 'NNS', 'I-NP', 'O', 'N').
+w(19, 3, 'are', 'be', 'VBP', 'I-VP', 'O', '(S[dcl]\NP)/(S[ng]\NP)').
+w(19, 4, 'leading', 'lead', 'VBG', 'I-VP', 'O', '(S[ng]\NP)/NP').
+w(19, 5, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(19, 6, 'industry', 'industry', 'NN', 'I-NP', 'O', 'N').
+w(19, 7, 'currently', 'currently', 'RB', 'I-ADVP', 'O', '(S[X]\NP)\(S[X]\NP)').
+w(19, 8, '?', '?', '.', 'O', 'O', '.').
+

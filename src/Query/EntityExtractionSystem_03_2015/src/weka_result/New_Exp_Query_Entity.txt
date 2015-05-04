@@ -1,0 +1,710 @@
+0
+How do the total revenues earned by each major car manufacturer compare ?	the total revenues
+How do the total revenues earned by each major car manufacturer compare ?	each major car manufacturer
+1
+How does the revenue earned by Ford compare every four years ?	the revenue earned by Ford
+How does the revenue earned by Ford compare every four years ?	the revenue
+How does the revenue earned by Ford compare every four years ?	Ford
+How does the revenue earned by Ford compare every four years ?	every four years
+How does the revenue earned by Ford compare every four years ?	years
+2
+How has Ford revenue changed since 2000 ?	Ford revenue
+How has Ford revenue changed since 2000 ?	since 2000
+3
+How does the revenue of Ford and Toyota compare to that of other car manufacturing companies ?	the revenue of Ford and Toyota compare to
+How does the revenue of Ford and Toyota compare to that of other car manufacturing companies ?	the revenue
+How does the revenue of Ford and Toyota compare to that of other car manufacturing companies ?	Ford
+How does the revenue of Ford and Toyota compare to that of other car manufacturing companies ?	Toyota
+How does the revenue of Ford and Toyota compare to that of other car manufacturing companies ?	that of other car manufacturing companies
+4
+How has Ford revenue changed over the past 10 years ?	Ford revenue
+How has Ford revenue changed over the past 10 years ?	the past 10 years
+How has Ford revenue changed over the past 10 years ?	years
+5
+How do the revenues of 4 top car manufacturing companies compare ?	the revenues
+How do the revenues of 4 top car manufacturing companies compare ?	4 top car manufacturing companies compare
+How do the revenues of 4 top car manufacturing companies compare ?	4 top car manufacturing companies
+6
+What is the Ford revenue model every four years beginning in 2000 ?	the Ford revenue model
+What is the Ford revenue model every four years beginning in 2000 ?	every four years beginning in 2000
+What is the Ford revenue model every four years beginning in 2000 ?	every four years
+What is the Ford revenue model every four years beginning in 2000 ?	years beginning in 2000
+7
+How has the revenue model of Ford changed over time ?	the revenue model
+How has the revenue model of Ford changed over time ?	Ford changed over time
+How has the revenue model of Ford changed over time ?	Ford
+How has the revenue model of Ford changed over time ?	over time
+8
+How does Ford, BMW, Toyota, and Honda compare in terms of revenue ?	Ford, BMW, Toyota, and Honda
+How does Ford, BMW, Toyota, and Honda compare in terms of revenue ?	terms of revenue
+9
+How does the Ford revenue compare to that of Toyota\s ?	the Ford revenue
+How does the Ford revenue compare to that of Toyota\s ?	that of Toyota\s
+10
+How does the revenue of Ford compare in 2008 to 2000 ?	the revenue of Ford
+How does the revenue of Ford compare in 2008 to 2000 ?	the revenue
+How does the revenue of Ford compare in 2008 to 2000 ?	Ford
+How does the revenue of Ford compare in 2008 to 2000 ?	in 2008 to 2000
+11
+How has the Ford revenue changed from 2000 to 2008 ?	the Ford revenue
+How has the Ford revenue changed from 2000 to 2008 ?	from 2000 to 2008
+12
+How does the Ford manufacturing revenue compare to that of BMW, Toyota and Honda ?	the Ford manufacturing revenue
+How does the Ford manufacturing revenue compare to that of BMW, Toyota and Honda ?	that of BMW, Toyota and Honda
+13
+How much revenue do Ford, BMW, Toyota, and Honda earn ?	revenue
+How much revenue do Ford, BMW, Toyota, and Honda earn ?	Ford, BMW, Toyota, and Honda
+14
+How much revenue did Ford earn every four years after 2000 ?	revenue
+How much revenue did Ford earn every four years after 2000 ?	Ford
+How much revenue did Ford earn every four years after 2000 ?	every four years
+How much revenue did Ford earn every four years after 2000 ?	years after 2000
+15
+How much revenue did Ford earn from 2000 to 2008 ?	revenue
+How much revenue did Ford earn from 2000 to 2008 ?	Ford
+How much revenue did Ford earn from 2000 to 2008 ?	from 2000 to 2008
+16
+How does Ford rank compared to other car dealers in terms of revenue ?	Ford
+How does Ford rank compared to other car dealers in terms of revenue ?	other car dealers in terms of revenue ?
+How does Ford rank compared to other car dealers in terms of revenue ?	terms of revenue
+17
+How has Ford\s revenue changed over the last 12 years ?	Ford\s revenue
+How has Ford\s revenue changed over the last 12 years ?	the last 12 years
+How has Ford\s revenue changed over the last 12 years ?	years
+18
+What is the revenue of the top car manufacturing companies ?	the revenue
+What is the revenue of the top car manufacturing companies ?	the top car manufacturing companies
+19
+What is the revenue of Ford in 2000, 2004 and 2008 ?	the revenue of Ford
+What is the revenue of Ford in 2000, 2004 and 2008 ?	the revenue
+What is the revenue of Ford in 2000, 2004 and 2008 ?	Ford
+What is the revenue of Ford in 2000, 2004 and 2008 ?	in 2000, 2004 and 2008
+20
+What is the revenue trend of the company Ford since 2000 ?	the revenue trend
+What is the revenue trend of the company Ford since 2000 ?	the company Ford
+What is the revenue trend of the company Ford since 2000 ?	since 2000
+21
+What company has the highest revenue, Ford, BMW, Toyota, or Honda ?	company
+What company has the highest revenue, Ford, BMW, Toyota, or Honda ?	the highest revenue, Ford, BMW, Toyota, or Honda
+What company has the highest revenue, Ford, BMW, Toyota, or Honda ?	the highest revenue,
+What company has the highest revenue, Ford, BMW, Toyota, or Honda ?	Ford, BMW, Toyota, or Honda
+22
+How much revenue was earned by credit card companies over the past three years ?	revenue
+How much revenue was earned by credit card companies over the past three years ?	credit card companies over the past three years
+How much revenue was earned by credit card companies over the past three years ?	credit card companies
+How much revenue was earned by credit card companies over the past three years ?	the past three years
+How much revenue was earned by credit card companies over the past three years ?	years
+23
+How does the revenue earned by major credit card companies compare in 2010 ?	the revenue
+How does the revenue earned by major credit card companies compare in 2010 ?	major credit card companies compare in 2010
+How does the revenue earned by major credit card companies compare in 2010 ?	major credit card companies
+How does the revenue earned by major credit card companies compare in 2010 ?	in 2010
+24
+How does the revenue earned each year for the past three years for each major credit card company compare ?	the revenue
+How does the revenue earned each year for the past three years for each major credit card company compare ?	the past three years for each major credit card company
+How does the revenue earned each year for the past three years for each major credit card company compare ?	each major credit card company
+How does the revenue earned each year for the past three years for each major credit card company compare ?	each year for the past three years
+25
+How does the revenue earned by major credit card companies each year for the past three years compare ?	the revenue
+How does the revenue earned by major credit card companies each year for the past three years compare ?	major credit card companies each year
+How does the revenue earned by major credit card companies each year for the past three years compare ?	major credit card companies
+How does the revenue earned by major credit card companies each year for the past three years compare ?	each year for the past three years
+26
+How has the revenue of the Credit Card Companies changed in the past two years ?	the revenue
+How has the revenue of the Credit Card Companies changed in the past two years ?	the Credit Card Companies changed in the past two years
+How has the revenue of the Credit Card Companies changed in the past two years ?	the Credit Card Companies
+How has the revenue of the Credit Card Companies changed in the past two years ?	the past two years
+How has the revenue of the Credit Card Companies changed in the past two years ?	years
+27
+How do Visa and Discover compare in 2010 ?	Visa and Discover
+How do Visa and Discover compare in 2010 ?	in 2010
+28
+Which credit card company made the most money between the years 2007 to 2009 ?	credit card company
+Which credit card company made the most money between the years 2007 to 2009 ?	the most money
+Which credit card company made the most money between the years 2007 to 2009 ?	between the years 2007 to 2009
+29
+What credit card company made the most money in 2008 ?	credit card company
+What credit card company made the most money in 2008 ?	the most money
+What credit card company made the most money in 2008 ?	in 2008
+30
+How has the total revenue of credit card companies changed over the past several years ?	the total revenue
+How has the total revenue of credit card companies changed over the past several years ?	credit card companies changed over the past several years
+How has the total revenue of credit card companies changed over the past several years ?	credit card companies
+How has the total revenue of credit card companies changed over the past several years ?	over the past several years
+31
+How do Visa and Discover compare against other top credit card companies ?	Visa and Discover
+How do Visa and Discover compare against other top credit card companies ?	other top credit card companies
+32
+How does the revenue of Visa, Mastercard, Discover, and American Express compare ?	the revenue
+How does the revenue of Visa, Mastercard, Discover, and American Express compare ?	Visa, Mastercard, Discover, and American Express
+33
+From 2007-2009, what are the revenues of top credit card companies ?	the revenues
+From 2007-2009, what are the revenues of top credit card companies ?	top credit card companies
+From 2007-2009, what are the revenues of top credit card companies ?	2007-2009,
+34
+How much revenue have credit card companies gained over the past five years ?	revenue
+How much revenue have credit card companies gained over the past five years ?	credit card companies gained over the past five years
+How much revenue have credit card companies gained over the past five years ?	credit card companies
+How much revenue have credit card companies gained over the past five years ?	the past five years
+How much revenue have credit card companies gained over the past five years ?	years
+35
+What credit card company gained the most revenue in 2010 ?	credit card company
+What credit card company gained the most revenue in 2010 ?	the most revenue
+What credit card company gained the most revenue in 2010 ?	in 2010
+36
+How have the major credit card companies compared over the past five years ?	the major credit card companies
+How have the major credit card companies compared over the past five years ?	the past five years
+How have the major credit card companies compared over the past five years ?	years
+37
+From 2007-2009, how did the major credit card companies compare ?	the major credit card companies
+From 2007-2009, how did the major credit card companies compare ?	2007-2009,
+38
+How has the revenue model of credit card companies changed over the past 3 years ?	the revenue model
+How has the revenue model of credit card companies changed over the past 3 years ?	credit card companies changed over the past 3 years
+How has the revenue model of credit card companies changed over the past 3 years ?	credit card companies
+How has the revenue model of credit card companies changed over the past 3 years ?	the past 3 years
+How has the revenue model of credit card companies changed over the past 3 years ?	years
+39
+What are the most profitable credit card companies in 2010 ?	the most profitable credit card companies
+What are the most profitable credit card companies in 2010 ?	in 2010
+40
+How do Visa, Mastercard, Discover and American Express relate in terms of revenue models ?	Visa, Mastercard, Discover and American Express
+How do Visa, Mastercard, Discover and American Express relate in terms of revenue models ?	terms of revenue models
+41
+How do the revenue models of Visa, Mastercard, Discover, and American Express each year from 2007 to 2009 compare ?	the revenue models of Visa, Mastercard, Discover, and American Express each year
+How do the revenue models of Visa, Mastercard, Discover, and American Express each year from 2007 to 2009 compare ?	the revenue models
+How do the revenue models of Visa, Mastercard, Discover, and American Express each year from 2007 to 2009 compare ?	Visa, Mastercard, Discover, and American Express each year
+How do the revenue models of Visa, Mastercard, Discover, and American Express each year from 2007 to 2009 compare ?	each year from 2007 to 2009
+42
+How does the revenue of credit card companies in 2007 compare to the revenue in 2009 ?	the revenue
+How does the revenue of credit card companies in 2007 compare to the revenue in 2009 ?	credit card companies in 2007 compare to the revenue in 2009
+How does the revenue of credit card companies in 2007 compare to the revenue in 2009 ?	credit card companies in 2007
+How does the revenue of credit card companies in 2007 compare to the revenue in 2009 ?	credit card companies
+How does the revenue of credit card companies in 2007 compare to the revenue in 2009 ?	in 2007 compare to the revenue in 2009
+43
+How does the revenue in 2010 of Discover compare to other credit card companies ?	the revenue in 2010 of Discover
+How does the revenue in 2010 of Discover compare to other credit card companies ?	the revenue in 2010
+How does the revenue in 2010 of Discover compare to other credit card companies ?	the revenue
+How does the revenue in 2010 of Discover compare to other credit card companies ?	Discover
+How does the revenue in 2010 of Discover compare to other credit card companies ?	other credit card companies
+How does the revenue in 2010 of Discover compare to other credit card companies ?	in 2010
+44
+How do the revenues of multiple credit card companies compare against one another from the year 2007 to 2009 ?	the revenues
+How do the revenues of multiple credit card companies compare against one another from the year 2007 to 2009 ?	multiple credit card companies compare against one another from the year 2007 to 2009
+How do the revenues of multiple credit card companies compare against one another from the year 2007 to 2009 ?	multiple credit card companies
+How do the revenues of multiple credit card companies compare against one another from the year 2007 to 2009 ?	one another
+How do the revenues of multiple credit card companies compare against one another from the year 2007 to 2009 ?	another from the year 2007 to 2009
+45
+Over the course of 2007-2009, what were the revenues of major credit card companies ?	the course of 2007-2009, what
+Over the course of 2007-2009, what were the revenues of major credit card companies ?	the course
+Over the course of 2007-2009, what were the revenues of major credit card companies ?	2007-2009, what
+Over the course of 2007-2009, what were the revenues of major credit card companies ?	the revenues of major credit card companies
+Over the course of 2007-2009, what were the revenues of major credit card companies ?	the revenues
+Over the course of 2007-2009, what were the revenues of major credit card companies ?	major credit card companies
+Over the course of 2007-2009, what were the revenues of major credit card companies ?	of 2007-2009,
+46
+How do Visa and Discover differ from Mastercard and American Express in 2010 ?	Visa and Discover
+How do Visa and Discover differ from Mastercard and American Express in 2010 ?	Mastercard and American Express in 2010 ?
+How do Visa and Discover differ from Mastercard and American Express in 2010 ?	in 2010
+47
+How do the revenues of Mastercard, Visa, American Express, and Discover compare in each year starting in 2007 and ending in 2009 ?	the revenues
+How do the revenues of Mastercard, Visa, American Express, and Discover compare in each year starting in 2007 and ending in 2009 ?	Mastercard, Visa, American Express,
+How do the revenues of Mastercard, Visa, American Express, and Discover compare in each year starting in 2007 and ending in 2009 ?	Discover
+How do the revenues of Mastercard, Visa, American Express, and Discover compare in each year starting in 2007 and ending in 2009 ?	each year starting in 2007 and ending in 2009
+How do the revenues of Mastercard, Visa, American Express, and Discover compare in each year starting in 2007 and ending in 2009 ?	each year
+How do the revenues of Mastercard, Visa, American Express, and Discover compare in each year starting in 2007 and ending in 2009 ?	2007
+How do the revenues of Mastercard, Visa, American Express, and Discover compare in each year starting in 2007 and ending in 2009 ?	in 2009
+48
+How has the total revenue of credit card companies changed from 2007 to 2009 ?	the total revenue
+How has the total revenue of credit card companies changed from 2007 to 2009 ?	credit card companies changed from 2007 to 2009
+How has the total revenue of credit card companies changed from 2007 to 2009 ?	credit card companies
+How has the total revenue of credit card companies changed from 2007 to 2009 ?	from 2007 to 2009
+49
+In 2010, how do the revenues of Visa and Discover compare with other credit card companies ?	2010,
+In 2010, how do the revenues of Visa and Discover compare with other credit card companies ?	the revenues of Visa and Discover
+In 2010, how do the revenues of Visa and Discover compare with other credit card companies ?	the revenues
+In 2010, how do the revenues of Visa and Discover compare with other credit card companies ?	Visa and Discover
+In 2010, how do the revenues of Visa and Discover compare with other credit card companies ?	other credit card companies
+In 2010, how do the revenues of Visa and Discover compare with other credit card companies ?	2010,
+50
+At what rate did credit card companies make money from 2007 to 2009 ?	what rate did
+At what rate did credit card companies make money from 2007 to 2009 ?	rate
+At what rate did credit card companies make money from 2007 to 2009 ?	credit card companies
+At what rate did credit card companies make money from 2007 to 2009 ?	money
+At what rate did credit card companies make money from 2007 to 2009 ?	from 2007 to 2009
+51
+What are the two top credit card companies economically speaking ?	the two top credit card companies
+52
+How did each credit company fair side by side from 2007 to 2009 ?	each credit company fair side
+How did each credit company fair side by side from 2007 to 2009 ?	side from 2007 to 2009 ?
+How did each credit company fair side by side from 2007 to 2009 ?	side
+How did each credit company fair side by side from 2007 to 2009 ?	from 2007 to 2009
+53
+How has the revenue for credit card companies changed from 2007 to 2009 ?	the revenue
+How has the revenue for credit card companies changed from 2007 to 2009 ?	credit card companies changed from 2007 to 2009
+How has the revenue for credit card companies changed from 2007 to 2009 ?	credit card companies
+How has the revenue for credit card companies changed from 2007 to 2009 ?	from 2007 to 2009
+54
+How does the revenue for Visa and Discover compare to Mastercard and American Express ?	the revenue for Visa and Discover
+How does the revenue for Visa and Discover compare to Mastercard and American Express ?	the revenue
+How does the revenue for Visa and Discover compare to Mastercard and American Express ?	Visa and Discover
+How does the revenue for Visa and Discover compare to Mastercard and American Express ?	Mastercard and American Express
+55
+How does the revenue from 2007-2009 compare between Visa, Mastercard, Disover and American Express ?	the revenue
+How does the revenue from 2007-2009 compare between Visa, Mastercard, Disover and American Express ?	2007-2009 compare between Visa, Mastercard, Disover and American Express
+How does the revenue from 2007-2009 compare between Visa, Mastercard, Disover and American Express ?	Visa, Mastercard, Disover and American Express
+How does the revenue from 2007-2009 compare between Visa, Mastercard, Disover and American Express ?	from 2007-2009
+56
+How does the revenue of credit card companies compare from 2008 to 2009 ?	the revenue
+How does the revenue of credit card companies compare from 2008 to 2009 ?	credit card companies compare from 2008 to 2009
+How does the revenue of credit card companies compare from 2008 to 2009 ?	credit card companies
+How does the revenue of credit card companies compare from 2008 to 2009 ?	from 2008 to 2009
+57
+How does the revenue of Discover compare to American Express in 2010 ?	the revenue of Discover
+How does the revenue of Discover compare to American Express in 2010 ?	the revenue
+How does the revenue of Discover compare to American Express in 2010 ?	Discover
+How does the revenue of Discover compare to American Express in 2010 ?	American Express in 2010
+How does the revenue of Discover compare to American Express in 2010 ?	American Express
+How does the revenue of Discover compare to American Express in 2010 ?	in 2010
+58
+How does the revenue of American Express in 2008 compare to Discover, Mastercard, and Visa during the same year ?	the revenue of American Express
+How does the revenue of American Express in 2008 compare to Discover, Mastercard, and Visa during the same year ?	the revenue
+How does the revenue of American Express in 2008 compare to Discover, Mastercard, and Visa during the same year ?	American Express
+How does the revenue of American Express in 2008 compare to Discover, Mastercard, and Visa during the same year ?	2008 compare to Discover, Mastercard, and Visa during the same year ?
+How does the revenue of American Express in 2008 compare to Discover, Mastercard, and Visa during the same year ?	2008
+How does the revenue of American Express in 2008 compare to Discover, Mastercard, and Visa during the same year ?	Mastercard, and Visa
+How does the revenue of American Express in 2008 compare to Discover, Mastercard, and Visa during the same year ?	during the same year
+59
+How does the revenue of Visa in 2007 compare to 2008 and 2009 ?	the revenue of Visa
+How does the revenue of Visa in 2007 compare to 2008 and 2009 ?	the revenue
+How does the revenue of Visa in 2007 compare to 2008 and 2009 ?	Visa
+How does the revenue of Visa in 2007 compare to 2008 and 2009 ?	in 2007 compare to 2008 and 2009
+60
+How has the revenue of Credit Card Companies changed over time from 2007 to 2009 ?	the revenue
+How has the revenue of Credit Card Companies changed over time from 2007 to 2009 ?	Credit Card Companies changed over time from 2007 to 2009
+How has the revenue of Credit Card Companies changed over time from 2007 to 2009 ?	Credit Card Companies
+How has the revenue of Credit Card Companies changed over time from 2007 to 2009 ?	over time from 2007 to 2009
+61
+How does the revenue of various credit card companies compare to each other ?	the revenue
+How does the revenue of various credit card companies compare to each other ?	various credit card companies compare to each other
+How does the revenue of various credit card companies compare to each other ?	various credit card companies
+How does the revenue of various credit card companies compare to each other ?	each other
+62
+How does the revenue of various credit card companies compare over a 3 year period ?	the revenue
+How does the revenue of various credit card companies compare over a 3 year period ?	various credit card companies compare over a 3 year period
+How does the revenue of various credit card companies compare over a 3 year period ?	various credit card companies
+How does the revenue of various credit card companies compare over a 3 year period ?	a 3 year period
+How does the revenue of various credit card companies compare over a 3 year period ?	year period
+63
+How much revenue (in millions) did credit card companies earn from 2007 to 2009 ?	revenue (in millions)
+How much revenue (in millions) did credit card companies earn from 2007 to 2009 ?	credit card companies earn from 2007 to 2009
+How much revenue (in millions) did credit card companies earn from 2007 to 2009 ?	credit card companies
+How much revenue (in millions) did credit card companies earn from 2007 to 2009 ?	from 2007 to 2009
+64
+How much revenue (in millions) did the top four credit card companies earn in 2010 ?	revenue (in millions)
+How much revenue (in millions) did the top four credit card companies earn in 2010 ?	the top four credit card companies earn in 2010
+How much revenue (in millions) did the top four credit card companies earn in 2010 ?	the top four credit card
+How much revenue (in millions) did the top four credit card companies earn in 2010 ?	companies
+How much revenue (in millions) did the top four credit card companies earn in 2010 ?	in 2010
+65
+How much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	much
+How much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	each of the top four credit card companies earn (in millions) from 2007 to 2009
+How much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	each
+How much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	the top four credit card companies earn (in millions) from 2007 to 2009
+How much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	the top four credit card companies
+How much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	(in millions)
+How much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	from 2007 to 2009
+66
+Comparitively, how much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	Comparitively, how much
+Comparitively, how much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	Comparitively,
+Comparitively, how much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	each of the top four credit card companies
+Comparitively, how much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	each
+Comparitively, how much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	the top four credit card companies
+Comparitively, how much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	(in millions)
+Comparitively, how much did each of the top four credit card companies earn (in millions) from 2007 to 2009 ?	from 2007 to 2009
+67
+How has the credit card industry changed over the last 5 years ?	the credit card industry
+How has the credit card industry changed over the last 5 years ?	the last 5 years
+How has the credit card industry changed over the last 5 years ?	years
+68
+How does Visa compare to other credit card companies ?	Visa
+How does Visa compare to other credit card companies ?	other credit card companies
+69
+How does Mastercard compare to other credit card companies ?	Mastercard
+How does Mastercard compare to other credit card companies ?	other credit card companies
+70
+Does Visa or Mastercard make more money ?	Visa
+Does Visa or Mastercard make more money ?	Mastercard
+Does Visa or Mastercard make more money ?	more money
+71
+What is the revenue of the top credit card companies ?	the revenue
+What is the revenue of the top credit card companies ?	the top credit card companies
+72
+In 2010, what is the revenue of the top credit companies ?	2010,
+In 2010, what is the revenue of the top credit companies ?	the revenue of the top credit companies
+In 2010, what is the revenue of the top credit companies ?	the revenue
+In 2010, what is the revenue of the top credit companies ?	the top credit companies
+In 2010, what is the revenue of the top credit companies ?	2010,
+73
+What is the revenue of Visa, Mastercard, Discover, and American Express since 2007 ?	the revenue of Visa, Mastercard, Discover, and American Express
+What is the revenue of Visa, Mastercard, Discover, and American Express since 2007 ?	the revenue
+What is the revenue of Visa, Mastercard, Discover, and American Express since 2007 ?	Visa, Mastercard, Discover, and American Express
+What is the revenue of Visa, Mastercard, Discover, and American Express since 2007 ?	since 2007
+74
+What company (Mastercard, Visa, American Express, Discover) has the highest revenue since 2007-2009 ?	company (Mastercard, Visa, American Express, Discover)
+What company (Mastercard, Visa, American Express, Discover) has the highest revenue since 2007-2009 ?	the highest revenue since 2007-2009
+What company (Mastercard, Visa, American Express, Discover) has the highest revenue since 2007-2009 ?	the highest revenue
+What company (Mastercard, Visa, American Express, Discover) has the highest revenue since 2007-2009 ?	since 2007-2009
+75
+Over the past 15 years, how does the revenue of Hertz compare to that of Avis ?	the past 15 years,
+Over the past 15 years, how does the revenue of Hertz compare to that of Avis ?	the revenue of Hertz compare to that of Avis ?
+Over the past 15 years, how does the revenue of Hertz compare to that of Avis ?	the revenue
+Over the past 15 years, how does the revenue of Hertz compare to that of Avis ?	Hertz compare to that of Avis
+Over the past 15 years, how does the revenue of Hertz compare to that of Avis ?	Hertz
+Over the past 15 years, how does the revenue of Hertz compare to that of Avis ?	that of Avis
+Over the past 15 years, how does the revenue of Hertz compare to that of Avis ?	years,
+76
+How has the revenue of Avis fluctuated over the past several decades ?	the revenue of Avis
+How has the revenue of Avis fluctuated over the past several decades ?	the revenue
+How has the revenue of Avis fluctuated over the past several decades ?	Avis
+How has the revenue of Avis fluctuated over the past several decades ?	over the past several decades
+77
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	the past 10 years,
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	the revenue of Hertz
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	the revenue
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	Hertz
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	the revenue of Avis
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	the revenue
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	Avis
+In the past 10 years, how does the revenue of Hertz stack up to the revenue of Avis ?	years,
+78
+How does the revenue of Avis compare to that of other companies ?	the revenue
+How does the revenue of Avis compare to that of other companies ?	Avis compare to that of other companies
+How does the revenue of Avis compare to that of other companies ?	Avis
+How does the revenue of Avis compare to that of other companies ?	that of other companies
+79
+How does Hertz and Avis compare in terms of revenue over the past 15 years ?	Hertz and Avis
+How does Hertz and Avis compare in terms of revenue over the past 15 years ?	terms of revenue over the past 15 years
+How does Hertz and Avis compare in terms of revenue over the past 15 years ?	years
+80
+What is the Avis revenue model over the past 20 years ?	the Avis revenue model
+What is the Avis revenue model over the past 20 years ?	the past 20 years
+What is the Avis revenue model over the past 20 years ?	years
+81
+How does Hertz and Avis compare in terms of revenue ?	Hertz and Avis
+How does Hertz and Avis compare in terms of revenue ?	terms of revenue
+82
+How does Avis compare to its competitors in terms of revenue ?	Avis
+How does Avis compare to its competitors in terms of revenue ?	its competitors
+How does Avis compare to its competitors in terms of revenue ?	terms of revenue
+83
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	the revenue
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	HERTZ compare to the revenue for AVIS from the past 15 years
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	HERTZ
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	the revenue for AVIS
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	the revenue
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	AVIS
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	the past 15 years
+How does the revenue for HERTZ compare to the revenue for AVIS from the past 15 years ?	years
+84
+How has Avis revenue changed over the course of the past 15 years ?	Avis revenue
+How has Avis revenue changed over the course of the past 15 years ?	the course of the past 15 years
+How has Avis revenue changed over the course of the past 15 years ?	the course
+How has Avis revenue changed over the course of the past 15 years ?	the past 15 years
+How has Avis revenue changed over the course of the past 15 years ?	years
+85
+Over the past decade how has the revenue for AVIS and HERTZ altered ?	the past decade
+Over the past decade how has the revenue for AVIS and HERTZ altered ?	the revenue for AVIS and HERTZ altered
+Over the past decade how has the revenue for AVIS and HERTZ altered ?	the revenue
+Over the past decade how has the revenue for AVIS and HERTZ altered ?	AVIS
+Over the past decade how has the revenue for AVIS and HERTZ altered ?	HERTZ
+Over the past decade how has the revenue for AVIS and HERTZ altered ?	the past decade
+86
+How does Avis revenue compare to other companies in the year 2010 ?	Avis
+How does Avis revenue compare to other companies in the year 2010 ?	revenue
+How does Avis revenue compare to other companies in the year 2010 ?	other companies
+How does Avis revenue compare to other companies in the year 2010 ?	in the year 2010
+87
+How does the revenue of HERTZ compare to AVIS in 1995 ?	the revenue
+How does the revenue of HERTZ compare to AVIS in 1995 ?	HERTZ compare to AVIS in 1995
+How does the revenue of HERTZ compare to AVIS in 1995 ?	HERTZ
+How does the revenue of HERTZ compare to AVIS in 1995 ?	in 1995
+88
+How has the revenue of AVIS changed from 1995 to 2010 ?	the revenue of AVIS
+How has the revenue of AVIS changed from 1995 to 2010 ?	the revenue
+How has the revenue of AVIS changed from 1995 to 2010 ?	AVIS
+How has the revenue of AVIS changed from 1995 to 2010 ?	from 1995 to 2010
+89
+How does the revenue of AVIS compare to HERTZ in 2000 ?	the revenue
+How does the revenue of AVIS compare to HERTZ in 2000 ?	AVIS compare to HERTZ in 2000
+How does the revenue of AVIS compare to HERTZ in 2000 ?	AVIS
+How does the revenue of AVIS compare to HERTZ in 2000 ?	in 2000
+90
+How does AVIS revenue compare to HERTZ and Budget in 2010 ?	AVIS revenue compare to HERTZ and Budget
+How does AVIS revenue compare to HERTZ and Budget in 2010 ?	AVIS revenue compare to
+How does AVIS revenue compare to HERTZ and Budget in 2010 ?	AVIS
+How does AVIS revenue compare to HERTZ and Budget in 2010 ?	revenue
+How does AVIS revenue compare to HERTZ and Budget in 2010 ?	HERTZ and Budget
+How does AVIS revenue compare to HERTZ and Budget in 2010 ?	in 2010
+91
+How does the revenue of Hertz and Avis compare over a 15 year span ?	the revenue
+How does the revenue of Hertz and Avis compare over a 15 year span ?	Hertz
+How does the revenue of Hertz and Avis compare over a 15 year span ?	Avis
+How does the revenue of Hertz and Avis compare over a 15 year span ?	a 15 year span
+How does the revenue of Hertz and Avis compare over a 15 year span ?	year span
+92
+How does the revenue of Avis change from 1995 to 2010 ?	Avis change
+How does the revenue of Avis change from 1995 to 2010 ?	from 1995 to 2010
+93
+How does the revenue of Avis compare to other companies in 2010 ?	the revenue of Avis
+How does the revenue of Avis compare to other companies in 2010 ?	the revenue
+How does the revenue of Avis compare to other companies in 2010 ?	Avis
+How does the revenue of Avis compare to other companies in 2010 ?	other companies in 2010
+How does the revenue of Avis compare to other companies in 2010 ?	other companies
+How does the revenue of Avis compare to other companies in 2010 ?	in 2010
+94
+How has Hertz revenue changed over the last 15 years ?	Hertz revenue
+How has Hertz revenue changed over the last 15 years ?	the last 15 years
+How has Hertz revenue changed over the last 15 years ?	years
+95
+How has Avis revenue changed over the last 15 years ?	Avis revenue
+How has Avis revenue changed over the last 15 years ?	the last 15 years
+How has Avis revenue changed over the last 15 years ?	years
+96
+Did Avis or Hertz have a greater revenue in 2010 ?	Did Avis or Hertz
+Did Avis or Hertz have a greater revenue in 2010 ?	a greater revenue in 2010
+Did Avis or Hertz have a greater revenue in 2010 ?	a greater revenue
+Did Avis or Hertz have a greater revenue in 2010 ?	in 2010
+97
+How does Avis rank compared to other car rental companies in revenue ?	Avis
+How does Avis rank compared to other car rental companies in revenue ?	other car rental companies in revenue
+How does Avis rank compared to other car rental companies in revenue ?	other car rental companies
+How does Avis rank compared to other car rental companies in revenue ?	revenue
+98
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?	five year
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?	periods
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?	revenue earned by Goldman Sachs decrease in the past twenty years
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?	revenue
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?	Goldman Sachs decrease in the past twenty years
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?	decrease in the past twenty years
+During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?	decrease in the past twenty years
+99
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	revenue earned by Goldman Sachs for each five year time period
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	revenue
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	Goldman Sachs
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	each five year time period
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	each five year time
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	period
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	the past twenty years
+How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?	years
+100
+How has revenue earned by Goldman Sachs changed over the past twenty years ?	revenue
+How has revenue earned by Goldman Sachs changed over the past twenty years ?	Goldman Sachs changed over the past twenty years
+How has revenue earned by Goldman Sachs changed over the past twenty years ?	Goldman Sachs
+How has revenue earned by Goldman Sachs changed over the past twenty years ?	the past twenty years
+How has revenue earned by Goldman Sachs changed over the past twenty years ?	years
+101
+How does Goldman Sachs avenue in 1995 compare to that of 2010 ?	Goldman Sachs avenue
+How does Goldman Sachs avenue in 1995 compare to that of 2010 ?	in 1995 compare to that of 2010
+102
+How does Goldman Sachs revenue in 1990 compare to that of 2000 ?	Goldman Sachs revenue in 1990
+How does Goldman Sachs revenue in 1990 compare to that of 2000 ?	Goldman Sachs revenue
+How does Goldman Sachs revenue in 1990 compare to that of 2000 ?	in 1990 compare to that of 2000
+103
+How does Goldman Sachs revenue in 2005-2010 rank among those of the past 15 years ?	Goldman Sachs revenue in 2005-2010 rank
+How does Goldman Sachs revenue in 2005-2010 rank among those of the past 15 years ?	Goldman Sachs revenue
+How does Goldman Sachs revenue in 2005-2010 rank among those of the past 15 years ?	2005-2010 rank
+How does Goldman Sachs revenue in 2005-2010 rank among those of the past 15 years ?	those of the past 15 years
+How does Goldman Sachs revenue in 2005-2010 rank among those of the past 15 years ?	years
+104
+How has Goldman Sachs revenue changed for the last 20 years ?	Goldman Sachs revenue
+How has Goldman Sachs revenue changed for the last 20 years ?	the last 20 years
+How has Goldman Sachs revenue changed for the last 20 years ?	years
+105
+How much money did Goldman Sachs make in the 21st century ?	money
+How much money did Goldman Sachs make in the 21st century ?	Goldman Sachs
+How much money did Goldman Sachs make in the 21st century ?	in the 21st century
+106
+How much money did Goldman Sachs make in the last 20 years ?	money
+How much money did Goldman Sachs make in the last 20 years ?	Goldman Sachs
+How much money did Goldman Sachs make in the last 20 years ?	the last 20 years
+How much money did Goldman Sachs make in the last 20 years ?	years
+107
+How does Goldman Sachs revenue in five year terms compare ?	Goldman Sachs revenue
+How does Goldman Sachs revenue in five year terms compare ?	five year terms compare
+How does Goldman Sachs revenue in five year terms compare ?	five year terms
+How does Goldman Sachs revenue in five year terms compare ?	year
+108
+Is Goldman Sachs on the rise ?	on the rise
+109
+Has the revenue for Goldman Sachs been steadily increasing ?	the revenue
+Has the revenue for Goldman Sachs been steadily increasing ?	Goldman Sachs
+110
+How does the fluctuation in the revenue of Goldman Sachs compare from 1990 to 2011 ?	the fluctuation in the revenue of Goldman Sachs
+How does the fluctuation in the revenue of Goldman Sachs compare from 1990 to 2011 ?	from 1990 to 2011
+111
+What is the revenue growth of Goldman Sachs starting in 1995 ?	the revenue growth
+What is the revenue growth of Goldman Sachs starting in 1995 ?	Goldman Sachs
+What is the revenue growth of Goldman Sachs starting in 1995 ?	in 1995
+112
+How has the revenue model of Goldman Sachs decreased over time ?	the revenue model of Goldman Sachs
+How has the revenue model of Goldman Sachs decreased over time ?	the revenue model
+How has the revenue model of Goldman Sachs decreased over time ?	Goldman Sachs
+How has the revenue model of Goldman Sachs decreased over time ?	decreased over time
+113
+What is the revenue model of Goldman Sachs over the past 20 years ?	the revenue model of Goldman Sachs
+What is the revenue model of Goldman Sachs over the past 20 years ?	the revenue model
+What is the revenue model of Goldman Sachs over the past 20 years ?	Goldman Sachs
+What is the revenue model of Goldman Sachs over the past 20 years ?	the past 20 years
+What is the revenue model of Goldman Sachs over the past 20 years ?	years
+114
+How does the revenue of Goldman Sachs compare over the past 15 years ?	the revenue of Goldman Sachs
+How does the revenue of Goldman Sachs compare over the past 15 years ?	the revenue
+How does the revenue of Goldman Sachs compare over the past 15 years ?	Goldman Sachs
+How does the revenue of Goldman Sachs compare over the past 15 years ?	the past 15 years
+How does the revenue of Goldman Sachs compare over the past 15 years ?	years
+115
+What was the revenue of Goldman Sachs in 1990 compared to future revenues ?	the revenue of Goldman Sachs
+What was the revenue of Goldman Sachs in 1990 compared to future revenues ?	the revenue
+What was the revenue of Goldman Sachs in 1990 compared to future revenues ?	Goldman Sachs
+What was the revenue of Goldman Sachs in 1990 compared to future revenues ?	future revenues
+What was the revenue of Goldman Sachs in 1990 compared to future revenues ?	in 1990
+116
+What was the revenue of Goldman Sachs in 2005 compared to previous years ?	the revenue of Goldman Sachs
+What was the revenue of Goldman Sachs in 2005 compared to previous years ?	the revenue
+What was the revenue of Goldman Sachs in 2005 compared to previous years ?	Goldman Sachs
+What was the revenue of Goldman Sachs in 2005 compared to previous years ?	in 2005 compared to previous years
+117
+How has there been a change in Goldman Sachs revenue since 1990 ?	there
+How has there been a change in Goldman Sachs revenue since 1990 ?	a change in Goldman Sachs revenue
+How has there been a change in Goldman Sachs revenue since 1990 ?	a change in Goldman Sachs
+How has there been a change in Goldman Sachs revenue since 1990 ?	revenue
+How has there been a change in Goldman Sachs revenue since 1990 ?	since 1990
+118
+What were the revenues of Goldman Sachs from 1990 to 2010 ?	the revenues of Goldman Sachs
+What were the revenues of Goldman Sachs from 1990 to 2010 ?	the revenues
+What were the revenues of Goldman Sachs from 1990 to 2010 ?	Goldman Sachs
+What were the revenues of Goldman Sachs from 1990 to 2010 ?	from 1990 to 2010
+119
+How does the revenue of Goldman Sachs from 2005 to 2010 compare with previous years ?	the revenue of Goldman Sachs from 2005 to 2010
+How does the revenue of Goldman Sachs from 2005 to 2010 compare with previous years ?	the revenue of Goldman Sachs
+How does the revenue of Goldman Sachs from 2005 to 2010 compare with previous years ?	the revenue
+How does the revenue of Goldman Sachs from 2005 to 2010 compare with previous years ?	Goldman Sachs
+How does the revenue of Goldman Sachs from 2005 to 2010 compare with previous years ?	from 2005 to 2010 compare with previous years
+120
+How does the trend in revenue of Goldman Sachs change from 1990 to 2010 ?	the trend in revenue of Goldman Sachs change from 1990
+How does the trend in revenue of Goldman Sachs change from 1990 to 2010 ?	from 1990 to 2010
+121
+During what time periods has Goldman Sachs revenue been higher than other time periods ?	what time periods has
+During what time periods has Goldman Sachs revenue been higher than other time periods ?	time periods
+During what time periods has Goldman Sachs revenue been higher than other time periods ?	Goldman Sachs revenue
+During what time periods has Goldman Sachs revenue been higher than other time periods ?	higher than other time periods
+122
+How has Goldman Sachs revenue changed over time ?	Goldman Sachs revenue
+How has Goldman Sachs revenue changed over time ?	over time
+123
+How does the Goldman Sachs revenue for the past 5 years compare to other 5 year periods ?	the Goldman Sachs revenue
+How does the Goldman Sachs revenue for the past 5 years compare to other 5 year periods ?	the past 5 years compare to other 5 year periods
+How does the Goldman Sachs revenue for the past 5 years compare to other 5 year periods ?	the past 5 years
+How does the Goldman Sachs revenue for the past 5 years compare to other 5 year periods ?	years compare to other 5 year periods
+124
+How has Goldman Sachs revenue changed over the course of the past 20 years ?	Goldman Sachs revenue
+How has Goldman Sachs revenue changed over the course of the past 20 years ?	the course of the past 20 years
+How has Goldman Sachs revenue changed over the course of the past 20 years ?	the course
+How has Goldman Sachs revenue changed over the course of the past 20 years ?	the past 20 years
+How has Goldman Sachs revenue changed over the course of the past 20 years ?	years
+125
+How does revenue for Goldman sachs change from 1990 to 2010 ?	revenue
+How does revenue for Goldman sachs change from 1990 to 2010 ?	Goldman sachs change from 1990 to 2010
+How does revenue for Goldman sachs change from 1990 to 2010 ?	Goldman sachs
+How does revenue for Goldman sachs change from 1990 to 2010 ?	from 1990 to 2010
+126
+How does revenue for Goldman sachs change from 1990 to 2000 ?	revenue
+How does revenue for Goldman sachs change from 1990 to 2000 ?	Goldman sachs change from 1990 to 2000
+How does revenue for Goldman sachs change from 1990 to 2000 ?	Goldman sachs
+How does revenue for Goldman sachs change from 1990 to 2000 ?	from 1990 to 2000
+127
+What 5 year range is the revenue for Goldman Sachs the lowest ?	5 year range
+What 5 year range is the revenue for Goldman Sachs the lowest ?	the revenue for Goldman Sachs the lowest
+What 5 year range is the revenue for Goldman Sachs the lowest ?	the revenue
+What 5 year range is the revenue for Goldman Sachs the lowest ?	Goldman Sachs the lowest
+What 5 year range is the revenue for Goldman Sachs the lowest ?	Goldman Sachs
+What 5 year range is the revenue for Goldman Sachs the lowest ?	the lowest
+What 5 year range is the revenue for Goldman Sachs the lowest ?	year
+128
+In what year the revenue for Goldman Sachs is the lowest ?	what year the revenue for Goldman Sachs is
+In what year the revenue for Goldman Sachs is the lowest ?	year the revenue for Goldman Sachs
+In what year the revenue for Goldman Sachs is the lowest ?	year the revenue
+In what year the revenue for Goldman Sachs is the lowest ?	year
+In what year the revenue for Goldman Sachs is the lowest ?	the revenue
+In what year the revenue for Goldman Sachs is the lowest ?	Goldman Sachs
+In what year the revenue for Goldman Sachs is the lowest ?	the lowest
+In what year the revenue for Goldman Sachs is the lowest ?	year
+129
+How does the revenue of Goldman Sachs from 2005-2010 compare to the years 1995-2000 ?	the revenue of Goldman Sachs
+How does the revenue of Goldman Sachs from 2005-2010 compare to the years 1995-2000 ?	the revenue
+How does the revenue of Goldman Sachs from 2005-2010 compare to the years 1995-2000 ?	Goldman Sachs
+How does the revenue of Goldman Sachs from 2005-2010 compare to the years 1995-2000 ?	from 2005-2010 compare to the years 1995-2000
+130
+How does the revenue of Goldman Sachs compare in the years 2005-2010 to the years 2000-2005 ?	the revenue of Goldman Sachs
+How does the revenue of Goldman Sachs compare in the years 2005-2010 to the years 2000-2005 ?	the revenue
+How does the revenue of Goldman Sachs compare in the years 2005-2010 to the years 2000-2005 ?	Goldman Sachs
+How does the revenue of Goldman Sachs compare in the years 2005-2010 to the years 2000-2005 ?	in the years 2005-2010 to the years 2000-2005
+131
+How does the revenue of Goldman Sachs in the years 2005-2010 compare to the revenue in 1995-2000 ?	the revenue of Goldman Sachs
+How does the revenue of Goldman Sachs in the years 2005-2010 compare to the revenue in 1995-2000 ?	the revenue
+How does the revenue of Goldman Sachs in the years 2005-2010 compare to the revenue in 1995-2000 ?	Goldman Sachs
+How does the revenue of Goldman Sachs in the years 2005-2010 compare to the revenue in 1995-2000 ?	the years 2005-2010 compare to the revenue in 1995-2000
+How does the revenue of Goldman Sachs in the years 2005-2010 compare to the revenue in 1995-2000 ?	the years
+How does the revenue of Goldman Sachs in the years 2005-2010 compare to the revenue in 1995-2000 ?	the revenue
+How does the revenue of Goldman Sachs in the years 2005-2010 compare to the revenue in 1995-2000 ?	in 1995-2000
+132
+How has the revenue of Goldman Sachs changed from 2005 to 2010 ?	the revenue
+How has the revenue of Goldman Sachs changed from 2005 to 2010 ?	Goldman Sachs changed from 2005 to 2010
+How has the revenue of Goldman Sachs changed from 2005 to 2010 ?	Goldman Sachs
+How has the revenue of Goldman Sachs changed from 2005 to 2010 ?	from 2005 to 2010
+133
+How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?	the revenue
+How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?	Goldman Sachs decreased over 5 year intervals from 1995 to 2010
+How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?	Goldman Sachs
+How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?	5 year intervals
+How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?	1995
+How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?	to 2010
+134
+How has the revenue of Goldman Sachs varied over 5 year intervals from 1995 to 2010 ?	the revenue
+How has the revenue of Goldman Sachs varied over 5 year intervals from 1995 to 2010 ?	Goldman Sachs varied over 5 year intervals from 1995 to 2010
+How has the revenue of Goldman Sachs varied over 5 year intervals from 1995 to 2010 ?	Goldman Sachs
+How has the revenue of Goldman Sachs varied over 5 year intervals from 1995 to 2010 ?	5 year intervals
+How has the revenue of Goldman Sachs varied over 5 year intervals from 1995 to 2010 ?	year intervals from 1995 to 2010
+135
+How much revenue did Goldman Sachs earn from 1995 to 2010 ?	revenue
+How much revenue did Goldman Sachs earn from 1995 to 2010 ?	Goldman Sachs
+How much revenue did Goldman Sachs earn from 1995 to 2010 ?	from 1995 to 2010
+136
+What is the revenue of Goldman Sachs ?	the revenue
+What is the revenue of Goldman Sachs ?	Goldman Sachs
+137
+What is the revenue of Goldman Sachs since the 90s ?	the revenue of Goldman Sachs
+What is the revenue of Goldman Sachs since the 90s ?	the revenue
+What is the revenue of Goldman Sachs since the 90s ?	Goldman Sachs
+What is the revenue of Goldman Sachs since the 90s ?	since the 90s
+138
+How has the revenue of the company Goldman Sachs changed since the 90s ?	the revenue
+How has the revenue of the company Goldman Sachs changed since the 90s ?	the company Goldman Sachs changed since the 90s
+How has the revenue of the company Goldman Sachs changed since the 90s ?	the company Goldman Sachs
+How has the revenue of the company Goldman Sachs changed since the 90s ?	the company
+How has the revenue of the company Goldman Sachs changed since the 90s ?	Goldman Sachs
+How has the revenue of the company Goldman Sachs changed since the 90s ?	since the 90s
+139
+Has Goldman Sachs been increasing in revenue over the last 15 years ?	Has Goldman Sachs
+Has Goldman Sachs been increasing in revenue over the last 15 years ?	revenue
+Has Goldman Sachs been increasing in revenue over the last 15 years ?	the last 15 years
+Has Goldman Sachs been increasing in revenue over the last 15 years ?	years
+140
+Has Goldman Sachs been increasing in revenue over the last 20 years ?	Has Goldman Sachs
+Has Goldman Sachs been increasing in revenue over the last 20 years ?	revenue
+Has Goldman Sachs been increasing in revenue over the last 20 years ?	the last 20 years
+Has Goldman Sachs been increasing in revenue over the last 20 years ?	years
+141
+What is the revenue for Goldman Sachs ?	the revenue
+What is the revenue for Goldman Sachs ?	Goldman Sachs

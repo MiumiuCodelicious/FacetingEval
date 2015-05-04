@@ -1,0 +1,32 @@
+
+ccg(5,
+ rp('S[wq]',
+  fa('S[wq]',
+   fa('S[wq]/(S[dcl]\NP)',
+    lf(5,1,'(S[wq]/(S[dcl]\NP))/N'),
+    lf(5,2,'N')),
+   ba('S[dcl]\NP',
+    fa('S[dcl]\NP',
+     lf(5,3,'(S[dcl]\NP)/(S[adj]\NP)'),
+     fa('S[adj]\NP',
+      lf(5,4,'(S[adj]\NP)/(S[adj]\NP)'),
+      lf(5,5,'S[adj]\NP'))),
+    fa('(S[X]\NP)\(S[X]\NP)',
+     lf(5,6,'((S[X]\NP)\(S[X]\NP))/NP'),
+     fa('NP[nb]',
+      lf(5,7,'NP[nb]/N'),
+      fa('N',
+       lf(5,8,'N/N'),
+       lf(5,9,'N')))))),
+  lf(5,10,'.'))).
+
+w(5, 1, 'Which', 'which', 'WDT', 'I-NP', 'O', '(S[wq]/(S[dcl]\NP))/N').
+w(5, 2, 'religions', 'religion', 'NNS', 'I-NP', 'O', 'N').
+w(5, 3, 'are', 'be', 'VBP', 'I-VP', 'O', '(S[dcl]\NP)/(S[adj]\NP)').
+w(5, 4, 'most', 'most', 'RBS', 'I-ADJP', 'O', '(S[adj]\NP)/(S[adj]\NP)').
+w(5, 5, 'prevalent', 'prevalent', 'JJ', 'I-ADJP', 'O', 'S[adj]\NP').
+w(5, 6, 'in', 'in', 'IN', 'I-PP', 'O', '((S[X]\NP)\(S[X]\NP))/NP').
+w(5, 7, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(5, 8, 'southern', 'southern', 'JJ', 'I-NP', 'O', 'N/N').
+w(5, 9, 'states', 'state', 'NNS', 'I-NP', 'O', 'N').
+w(5, 10, '?', '?', '.', 'O', 'O', '.').

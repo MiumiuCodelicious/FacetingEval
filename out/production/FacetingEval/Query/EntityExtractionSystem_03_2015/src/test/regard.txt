@@ -1,0 +1,44 @@
+
+ccg(47,
+ rp('S[wq]',
+  fa('S[wq]',
+   lf(47,1,'S[wq]/(S[dcl]\NP)'),
+   ba('S[dcl]\NP',
+    fa('S[dcl]\NP',
+     lf(47,2,'(S[dcl]\NP)/NP'),
+     ba('NP',
+      fa('NP[nb]',
+       lf(47,3,'NP[nb]/N'),
+       fa('N',
+        lf(47,4,'N/N'),
+        lf(47,5,'N'))),
+      fa('NP\NP',
+       lf(47,6,'(NP\NP)/NP'),
+       ba('NP',
+        lex('N','NP',
+         lf(47,7,'N')),
+        fa('NP\NP',
+         lf(47,8,'(NP\NP)/NP'),
+         lex('N','NP',
+          fa('N',
+           lf(47,9,'N/N'),
+           lf(47,10,'N')))))))),
+    fa('(S[X]\NP)\(S[X]\NP)',
+     lf(47,11,'((S[X]\NP)\(S[X]\NP))/NP'),
+     lex('N','NP',
+      lf(47,12,'N'))))),
+  lf(47,13,'.'))).
+
+w(47, 1, 'what', 'what', 'WP', 'I-NP', 'O', 'S[wq]/(S[dcl]\NP)').
+w(47, 2, 'are', 'be', 'VBP', 'I-VP', 'O', '(S[dcl]\NP)/NP').
+w(47, 3, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(47, 4, 'personal', 'personal', 'JJ', 'I-NP', 'O', 'N/N').
+w(47, 5, 'filings', 'filings', 'NNS', 'I-NP', 'O', 'N').
+w(47, 6, 'with', 'with', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(47, 7, 'regards', 'regards', 'NNS', 'I-NP', 'O', 'N').
+w(47, 8, 'to', 'to', 'TO', 'I-PP', 'O', '(NP\NP)/NP').
+w(47, 9, 'Delawares', 'delaware', 'NNS', 'I-NP', 'O', 'N/N').
+w(47, 10, 'bankruptcy', 'bankruptcy', 'NN', 'I-NP', 'O', 'N').
+w(47, 11, 'from', 'from', 'IN', 'I-PP', 'O', '((S[X]\NP)\(S[X]\NP))/NP').
+w(47, 12, '1998-2001', '1998-2001', 'CD', 'I-NP', 'I-DAT', 'N').
+w(47, 13, '?', '?', '.', 'O', 'O', '.').

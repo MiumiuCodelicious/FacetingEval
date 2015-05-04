@@ -1,0 +1,33 @@
+
+ccg(25,
+ fc('S[wq]/(S[b]\NP)',
+  lf(25,1,'S[wq]/S[q]'),
+  fa('S[q]/(S[b]\NP)',
+   lf(25,2,'(S[q]/(S[b]\NP))/NP'),
+   rp('NP',
+    ba('NP',
+     lex('N','NP',
+      fa('N',
+       ba('N/N',
+        lf(25,3,'N/N'),
+        conj('conj','N/N','(N/N)\(N/N)',
+         lf(25,4,'conj'),
+         lf(25,5,'N/N'))),
+       fa('N',
+        lf(25,6,'N/N'),
+        lf(25,7,'N')))),
+     lex('S[dcl]\NP','NP\NP',
+      lf(25,8,'S[dcl]\NP'))),
+    lf(25,9,'.'))))).
+
+w(25, 1, 'How', 'how', 'WRB', 'I-ADVP', 'O', 'S[wq]/S[q]').
+w(25, 2, 'does', 'do', 'VBZ', 'O', 'O', '(S[q]/(S[b]\NP))/NP').
+w(25, 3, 'foreign', 'foreign', 'JJ', 'I-NP', 'O', 'N/N').
+w(25, 4, 'and', 'and', 'CC', 'I-NP', 'O', 'conj').
+w(25, 5, 'domestic', 'domestic', 'JJ', 'I-NP', 'O', 'N/N').
+w(25, 6, 'car', 'car', 'NN', 'I-NP', 'O', 'N/N').
+w(25, 7, 'makers', 'maker', 'NNS', 'I-NP', 'O', 'N').
+w(25, 8, 'compare', 'compare', 'VBP', 'I-VP', 'O', 'S[dcl]\NP').
+w(25, 9, '?', '?', '.', 'O', 'O', '.').
+
+

@@ -1,0 +1,54 @@
+ccg(21,
+ rp('S[wq]',
+  fa('S[wq]',
+   lf(21,1,'S[wq]/(S[dcl]\NP)'),
+   fa('S[dcl]\NP',
+    lf(21,2,'(S[dcl]\NP)/NP'),
+    ba('NP',
+     fa('NP[nb]',
+      lf(21,3,'NP[nb]/N'),
+      lf(21,4,'N')),
+     fa('NP\NP',
+      lf(21,5,'(NP\NP)/NP'),
+      ba('NP',
+       ba('NP',
+        fa('NP[nb]',
+         lf(21,6,'NP[nb]/N'),
+         lf(21,7,'N')),
+        fa('NP\NP',
+         lf(21,8,'(NP\NP)/NP'),
+         lex('N','NP',
+          lf(21,9,'N')))),
+       lex('S[dcl]\NP','NP\NP',
+        fa('S[dcl]\NP',
+         bx('(S[dcl]\NP)/NP',
+          lf(21,10,'(S[dcl]\NP)/NP'),
+          fa('(S[X]\NP)\(S[X]\NP)',
+           lf(21,11,'((S[X]\NP)\(S[X]\NP))/NP'),
+           lex('N','NP',
+            lf(21,12,'N')))),
+         lex('N','NP',
+          funny('N',
+           lf(21,13,'conj'),
+           fa('N',
+            lf(21,14,'N/N'),
+            lf(21,15,'N'))))))))))),
+  lf(21,16,'.'))).
+
+w(21, 1, 'What', 'what', 'WP', 'I-NP', 'O', 'S[wq]/(S[dcl]\NP)').
+w(21, 2, 'is', 'be', 'VBZ', 'I-VP', 'O', '(S[dcl]\NP)/NP').
+w(21, 3, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(21, 4, 'difference', 'difference', 'NN', 'I-NP', 'O', 'N').
+w(21, 5, 'between', 'between', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(21, 6, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(21, 7, 'amount', 'amount', 'NN', 'I-NP', 'O', 'N').
+w(21, 8, 'of', 'of', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(21, 9, 'americans', 'american', 'NNS', 'I-NP', 'O', 'N').
+w(21, 10, 'adopt', 'adopt', 'VBP', 'I-VP', 'O', '(S[dcl]\NP)/NP').
+w(21, 11, 'from', 'from', 'IN', 'I-PP', 'O', '((S[X]\NP)\(S[X]\NP))/NP').
+w(21, 12, 'Guatemala', 'Guatemala', 'NNP', 'I-NP', 'I-LOC', 'N').
+w(21, 13, 'and', 'and', 'CC', 'O', 'O', 'conj').
+w(21, 14, 'South', 'South', 'NNP', 'I-NP', 'I-LOC', 'N/N').
+w(21, 15, 'Korea', 'Korea', 'NNP', 'I-NP', 'I-LOC', 'N').
+w(21, 16, '?', '?', '.', 'O', 'O', '.').
+

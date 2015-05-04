@@ -1,0 +1,39 @@
+ccg(4,
+ fa('S[wq]/PP',
+  fa('(S[wq]/PP)/((S[q]/PP)/NP)',
+   fa('((S[wq]/PP)/((S[q]/PP)/NP))/N',
+    lf(4,1,'(((S[wq]/PP)/((S[q]/PP)/NP))/N)/(NP/N)'),
+    lf(4,2,'NP/N')),
+   lf(4,3,'N')),
+  gfc('(S[q]/PP)/NP',
+   fa('S[q]/(S[b]\NP)',
+    lf(4,4,'(S[q]/(S[b]\NP))/NP'),
+    lex('N','NP',
+     lf(4,5,'N'))),
+   gbx('((S[b]\NP)/PP)/NP',
+    lf(4,6,'((S[b]\NP)/PP)/NP'),
+    rp('(S[X]\NP)\(S[X]\NP)',
+     ba('(S[X]\NP)\(S[X]\NP)',
+      fa('NP[nb]',
+       lf(4,7,'NP[nb]/N'),
+       fa('N',
+        lf(4,8,'N/N'),
+        lf(4,9,'N'))),
+      fa('((S[X]\NP)\(S[X]\NP))\NP',
+       lf(4,10,'(((S[X]\NP)\(S[X]\NP))\NP)/NP'),
+       lex('N','NP',
+        lf(4,11,'N')))),
+     lf(4,12,'.')))))).
+
+w(4, 1, 'How', 'how', 'WRB', 'I-NP', 'O', '(((S[wq]/PP)/((S[q]/PP)/NP))/N)/(NP/N)').
+w(4, 2, 'much', 'much', 'JJ', 'I-NP', 'O', 'NP/N').
+w(4, 3, 'revenue', 'revenue', 'NN', 'I-NP', 'O', 'N').
+w(4, 4, 'did', 'do', 'VBD', 'I-VP', 'O', '(S[q]/(S[b]\NP))/NP').
+w(4, 5, 'Ford', 'Ford', 'NNP', 'I-NP', 'I-PER', 'N').
+w(4, 6, 'earn', 'earn', 'VB', 'I-VP', 'O', '((S[b]\NP)/PP)/NP').
+w(4, 7, 'every', 'every', 'DT', 'I-NP', 'I-DAT', 'NP[nb]/N').
+w(4, 8, 'four', 'four', 'CD', 'I-NP', 'I-DAT', 'N/N').
+w(4, 9, 'years', 'year', 'NNS', 'I-NP', 'I-DAT', 'N').
+w(4, 10, 'after', 'after', 'IN', 'I-PP', 'I-DAT', '(((S[X]\NP)\(S[X]\NP))\NP)/NP').
+w(4, 11, '2000', '2000', 'CD', 'I-NP', 'I-DAT', 'N').
+w(4, 12, '?', '?', '.', 'O', 'O', '.').

@@ -1,0 +1,578 @@
+1	How does the GDP of the U.S. compare to the rest of the world ?	the GDP of the U.S.
+2	How does the GDP of the U.S. compare to the rest of the world ?	the GDP
+3	How does the GDP of the U.S. compare to the rest of the world ?	the U.S.
+4	How does the GDP of the U.S. compare to the rest of the world ?	the rest of the world
+5	Which first world countries have the largest GDP ?	first world countries
+6	Which first world countries have the largest GDP ?	GDP
+7	What is the GDP per capita for various developed nations?	the GDP
+8	What is the GDP per capita for various developed nations?	capita for various developed nations?
+9	What is the GDP per capita for various developed nations?	capita
+10	What is the GDP per capita for various developed nations?	various developed nations?
+11	What is the GDP per capita for various developed countries?	the GDP
+12	What is the GDP per capita for various developed countries?	capita for various developed countries?
+13	What is the GDP per capita for various developed countries?	capita
+14	What is the GDP per capita for various developed countries?	various developed countries?
+15	What was the GDP for the leading European countries in 2001 ?	the GDP
+16	What was the GDP for the leading European countries in 2001 ?	the leading European countries in 2001
+17	What was the GDP for the leading European countries in 2001 ?	the leading European countries
+18	What was the GDP for the leading European countries in 2001 ?	in 2001
+19	What is the difference of GDP per capita in the U.S. and Japan in the year 2001 ?	the difference of GDP
+20	What is the difference of GDP per capita in the U.S. and Japan in the year 2001 ?	capita
+21	What is the difference of GDP per capita in the U.S. and Japan in the year 2001 ?	the U.S. and Japan
+22	What is the difference of GDP per capita in the U.S. and Japan in the year 2001 ?	in the year 2001
+23	What is the per capita GDP for countries around the world ?	the per capita GDP
+24	What is the per capita GDP for countries around the world ?	the
+25	What is the per capita GDP for countries around the world ?	capita GDP
+26	What is the per capita GDP for countries around the world ?	capita
+27	What is the per capita GDP for countries around the world ?	GDP
+28	What is the per capita GDP for countries around the world ?	countries around the world
+29	What is the per capita GDP for countries around the world ?	countries
+30	What is the per capita GDP for countries around the world ?	the world
+31	How do other countries\ GDP per capita compare to that of the U.S. in 2001 ?	other countries\
+32	How do other countries\ GDP per capita compare to that of the U.S. in 2001 ?	GDP per capita
+33	How do other countries\ GDP per capita compare to that of the U.S. in 2001 ?	GDP
+34	How do other countries\ GDP per capita compare to that of the U.S. in 2001 ?	capita
+35	How do other countries\ GDP per capita compare to that of the U.S. in 2001 ?	that of the U.S.
+36	How do other countries\ GDP per capita compare to that of the U.S. in 2001 ?	in 2001
+37	What is the GDP of the U.S.A. ?	the GDP
+38	What is the GDP of the U.S.A. ?	the U.S.A.
+39	How does the GDP per capita compare amongst nations?	the GDP
+40	How does the GDP per capita compare amongst nations?	capita compare amongst nations?
+41	How does the GDP per capita compare amongst nations?	capita
+42	How does the GDP per capita compare amongst nations?	amongst nations?
+43	What countries had a GDP per capita less than $30,000 in 2001 ?	countries
+44	What countries had a GDP per capita less than $30,000 in 2001 ?	a GDP per capita less than $30,000
+45	What countries had a GDP per capita less than $30,000 in 2001 ?	a GDP per capita
+46	What countries had a GDP per capita less than $30,000 in 2001 ?	less than $30,000
+47	What countries had a GDP per capita less than $30,000 in 2001 ?	than $30,000 in 2001
+48	How does the number of Southern Baptists compare throughout the United States ?	Southern Baptists compare throughout the United States
+49	How does the number of Southern Baptists compare throughout the United States ?	Southern Baptists
+50	How does the number of Southern Baptists compare throughout the United States ?	the United States
+51	Does religion have greater importance and impact on southern states compared to northern states ?	religion
+52	Does religion have greater importance and impact on southern states compared to northern states ?	greater importance and impact on southern states
+53	Does religion have greater importance and impact on southern states compared to northern states ?	greater importance and impact
+54	Does religion have greater importance and impact on southern states compared to northern states ?	importance and impact
+55	Does religion have greater importance and impact on southern states compared to northern states ?	southern states
+56	Does religion have greater importance and impact on southern states compared to northern states ?	northern states
+57	Which states have the highest percentage of Southern Baptists ?	states
+58	Which states have the highest percentage of Southern Baptists ?	percentage of Southern Baptists
+59	What is the percentage of Baptists in the southern states ?	the percentage of Baptists
+60	What is the percentage of Baptists in the southern states ?	the southern states
+61	Which states have the highest number of Southern Baptists ?	states
+62	Which states have the highest number of Southern Baptists ?	number of Southern Baptists
+63	What states have the highest percentage of Southern Baptists in the U.S. ?	states
+64	What states have the highest percentage of Southern Baptists in the U.S. ?	percentage of Southern Baptists in the U.S.
+65	What states have the highest percentage of Southern Baptists in the U.S. ?	percentage of Southern Baptists
+66	What states have the highest percentage of Southern Baptists in the U.S. ?	the U.S.
+67	What is the percent difference in Southern Baptist numbers between states ?	the percent difference
+68	What is the percent difference in Southern Baptist numbers between states ?	Southern Baptist numbers
+69	What is the percent difference in Southern Baptist numbers between states ?	states
+70	What religion is dominant in the south ?	religion
+71	What religion is dominant in the south ?	the south
+72	Which countries have the same amount of Southern Baptists ?	countries
+73	Which countries have the same amount of Southern Baptists ?	the same amount of Southern Baptists
+74	Which religions are most prevalent in the southern states ?	religions
+75	Which religions are most prevalent in the southern states ?	the southern states
+76	How does the amount of children adopted from Russia to the U.S. compare to other countries ?	the amount of children adopted from Russia to the U.S.
+77	How does the amount of children adopted from Russia to the U.S. compare to other countries ?	other countries
+78	Which country has adopted the most children from the U.S.A. ?	country
+79	Which country has adopted the most children from the U.S.A. ?	children from the U.S.A.
+80	Which country has adopted the most children from the U.S.A. ?	children
+81	Which country has adopted the most children from the U.S.A. ?	the U.S.A.
+82	What are the countries from which Americans adopted the most children ?	the countries
+83	What are the countries from which Americans adopted the most children ?	Americans
+84	What are the countries from which Americans adopted the most children ?	children
+85	What is the total number of children adopted in the FY2009 from various countries ?	children adopted in the FY2009 from various countries
+86	What is the total number of children adopted in the FY2009 from various countries ?	children
+87	What is the total number of children adopted in the FY2009 from various countries ?	various countries
+88	What is the total number of children adopted in the FY2009 from various countries ?	in the FY2009
+89	Which nationalities were adopted the most ?	nationalities
+90	Which nationalities were adopted the most ?	most
+91	How many children were adopted from China by U.S. citizens in the year 2009 as opposed to other countries ?	many children were adopted from China by U.S. citizens
+92	How many children were adopted from China by U.S. citizens in the year 2009 as opposed to other countries ?	many children
+93	How many children were adopted from China by U.S. citizens in the year 2009 as opposed to other countries ?	China
+94	How many children were adopted from China by U.S. citizens in the year 2009 as opposed to other countries ?	U.S. citizens
+95	How many children were adopted from China by U.S. citizens in the year 2009 as opposed to other countries ?	year 2009 as opposed to other countries
+96	How many children were adopted from China by U.S. citizens in the year 2009 as opposed to other countries ?	other countries
+97	How many children were adopted from China by U.S. citizens in the year 2009 as opposed to other countries ?	in the year 2009
+98	Which countries have Americans adopted the most children from ?	countries
+99	Which countries have Americans adopted the most children from ?	Americans
+100	Which countries have Americans adopted the most children from ?	children
+101	How has the trend in adopting kids changed over the past years ?	kids changed over the past years
+102	How has the trend in adopting kids changed over the past years ?	kids
+103	How has the trend in adopting kids changed over the past years ?	over the past years
+104	Which country has the most adopted children ?	country
+105	Which country has the most adopted children ?	adopted children
+106	From which country do Americans adopt the most children ?	country
+107	From which country do Americans adopt the most children ?	Americans
+108	From which country do Americans adopt the most children ?	children
+109	What country are Americans most likely to adopt from ?	country
+110	What country are Americans most likely to adopt from ?	likely to adopt
+111	What country are Americans most likely to adopt from ?	Americans
+112	Which countries do Americans tend to adopt children from most often ?	countries
+113	Which countries do Americans tend to adopt children from most often ?	Americans
+114	Which countries do Americans tend to adopt children from most often ?	children
+115	Which countries do Americans tend to adopt children from most often ?	most
+116	How does the amount of communication towers today compare to the amount it was in past years ?	the amount of communication towers
+117	How does the amount of communication towers today compare to the amount it was in past years ?	the amount it was in past years
+118	How does the amount of communication towers today compare to the amount it was in past years ?	in past years
+119	How has the number of communication towers changed since 1970 ?	communication towers changed since 1970
+120	How has the number of communication towers changed since 1970 ?	communication towers
+121	How has the number of communication towers changed since 1970 ?	since 1970
+122	What is the trend in the number of communication towers since the 1970s ?	the trend in the number of communication towers
+123	What is the trend in the number of communication towers since the 1970s ?	the number of communication towers
+124	What is the trend in the number of communication towers since the 1970s ?	since the 1970s
+125	What is the number of cell towers from the past 30 years ?	cell towers from the past 30 years
+126	What is the number of cell towers from the past 30 years ?	cell towers
+127	What is the number of cell towers from the past 30 years ?	from the past 30 years
+128	How has the amount of communication towers increased over the past three decades ?	communication towers increased over the past three decades
+129	How has the amount of communication towers increased over the past three decades ?	communication towers
+130	How has the amount of communication towers increased over the past three decades ?	over the past three decades
+131	How has the number of communication towers changed over time ?	communication towers changed over time
+132	How has the number of communication towers changed over time ?	communication towers
+133	How has the number of communication towers changed over time ?	over time
+134	How has the amount of communication towers increased over the last four decades ?	communication towers increased over the last four decades
+135	How has the amount of communication towers increased over the last four decades ?	communication towers
+136	How has the amount of communication towers increased over the last four decades ?	the last four decades
+137	How has the amount of communication towers changed in the past 30 years ?	communication towers changed in the past 30 years
+138	How has the amount of communication towers changed in the past 30 years ?	communication towers
+139	How has the amount of communication towers changed in the past 30 years ?	in the past 30 years
+140	How has the amount of communication towers grown over time ?	communication towers grown over time
+141	How has the amount of communication towers grown over time ?	communication towers
+142	How has the amount of communication towers grown over time ?	over time
+143	When did communication towers become so prevalent ?	communication towers
+144	When did communication towers become so prevalent ?	When
+145	What was the amount of communication towers in 1985 ?	the amount of communication towers
+146	What was the amount of communication towers in 1985 ?	in 1985
+147	How has the number of communication towers risen since the 1970s ?	the number of communication towers
+148	How has the number of communication towers risen since the 1970s ?	since the 1970s
+149	How many communication towers have been built in the last thirty years ?	communication towers
+150	How many communication towers have been built in the last thirty years ?	the last thirty years
+151	How do first quarter album sales compare over the years ?	first quarter album
+152	How do first quarter album sales compare over the years ?	sales
+153	How do first quarter album sales compare over the years ?	over the years
+154	What was the trend of music album sales around the millennium ?	music album sales around the millennium
+155	What was the trend of music album sales around the millennium ?	music album
+156	What was the trend of music album sales around the millennium ?	sales around the millennium
+157	What was the trend of music album sales around the millennium ?	sales
+158	What was the trend of music album sales around the millennium ?	the millennium
+159	How did album sales change from 1998 to 2002 ?	sales change
+160	How did album sales change from 1998 to 2002 ?	from 1998 to 2002
+161	How many albums were sold in the first quarter around the beginning of the 21st century ?	many albums were sold in the first quarter around the beginning
+162	How many albums were sold in the first quarter around the beginning of the 21st century ?	many albums
+163	How many albums were sold in the first quarter around the beginning of the 21st century ?	the first quarter
+164	How many albums were sold in the first quarter around the beginning of the 21st century ?	the beginning
+165	How many albums were sold in the first quarter around the beginning of the 21st century ?	21st century ?
+166	How many albums were sold in the first quarter around the beginning of the 21st century ?	of the 21st century
+167	What is the total number of sales for the first quarter ?	sales for the first quarter
+168	What is the total number of sales for the first quarter ?	sales
+169	What is the total number of sales for the first quarter ?	for the first quarter
+170	What is the number of albums sold in the past 5 years ?	albums sold in the past 5 years
+171	What is the number of albums sold in the past 5 years ?	albums
+172	What is the number of albums sold in the past 5 years ?	in the past 5 years
+173	How many albums were sold in the first quarter from the year 1998 to 2002 ?	many albums were sold in the first quarter
+174	How many albums were sold in the first quarter from the year 1998 to 2002 ?	many albums
+175	How many albums were sold in the first quarter from the year 1998 to 2002 ?	the first quarter
+176	How many albums were sold in the first quarter from the year 1998 to 2002 ?	year 1998
+177	How many albums were sold in the first quarter from the year 1998 to 2002 ?	1998 to 2002
+178	How many albums were sold in the first quarter over the years 1998-2002 ?	many albums were sold in the first quarter
+179	How many albums were sold in the first quarter over the years 1998-2002 ?	many albums
+180	How many albums were sold in the first quarter over the years 1998-2002 ?	in the first quarter over the years 1998-2002
+181	How has the number of albums sold changed in the past 5 years ?	albums sold changed in the past 5 years
+182	How has the number of albums sold changed in the past 5 years ?	albums sold
+183	How has the number of albums sold changed in the past 5 years ?	albums
+184	How has the number of albums sold changed in the past 5 years ?	in the past 5 years
+185	How have album sales changed from the late 90s to the early 2000s ?	album sales
+186	How have album sales changed from the late 90s to the early 2000s ?	album
+187	How have album sales changed from the late 90s to the early 2000s ?	sales
+188	How have album sales changed from the late 90s to the early 2000s ?	from the late 90s to the early 2000s
+189	How many albums were sold between 1998 and 2002 ?	albums
+190	How many albums were sold between 1998 and 2002 ?	between 1998 and 2002
+191	How does the total number of albums sold in the first quarter compare in terms of year from 1998 to 2002 ?	the total number of albums sold in the first quarter
+192	How does the total number of albums sold in the first quarter compare in terms of year from 1998 to 2002 ?	terms of year
+193	How does the total number of albums sold in the first quarter compare in terms of year from 1998 to 2002 ?	from 1998 to 2002
+194	How many albums have been sold over time ?	albums
+195	How many albums have been sold over time ?	over time
+196	How many millions of albums were sold in 2000 ?	millions of albums were sold
+197	How many millions of albums were sold in 2000 ?	in 2000
+198	How has the number of albums purchased changed from 1998 to 2002 ?	albums purchased changed from 1998 to 2002
+199	How has the number of albums purchased changed from 1998 to 2002 ?	albums purchased
+200	How has the number of albums purchased changed from 1998 to 2002 ?	albums
+201	How has the number of albums purchased changed from 1998 to 2002 ?	from 1998 to 2002
+202	How have album sales fared during the first quarter of the past couple of years ?	album sales
+203	How have album sales fared during the first quarter of the past couple of years ?	album
+204	How have album sales fared during the first quarter of the past couple of years ?	sales
+205	How have album sales fared during the first quarter of the past couple of years ?	the first quarter of the past couple of years
+206	How have album sales fared during the first quarter of the past couple of years ?	the first quarter
+207	How have album sales fared during the first quarter of the past couple of years ?	the past couple of years
+208	How have album sales fared during the first quarter of the past couple of years ?	the past couple
+209	How have album sales fared during the first quarter of the past couple of years ?	of years
+210	How does the circulation of American Express compare with other card companies ?	the circulation of American Express
+211	How does the circulation of American Express compare with other card companies ?	the circulation
+212	How does the circulation of American Express compare with other card companies ?	American Express
+213	How does the circulation of American Express compare with other card companies ?	other card companies
+214	What is the most popular credit card ?	popular credit card
+215	What is the number of various credit cards in circulation ?	the number of various credit cards
+216	What is the number of various credit cards in circulation ?	circulation
+217	What is the trend of credit cards being used in the United States in 2003 ?	credit cards being used in the United States in 2003
+218	What is the trend of credit cards being used in the United States in 2003 ?	credit cards
+219	What is the trend of credit cards being used in the United States in 2003 ?	the United States in 2003
+220	What is the trend of credit cards being used in the United States in 2003 ?	the United States
+221	What is the trend of credit cards being used in the United States in 2003 ?	in 2003
+222	How do the numbers of credit cards in circulation compare among issuers ?	the numbers of credit cards
+223	How do the numbers of credit cards in circulation compare among issuers ?	circulation compare among issuers
+224	How do the numbers of credit cards in circulation compare among issuers ?	circulation
+225	How do the numbers of credit cards in circulation compare among issuers ?	issuers
+226	How has credit card circulation changed since 2003 ?	credit card circulation
+227	How has credit card circulation changed since 2003 ?	since 2003
+228	In 2003, how many credit cards from each credit card company were in circulation ?	many credit cards from each credit card company
+229	In 2003, how many credit cards from each credit card company were in circulation ?	many credit cards
+230	In 2003, how many credit cards from each credit card company were in circulation ?	each credit card company
+231	In 2003, how many credit cards from each credit card company were in circulation ?	circulation
+232	In 2003, how many credit cards from each credit card company were in circulation ?	In 2003,
+233	What credit card is most commonly used ?	credit card
+234	What is the most used credit card ?	used credit card
+235	In the U.S., who were the leading credit card circulators in 2003 ?	the U.S.,
+236	In the U.S., who were the leading credit card circulators in 2003 ?	the leading credit card circulators in 2003
+237	In the U.S., who were the leading credit card circulators in 2003 ?	the leading credit card circulators
+238	In the U.S., who were the leading credit card circulators in 2003 ?	in 2003
+239	In 2003, which credit card companies were the most popular in the United States ?	2003, which credit card companies were
+240	In 2003, which credit card companies were the most popular in the United States ?	credit card companies
+241	In 2003, which credit card companies were the most popular in the United States ?	popular in the United States
+242	In 2003, which credit card companies were the most popular in the United States ?	popular
+243	In 2003, which credit card companies were the most popular in the United States ?	the United States
+244	In 2003, which credit card companies were the most popular in the United States ?	In 2003,
+245	How many credit cards does each major credit card company have in circulation ?	credit cards
+246	How many credit cards does each major credit card company have in circulation ?	each major credit card company have in circulation
+247	How many credit cards does each major credit card company have in circulation ?	each major credit card company
+248	How many credit cards does each major credit card company have in circulation ?	circulation
+249	How has the rate of bankruptcy changed in Delaware ?	bankruptcy changed in Delaware
+250	How has the rate of bankruptcy changed in Delaware ?	bankruptcy
+251	How has the rate of bankruptcy changed in Delaware ?	Delaware
+252	Has the amount of Delaware residents that filed for bankruptcy changed over time ?	Has the amount of Delaware residents that filed for bankruptcy
+253	Has the amount of Delaware residents that filed for bankruptcy changed over time ?	the amount of Delaware residents that filed for bankruptcy
+254	Has the amount of Delaware residents that filed for bankruptcy changed over time ?	over time
+255	How has the number of personal bankruptcies in Delaware changed since 1998 ?	the number of personal bankruptcies
+256	How has the number of personal bankruptcies in Delaware changed since 1998 ?	Delaware
+257	How has the number of personal bankruptcies in Delaware changed since 1998 ?	since 1998
+258	How many people filed for bankruptcy in Delaware from the year 1998 ?	many people filed for bankruptcy in Delaware
+259	How many people filed for bankruptcy in Delaware from the year 1998 ?	many people
+260	How many people filed for bankruptcy in Delaware from the year 1998 ?	bankruptcy
+261	How many people filed for bankruptcy in Delaware from the year 1998 ?	Delaware
+262	How many people filed for bankruptcy in Delaware from the year 1998 ?	from the year 1998
+263	What is the bankruptcy rate in the past 5 years ?	the bankruptcy rate
+264	What is the bankruptcy rate in the past 5 years ?	in the past 5 years
+265	In what year did people file for bankruptcy the most in between the years of 1998 and 2001 ?	year
+266	In what year did people file for bankruptcy the most in between the years of 1998 and 2001 ?	people
+267	In what year did people file for bankruptcy the most in between the years of 1998 and 2001 ?	bankruptcy the most
+268	In what year did people file for bankruptcy the most in between the years of 1998 and 2001 ?	bankruptcy
+269	In what year did people file for bankruptcy the most in between the years of 1998 and 2001 ?	most
+270	In what year did people file for bankruptcy the most in between the years of 1998 and 2001 ?	in between the years of 1998 and 2001
+271	How does the number of bankruptcy filings change from year to year ?	bankruptcy filings change from year to year
+272	How does the number of bankruptcy filings change from year to year ?	bankruptcy filings change
+273	How does the number of bankruptcy filings change from year to year ?	from year to year
+274	What are the personal filings with regards to Delaware\s bankruptcy from 1998-2001 ?	the personal filings with regards to Delaware\s bankruptcy
+275	What are the personal filings with regards to Delaware\s bankruptcy from 1998-2001 ?	regards to Delaware\s bankruptcy
+276	What are the personal filings with regards to Delaware\s bankruptcy from 1998-2001 ?	from 1998-2001
+277	How does the number of personal filings compare in terms of year from 1998 to 2001 ?	personal filings compare in terms of year from 1998 to 2001
+278	How does the number of personal filings compare in terms of year from 1998 to 2001 ?	terms of year
+279	How does the number of personal filings compare in terms of year from 1998 to 2001 ?	of year from 1998 to 2001
+280	What was the number of personal filings in 1999 ?	the number of personal filings
+281	What was the number of personal filings in 1999 ?	in 1999
+282	Is the number of individual bankruptcy filings in Delaware increasing or decreasing ?	the number of individual bankruptcy filings
+283	Is the number of individual bankruptcy filings in Delaware increasing or decreasing ?	Delaware
+284	How many residents of Delaware have filed for bankruptcy in the past four years ?	many residents of Delaware have filed for bankruptcy
+285	How many residents of Delaware have filed for bankruptcy in the past four years ?	many residents of Delaware
+286	How many residents of Delaware have filed for bankruptcy in the past four years ?	many residents
+287	How many residents of Delaware have filed for bankruptcy in the past four years ?	Delaware
+288	How many residents of Delaware have filed for bankruptcy in the past four years ?	bankruptcy
+289	How many residents of Delaware have filed for bankruptcy in the past four years ?	past four years ?
+290	How many residents of Delaware have filed for bankruptcy in the past four years ?	in the past four years
+291	How has the economy affected the number of personal bankruptcies in Delaware ?	the number of personal bankruptcies
+292	How has the economy affected the number of personal bankruptcies in Delaware ?	Delaware
+293	At what rate has the amount of endangered animals increased ?	what rate has
+294	At what rate has the amount of endangered animals increased ?	rate
+295	At what rate has the amount of endangered animals increased ?	the amount of endangered animals
+296	How has the number of endangered species changed in the U.S. ?	the number of endangered species
+297	How has the number of endangered species changed in the U.S. ?	the U.S.
+298	How has the number of endangered species changed in the last 20 years ?	the number of endangered species
+299	How has the number of endangered species changed in the last 20 years ?	the last 20 years
+300	What is the trend of endangered species in the U.S.A. from 1986 ?	the trend of endangered species
+301	What is the trend of endangered species in the U.S.A. from 1986 ?	the U.S.A.
+302	What is the trend of endangered species in the U.S.A. from 1986 ?	from 1986
+303	What is the trend of endangered species in the U.S.A. in the last 20 years ?	the trend of endangered species
+304	What is the trend of endangered species in the U.S.A. in the last 20 years ?	the U.S.A.
+305	What is the trend of endangered species in the U.S.A. in the last 20 years ?	the last 20 years
+306	How many endangered species and plants are there ?	endangered species and plants
+307	How has the quantity of endangered species changed in the U.S.A. ?	endangered species changed in the U.S.A.
+308	How has the quantity of endangered species changed in the U.S.A. ?	endangered species
+309	How has the quantity of endangered species changed in the U.S.A. ?	the U.S.A.
+310	How has the endangered species count changed over the past 20 years ?	the endangered species count
+311	How has the endangered species count changed over the past 20 years ?	the endangered species
+312	How has the endangered species count changed over the past 20 years ?	count
+313	How has the endangered species count changed over the past 20 years ?	over the past 20 years
+314	What is the rate of change of \"endangered\" or \"threatened\" wildlife in the last 20 years ?	the rate of change of \"endangered\" or \"threatened\" wildlife
+315	What is the rate of change of \"endangered\" or \"threatened\" wildlife in the last 20 years ?	the last 20 years
+316	By how much has the amount of species on the Endangered Species List changed since 1986 ?	how much
+317	By how much has the amount of species on the Endangered Species List changed since 1986 ?	the amount of species on the Endangered Species List changed since 1986
+318	By how much has the amount of species on the Endangered Species List changed since 1986 ?	the amount of species on the Endangered Species List
+319	By how much has the amount of species on the Endangered Species List changed since 1986 ?	since 1986
+320	How has the number of endangered animals changed over time ?	the number of endangered animals
+321	How has the number of endangered animals changed over time ?	over time
+322	What is the rate of increase in the number of plants from 1990 to 1996 ?	increase in the number of plants from 1990 to 1996
+323	What is the rate of increase in the number of plants from 1990 to 1996 ?	the number of plants
+324	What is the rate of increase in the number of plants from 1990 to 1996 ?	from 1990 to 1996
+325	Over the last couple of decades, has the number of endangered animals improved ?	the last couple of decades,
+326	Over the last couple of decades, has the number of endangered animals improved ?	the last couple
+327	Over the last couple of decades, has the number of endangered animals improved ?	the number of endangered animals improved
+328	Over the last couple of decades, has the number of endangered animals improved ?	of decades,
+329	In the U.S., how has the number of endangered species changed in the last few decades ?	the U.S.,
+330	In the U.S., how has the number of endangered species changed in the last few decades ?	the number of endangered species changed in the last few decades
+331	In the U.S., how has the number of endangered species changed in the last few decades ?	the number of endangered species
+332	In the U.S., how has the number of endangered species changed in the last few decades ?	the last few decades
+333	What is the percentage change in same-store sales for Men\s Warehouse ?	the percentage change
+334	What is the percentage change in same-store sales for Men\s Warehouse ?	same-store sales for Men\s Warehouse
+335	What is the percentage change in same-store sales for Men\s Warehouse ?	same-store sales
+336	What is the percentage change in same-store sales for Men\s Warehouse ?	Men\s Warehouse
+337	How have sales changed over the 2 year span ?	sales
+338	How have sales changed over the 2 year span ?	over the 2 year span
+339	How has Men\s Warehouse percentage of same-store sales changed from 2003 to 2005 ?	Men\s Warehouse percentage
+340	How has Men\s Warehouse percentage of same-store sales changed from 2003 to 2005 ?	same-store sales changed from 2003 to 2005
+341	How has Men\s Warehouse percentage of same-store sales changed from 2003 to 2005 ?	same-store sales
+342	How has Men\s Warehouse percentage of same-store sales changed from 2003 to 2005 ?	from 2003 to 2005
+343	What is the change in sales at Men\s Warehouse ?	sales at Men\s Warehouse
+344	What is the change in sales at Men\s Warehouse ?	sales
+345	What is the change in sales at Men\s Warehouse ?	Men\s Warehouse
+346	How has the amount of sales changed at the Men\s Warehouse ?	sales changed at the Men\s Warehouse
+347	How has the amount of sales changed at the Men\s Warehouse ?	sales
+348	How has the amount of sales changed at the Men\s Warehouse ?	the Men\s Warehouse
+349	How has the price of oil changed during the last few months ?	the price of oil
+350	How has the price of oil changed during the last few months ?	the last few months
+351	What are the typical oil prices during the first quarter ?	the typical oil prices
+352	What are the typical oil prices during the first quarter ?	during the first quarter
+353	How have oil prices changed in the last 3 months ?	oil prices
+354	How have oil prices changed in the last 3 months ?	the last 3 months
+355	How did oil price change from Jan to Mar ?	oil price change
+356	How did oil price change from Jan to Mar ?	Jan
+357	What is the trend of oil prices from January to March ?	the trend of oil prices
+358	What is the trend of oil prices from January to March ?	oil prices
+359	What is the trend of oil prices from January to March ?	from January to March
+360	What was the cost of oil in the first quarter ?	the cost of oil
+361	What was the cost of oil in the first quarter ?	the cost
+362	What was the cost of oil in the first quarter ?	oil
+363	What was the cost of oil in the first quarter ?	in the first quarter
+364	What is the trend of oil prices per barrel from January to March ?	oil prices
+365	What is the trend of oil prices per barrel from January to March ?	barrel
+366	What is the trend of oil prices per barrel from January to March ?	from January to March
+367	How has the price of a barrel of oil fluctuated over the past 12 months ?	the price of a barrel of oil
+368	How has the price of a barrel of oil fluctuated over the past 12 months ?	over the past 12 months
+369	How have oil prices changed since March 24 ?	oil prices
+370	How have oil prices changed since March 24 ?	March 24
+371	How have oil prices changed since March 24 ?	since March
+372	How have the oil prices changed from January to March ?	the oil prices
+373	How have the oil prices changed from January to March ?	from January to March
+374	How has the price per barrel of oil changed recently ?	the price per barrel of oil
+375	How has the price per barrel of oil changed recently ?	recently
+376	How have oil prices fluctuated in the last three months ?	oil prices
+377	How have oil prices fluctuated in the last three months ?	the last three months
+378	How has the price of oil changed ?	the price of oil
+379	What was the sales performance of Daimler/Chrysler in the past decade ?	the sales performance of Daimler/Chrysler
+380	What was the sales performance of Daimler/Chrysler in the past decade ?	the sales performance
+381	What was the sales performance of Daimler/Chrysler in the past decade ?	Daimler/Chrysler
+382	What was the sales performance of Daimler/Chrysler in the past decade ?	in the past decade
+383	How did Durango sales change from 1997 to 2006 ?	Durango sales change
+384	How did Durango sales change from 1997 to 2006 ?	from 1997 to 2006
+385	What is the trend of Durango sales in the last ten years ?	the trend of Durango sales
+386	What is the trend of Durango sales in the last ten years ?	the last ten years
+387	What is the trend of Durango sales in the last 10 years ?	the trend of Durango sales
+388	What is the trend of Durango sales in the last 10 years ?	in the last 10 years
+389	What is the sales trend for the Dodge Durango ?	the sales trend
+390	What is the sales trend for the Dodge Durango ?	the Dodge Durango
+391	How have Durango sales changed between 1999 and 2006 ?	Durango sales
+392	How have Durango sales changed between 1999 and 2006 ?	between 1999 and 2006
+393	How has the rate of Durango sales varied from the mid 90s to the mid 2000s ?	Durango sales varied from the mid 90s to the mid 2000s
+394	How has the rate of Durango sales varied from the mid 90s to the mid 2000s ?	Durango sales
+395	How has the rate of Durango sales varied from the mid 90s to the mid 2000s ?	from the mid 90s to the mid 2000s
+396	How many Chrysler Durangos have ben sold over time ?	Chrysler Durangos
+397	How many Chrysler Durangos have ben sold over time ?	over time
+398	How has the rate of SUV sales changed over time ?	SUV sales changed over time
+399	How has the rate of SUV sales changed over time ?	SUV sales
+400	How has the rate of SUV sales changed over time ?	over time
+401	How many cars were sold in 1999 during the Durango sales ?	many cars were sold in 1999
+402	How many cars were sold in 1999 during the Durango sales ?	many cars
+403	How many cars were sold in 1999 during the Durango sales ?	Durango sales ?
+404	How many cars were sold in 1999 during the Durango sales ?	in 1999
+405	How has the number of SUVs sold per year changed in the past couple of decades ?	SUVs sold per year changed in the past couple of decades
+406	How has the number of SUVs sold per year changed in the past couple of decades ?	SUVs
+407	How has the number of SUVs sold per year changed in the past couple of decades ?	year changed in the past couple of decades
+408	How has the number of SUVs sold per year changed in the past couple of decades ?	year
+409	How has the number of SUVs sold per year changed in the past couple of decades ?	the past couple of decades
+410	How has the number of SUVs sold per year changed in the past couple of decades ?	the past couple
+411	How has the number of SUVs sold per year changed in the past couple of decades ?	of decades
+412	How many Durangos have been sold in the last nine years ?	Durangos
+413	How many Durangos have been sold in the last nine years ?	the last nine years
+414	How has the number of YouTube visitors changed ?	YouTube visitors changed
+415	How has the number of YouTube visitors changed ?	YouTube visitors
+416	How has the number of visitors to YouTube increased from 2005 to 2006 ?	visitors to YouTube increased from 2005 to 2006
+417	How has the number of visitors to YouTube increased from 2005 to 2006 ?	visitors
+418	How has the number of visitors to YouTube increased from 2005 to 2006 ?	from 2005 to 2006
+419	How did the number of unique visitors to the site change from 8/05 to 8/06 ?	unique visitors to the site change from 8/05 to 8/06
+420	How did the number of unique visitors to the site change from 8/05 to 8/06 ?	unique visitors
+421	How did the number of unique visitors to the site change from 8/05 to 8/06 ?	the site change from 8/05 to 8/06
+422	How did the number of unique visitors to the site change from 8/05 to 8/06 ?	the site change
+423	How did the number of unique visitors to the site change from 8/05 to 8/06 ?	8/05
+424	How did the number of unique visitors to the site change from 8/05 to 8/06 ?	8/06
+425	How has the number of people viewing YouTube changed ?	people viewing YouTube changed
+426	How has the number of people viewing YouTube changed ?	people viewing
+427	How has the number of people viewing YouTube changed ?	people
+428	How has the number of people viewing YouTube changed ?	YouTube
+429	What is the increase in the amount of visitors to YouTube\s website from the year 2005 to 2006 ?	the amount of visitors
+430	What is the increase in the amount of visitors to YouTube\s website from the year 2005 to 2006 ?	YouTube\s website
+431	What is the increase in the amount of visitors to YouTube\s website from the year 2005 to 2006 ?	from the year 2005 to 2006
+432	What is the trend of YouTube visitors ?	YouTube visitors
+433	How many special visitors visited the site in the last year ?	special visitors
+434	How many special visitors visited the site in the last year ?	the site
+435	How many special visitors visited the site in the last year ?	in the last year
+436	How has the number of YouTube viewers changed in recent years ?	the number of YouTube viewers
+437	How has the number of YouTube viewers changed in recent years ?	in recent years
+438	What is the change in YouTube viewers over time ?	the change in YouTube viewers
+439	What is the change in YouTube viewers over time ?	over time
+440	How has the YouTube demographic changed since its creation ?	the YouTube demographic
+441	How has the YouTube demographic changed since its creation ?	its creation
+442	How has the percentage of kids who used cigarettes changed ?	kids who used cigarettes changed
+443	How has the percentage of kids who used cigarettes changed ?	kids
+444	How has the percentage of kids who used cigarettes changed ?	cigarettes changed
+445	How has the percentage of kids who used cigarettes changed ?	cigarettes
+446	How has the percentage of adolescent smokers changed over the last decade ?	adolescent smokers changed over the last decade
+447	How has the percentage of adolescent smokers changed over the last decade ?	adolescent smokers
+448	How has the percentage of adolescent smokers changed over the last decade ?	over the last decade
+449	What is the percentage of 8th graders who have used cigarettes in the last 30 days ?	8th graders who have used cigarettes in the last 30 days
+450	What is the percentage of 8th graders who have used cigarettes in the last 30 days ?	8th graders
+451	What is the percentage of 8th graders who have used cigarettes in the last 30 days ?	cigarettes
+452	What is the percentage of 8th graders who have used cigarettes in the last 30 days ?	the last 30 days
+453	How did the number of smokers change from 96 to 05 ?	smokers change from 96 to 05
+454	How did the number of smokers change from 96 to 05 ?	smokers
+455	How did the number of smokers change from 96 to 05 ?	from 96 to 05
+456	What is the percentage of eighth graders that smoke since 1996 ?	eighth graders that smoke since 1996
+457	What is the percentage of eighth graders that smoke since 1996 ?	since 1996
+458	How many kids have used cigarettes in the past 10 years ?	many kids have used cigarettes
+459	How many kids have used cigarettes in the past 10 years ?	many kids
+460	How many kids have used cigarettes in the past 10 years ?	cigarettes
+461	How many kids have used cigarettes in the past 10 years ?	past 10 years ?
+462	How many kids have used cigarettes in the past 10 years ?	in the past 10 years
+463	What is the trend of 8th grade smokers over the past 10 years ?	the trend of 8th grade smokers
+464	What is the trend of 8th grade smokers over the past 10 years ?	over the past 10 years
+465	What is the trend of underage tobacco use ?	underage tobacco use
+466	What are the statistics showing the ratio of 8th grade smokers over the years 1996-2005 ?	the ratio of 8th grade smokers
+467	What are the statistics showing the ratio of 8th grade smokers over the years 1996-2005 ?	over the years 1996-2005
+468	How has cigarette use among 8th graders changed between 1996 and 2005 ?	8th graders changed between 1996 and 2005
+469	How has cigarette use among 8th graders changed between 1996 and 2005 ?	between 1996 and 2005
+470	What are the smoking habits of children in the last 15 years ?	the smoking habits of children
+471	What are the smoking habits of children in the last 15 years ?	the smoking habits
+472	What are the smoking habits of children in the last 15 years ?	children
+473	What are the smoking habits of children in the last 15 years ?	in the last 15 years
+474	How many eighth graders were frequent smokers in 2005 compared to 1996 ?	eighth graders
+475	How many eighth graders were frequent smokers in 2005 compared to 1996 ?	frequent smokers
+476	How many eighth graders were frequent smokers in 2005 compared to 1996 ?	in 2005 compared to 1996
+477	How has the percentage of those who have used cigarettes in the past 30 days changed from 1996 to 2005 ?	those who have used cigarettes in the past 30 days changed from 1996 to 2005
+478	How has the percentage of those who have used cigarettes in the past 30 days changed from 1996 to 2005 ?	from 1996 to 2005
+479	Has child smoking increased over the last decade ?	Has child smoking
+480	Has child smoking increased over the last decade ?	over the last decade
+481	How many 8th graders smoke cigarettes ?	8th graders
+482	How many 8th graders smoke cigarettes ?	cigarettes
+483	How has the percent of children using nicotine products changed in the last ten years ?	children using nicotine products changed in the last ten years ?
+484	How has the percent of children using nicotine products changed in the last ten years ?	children
+485	How has the percent of children using nicotine products changed in the last ten years ?	nicotine products changed in the last ten years
+486	How has the percent of children using nicotine products changed in the last ten years ?	nicotine products
+487	How has the percent of children using nicotine products changed in the last ten years ?	the last ten years
+488	How has the rate of American Idol viewers changed throughout the last decade ?	American Idol viewers changed throughout the last decade
+489	How has the rate of American Idol viewers changed throughout the last decade ?	American Idol viewers
+490	How has the rate of American Idol viewers changed throughout the last decade ?	throughout the last decade
+491	How has the amount of American Idol viewers changed ?	the amount of American Idol viewers
+492	How popular is American Idol ?	American Idol
+493	How did the viewers of Fox\s American Idol change from 02 to 10 ?	the viewers
+494	How did the viewers of Fox\s American Idol change from 02 to 10 ?	Fox\s American Idol change from 02 to 10
+495	How did the viewers of Fox\s American Idol change from 02 to 10 ?	American Idol change
+496	How did the viewers of Fox\s American Idol change from 02 to 10 ?	from 02 to 10
+497	What is the trend of viewership for American Idol between season 5 and 10 ?	the trend of viewership
+498	What is the trend of viewership for American Idol between season 5 and 10 ?	American Idol
+499	What is the trend of viewership for American Idol between season 5 and 10 ?	between season 5 and 10
+500	How many people watch American Idol ?	people
+501	How many people watch American Idol ?	American Idol
+502	What is the trend of the amount of viewers watching American Idol over the past decade ?	the amount of viewers
+503	What is the trend of the amount of viewers watching American Idol over the past decade ?	American Idol
+504	What is the trend of the amount of viewers watching American Idol over the past decade ?	over the past decade
+505	What is the trend of American Idol viewership ?	American Idol viewership
+506	What is the average number of American Idol viewers for the last ten seasons ?	the average number of American Idol viewers
+507	What is the average number of American Idol viewers for the last ten seasons ?	the last ten seasons
+508	Is American Idol declining in popularity ?	American Idol
+509	Is American Idol declining in popularity ?	popularity
+510	How have the ratings for Fox\s television show American Idol changed since the first season ?	the ratings for Fox\s television show American Idol
+511	How have the ratings for Fox\s television show American Idol changed since the first season ?	the ratings for Fox\s television show
+512	How have the ratings for Fox\s television show American Idol changed since the first season ?	the ratings
+513	How have the ratings for Fox\s television show American Idol changed since the first season ?	Fox\s television show
+514	How have the ratings for Fox\s television show American Idol changed since the first season ?	American Idol
+515	How have the ratings for Fox\s television show American Idol changed since the first season ?	since the first season
+516	How many viewers watched American Idol during the past ten years ?	viewers
+517	How many viewers watched American Idol during the past ten years ?	American Idol
+518	How many viewers watched American Idol during the past ten years ?	during the past ten years
+519	What is the change in monthly sales at GAP ?	monthly sales at GAP
+520	What is the change in monthly sales at GAP ?	monthly sales
+521	What is the change in monthly sales at GAP ?	GAP
+522	What is the change in monthly sales at GAP ?	in monthly
+523	What is the change in monthly sales at GAP over the last year ?	the change in monthly sales at GAP
+524	What is the change in monthly sales at GAP over the last year ?	over the last year
+525	What is the trend of the amount of GAP shoppers from the year 2004 to 2005 ?	the trend of the amount of GAP shoppers
+526	What is the trend of the amount of GAP shoppers from the year 2004 to 2005 ?	the amount of GAP shoppers
+527	What is the trend of the amount of GAP shoppers from the year 2004 to 2005 ?	from the year 2004 to 2005
+528	What is the trend of GAP store sales over a yearly period ?	the trend of GAP store sales
+529	What is the trend of GAP store sales over a yearly period ?	over a yearly period
+530	What are the monthly gaps in the same store sales ?	the monthly gaps
+531	What are the monthly gaps in the same store sales ?	the same store sales
+532	What are the monthly gaps in the same store sales ?	the monthly
+533	How much is the annual salary of American families between 04-05 ?	the annual salary
+534	How much is the annual salary of American families between 04-05 ?	American families between 04-05
+535	How much is the annual salary of American families between 04-05 ?	American families
+536	How much is the annual salary of American families between 04-05 ?	between 04-05
+537	How have GAP\s store sales varied in the last year ?	GAP\s store sales
+538	How have GAP\s store sales varied in the last year ?	in the last year
+539	How much did the sales for GAP change during the Christmas of 2004 and 2005 ?	much
+540	How much did the sales for GAP change during the Christmas of 2004 and 2005 ?	the sales
+541	How much did the sales for GAP change during the Christmas of 2004 and 2005 ?	GAP change during the Christmas of 2004 and 2005
+542	How much did the sales for GAP change during the Christmas of 2004 and 2005 ?	GAP change
+543	How much did the sales for GAP change during the Christmas of 2004 and 2005 ?	during the Christmas of 2004 and 2005
+544	How has the number of shoppers at GAP shifted over the course of a year ?	the number of shoppers
+545	How has the number of shoppers at GAP shifted over the course of a year ?	GAP
+546	How has the number of shoppers at GAP shifted over the course of a year ?	the course of a year
+547	How has the number of shoppers at GAP shifted over the course of a year ?	the course
+548	How has the number of shoppers at GAP shifted over the course of a year ?	of a year
+549	How have the percent of sales changed at GAP ?	sales changed at GAP
+550	How have the percent of sales changed at GAP ?	sales
+551	How have the percent of sales changed at GAP ?	GAP
+552	How has the price of uranium changed ?	the price of uranium
+553	How has the price of uranium changed since 1990 ?	uranium changed since 1990
+554	How has the price of uranium changed since 1990 ?	uranium
+555	How has the price of uranium changed since 1990 ?	since 1990
+556	How did fission trip uranium price change from the 1990s to the 2000s ?	uranium price change
+557	How did fission trip uranium price change from the 1990s to the 2000s ?	from the 1990s to the 2000s
+558	What is the fluctuation in price of uranium since the 1990s ?	the fluctuation in price of uranium
+559	What is the fluctuation in price of uranium since the 1990s ?	price of uranium
+560	What is the fluctuation in price of uranium since the 1990s ?	since the 1990s
+561	What was the historical price of uranium ?	uranium
+562	How has the price of uranium changed over time ?	uranium changed over time
+563	How has the price of uranium changed over time ?	uranium
+564	How has the price of uranium changed over time ?	over time
+565	What is the comparison of uranium in pounds to the price in dollars over the last ten years ?	the comparison of uranium
+566	What is the comparison of uranium in pounds to the price in dollars over the last ten years ?	pounds
+567	What is the comparison of uranium in pounds to the price in dollars over the last ten years ?	the price
+568	What is the comparison of uranium in pounds to the price in dollars over the last ten years ?	dollars
+569	What is the comparison of uranium in pounds to the price in dollars over the last ten years ?	the last ten years
+570	How has the rate of uranium usage changed between 1990-2000 ?	uranium usage changed between 1990-2000
+571	How has the rate of uranium usage changed between 1990-2000 ?	uranium usage
+572	How has the rate of uranium usage changed between 1990-2000 ?	between 1990-2000
+573	How has the price of uranium changed in the last 30 years ?	the price of uranium
+574	How has the price of uranium changed in the last 30 years ?	the last 30 years
+575	What is the lowest price of uranium after 2000 and in what year ?	price of uranium
+576	What is the lowest price of uranium after 2000 and in what year ?	after 2000 and in what year
+577	How has the price of uranium shifted in the past decade ?	the price of uranium
+578	How has the price of uranium shifted in the past decade ?	in the past decade

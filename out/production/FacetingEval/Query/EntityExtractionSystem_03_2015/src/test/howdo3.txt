@@ -1,0 +1,42 @@
+
+ccg(9,
+ rp('S[wq]',
+  fa('S[wq]',
+   lf(9,1,'S[wq]/S[q]'),
+   fa('S[q]',
+    fa('S[q]/(S[b]\NP)',
+     lf(9,2,'(S[q]/(S[b]\NP))/NP'),
+     ba('NP',
+      lex('N','NP',
+       lf(9,3,'N')),
+      fa('NP\NP',
+       lf(9,4,'(NP\NP)/NP'),
+       ba('NP',
+        lex('N','NP',
+         fa('N',
+          lf(9,5,'N/N'),
+          lf(9,6,'N'))),
+        fa('NP\NP',
+         lf(9,7,'(NP\NP)/NP'),
+         lex('N','NP',
+          fa('N',
+           lf(9,8,'N/N'),
+           fa('N',
+            lf(9,9,'N/N'),
+            lf(9,10,'N'))))))))),
+    lf(9,11,'S[b]\NP'))),
+  lf(9,12,'.'))).
+
+w(9, 1, 'How', 'how', 'WRB', 'I-ADVP', 'O', 'S[wq]/S[q]').
+w(9, 2, 'do', 'do', 'VBP', 'O', 'O', '(S[q]/(S[b]\NP))/NP').
+w(9, 3, 'costs', 'cost', 'NNS', 'I-NP', 'O', 'N').
+w(9, 4, 'for', 'for', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(9, 5, 'Amtrak', 'Amtrak', 'NNP', 'I-NP', 'I-ORG', 'N/N').
+w(9, 6, 'routes', 'route', 'NNS', 'I-NP', 'O', 'N').
+w(9, 7, 'between', 'between', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(9, 8, 'major', 'major', 'JJ', 'I-NP', 'O', 'N/N').
+w(9, 9, 'East-Coast', 'east-coast', 'JJ', 'I-NP', 'O', 'N/N').
+w(9, 10, 'cities', 'city', 'NNS', 'I-NP', 'O', 'N').
+w(9, 11, 'compare', 'compare', 'VB', 'I-VP', 'O', 'S[b]\NP').
+w(9, 12, '?', '?', '.', 'O', 'O', '.').
+

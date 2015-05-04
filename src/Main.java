@@ -65,9 +65,13 @@ public class Main {
             int low_ndcg_query_number = 0, high_ndcg_query_number = 0;
 
             for (String Qid : mixtureModel.getQueryMap().keySet()) {
+
+                String query = mixtureModel.getQueryMap().get(Qid);
+
 //                if (Qid.equals("2.16.1") == false) {
 //                    continue;
 //                }
+
 
                 /**
                  * Step 4.1 Evaluate the nDCG of the original ranked list.
@@ -88,7 +92,7 @@ public class Main {
                 /**
                  * Step 4.2 Analyze basic facet statistics for a query's ranked documents.
                  */
-                String[] rankedDocID = FacetRanker.fetchColumn(mixtureModel.getResult(Qid), 0);
+                String[] rankedDocID = Utility.TemplateFunctions.fetchColumn(mixtureModel.getResult(Qid), 0);
                 if (rankedDocID != null) {
                     System.out.println("Average number of " + facetname + " values in each document is " + fstats.avgFacetNum(rankedDocID));
                     System.out.println("Average number of documents tagged with each facet value in the " + facetname + " field is : " + fstats.avgDocNum(rankedDocID));
@@ -103,7 +107,7 @@ public class Main {
                 }
 
                 /**
-                 * Step 4.3 Rank facet values for a query's ranked documents.
+                 * Step 4.3 Rank facet values based on Expected Rank Promotion.
                  */
                 int counter = 0;
                 List<Map.Entry<String, Float>> sortedFacetsByPromo = franker.rankFacets(mixtureModel.getResult(Qid));
@@ -135,6 +139,12 @@ public class Main {
 
                 }
                 System.out.println();
+
+
+                /**
+                 * Step 4.4 Rank facet values based on Semantic Similarity.
+                 */
+
 
             }
 

@@ -1,0 +1,31 @@
+ccg(69,
+ fc('S[wq]/(S[b]\NP)',
+  lf(69,1,'S[wq]/S[q]'),
+  fa('S[q]/(S[b]\NP)',
+   lf(69,2,'(S[q]/(S[b]\NP))/NP'),
+   rp('NP',
+    ba('NP',
+     lex('N','NP',
+      fa('N',
+       lf(69,3,'N/N'),
+       fa('N',
+        lf(69,4,'N/N'),
+        lf(69,5,'N')))),
+     lex('S[pss]\NP','NP\NP',
+      ba('S[pss]\NP',
+       lf(69,6,'S[pss]\NP'),
+       fa('(S[X]\NP)\(S[X]\NP)',
+        lf(69,7,'((S[X]\NP)\(S[X]\NP))/NP'),
+        lex('N','NP',
+         lf(69,8,'N')))))),
+    lf(69,9,'.'))))).
+
+w(69, 1, 'How', 'how', 'WRB', 'I-ADVP', 'O', 'S[wq]/S[q]').
+w(69, 2, 'has', 'have', 'VBZ', 'O', 'O', '(S[q]/(S[b]\NP))/NP').
+w(69, 3, 'credit', 'credit', 'NN', 'I-NP', 'O', 'N/N').
+w(69, 4, 'card', 'card', 'NN', 'I-NP', 'O', 'N/N').
+w(69, 5, 'circulation', 'circulation', 'NN', 'I-NP', 'O', 'N').
+w(69, 6, 'changed', 'change', 'VBD', 'I-VP', 'O', 'S[pss]\NP').
+w(69, 7, 'since', 'since', 'IN', 'I-PP', 'I-DAT', '((S[X]\NP)\(S[X]\NP))/NP').
+w(69, 8, '2003', '2003', 'CD', 'I-NP', 'I-DAT', 'N').
+w(69, 9, '?', '?', '.', 'O', 'O', '.').

@@ -1,0 +1,1252 @@
+Query 1 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:X
+Query 2 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 3 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 4 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 5 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:N	Actural:N
+Query 6 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:N
+Query 7 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 8 has 5 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:N	Actural:N
+Query 9 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 10 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 11 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:N
+Query 12 has 2 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 13 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 14 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 15 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 16 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:N	Actural:X
+Query 17 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:N
+Query 18 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 19 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:N
+Query 20 has 4 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Query 21 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:N	Actural:Y
+Query 22 has 3 entities.
+Instance:0	Prediction:Y	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:Y
+Query 23 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:N
+Instance:2	Prediction:X	Actural:X
+Query 24 has 1 entities.
+Instance:0	Prediction:X	Actural:X
+Query 25 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:Y	Actural:X
+Instance:4	Prediction:X	Actural:N
+Query 26 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Query 27 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 28 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 29 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Query 30 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 31 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Query 32 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 33 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 34 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 35 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 36 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 37 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 38 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 39 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 40 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 41 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 42 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 43 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 44 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 45 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 46 has 3 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:Y
+Query 47 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Query 48 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 49 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:Y
+Query 50 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 51 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 52 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Query 53 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:Y
+Query 54 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 55 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Query 56 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 57 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:Y
+Query 58 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Query 59 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 60 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 61 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Instance:4	Prediction:X	Actural:Y
+Query 62 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 63 has 1 entities.
+Instance:0	Prediction:X	Actural:X
+Query 64 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 65 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:N
+Query 66 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Query 67 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 68 has 4 entities.
+Instance:0	Prediction:X	Actural:N
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:Y
+Query 69 has 1 entities.
+Instance:0	Prediction:X	Actural:X
+Query 70 has 1 entities.
+Instance:0	Prediction:X	Actural:X
+Query 71 has 3 entities.
+Instance:0	Prediction:Y	Actural:N
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:N	Actural:N
+Query 72 has 4 entities.
+Instance:0	Prediction:N	Actural:N
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:N
+Instance:3	Prediction:X	Actural:N
+Query 73 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Query 74 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Query 75 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 76 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 77 has 4 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Query 78 has 2 entities.
+Instance:0	Prediction:N	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 79 has 5 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 80 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 81 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 82 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 83 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 84 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 85 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Query 86 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 87 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Query 88 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 89 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 90 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 91 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 92 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Query 93 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 94 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 95 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 96 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 97 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 98 has 3 entities.
+Instance:0	Prediction:Y	Actural:N
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Query 99 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 100 has 3 entities.
+Instance:0	Prediction:Y	Actural:N
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Query 101 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 102 has 3 entities.
+Instance:0	Prediction:N	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 103 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 104 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 105 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 106 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 107 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 108 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 109 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 110 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 111 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 112 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Query 113 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 114 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 115 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Query 116 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 117 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 118 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 119 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 120 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 121 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 122 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 123 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:X
+Query 124 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Query 125 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 126 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Query 127 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 128 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 129 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 130 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 131 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 132 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 133 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 134 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 135 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 136 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 137 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Query 138 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 139 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 140 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 141 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 142 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 143 has 1 entities.
+Instance:0	Prediction:X	Actural:X
+Query 144 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 145 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 146 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 147 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 148 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 149 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 150 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:Y
+Query 151 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 152 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 153 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 154 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 155 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 156 has 1 entities.
+Instance:0	Prediction:Y	Actural:X
+Query 157 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Query 158 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Query 159 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 160 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 161 has 1 entities.
+Instance:0	Prediction:Y	Actural:Y
+Query 162 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 163 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Query 164 has 4 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Query 165 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 166 has 2 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 167 has 4 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:Y
+Query 168 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 169 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 170 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 171 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 172 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:N
+Instance:3	Prediction:X	Actural:X
+Query 173 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Query 174 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 175 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 176 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Query 177 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 178 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 179 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 180 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 181 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 182 has 4 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 183 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 184 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 185 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 186 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 187 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 188 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 189 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 190 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 191 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:X
+Query 192 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 193 has 5 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:Y
+Query 194 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Query 195 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 196 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 197 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 198 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 199 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Query 200 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 201 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Query 202 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 203 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 204 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 205 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 206 has 6 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Instance:4	Prediction:Y	Actural:X
+Instance:5	Prediction:Y	Actural:X
+Query 207 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:N
+Query 208 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 209 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:N
+Query 210 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:N	Actural:N
+Query 211 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 212 has 3 entities.
+Instance:0	Prediction:Y	Actural:X
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 213 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 214 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 215 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:N	Actural:N
+Query 216 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 217 has 2 entities.
+Instance:0	Prediction:Y	Actural:X
+Instance:1	Prediction:N	Actural:N
+Query 218 has 5 entities.
+Instance:0	Prediction:Y	Actural:X
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Instance:4	Prediction:Y	Actural:Y
+Query 219 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 220 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:N
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 221 has 5 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:N	Actural:N
+Query 222 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 223 has 5 entities.
+Instance:0	Prediction:X	Actural:N
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 224 has 1 entities.
+Instance:0	Prediction:X	Actural:X
+Query 225 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 226 has 5 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 227 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 228 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:N	Actural:N
+Query 229 has 6 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:N
+Instance:5	Prediction:X	Actural:N
+Query 230 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 231 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 232 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 233 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 234 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:N	Actural:N
+Query 235 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 236 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Query 237 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Query 238 has 3 entities.
+Instance:0	Prediction:Y	Actural:X
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Query 239 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 240 has 3 entities.
+Instance:0	Prediction:N	Actural:N
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 241 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 242 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 243 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 244 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:Y
+Query 245 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:Y
+Query 246 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:N
+Instance:2	Prediction:X	Actural:X
+Query 247 has 4 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:N
+Query 248 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:N	Actural:N
+Query 249 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 250 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:N	Actural:N
+Query 251 has 5 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:N	Actural:N
+Query 252 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 253 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:N	Actural:Y
+Query 254 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 255 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 256 has 4 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:X	Actural:N
+Query 257 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:Y	Actural:Y
+Query 258 has 5 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:X	Actural:N
+Instance:4	Prediction:X	Actural:X
+Query 259 has 4 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 260 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 261 has 3 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 262 has 3 entities.
+Instance:0	Prediction:X	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 263 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 264 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 265 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 266 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 267 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:N	Actural:X
+Query 268 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 269 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 270 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 271 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:X
+Instance:3	Prediction:X	Actural:N
+Query 272 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 273 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 274 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:N	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 275 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 276 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 277 has 3 entities.
+Instance:0	Prediction:Y	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 278 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 279 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 280 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:N	Actural:X
+Query 281 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 282 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 283 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:N
+Instance:2	Prediction:X	Actural:X
+Query 284 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 285 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 286 has 4 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:Y
+Instance:3	Prediction:Y	Actural:N
+Query 287 has 4 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:Y
+Instance:2	Prediction:X	Actural:Y
+Instance:3	Prediction:Y	Actural:N
+Query 288 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:Y	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 289 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 290 has 6 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:Y
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Instance:5	Prediction:X	Actural:X
+Query 291 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 292 has 6 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Instance:5	Prediction:X	Actural:N
+Query 293 has 5 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Instance:4	Prediction:X	Actural:X
+Query 294 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 295 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 296 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 297 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:Y
+Instance:3	Prediction:Y	Actural:X
+Query 298 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 299 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 300 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 301 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 302 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 303 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 304 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 305 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 306 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 307 has 4 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:Y
+Query 308 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 309 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 310 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 311 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 312 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:X	Actural:X
+Query 313 has 5 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:N
+Instance:4	Prediction:X	Actural:N
+Query 314 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:N	Actural:N
+Query 315 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:Y	Actural:N
+Query 316 has 2 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:Y	Actural:Y
+Query 317 has 7 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:X
+Instance:2	Prediction:X	Actural:Y
+Instance:3	Prediction:N	Actural:X
+Instance:4	Prediction:X	Actural:X
+Instance:5	Prediction:X	Actural:X
+Instance:6	Prediction:X	Actural:X
+Query 318 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 319 has 4 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Instance:3	Prediction:X	Actural:X
+Query 320 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 321 has 3 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Instance:2	Prediction:X	Actural:X
+Query 322 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:X	Actural:X
+Query 323 has 2 entities.
+Instance:0	Prediction:Y	Actural:Y
+Instance:1	Prediction:Y	Actural:Y
+Query 324 has 3 entities.
+Instance:0	Prediction:X	Actural:X
+Instance:1	Prediction:X	Actural:X
+Instance:2	Prediction:X	Actural:X
+Total Accuracy = 86.61155202821874

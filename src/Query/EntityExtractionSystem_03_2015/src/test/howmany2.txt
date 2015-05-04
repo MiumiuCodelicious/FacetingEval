@@ -1,0 +1,41 @@
+ccg(2,
+ rp('S[wq]',
+  fa('S[wq]',
+   fa('S[wq]/(S[dcl]\NP)',
+    fa('(S[wq]/(S[dcl]\NP))/N',
+     lf(2,1,'((S[wq]/(S[dcl]\NP))/N)/(NP/N)'),
+     lf(2,2,'NP/N')),
+    fa('N',
+     lf(2,3,'N/N'),
+     lf(2,4,'N'))),
+   fa('S[dcl]\NP',
+    lf(2,5,'(S[dcl]\NP)/(S[pt]\NP)'),
+    fa('S[pt]\NP',
+     lf(2,6,'(S[pt]\NP)/(S[pss]\NP)'),
+     ba('S[pss]\NP',
+      lf(2,7,'S[pss]\NP'),
+      fa('(S[X]\NP)\(S[X]\NP)',
+       lf(2,8,'((S[X]\NP)\(S[X]\NP))/NP'),
+       fa('NP[nb]',
+        lf(2,9,'NP[nb]/N'),
+        fa('N',
+         lf(2,10,'N/N'),
+         fa('N',
+          lf(2,11,'N/N'),
+          lf(2,12,'N'))))))))),
+  lf(2,13,'.'))).
+
+w(2, 1, 'How', 'how', 'WRB', 'I-NP', 'O', '((S[wq]/(S[dcl]\NP))/N)/(NP/N)').
+w(2, 2, 'many', 'many', 'JJ', 'I-NP', 'O', 'NP/N').
+w(2, 3, 'communication', 'communication', 'NN', 'I-NP', 'O', 'N/N').
+w(2, 4, 'towers', 'tower', 'NNS', 'I-NP', 'O', 'N').
+w(2, 5, 'have', 'have', 'VBP', 'I-VP', 'O', '(S[dcl]\NP)/(S[pt]\NP)').
+w(2, 6, 'been', 'be', 'VBN', 'I-VP', 'O', '(S[pt]\NP)/(S[pss]\NP)').
+w(2, 7, 'built', 'build', 'VBN', 'I-VP', 'O', 'S[pss]\NP').
+w(2, 8, 'in', 'in', 'IN', 'I-PP', 'O', '((S[X]\NP)\(S[X]\NP))/NP').
+w(2, 9, 'the', 'the', 'DT', 'I-NP', 'I-DAT', 'NP[nb]/N').
+w(2, 10, 'last', 'last', 'JJ', 'I-NP', 'I-DAT', 'N/N').
+w(2, 11, 'thirty', 'thirty', 'CD', 'I-NP', 'I-DAT', 'N/N').
+w(2, 12, 'years', 'year', 'NNS', 'I-NP', 'I-DAT', 'N').
+w(2, 13, '?', '?', '.', 'O', 'O', '.').
+

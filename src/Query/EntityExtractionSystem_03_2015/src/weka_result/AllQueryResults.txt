@@ -1,0 +1,4321 @@
+RUN NUMBER 1
+Instance:1	Prediction:2.0	Normal:2.0
+Instance:2	Prediction:1.0	Normal:1.0
+Instance:3	Prediction:1.0	Normal:0.0
+Instance:4	Prediction:1.0	Normal:2.0
+
+Normal Standard: 2 / 4
+0.0|1.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 2
+Instance:5	Prediction:1.0	Normal:1.0
+Instance:6	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 3
+Instance:7	Prediction:2.0	Normal:2.0
+Instance:8	Prediction:2.0	Normal:2.0
+Instance:9	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 4
+Instance:10	Prediction:2.0	Normal:2.0
+Instance:11	Prediction:2.0	Normal:2.0
+Instance:12	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 5
+Instance:13	Prediction:2.0	Normal:2.0
+Instance:14	Prediction:1.0	Normal:1.0
+Instance:15	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 6
+Instance:16	Prediction:2.0	Normal:0.0
+Instance:17	Prediction:2.0	Normal:2.0
+Instance:18	Prediction:1.0	Normal:2.0
+Instance:19	Prediction:1.0	Normal:1.0
+Instance:20	Prediction:1.0	Normal:1.0
+Instance:21	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 6
+0.0|0.0|1.0|
+0.0|2.0|0.0|
+0.0|2.0|1.0|
+
+
+
+
+RUN NUMBER 7
+Instance:22	Prediction:2.0	Normal:0.0
+Instance:23	Prediction:2.0	Normal:2.0
+Instance:24	Prediction:2.0	Normal:2.0
+Instance:25	Prediction:2.0	Normal:1.0
+Instance:26	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 5
+0.0|0.0|1.0|
+0.0|0.0|2.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 8
+Instance:27	Prediction:0.0	Normal:1.0
+Instance:28	Prediction:1.0	Normal:2.0
+Instance:29	Prediction:1.0	Normal:2.0
+Instance:30	Prediction:1.0	Normal:1.0
+Instance:31	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 5
+0.0|0.0|0.0|
+1.0|1.0|0.0|
+0.0|2.0|1.0|
+
+
+
+
+RUN NUMBER 9
+Instance:32	Prediction:2.0	Normal:2.0
+Instance:33	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 10
+Instance:34	Prediction:2.0	Normal:2.0
+Instance:35	Prediction:2.0	Normal:2.0
+Instance:36	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 11
+Instance:37	Prediction:1.0	Normal:1.0
+Instance:38	Prediction:2.0	Normal:2.0
+Instance:39	Prediction:1.0	Normal:0.0
+
+Normal Standard: 2 / 3
+0.0|1.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 12
+Instance:40	Prediction:0.0	Normal:0.0
+Instance:41	Prediction:2.0	Normal:2.0
+Instance:42	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 13
+Instance:43	Prediction:1.0	Normal:1.0
+Instance:44	Prediction:0.0	Normal:0.0
+Instance:45	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 14
+Instance:46	Prediction:0.0	Normal:0.0
+Instance:47	Prediction:2.0	Normal:2.0
+Instance:48	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 3
+1.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 15
+Instance:49	Prediction:1.0	Normal:1.0
+Instance:50	Prediction:0.0	Normal:0.0
+Instance:51	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 16
+Instance:52	Prediction:1.0	Normal:1.0
+Instance:53	Prediction:0.0	Normal:0.0
+Instance:54	Prediction:2.0	Normal:2.0
+Instance:55	Prediction:2.0	Normal:1.0
+
+Normal Standard: 3 / 4
+1.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 17
+Instance:56	Prediction:1.0	Normal:1.0
+Instance:57	Prediction:2.0	Normal:1.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 18
+Instance:58	Prediction:1.0	Normal:1.0
+Instance:59	Prediction:0.0	Normal:0.0
+Instance:60	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 19
+Instance:61	Prediction:1.0	Normal:1.0
+Instance:62	Prediction:2.0	Normal:1.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 20
+Instance:63	Prediction:0.0	Normal:0.0
+Instance:64	Prediction:2.0	Normal:2.0
+Instance:65	Prediction:1.0	Normal:1.0
+Instance:66	Prediction:1.0	Normal:2.0
+Instance:67	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 5
+1.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 21
+Instance:68	Prediction:1.0	Normal:1.0
+Instance:69	Prediction:2.0	Normal:2.0
+Instance:70	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 22
+Instance:71	Prediction:2.0	Normal:1.0
+Instance:72	Prediction:2.0	Normal:2.0
+Instance:73	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 3
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 23
+Instance:74	Prediction:0.0	Normal:0.0
+Instance:75	Prediction:2.0	Normal:2.0
+Instance:76	Prediction:1.0	Normal:1.0
+Instance:77	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 24
+Instance:78	Prediction:1.0	Normal:1.0
+Instance:79	Prediction:2.0	Normal:0.0
+
+Normal Standard: 1 / 2
+0.0|0.0|1.0|
+0.0|1.0|0.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 25
+Instance:80	Prediction:2.0	Normal:2.0
+Instance:81	Prediction:1.0	Normal:1.0
+Instance:82	Prediction:2.0	Normal:2.0
+Instance:83	Prediction:1.0	Normal:1.0
+Instance:84	Prediction:1.0	Normal:2.0
+
+Normal Standard: 4 / 5
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|2.0|
+
+
+
+
+RUN NUMBER 26
+Instance:85	Prediction:1.0	Normal:1.0
+Instance:86	Prediction:2.0	Normal:2.0
+Instance:87	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 27
+Instance:88	Prediction:2.0	Normal:0.0
+Instance:89	Prediction:2.0	Normal:2.0
+Instance:90	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 3
+0.0|0.0|1.0|
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 28
+Instance:91	Prediction:1.0	Normal:1.0
+Instance:92	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 29
+Instance:93	Prediction:1.0	Normal:1.0
+Instance:94	Prediction:2.0	Normal:2.0
+Instance:95	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 30
+Instance:96	Prediction:1.0	Normal:1.0
+Instance:97	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 31
+Instance:98	Prediction:1.0	Normal:1.0
+Instance:99	Prediction:1.0	Normal:2.0
+Instance:100	Prediction:1.0	Normal:2.0
+Instance:101	Prediction:0.0	Normal:0.0
+
+Normal Standard: 2 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|2.0|0.0|
+
+
+
+
+RUN NUMBER 32
+Instance:102	Prediction:0.0	Normal:0.0
+Instance:103	Prediction:2.0	Normal:2.0
+Instance:104	Prediction:0.0	Normal:0.0
+Instance:105	Prediction:1.0	Normal:1.0
+Instance:106	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 5
+2.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 33
+Instance:107	Prediction:0.0	Normal:0.0
+Instance:108	Prediction:2.0	Normal:2.0
+Instance:109	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 34
+Instance:110	Prediction:0.0	Normal:0.0
+Instance:111	Prediction:0.0	Normal:0.0
+Instance:112	Prediction:2.0	Normal:2.0
+Instance:113	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+2.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 35
+Instance:114	Prediction:0.0	Normal:0.0
+Instance:115	Prediction:0.0	Normal:0.0
+Instance:116	Prediction:2.0	Normal:2.0
+Instance:117	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+2.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 36
+Instance:118	Prediction:0.0	Normal:0.0
+Instance:119	Prediction:2.0	Normal:2.0
+Instance:120	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 37
+Instance:121	Prediction:0.0	Normal:0.0
+Instance:122	Prediction:2.0	Normal:2.0
+Instance:123	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 38
+Instance:124	Prediction:0.0	Normal:0.0
+Instance:125	Prediction:2.0	Normal:2.0
+Instance:126	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 39
+Instance:127	Prediction:0.0	Normal:0.0
+Instance:128	Prediction:2.0	Normal:2.0
+Instance:129	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 40
+Instance:130	Prediction:0.0	Normal:0.0
+Instance:131	Prediction:2.0	Normal:2.0
+Instance:132	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 41
+Instance:133	Prediction:0.0	Normal:0.0
+Instance:134	Prediction:2.0	Normal:2.0
+Instance:135	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 42
+Instance:136	Prediction:2.0	Normal:2.0
+Instance:137	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 43
+Instance:138	Prediction:0.0	Normal:0.0
+Instance:139	Prediction:2.0	Normal:2.0
+Instance:140	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 44
+Instance:141	Prediction:0.0	Normal:0.0
+Instance:142	Prediction:2.0	Normal:2.0
+Instance:143	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 45
+Instance:144	Prediction:2.0	Normal:2.0
+Instance:145	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 46
+Instance:146	Prediction:1.0	Normal:2.0
+Instance:147	Prediction:1.0	Normal:1.0
+Instance:148	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|2.0|0.0|
+
+
+
+
+RUN NUMBER 47
+Instance:149	Prediction:0.0	Normal:0.0
+Instance:150	Prediction:2.0	Normal:2.0
+Instance:151	Prediction:2.0	Normal:2.0
+Instance:152	Prediction:2.0	Normal:1.0
+
+Normal Standard: 3 / 4
+1.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 48
+Instance:153	Prediction:2.0	Normal:2.0
+Instance:154	Prediction:2.0	Normal:2.0
+Instance:155	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 49
+Instance:156	Prediction:2.0	Normal:2.0
+Instance:157	Prediction:1.0	Normal:1.0
+Instance:158	Prediction:1.0	Normal:1.0
+Instance:159	Prediction:2.0	Normal:1.0
+Instance:160	Prediction:2.0	Normal:2.0
+
+Normal Standard: 4 / 5
+0.0|0.0|0.0|
+0.0|2.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 50
+Instance:161	Prediction:0.0	Normal:0.0
+Instance:162	Prediction:2.0	Normal:2.0
+Instance:163	Prediction:1.0	Normal:2.0
+
+Normal Standard: 2 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 51
+Instance:164	Prediction:0.0	Normal:0.0
+Instance:165	Prediction:2.0	Normal:2.0
+Instance:166	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 52
+Instance:167	Prediction:2.0	Normal:2.0
+Instance:168	Prediction:1.0	Normal:1.0
+Instance:169	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 53
+Instance:170	Prediction:2.0	Normal:2.0
+Instance:171	Prediction:1.0	Normal:1.0
+Instance:172	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 54
+Instance:173	Prediction:0.0	Normal:0.0
+Instance:174	Prediction:2.0	Normal:2.0
+Instance:175	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 55
+Instance:176	Prediction:2.0	Normal:2.0
+Instance:177	Prediction:2.0	Normal:2.0
+Instance:178	Prediction:1.0	Normal:1.0
+Instance:179	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 56
+Instance:180	Prediction:2.0	Normal:2.0
+Instance:181	Prediction:1.0	Normal:1.0
+Instance:182	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 57
+Instance:183	Prediction:0.0	Normal:0.0
+Instance:184	Prediction:2.0	Normal:2.0
+Instance:185	Prediction:0.0	Normal:0.0
+Instance:186	Prediction:2.0	Normal:1.0
+Instance:187	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 5
+2.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 58
+Instance:188	Prediction:2.0	Normal:2.0
+Instance:189	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 59
+Instance:190	Prediction:2.0	Normal:2.0
+Instance:191	Prediction:2.0	Normal:2.0
+Instance:192	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 60
+Instance:193	Prediction:2.0	Normal:0.0
+Instance:194	Prediction:2.0	Normal:2.0
+Instance:195	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|1.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 61
+Instance:196	Prediction:2.0	Normal:2.0
+Instance:197	Prediction:2.0	Normal:2.0
+Instance:198	Prediction:1.0	Normal:0.0
+Instance:199	Prediction:1.0	Normal:1.0
+Instance:200	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 5
+0.0|1.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|2.0|
+
+
+
+
+RUN NUMBER 62
+Instance:201	Prediction:2.0	Normal:2.0
+Instance:202	Prediction:2.0	Normal:1.0
+Instance:203	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 63
+Instance:204	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 1
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 64
+Instance:205	Prediction:0.0	Normal:0.0
+Instance:206	Prediction:2.0	Normal:1.0
+Instance:207	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 3
+1.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 65
+Instance:208	Prediction:0.0	Normal:0.0
+Instance:209	Prediction:2.0	Normal:2.0
+Instance:210	Prediction:2.0	Normal:2.0
+Instance:211	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 66
+Instance:212	Prediction:0.0	Normal:0.0
+Instance:213	Prediction:2.0	Normal:2.0
+Instance:214	Prediction:2.0	Normal:2.0
+Instance:215	Prediction:0.0	Normal:1.0
+
+Normal Standard: 3 / 4
+1.0|0.0|0.0|
+1.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 67
+Instance:216	Prediction:2.0	Normal:2.0
+Instance:217	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 68
+Instance:218	Prediction:2.0	Normal:2.0
+Instance:219	Prediction:1.0	Normal:1.0
+Instance:220	Prediction:1.0	Normal:2.0
+Instance:221	Prediction:1.0	Normal:2.0
+
+Normal Standard: 2 / 4
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|2.0|1.0|
+
+
+
+
+RUN NUMBER 69
+Instance:222	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 1
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 70
+Instance:223	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 1
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 71
+Instance:224	Prediction:2.0	Normal:2.0
+Instance:225	Prediction:1.0	Normal:1.0
+Instance:226	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 72
+Instance:227	Prediction:2.0	Normal:1.0
+Instance:228	Prediction:1.0	Normal:2.0
+Instance:229	Prediction:2.0	Normal:2.0
+Instance:230	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 4
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|2.0|1.0|
+
+
+
+
+RUN NUMBER 73
+Instance:231	Prediction:2.0	Normal:2.0
+Instance:232	Prediction:1.0	Normal:1.0
+Instance:233	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 74
+Instance:234	Prediction:0.0	Normal:0.0
+Instance:235	Prediction:2.0	Normal:2.0
+Instance:236	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 75
+Instance:237	Prediction:2.0	Normal:0.0
+Instance:238	Prediction:0.0	Normal:0.0
+Instance:239	Prediction:2.0	Normal:2.0
+Instance:240	Prediction:2.0	Normal:2.0
+Instance:241	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 5
+1.0|0.0|1.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 76
+Instance:242	Prediction:0.0	Normal:0.0
+Instance:243	Prediction:2.0	Normal:2.0
+Instance:244	Prediction:2.0	Normal:2.0
+Instance:245	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 77
+Instance:246	Prediction:2.0	Normal:2.0
+Instance:247	Prediction:2.0	Normal:2.0
+Instance:248	Prediction:2.0	Normal:2.0
+Instance:249	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 78
+Instance:250	Prediction:0.0	Normal:2.0
+Instance:251	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+1.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 79
+Instance:252	Prediction:2.0	Normal:2.0
+Instance:253	Prediction:2.0	Normal:2.0
+Instance:254	Prediction:0.0	Normal:0.0
+Instance:255	Prediction:1.0	Normal:2.0
+Instance:256	Prediction:1.0	Normal:1.0
+Instance:257	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 6
+1.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|2.0|
+
+
+
+
+RUN NUMBER 80
+Instance:258	Prediction:0.0	Normal:0.0
+Instance:259	Prediction:2.0	Normal:2.0
+Instance:260	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 81
+Instance:261	Prediction:2.0	Normal:2.0
+Instance:262	Prediction:2.0	Normal:0.0
+Instance:263	Prediction:0.0	Normal:2.0
+Instance:264	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 4
+0.0|0.0|1.0|
+0.0|1.0|0.0|
+1.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 82
+Instance:265	Prediction:0.0	Normal:0.0
+Instance:266	Prediction:2.0	Normal:2.0
+Instance:267	Prediction:0.0	Normal:0.0
+Instance:268	Prediction:1.0	Normal:2.0
+Instance:269	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 5
+2.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|2.0|1.0|
+
+
+
+
+RUN NUMBER 83
+Instance:270	Prediction:0.0	Normal:0.0
+Instance:271	Prediction:2.0	Normal:2.0
+Instance:272	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 84
+Instance:273	Prediction:0.0	Normal:0.0
+Instance:274	Prediction:2.0	Normal:2.0
+Instance:275	Prediction:2.0	Normal:2.0
+Instance:276	Prediction:1.0	Normal:0.0
+
+Normal Standard: 3 / 4
+1.0|1.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 85
+Instance:277	Prediction:2.0	Normal:2.0
+Instance:278	Prediction:2.0	Normal:2.0
+Instance:279	Prediction:2.0	Normal:2.0
+Instance:280	Prediction:2.0	Normal:1.0
+Instance:281	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 5
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 86
+Instance:282	Prediction:0.0	Normal:0.0
+Instance:283	Prediction:0.0	Normal:0.0
+Instance:284	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+2.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 87
+Instance:285	Prediction:0.0	Normal:0.0
+Instance:286	Prediction:2.0	Normal:2.0
+Instance:287	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 88
+Instance:288	Prediction:0.0	Normal:0.0
+Instance:289	Prediction:2.0	Normal:2.0
+Instance:290	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 89
+Instance:291	Prediction:0.0	Normal:0.0
+Instance:292	Prediction:2.0	Normal:2.0
+Instance:293	Prediction:2.0	Normal:2.0
+Instance:294	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 90
+Instance:295	Prediction:0.0	Normal:0.0
+Instance:296	Prediction:2.0	Normal:2.0
+Instance:297	Prediction:2.0	Normal:2.0
+Instance:298	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 91
+Instance:299	Prediction:2.0	Normal:2.0
+Instance:300	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 92
+Instance:301	Prediction:0.0	Normal:0.0
+Instance:302	Prediction:2.0	Normal:2.0
+Instance:303	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 93
+Instance:304	Prediction:2.0	Normal:2.0
+Instance:305	Prediction:2.0	Normal:2.0
+Instance:306	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 94
+Instance:307	Prediction:0.0	Normal:0.0
+Instance:308	Prediction:0.0	Normal:0.0
+Instance:309	Prediction:2.0	Normal:2.0
+Instance:310	Prediction:2.0	Normal:2.0
+Instance:311	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 5
+2.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 95
+Instance:312	Prediction:2.0	Normal:0.0
+Instance:313	Prediction:0.0	Normal:0.0
+Instance:314	Prediction:2.0	Normal:2.0
+Instance:315	Prediction:2.0	Normal:2.0
+Instance:316	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 5
+1.0|0.0|1.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 96
+Instance:317	Prediction:0.0	Normal:0.0
+Instance:318	Prediction:2.0	Normal:2.0
+Instance:319	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 97
+Instance:320	Prediction:0.0	Normal:0.0
+Instance:321	Prediction:0.0	Normal:0.0
+Instance:322	Prediction:0.0	Normal:0.0
+Instance:323	Prediction:2.0	Normal:2.0
+Instance:324	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 5
+3.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 98
+Instance:325	Prediction:0.0	Normal:0.0
+Instance:326	Prediction:0.0	Normal:0.0
+Instance:327	Prediction:2.0	Normal:2.0
+Instance:328	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+2.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 99
+Instance:329	Prediction:2.0	Normal:2.0
+Instance:330	Prediction:0.0	Normal:0.0
+Instance:331	Prediction:2.0	Normal:2.0
+Instance:332	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 100
+Instance:333	Prediction:0.0	Normal:0.0
+Instance:334	Prediction:2.0	Normal:2.0
+Instance:335	Prediction:2.0	Normal:2.0
+Instance:336	Prediction:2.0	Normal:2.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 101
+Instance:337	Prediction:2.0	Normal:2.0
+Instance:338	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 102
+Instance:339	Prediction:0.0	Normal:2.0
+Instance:340	Prediction:2.0	Normal:2.0
+Instance:341	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+1.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 103
+Instance:342	Prediction:0.0	Normal:0.0
+Instance:343	Prediction:2.0	Normal:2.0
+Instance:344	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 104
+Instance:345	Prediction:0.0	Normal:0.0
+Instance:346	Prediction:2.0	Normal:2.0
+Instance:347	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 105
+Instance:348	Prediction:2.0	Normal:2.0
+Instance:349	Prediction:2.0	Normal:2.0
+Instance:350	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 106
+Instance:351	Prediction:2.0	Normal:2.0
+Instance:352	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 107
+Instance:353	Prediction:2.0	Normal:2.0
+Instance:354	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 108
+Instance:355	Prediction:2.0	Normal:2.0
+Instance:356	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 109
+Instance:357	Prediction:0.0	Normal:0.0
+Instance:358	Prediction:2.0	Normal:2.0
+Instance:359	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 110
+Instance:360	Prediction:2.0	Normal:2.0
+Instance:361	Prediction:2.0	Normal:2.0
+Instance:362	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 111
+Instance:363	Prediction:0.0	Normal:0.0
+Instance:364	Prediction:2.0	Normal:2.0
+Instance:365	Prediction:2.0	Normal:2.0
+Instance:366	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 112
+Instance:367	Prediction:2.0	Normal:2.0
+Instance:368	Prediction:2.0	Normal:2.0
+Instance:369	Prediction:2.0	Normal:2.0
+Instance:370	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 113
+Instance:371	Prediction:2.0	Normal:2.0
+Instance:372	Prediction:2.0	Normal:1.0
+Instance:373	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 114
+Instance:374	Prediction:2.0	Normal:2.0
+Instance:375	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 115
+Instance:376	Prediction:2.0	Normal:2.0
+Instance:377	Prediction:2.0	Normal:2.0
+Instance:378	Prediction:2.0	Normal:2.0
+Instance:379	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 116
+Instance:380	Prediction:2.0	Normal:2.0
+Instance:381	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 117
+Instance:382	Prediction:2.0	Normal:2.0
+Instance:383	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 118
+Instance:384	Prediction:2.0	Normal:2.0
+Instance:385	Prediction:2.0	Normal:2.0
+Instance:386	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 119
+Instance:387	Prediction:2.0	Normal:2.0
+Instance:388	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 120
+Instance:389	Prediction:0.0	Normal:0.0
+Instance:390	Prediction:2.0	Normal:2.0
+Instance:391	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 121
+Instance:392	Prediction:0.0	Normal:0.0
+Instance:393	Prediction:2.0	Normal:2.0
+Instance:394	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 122
+Instance:395	Prediction:0.0	Normal:2.0
+Instance:396	Prediction:2.0	Normal:2.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+1.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 123
+Instance:397	Prediction:0.0	Normal:0.0
+Instance:398	Prediction:2.0	Normal:2.0
+Instance:399	Prediction:1.0	Normal:1.0
+Instance:400	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 124
+Instance:401	Prediction:2.0	Normal:2.0
+Instance:402	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 125
+Instance:403	Prediction:0.0	Normal:0.0
+Instance:404	Prediction:2.0	Normal:2.0
+Instance:405	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 126
+Instance:406	Prediction:2.0	Normal:2.0
+Instance:407	Prediction:2.0	Normal:2.0
+Instance:408	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 127
+Instance:409	Prediction:0.0	Normal:0.0
+Instance:410	Prediction:2.0	Normal:2.0
+Instance:411	Prediction:0.0	Normal:1.0
+Instance:412	Prediction:1.0	Normal:1.0
+Instance:413	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 5
+1.0|0.0|0.0|
+1.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 128
+Instance:414	Prediction:2.0	Normal:2.0
+Instance:415	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 129
+Instance:416	Prediction:0.0	Normal:0.0
+Instance:417	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 130
+Instance:418	Prediction:0.0	Normal:0.0
+Instance:419	Prediction:2.0	Normal:2.0
+Instance:420	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 131
+Instance:421	Prediction:0.0	Normal:0.0
+Instance:422	Prediction:2.0	Normal:2.0
+Instance:423	Prediction:2.0	Normal:2.0
+Instance:424	Prediction:2.0	Normal:1.0
+Instance:425	Prediction:2.0	Normal:1.0
+
+Normal Standard: 3 / 5
+1.0|0.0|0.0|
+0.0|0.0|2.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 132
+Instance:426	Prediction:0.0	Normal:0.0
+Instance:427	Prediction:2.0	Normal:2.0
+Instance:428	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 133
+Instance:429	Prediction:0.0	Normal:0.0
+Instance:430	Prediction:0.0	Normal:0.0
+Instance:431	Prediction:2.0	Normal:2.0
+Instance:432	Prediction:2.0	Normal:2.0
+Instance:433	Prediction:2.0	Normal:1.0
+Instance:434	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 6
+2.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 134
+Instance:435	Prediction:0.0	Normal:0.0
+Instance:436	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 135
+Instance:437	Prediction:2.0	Normal:2.0
+Instance:438	Prediction:2.0	Normal:2.0
+Instance:439	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 136
+Instance:440	Prediction:0.0	Normal:0.0
+Instance:441	Prediction:2.0	Normal:2.0
+Instance:442	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 137
+Instance:443	Prediction:0.0	Normal:0.0
+Instance:444	Prediction:2.0	Normal:2.0
+Instance:445	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 138
+Instance:446	Prediction:2.0	Normal:2.0
+Instance:447	Prediction:2.0	Normal:1.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 139
+Instance:448	Prediction:0.0	Normal:0.0
+Instance:449	Prediction:2.0	Normal:2.0
+Instance:450	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 140
+Instance:451	Prediction:0.0	Normal:0.0
+Instance:452	Prediction:2.0	Normal:2.0
+Instance:453	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 141
+Instance:454	Prediction:0.0	Normal:0.0
+Instance:455	Prediction:2.0	Normal:2.0
+Instance:456	Prediction:1.0	Normal:2.0
+Instance:457	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 142
+Instance:458	Prediction:0.0	Normal:0.0
+Instance:459	Prediction:2.0	Normal:2.0
+Instance:460	Prediction:1.0	Normal:1.0
+Instance:461	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 143
+Instance:462	Prediction:0.0	Normal:0.0
+Instance:463	Prediction:2.0	Normal:2.0
+Instance:464	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 144
+Instance:465	Prediction:2.0	Normal:2.0
+Instance:466	Prediction:2.0	Normal:2.0
+Instance:467	Prediction:2.0	Normal:1.0
+Instance:468	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 145
+Instance:469	Prediction:0.0	Normal:0.0
+Instance:470	Prediction:2.0	Normal:2.0
+Instance:471	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 146
+Instance:472	Prediction:0.0	Normal:0.0
+Instance:473	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 147
+Instance:474	Prediction:2.0	Normal:2.0
+Instance:475	Prediction:2.0	Normal:2.0
+Instance:476	Prediction:1.0	Normal:1.0
+Instance:477	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 148
+Instance:478	Prediction:2.0	Normal:2.0
+Instance:479	Prediction:1.0	Normal:2.0
+Instance:480	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 149
+Instance:481	Prediction:2.0	Normal:2.0
+Instance:482	Prediction:2.0	Normal:2.0
+Instance:483	Prediction:1.0	Normal:1.0
+Instance:484	Prediction:2.0	Normal:1.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 150
+Instance:485	Prediction:0.0	Normal:0.0
+Instance:486	Prediction:2.0	Normal:2.0
+Instance:487	Prediction:1.0	Normal:1.0
+Instance:488	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 151
+Instance:489	Prediction:2.0	Normal:2.0
+Instance:490	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 152
+Instance:491	Prediction:2.0	Normal:2.0
+Instance:492	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 153
+Instance:493	Prediction:0.0	Normal:0.0
+Instance:494	Prediction:2.0	Normal:2.0
+Instance:495	Prediction:2.0	Normal:2.0
+Instance:496	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 154
+Instance:497	Prediction:0.0	Normal:0.0
+Instance:498	Prediction:2.0	Normal:2.0
+Instance:499	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 155
+Instance:500	Prediction:0.0	Normal:0.0
+Instance:501	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 156
+Instance:502	Prediction:2.0	Normal:1.0
+
+Normal Standard: 0 / 1
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 157
+Instance:503	Prediction:2.0	Normal:2.0
+Instance:504	Prediction:2.0	Normal:2.0
+Instance:505	Prediction:2.0	Normal:1.0
+Instance:506	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 4
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 158
+Instance:507	Prediction:0.0	Normal:0.0
+Instance:508	Prediction:2.0	Normal:2.0
+Instance:509	Prediction:2.0	Normal:2.0
+Instance:510	Prediction:2.0	Normal:1.0
+Instance:511	Prediction:2.0	Normal:1.0
+Instance:512	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 6
+1.0|0.0|0.0|
+0.0|1.0|2.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 159
+Instance:513	Prediction:2.0	Normal:2.0
+Instance:514	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 160
+Instance:515	Prediction:0.0	Normal:0.0
+Instance:516	Prediction:0.0	Normal:0.0
+Instance:517	Prediction:2.0	Normal:2.0
+Instance:518	Prediction:2.0	Normal:2.0
+Instance:519	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 5
+2.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 161
+Instance:520	Prediction:0.0	Normal:0.0
+Instance:521	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 162
+Instance:522	Prediction:0.0	Normal:2.0
+Instance:523	Prediction:2.0	Normal:2.0
+Instance:524	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+1.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 163
+Instance:525	Prediction:2.0	Normal:2.0
+Instance:526	Prediction:2.0	Normal:2.0
+Instance:527	Prediction:0.0	Normal:0.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 164
+Instance:528	Prediction:2.0	Normal:2.0
+Instance:529	Prediction:2.0	Normal:2.0
+Instance:530	Prediction:2.0	Normal:2.0
+Instance:531	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 165
+Instance:532	Prediction:2.0	Normal:2.0
+Instance:533	Prediction:2.0	Normal:2.0
+Instance:534	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 166
+Instance:535	Prediction:0.0	Normal:0.0
+Instance:536	Prediction:2.0	Normal:2.0
+Instance:537	Prediction:2.0	Normal:2.0
+Instance:538	Prediction:2.0	Normal:2.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 167
+Instance:539	Prediction:0.0	Normal:0.0
+Instance:540	Prediction:2.0	Normal:2.0
+Instance:541	Prediction:2.0	Normal:2.0
+Instance:542	Prediction:1.0	Normal:1.0
+Instance:543	Prediction:2.0	Normal:2.0
+
+Normal Standard: 5 / 5
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 168
+Instance:544	Prediction:0.0	Normal:0.0
+Instance:545	Prediction:0.0	Normal:0.0
+Instance:546	Prediction:2.0	Normal:2.0
+Instance:547	Prediction:2.0	Normal:1.0
+Instance:548	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 5
+2.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 169
+Instance:549	Prediction:0.0	Normal:0.0
+Instance:550	Prediction:2.0	Normal:2.0
+Instance:551	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 170
+Instance:552	Prediction:1.0	Normal:0.0
+Instance:553	Prediction:1.0	Normal:2.0
+Instance:554	Prediction:2.0	Normal:2.0
+Instance:555	Prediction:1.0	Normal:1.0
+Instance:556	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 5
+0.0|1.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 171
+Instance:557	Prediction:2.0	Normal:0.0
+Instance:558	Prediction:1.0	Normal:2.0
+Instance:559	Prediction:2.0	Normal:2.0
+Instance:560	Prediction:1.0	Normal:1.0
+Instance:561	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 5
+0.0|0.0|1.0|
+0.0|2.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 172
+Instance:562	Prediction:0.0	Normal:0.0
+Instance:563	Prediction:2.0	Normal:2.0
+Instance:564	Prediction:1.0	Normal:2.0
+Instance:565	Prediction:1.0	Normal:1.0
+Instance:566	Prediction:2.0	Normal:1.0
+
+Normal Standard: 3 / 5
+1.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 173
+Instance:567	Prediction:0.0	Normal:0.0
+Instance:568	Prediction:2.0	Normal:2.0
+Instance:569	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 174
+Instance:570	Prediction:2.0	Normal:2.0
+Instance:571	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 175
+Instance:572	Prediction:2.0	Normal:2.0
+Instance:573	Prediction:2.0	Normal:2.0
+Instance:574	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 176
+Instance:575	Prediction:2.0	Normal:2.0
+Instance:576	Prediction:2.0	Normal:2.0
+Instance:577	Prediction:1.0	Normal:1.0
+Instance:578	Prediction:2.0	Normal:1.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 177
+Instance:579	Prediction:0.0	Normal:0.0
+Instance:580	Prediction:2.0	Normal:2.0
+Instance:581	Prediction:2.0	Normal:2.0
+Instance:582	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 178
+Instance:583	Prediction:2.0	Normal:2.0
+Instance:584	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 179
+Instance:585	Prediction:2.0	Normal:2.0
+Instance:586	Prediction:2.0	Normal:2.0
+Instance:587	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 180
+Instance:588	Prediction:0.0	Normal:0.0
+Instance:589	Prediction:2.0	Normal:2.0
+Instance:590	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 181
+Instance:591	Prediction:2.0	Normal:2.0
+Instance:592	Prediction:2.0	Normal:2.0
+Instance:593	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 182
+Instance:594	Prediction:1.0	Normal:2.0
+Instance:595	Prediction:2.0	Normal:2.0
+Instance:596	Prediction:2.0	Normal:1.0
+Instance:597	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 183
+Instance:598	Prediction:2.0	Normal:2.0
+Instance:599	Prediction:2.0	Normal:2.0
+Instance:600	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 184
+Instance:601	Prediction:2.0	Normal:2.0
+Instance:602	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 185
+Instance:603	Prediction:2.0	Normal:2.0
+Instance:604	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 186
+Instance:605	Prediction:2.0	Normal:2.0
+Instance:606	Prediction:2.0	Normal:2.0
+Instance:607	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 187
+Instance:608	Prediction:2.0	Normal:2.0
+Instance:609	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 188
+Instance:610	Prediction:2.0	Normal:2.0
+Instance:611	Prediction:1.0	Normal:1.0
+Instance:612	Prediction:1.0	Normal:1.0
+Instance:613	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|3.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 189
+Instance:614	Prediction:2.0	Normal:2.0
+Instance:615	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 190
+Instance:616	Prediction:1.0	Normal:2.0
+Instance:617	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 191
+Instance:618	Prediction:2.0	Normal:2.0
+Instance:619	Prediction:1.0	Normal:1.0
+Instance:620	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 192
+Instance:621	Prediction:2.0	Normal:2.0
+Instance:622	Prediction:2.0	Normal:2.0
+Instance:623	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 193
+Instance:624	Prediction:2.0	Normal:1.0
+Instance:625	Prediction:1.0	Normal:1.0
+Instance:626	Prediction:1.0	Normal:1.0
+Instance:627	Prediction:1.0	Normal:1.0
+Instance:628	Prediction:0.0	Normal:0.0
+Instance:629	Prediction:1.0	Normal:2.0
+
+Normal Standard: 4 / 6
+1.0|0.0|0.0|
+0.0|3.0|1.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 194
+Instance:630	Prediction:2.0	Normal:1.0
+Instance:631	Prediction:2.0	Normal:2.0
+Instance:632	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 195
+Instance:633	Prediction:2.0	Normal:2.0
+Instance:634	Prediction:2.0	Normal:2.0
+Instance:635	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 196
+Instance:636	Prediction:2.0	Normal:2.0
+Instance:637	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 197
+Instance:638	Prediction:1.0	Normal:1.0
+Instance:639	Prediction:1.0	Normal:1.0
+Instance:640	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|3.0|0.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 198
+Instance:641	Prediction:2.0	Normal:2.0
+Instance:642	Prediction:1.0	Normal:1.0
+Instance:643	Prediction:1.0	Normal:1.0
+Instance:644	Prediction:1.0	Normal:1.0
+Instance:645	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 5
+0.0|0.0|0.0|
+0.0|4.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 199
+Instance:646	Prediction:2.0	Normal:2.0
+Instance:647	Prediction:2.0	Normal:2.0
+Instance:648	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 200
+Instance:649	Prediction:2.0	Normal:2.0
+Instance:650	Prediction:2.0	Normal:2.0
+Instance:651	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 201
+Instance:652	Prediction:2.0	Normal:1.0
+Instance:653	Prediction:1.0	Normal:1.0
+Instance:654	Prediction:2.0	Normal:0.0
+Instance:655	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 4
+0.0|0.0|1.0|
+0.0|1.0|1.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 202
+Instance:656	Prediction:2.0	Normal:2.0
+Instance:657	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 203
+Instance:658	Prediction:2.0	Normal:2.0
+Instance:659	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 204
+Instance:660	Prediction:0.0	Normal:2.0
+Instance:661	Prediction:2.0	Normal:2.0
+Instance:662	Prediction:1.0	Normal:1.0
+Instance:663	Prediction:2.0	Normal:1.0
+Instance:664	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 5
+0.0|0.0|0.0|
+0.0|1.0|2.0|
+1.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 205
+Instance:665	Prediction:0.0	Normal:2.0
+Instance:666	Prediction:2.0	Normal:2.0
+Instance:667	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+1.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 206
+Instance:668	Prediction:1.0	Normal:1.0
+Instance:669	Prediction:0.0	Normal:0.0
+Instance:670	Prediction:2.0	Normal:1.0
+Instance:671	Prediction:2.0	Normal:1.0
+Instance:672	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 5
+1.0|0.0|0.0|
+0.0|1.0|3.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 207
+Instance:673	Prediction:2.0	Normal:2.0
+Instance:674	Prediction:2.0	Normal:1.0
+Instance:675	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 3
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 208
+Instance:676	Prediction:2.0	Normal:2.0
+Instance:677	Prediction:2.0	Normal:2.0
+Instance:678	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 209
+Instance:679	Prediction:2.0	Normal:1.0
+Instance:680	Prediction:2.0	Normal:1.0
+Instance:681	Prediction:1.0	Normal:2.0
+
+Normal Standard: 0 / 3
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 210
+Instance:682	Prediction:1.0	Normal:1.0
+Instance:683	Prediction:2.0	Normal:2.0
+Instance:684	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 211
+Instance:685	Prediction:2.0	Normal:2.0
+Instance:686	Prediction:2.0	Normal:2.0
+Instance:687	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 212
+Instance:688	Prediction:2.0	Normal:1.0
+Instance:689	Prediction:2.0	Normal:1.0
+Instance:690	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 3
+0.0|0.0|0.0|
+0.0|1.0|2.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 213
+Instance:691	Prediction:2.0	Normal:2.0
+Instance:692	Prediction:1.0	Normal:1.0
+Instance:693	Prediction:1.0	Normal:1.0
+Instance:694	Prediction:1.0	Normal:1.0
+Instance:695	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 5
+0.0|0.0|0.0|
+0.0|4.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 214
+Instance:696	Prediction:2.0	Normal:2.0
+Instance:697	Prediction:2.0	Normal:2.0
+Instance:698	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 215
+Instance:699	Prediction:1.0	Normal:1.0
+Instance:700	Prediction:2.0	Normal:2.0
+Instance:701	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 216
+Instance:702	Prediction:2.0	Normal:2.0
+Instance:703	Prediction:2.0	Normal:2.0
+Instance:704	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 217
+Instance:705	Prediction:1.0	Normal:1.0
+Instance:706	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 218
+Instance:707	Prediction:2.0	Normal:1.0
+Instance:708	Prediction:1.0	Normal:1.0
+Instance:709	Prediction:1.0	Normal:1.0
+Instance:710	Prediction:1.0	Normal:1.0
+Instance:711	Prediction:2.0	Normal:0.0
+Instance:712	Prediction:2.0	Normal:2.0
+
+Normal Standard: 4 / 6
+0.0|0.0|1.0|
+0.0|3.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 219
+Instance:713	Prediction:2.0	Normal:2.0
+Instance:714	Prediction:2.0	Normal:2.0
+Instance:715	Prediction:1.0	Normal:2.0
+Instance:716	Prediction:2.0	Normal:1.0
+Instance:717	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 5
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|2.0|
+
+
+
+
+RUN NUMBER 220
+Instance:718	Prediction:2.0	Normal:2.0
+Instance:719	Prediction:1.0	Normal:1.0
+Instance:720	Prediction:1.0	Normal:1.0
+Instance:721	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 221
+Instance:722	Prediction:2.0	Normal:1.0
+Instance:723	Prediction:1.0	Normal:1.0
+Instance:724	Prediction:2.0	Normal:1.0
+Instance:725	Prediction:2.0	Normal:1.0
+Instance:726	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 5
+0.0|0.0|0.0|
+0.0|1.0|3.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 222
+Instance:727	Prediction:2.0	Normal:2.0
+Instance:728	Prediction:2.0	Normal:2.0
+Instance:729	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 223
+Instance:730	Prediction:2.0	Normal:2.0
+Instance:731	Prediction:2.0	Normal:1.0
+Instance:732	Prediction:2.0	Normal:1.0
+Instance:733	Prediction:1.0	Normal:1.0
+Instance:734	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 5
+0.0|0.0|0.0|
+0.0|1.0|2.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 224
+Instance:735	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 1
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 225
+Instance:736	Prediction:2.0	Normal:2.0
+Instance:737	Prediction:2.0	Normal:2.0
+Instance:738	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 226
+Instance:739	Prediction:2.0	Normal:2.0
+Instance:740	Prediction:1.0	Normal:1.0
+Instance:741	Prediction:1.0	Normal:1.0
+Instance:742	Prediction:2.0	Normal:1.0
+Instance:743	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 5
+0.0|0.0|0.0|
+0.0|3.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 227
+Instance:744	Prediction:2.0	Normal:2.0
+Instance:745	Prediction:2.0	Normal:2.0
+Instance:746	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 228
+Instance:747	Prediction:2.0	Normal:2.0
+Instance:748	Prediction:1.0	Normal:1.0
+Instance:749	Prediction:2.0	Normal:1.0
+Instance:750	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 229
+Instance:751	Prediction:1.0	Normal:2.0
+Instance:752	Prediction:2.0	Normal:1.0
+Instance:753	Prediction:2.0	Normal:1.0
+Instance:754	Prediction:2.0	Normal:1.0
+Instance:755	Prediction:1.0	Normal:0.0
+Instance:756	Prediction:1.0	Normal:2.0
+
+Normal Standard: 0 / 6
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+0.0|2.0|0.0|
+
+
+
+
+RUN NUMBER 230
+Instance:757	Prediction:2.0	Normal:2.0
+Instance:758	Prediction:1.0	Normal:2.0
+Instance:759	Prediction:1.0	Normal:1.0
+Instance:760	Prediction:1.0	Normal:1.0
+Instance:761	Prediction:2.0	Normal:1.0
+
+Normal Standard: 3 / 5
+0.0|0.0|0.0|
+0.0|2.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 231
+Instance:762	Prediction:2.0	Normal:2.0
+Instance:763	Prediction:2.0	Normal:2.0
+Instance:764	Prediction:2.0	Normal:1.0
+Instance:765	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 232
+Instance:766	Prediction:2.0	Normal:2.0
+Instance:767	Prediction:1.0	Normal:1.0
+Instance:768	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 233
+Instance:769	Prediction:2.0	Normal:2.0
+Instance:770	Prediction:2.0	Normal:2.0
+Instance:771	Prediction:2.0	Normal:2.0
+Instance:772	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 234
+Instance:773	Prediction:2.0	Normal:2.0
+Instance:774	Prediction:1.0	Normal:2.0
+Instance:775	Prediction:2.0	Normal:1.0
+Instance:776	Prediction:1.0	Normal:1.0
+Instance:777	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 5
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|2.0|
+
+
+
+
+RUN NUMBER 235
+Instance:778	Prediction:2.0	Normal:2.0
+Instance:779	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 236
+Instance:780	Prediction:2.0	Normal:1.0
+Instance:781	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 237
+Instance:782	Prediction:2.0	Normal:1.0
+Instance:783	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 2
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 238
+Instance:784	Prediction:2.0	Normal:1.0
+Instance:785	Prediction:2.0	Normal:1.0
+Instance:786	Prediction:2.0	Normal:2.0
+
+Normal Standard: 1 / 3
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 239
+Instance:787	Prediction:2.0	Normal:2.0
+Instance:788	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 240
+Instance:789	Prediction:2.0	Normal:2.0
+Instance:790	Prediction:1.0	Normal:1.0
+Instance:791	Prediction:1.0	Normal:2.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 241
+Instance:792	Prediction:2.0	Normal:2.0
+Instance:793	Prediction:2.0	Normal:2.0
+Instance:794	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 242
+Instance:795	Prediction:2.0	Normal:2.0
+Instance:796	Prediction:2.0	Normal:1.0
+Instance:797	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 243
+Instance:798	Prediction:2.0	Normal:2.0
+Instance:799	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 244
+Instance:800	Prediction:2.0	Normal:1.0
+Instance:801	Prediction:1.0	Normal:1.0
+Instance:802	Prediction:0.0	Normal:0.0
+Instance:803	Prediction:1.0	Normal:2.0
+
+Normal Standard: 2 / 4
+1.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 245
+Instance:804	Prediction:2.0	Normal:1.0
+Instance:805	Prediction:0.0	Normal:1.0
+Instance:806	Prediction:0.0	Normal:0.0
+Instance:807	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 4
+1.0|0.0|0.0|
+1.0|0.0|1.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 246
+Instance:808	Prediction:2.0	Normal:2.0
+Instance:809	Prediction:2.0	Normal:0.0
+Instance:810	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|1.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 247
+Instance:811	Prediction:2.0	Normal:1.0
+Instance:812	Prediction:1.0	Normal:2.0
+Instance:813	Prediction:1.0	Normal:1.0
+Instance:814	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 248
+Instance:815	Prediction:2.0	Normal:2.0
+Instance:816	Prediction:2.0	Normal:1.0
+Instance:817	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 249
+Instance:818	Prediction:2.0	Normal:2.0
+Instance:819	Prediction:2.0	Normal:2.0
+Instance:820	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 250
+Instance:821	Prediction:2.0	Normal:2.0
+Instance:822	Prediction:2.0	Normal:1.0
+Instance:823	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 251
+Instance:824	Prediction:2.0	Normal:1.0
+Instance:825	Prediction:1.0	Normal:2.0
+Instance:826	Prediction:2.0	Normal:1.0
+Instance:827	Prediction:1.0	Normal:1.0
+Instance:828	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 5
+0.0|0.0|0.0|
+0.0|1.0|2.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 252
+Instance:829	Prediction:2.0	Normal:2.0
+Instance:830	Prediction:2.0	Normal:2.0
+Instance:831	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 253
+Instance:832	Prediction:2.0	Normal:2.0
+Instance:833	Prediction:1.0	Normal:1.0
+Instance:834	Prediction:1.0	Normal:1.0
+Instance:835	Prediction:2.0	Normal:2.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 254
+Instance:836	Prediction:2.0	Normal:2.0
+Instance:837	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 255
+Instance:838	Prediction:2.0	Normal:2.0
+Instance:839	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 256
+Instance:840	Prediction:2.0	Normal:1.0
+Instance:841	Prediction:2.0	Normal:1.0
+Instance:842	Prediction:2.0	Normal:2.0
+Instance:843	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 4
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 257
+Instance:844	Prediction:2.0	Normal:1.0
+Instance:845	Prediction:1.0	Normal:1.0
+Instance:846	Prediction:1.0	Normal:2.0
+
+Normal Standard: 1 / 3
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 258
+Instance:847	Prediction:2.0	Normal:2.0
+Instance:848	Prediction:2.0	Normal:2.0
+Instance:849	Prediction:1.0	Normal:1.0
+Instance:850	Prediction:0.0	Normal:0.0
+Instance:851	Prediction:1.0	Normal:1.0
+
+Normal Standard: 5 / 5
+1.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 259
+Instance:852	Prediction:2.0	Normal:2.0
+Instance:853	Prediction:1.0	Normal:2.0
+Instance:854	Prediction:1.0	Normal:0.0
+Instance:855	Prediction:1.0	Normal:1.0
+Instance:856	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 5
+0.0|1.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 260
+Instance:857	Prediction:2.0	Normal:2.0
+Instance:858	Prediction:2.0	Normal:2.0
+Instance:859	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 261
+Instance:860	Prediction:2.0	Normal:2.0
+Instance:861	Prediction:1.0	Normal:1.0
+Instance:862	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 262
+Instance:863	Prediction:2.0	Normal:2.0
+Instance:864	Prediction:1.0	Normal:1.0
+Instance:865	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 263
+Instance:866	Prediction:1.0	Normal:2.0
+Instance:867	Prediction:1.0	Normal:1.0
+Instance:868	Prediction:1.0	Normal:1.0
+Instance:869	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 4
+0.0|0.0|0.0|
+0.0|2.0|1.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 264
+Instance:870	Prediction:2.0	Normal:2.0
+Instance:871	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 265
+Instance:872	Prediction:2.0	Normal:2.0
+Instance:873	Prediction:2.0	Normal:2.0
+Instance:874	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 266
+Instance:875	Prediction:2.0	Normal:2.0
+Instance:876	Prediction:2.0	Normal:2.0
+Instance:877	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 267
+Instance:878	Prediction:2.0	Normal:2.0
+Instance:879	Prediction:1.0	Normal:1.0
+Instance:880	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 268
+Instance:881	Prediction:2.0	Normal:2.0
+Instance:882	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 269
+Instance:883	Prediction:0.0	Normal:0.0
+Instance:884	Prediction:1.0	Normal:2.0
+Instance:885	Prediction:1.0	Normal:2.0
+Instance:886	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|2.0|0.0|
+
+
+
+
+RUN NUMBER 270
+Instance:887	Prediction:0.0	Normal:2.0
+Instance:888	Prediction:2.0	Normal:2.0
+Instance:889	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+1.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 271
+Instance:890	Prediction:2.0	Normal:2.0
+Instance:891	Prediction:2.0	Normal:2.0
+Instance:892	Prediction:1.0	Normal:1.0
+Instance:893	Prediction:0.0	Normal:0.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 272
+Instance:894	Prediction:2.0	Normal:2.0
+Instance:895	Prediction:2.0	Normal:2.0
+Instance:896	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 273
+Instance:897	Prediction:2.0	Normal:2.0
+Instance:898	Prediction:2.0	Normal:2.0
+Instance:899	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 274
+Instance:900	Prediction:2.0	Normal:2.0
+Instance:901	Prediction:2.0	Normal:2.0
+Instance:902	Prediction:0.0	Normal:1.0
+Instance:903	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+1.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 275
+Instance:904	Prediction:2.0	Normal:2.0
+Instance:905	Prediction:2.0	Normal:2.0
+Instance:906	Prediction:1.0	Normal:1.0
+Instance:907	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 276
+Instance:908	Prediction:2.0	Normal:0.0
+Instance:909	Prediction:2.0	Normal:0.0
+Instance:910	Prediction:1.0	Normal:2.0
+Instance:911	Prediction:2.0	Normal:2.0
+Instance:912	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 5
+0.0|0.0|2.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 277
+Instance:913	Prediction:2.0	Normal:2.0
+Instance:914	Prediction:2.0	Normal:2.0
+Instance:915	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 278
+Instance:916	Prediction:2.0	Normal:2.0
+Instance:917	Prediction:1.0	Normal:2.0
+Instance:918	Prediction:1.0	Normal:1.0
+Instance:919	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 4
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 279
+Instance:920	Prediction:0.0	Normal:0.0
+Instance:921	Prediction:1.0	Normal:2.0
+Instance:922	Prediction:2.0	Normal:2.0
+Instance:923	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 280
+Instance:924	Prediction:1.0	Normal:2.0
+Instance:925	Prediction:1.0	Normal:1.0
+Instance:926	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 281
+Instance:927	Prediction:2.0	Normal:2.0
+Instance:928	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 282
+Instance:929	Prediction:2.0	Normal:2.0
+Instance:930	Prediction:1.0	Normal:1.0
+Instance:931	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 283
+Instance:932	Prediction:2.0	Normal:2.0
+Instance:933	Prediction:2.0	Normal:0.0
+Instance:934	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|1.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 284
+Instance:935	Prediction:2.0	Normal:2.0
+Instance:936	Prediction:2.0	Normal:2.0
+Instance:937	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 285
+Instance:938	Prediction:2.0	Normal:2.0
+Instance:939	Prediction:2.0	Normal:2.0
+Instance:940	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 286
+Instance:941	Prediction:1.0	Normal:2.0
+Instance:942	Prediction:1.0	Normal:2.0
+Instance:943	Prediction:0.0	Normal:0.0
+Instance:944	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|2.0|0.0|
+
+
+
+
+RUN NUMBER 287
+Instance:945	Prediction:1.0	Normal:2.0
+Instance:946	Prediction:1.0	Normal:2.0
+Instance:947	Prediction:0.0	Normal:0.0
+Instance:948	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|2.0|0.0|
+
+
+
+
+RUN NUMBER 288
+Instance:949	Prediction:2.0	Normal:2.0
+Instance:950	Prediction:1.0	Normal:2.0
+Instance:951	Prediction:1.0	Normal:1.0
+Instance:952	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 4
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 289
+Instance:953	Prediction:2.0	Normal:2.0
+Instance:954	Prediction:1.0	Normal:2.0
+Instance:955	Prediction:1.0	Normal:1.0
+Instance:956	Prediction:2.0	Normal:1.0
+Instance:957	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 5
+0.0|0.0|0.0|
+0.0|1.0|2.0|
+0.0|1.0|1.0|
+
+
+
+
+RUN NUMBER 290
+Instance:958	Prediction:2.0	Normal:2.0
+Instance:959	Prediction:1.0	Normal:2.0
+Instance:960	Prediction:1.0	Normal:1.0
+Instance:961	Prediction:1.0	Normal:2.0
+Instance:962	Prediction:2.0	Normal:1.0
+Instance:963	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 6
+0.0|0.0|0.0|
+0.0|2.0|1.0|
+0.0|2.0|1.0|
+
+
+
+
+RUN NUMBER 291
+Instance:964	Prediction:2.0	Normal:2.0
+Instance:965	Prediction:2.0	Normal:2.0
+Instance:966	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 292
+Instance:967	Prediction:2.0	Normal:2.0
+Instance:968	Prediction:2.0	Normal:2.0
+Instance:969	Prediction:1.0	Normal:1.0
+Instance:970	Prediction:0.0	Normal:0.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 293
+Instance:971	Prediction:2.0	Normal:2.0
+Instance:972	Prediction:2.0	Normal:2.0
+Instance:973	Prediction:1.0	Normal:1.0
+Instance:974	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|2.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 294
+Instance:975	Prediction:2.0	Normal:2.0
+Instance:976	Prediction:2.0	Normal:2.0
+Instance:977	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 295
+Instance:978	Prediction:2.0	Normal:2.0
+Instance:979	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 296
+Instance:980	Prediction:2.0	Normal:2.0
+Instance:981	Prediction:2.0	Normal:2.0
+Instance:982	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 297
+Instance:983	Prediction:2.0	Normal:2.0
+Instance:984	Prediction:2.0	Normal:2.0
+Instance:985	Prediction:2.0	Normal:2.0
+Instance:986	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|3.0|
+
+
+
+
+RUN NUMBER 298
+Instance:987	Prediction:2.0	Normal:2.0
+Instance:988	Prediction:2.0	Normal:2.0
+Instance:989	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 299
+Instance:990	Prediction:2.0	Normal:2.0
+Instance:991	Prediction:2.0	Normal:2.0
+Instance:992	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 300
+Instance:993	Prediction:2.0	Normal:2.0
+Instance:994	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 301
+Instance:995	Prediction:2.0	Normal:2.0
+Instance:996	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 302
+Instance:997	Prediction:2.0	Normal:2.0
+Instance:998	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 303
+Instance:999	Prediction:2.0	Normal:2.0
+Instance:1000	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 304
+Instance:1001	Prediction:2.0	Normal:2.0
+Instance:1002	Prediction:2.0	Normal:2.0
+Instance:1003	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 305
+Instance:1004	Prediction:2.0	Normal:2.0
+Instance:1005	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 306
+Instance:1006	Prediction:2.0	Normal:2.0
+Instance:1007	Prediction:2.0	Normal:1.0
+Instance:1008	Prediction:2.0	Normal:1.0
+Instance:1009	Prediction:2.0	Normal:1.0
+
+Normal Standard: 1 / 4
+0.0|0.0|0.0|
+0.0|0.0|3.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 307
+Instance:1010	Prediction:2.0	Normal:1.0
+Instance:1011	Prediction:1.0	Normal:1.0
+Instance:1012	Prediction:1.0	Normal:1.0
+Instance:1013	Prediction:0.0	Normal:0.0
+Instance:1014	Prediction:1.0	Normal:2.0
+
+Normal Standard: 3 / 5
+1.0|0.0|0.0|
+0.0|2.0|1.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 308
+Instance:1015	Prediction:0.0	Normal:0.0
+Instance:1016	Prediction:2.0	Normal:2.0
+Instance:1017	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 309
+Instance:1018	Prediction:2.0	Normal:2.0
+Instance:1019	Prediction:2.0	Normal:2.0
+Instance:1020	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 310
+Instance:1021	Prediction:2.0	Normal:2.0
+Instance:1022	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 311
+Instance:1023	Prediction:2.0	Normal:2.0
+Instance:1024	Prediction:0.0	Normal:0.0
+Instance:1025	Prediction:2.0	Normal:2.0
+Instance:1026	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+1.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 312
+Instance:1027	Prediction:2.0	Normal:2.0
+Instance:1028	Prediction:2.0	Normal:1.0
+Instance:1029	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 3
+0.0|0.0|0.0|
+0.0|1.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 313
+Instance:1030	Prediction:2.0	Normal:1.0
+Instance:1031	Prediction:1.0	Normal:1.0
+Instance:1032	Prediction:1.0	Normal:1.0
+Instance:1033	Prediction:1.0	Normal:0.0
+Instance:1034	Prediction:1.0	Normal:0.0
+
+Normal Standard: 2 / 5
+0.0|2.0|0.0|
+0.0|2.0|1.0|
+0.0|0.0|0.0|
+
+
+
+
+RUN NUMBER 314
+Instance:1035	Prediction:1.0	Normal:1.0
+Instance:1036	Prediction:2.0	Normal:2.0
+Instance:1037	Prediction:2.0	Normal:2.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 315
+Instance:1038	Prediction:1.0	Normal:2.0
+Instance:1039	Prediction:1.0	Normal:0.0
+Instance:1040	Prediction:1.0	Normal:1.0
+
+Normal Standard: 1 / 3
+0.0|1.0|0.0|
+0.0|1.0|0.0|
+0.0|1.0|0.0|
+
+
+
+
+RUN NUMBER 316
+Instance:1041	Prediction:2.0	Normal:2.0
+Instance:1042	Prediction:0.0	Normal:0.0
+Instance:1043	Prediction:2.0	Normal:1.0
+
+Normal Standard: 2 / 3
+1.0|0.0|0.0|
+0.0|0.0|1.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 317
+Instance:1044	Prediction:2.0	Normal:2.0
+Instance:1045	Prediction:1.0	Normal:1.0
+Instance:1046	Prediction:1.0	Normal:2.0
+Instance:1047	Prediction:1.0	Normal:1.0
+Instance:1048	Prediction:1.0	Normal:1.0
+Instance:1049	Prediction:1.0	Normal:0.0
+Instance:1050	Prediction:1.0	Normal:2.0
+
+Normal Standard: 4 / 7
+0.0|1.0|0.0|
+0.0|3.0|0.0|
+0.0|2.0|1.0|
+
+
+
+
+RUN NUMBER 318
+Instance:1051	Prediction:2.0	Normal:2.0
+Instance:1052	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 319
+Instance:1053	Prediction:2.0	Normal:2.0
+Instance:1054	Prediction:1.0	Normal:1.0
+Instance:1055	Prediction:1.0	Normal:1.0
+Instance:1056	Prediction:1.0	Normal:1.0
+
+Normal Standard: 4 / 4
+0.0|0.0|0.0|
+0.0|3.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 320
+Instance:1057	Prediction:2.0	Normal:2.0
+Instance:1058	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 321
+Instance:1059	Prediction:2.0	Normal:2.0
+Instance:1060	Prediction:2.0	Normal:2.0
+Instance:1061	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 322
+Instance:1062	Prediction:2.0	Normal:2.0
+Instance:1063	Prediction:1.0	Normal:1.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|1.0|0.0|
+0.0|0.0|1.0|
+
+
+
+
+RUN NUMBER 323
+Instance:1064	Prediction:2.0	Normal:2.0
+Instance:1065	Prediction:2.0	Normal:2.0
+
+Normal Standard: 2 / 2
+0.0|0.0|0.0|
+0.0|0.0|0.0|
+0.0|0.0|2.0|
+
+
+
+
+RUN NUMBER 324
+Instance:1066	Prediction:1.0	Normal:1.0
+Instance:1067	Prediction:1.0	Normal:1.0
+Instance:1068	Prediction:1.0	Normal:1.0
+
+Normal Standard: 3 / 3
+0.0|0.0|0.0|
+0.0|3.0|0.0|
+0.0|0.0|0.0|
+
+
+
+
+
+
+OVERALL STATISTICS
+
+Gold Standard
+Total Points Recieved: 872
+Total Possible Points: 1068
+Accuracy: 872/1068 or 0.8164794007490637
+Confusion Matrix:
+118.0|11.0|15.0|
+5.0|321.0|86.0|
+8.0|71.0|433.0|
+PERFECT: 207

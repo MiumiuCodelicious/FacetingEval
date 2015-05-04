@@ -106,7 +106,7 @@ public class FacetRanker {
         int[] promo = new int[facet_docIDs.length];
 
         /* Get a list of doc IDs from the new ranked list */
-        String[] ids = fetchColumn(original_docIDs, 0);
+        String[] ids = Utility.TemplateFunctions.fetchColumn(original_docIDs, 0);
 
         for (int newr = 0; newr < facet_docIDs.length; newr ++){
 
@@ -121,30 +121,6 @@ public class FacetRanker {
         return promo;
     }
 
-
-    /**
-     * Given a 2D String array, fetch column using column_no.
-     *
-     * @param input_matrix  the 2D matrix
-     * @param column_no     column number to retrieve, starting from 0
-     * @param <T>           generic type
-     * @return              the wanted row as an anrray
-     */
-    public static <T> T[] fetchColumn(T[][] input_matrix, int column_no){
-        if ( input_matrix.length < 1 ){
-            return null;
-        }
-        if ( column_no > input_matrix[0].length - 1 ){
-            return null;
-        }
-        T[] col = (T[]) Array.newInstance(input_matrix.getClass().getComponentType().getComponentType(), input_matrix.length);
-        int rowno = 0;
-        for (T[] row : input_matrix){
-            col[rowno] = row[column_no];
-            rowno ++;
-        }
-        return col;
-    }
 
 
 
@@ -183,7 +159,7 @@ public class FacetRanker {
      * @return          new ranked list of documents covered by the given facet value
      */
     public String[][] reRankDocs(String[][] docIDs, String facetvalue){
-        String[] docs = fetchColumn(docIDs, 0);
+        String[] docs = Utility.TemplateFunctions.fetchColumn(docIDs, 0);
         if (docIDs == null || facetIndex.getPostinglist(facetvalue) == null){
             return null;
         }
@@ -222,8 +198,8 @@ public class FacetRanker {
 
         String[][] reRankedDocs = reRankDocs(original_DocIDs, facetvalue);
 
-        String[] original_docs = fetchColumn(original_DocIDs, 0);
-        String[] reRanked_docs = fetchColumn(reRankedDocs, 0);
+        String[] original_docs = Utility.TemplateFunctions.fetchColumn(original_DocIDs, 0);
+        String[] reRanked_docs = Utility.TemplateFunctions.fetchColumn(reRankedDocs, 0);
         float[] prob = getZipf(original_docs, reRanked_docs);
 
         int[] promo = rankPromotion(original_DocIDs, reRankedDocs);
@@ -247,7 +223,7 @@ public class FacetRanker {
      * @return      List<Map.Entry<String, Float>> sorted List of Map.Entry: facet value and with its score.
      */
     public List<Map.Entry<String, Float>> rankFacets(String[][] originalDocIDs){
-        String[] docs = fetchColumn(originalDocIDs, 0);
+        String[] docs = Utility.TemplateFunctions.fetchColumn(originalDocIDs, 0);
 
         // pull facets into class variable: HashMap<String, Integer> subFacetCover
         if ( pullFacets(docs) < 1 )    return null;

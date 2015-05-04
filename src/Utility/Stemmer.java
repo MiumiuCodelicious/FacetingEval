@@ -13,10 +13,14 @@ public class Stemmer {
      * */
     public static String mystem(String s){
         EnglishStemmer stemmer = new EnglishStemmer();
-        stemmer.setCurrent(s);
-        if (stemmer.stem())
-            return stemmer.getCurrent();
-        else
-            return s;
+        String ret = "";
+
+        for(String w : s.split("\\s+")) {
+            stemmer.setCurrent(w);
+            if (stemmer.stem())
+                ret += stemmer.getCurrent() + " ";
+        }
+
+        return ret.trim();
     }
 }

@@ -1,0 +1,39 @@
+ccg(3,
+ rp('S[wq]',
+  fa('S[wq]',
+   lf(3,1,'S[wq]/(S[dcl]\NP)'),
+   fa('S[dcl]\NP',
+    lf(3,2,'(S[dcl]\NP)/NP'),
+    ba('NP',
+     fa('NP[nb]',
+      lf(3,3,'NP[nb]/N'),
+      lf(3,4,'N')),
+     fa('NP\NP',
+      lf(3,5,'(NP\NP)/NP'),
+      ba('NP',
+       fa('NP[nb]',
+        lf(3,6,'NP[nb]/N'),
+        fa('N',
+         lf(3,7,'N/N'),
+         fa('N',
+          lf(3,8,'N/N'),
+          lf(3,9,'N')))),
+       fa('NP\NP',
+        lf(3,10,'(NP\NP)/NP'),
+        lex('N','NP',
+         lf(3,11,'N')))))))),
+  lf(3,12,'.'))).
+
+w(3, 1, 'What', 'what', 'WP', 'I-NP', 'O', 'S[wq]/(S[dcl]\NP)').
+w(3, 2, 'was', 'be', 'VBD', 'I-VP', 'O', '(S[dcl]\NP)/NP').
+w(3, 3, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(3, 4, 'GDP', 'GDP', 'NNP', 'I-NP', 'I-ORG', 'N').
+w(3, 5, 'for', 'for', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(3, 6, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(3, 7, 'leading', 'lead', 'VBG', 'I-NP', 'O', 'N/N').
+w(3, 8, 'European', 'european', 'JJ', 'I-NP', 'O', 'N/N').
+w(3, 9, 'countries', 'country', 'NNS', 'I-NP', 'O', 'N').
+w(3, 10, 'in', 'in', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(3, 11, '2001', '2001', 'CD', 'I-NP', 'I-DAT', 'N').
+w(3, 12, '?', '?', '.', 'O', 'O', '.').
+

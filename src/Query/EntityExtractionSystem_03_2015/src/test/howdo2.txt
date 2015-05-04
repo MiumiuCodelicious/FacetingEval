@@ -1,0 +1,58 @@
+
+ccg(37,
+ fc('S[wq]/(S[b]\NP)',
+  lf(37,1,'S[wq]/S[q]'),
+  fa('S[q]/(S[b]\NP)',
+   lf(37,2,'(S[q]/(S[b]\NP))/NP'),
+   appo('NP',
+    ba('NP',
+     fa('NP[nb]',
+      lf(37,3,'NP[nb]/N'),
+      lf(37,4,'N')),
+     ba('NP\NP',
+      fa('NP\NP',
+       lf(37,5,'(NP\NP)/NP'),
+       lex('N','NP',
+        lf(37,6,'N'))),
+      conj('conj','NP\NP','(NP\NP)\(NP\NP)',
+       lf(37,7,'conj'),
+       lex('S[dcl]/NP','NP\NP',
+        fc('S[dcl]/NP',
+         tr('S[X]/(S[X]\NP)',
+          lex('N','NP',
+           lf(37,8,'N'))),
+         fc('(S[dcl]\NP)/NP',
+          lf(37,9,'(S[dcl]\NP)/PP'),
+          lf(37,10,'PP/NP'))))))),
+    rp('NP',
+     ba('NP',
+      lf(37,11,'NP'),
+      fa('NP\NP',
+       lf(37,12,'(NP\NP)/NP'),
+       lex('N','NP',
+        fa('N',
+         lf(37,13,'N/N'),
+         fa('N',
+          lf(37,14,'N/N'),
+          fa('N',
+           lf(37,15,'N/N'),
+           lf(37,16,'N'))))))),
+     lf(37,17,'.')))))).
+
+w(37, 1, 'How', 'how', 'WRB', 'I-ADVP', 'O', 'S[wq]/S[q]').
+w(37, 2, 'does', 'do', 'VBZ', 'O', 'O', '(S[q]/(S[b]\NP))/NP').
+w(37, 3, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(37, 4, 'revenue', 'revenue', 'NN', 'I-NP', 'O', 'N').
+w(37, 5, 'of', 'of', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(37, 6, 'Ford', 'Ford', 'NNP', 'I-NP', 'I-ORG', 'N').
+w(37, 7, 'and', 'and', 'CC', 'I-NP', 'I-ORG', 'conj').
+w(37, 8, 'Toyota', 'Toyota', 'NNP', 'I-NP', 'I-ORG', 'N').
+w(37, 9, 'compare', 'compare', 'VBP', 'I-VP', 'O', '(S[dcl]\NP)/PP').
+w(37, 10, 'to', 'to', 'TO', 'I-PP', 'O', 'PP/NP').
+w(37, 11, 'that', 'that', 'DT', 'I-NP', 'O', 'NP').
+w(37, 12, 'of', 'of', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(37, 13, 'other', 'other', 'JJ', 'I-NP', 'O', 'N/N').
+w(37, 14, 'car', 'car', 'NN', 'I-NP', 'O', 'N/N').
+w(37, 15, 'manufacturing', 'manufacturing', 'NN', 'I-NP', 'O', 'N/N').
+w(37, 16, 'companies', 'company', 'NNS', 'I-NP', 'O', 'N').
+w(37, 17, '?', '?', '.', 'O', 'O', '.').

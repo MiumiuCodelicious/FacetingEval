@@ -1,0 +1,45 @@
+ccg(6,
+ rp('S[wq]',
+  fa('S[wq]',
+   lf(6,1,'S[wq]/(S[dcl]\NP)'),
+   ba('S[dcl]\NP',
+    fa('S[dcl]\NP',
+     lf(6,2,'(S[dcl]\NP)/NP'),
+     ba('NP',
+      fa('NP[nb]',
+       lf(6,3,'NP[nb]/N'),
+       fa('N',
+        lf(6,4,'N/N'),
+        lf(6,5,'N'))),
+      fa('NP\NP',
+       lf(6,6,'(NP\NP)/NP'),
+       lex('N','NP',
+        lf(6,7,'N'))))),
+    ba('(S[X]\NP)\(S[X]\NP)',
+     fa('(S[X]\NP)\(S[X]\NP)',
+      lf(6,8,'((S[X]\NP)\(S[X]\NP))/NP'),
+      lex('N','NP',
+       lf(6,9,'N'))),
+     conj('conj','(S[X]\NP)\(S[X]\NP)','((S[X]\NP)\(S[X]\NP))\((S[X]\NP)\(S[X]\NP))',
+      lf(6,10,'conj'),
+      fa('(S[X]\NP)\(S[X]\NP)',
+       lf(6,11,'((S[X]\NP)\(S[X]\NP))/NP'),
+       fa('NP[nb]',
+        lf(6,12,'NP[nb]/N'),
+        lf(6,13,'N'))))))),
+  lf(6,14,'.'))).
+
+w(6, 1, 'what', 'what', 'WP', 'I-NP', 'O', 'S[wq]/(S[dcl]\NP)').
+w(6, 2, 'is', 'be', 'VBZ', 'I-VP', 'O', '(S[dcl]\NP)/NP').
+w(6, 3, 'the', 'the', 'DT', 'I-NP', 'O', 'NP[nb]/N').
+w(6, 4, 'lowest', 'lowest', 'JJS', 'I-NP', 'O', 'N/N').
+w(6, 5, 'price', 'price', 'NN', 'I-NP', 'O', 'N').
+w(6, 6, 'of', 'of', 'IN', 'I-PP', 'O', '(NP\NP)/NP').
+w(6, 7, 'uranium', 'uranium', 'NN', 'I-NP', 'O', 'N').
+w(6, 8, 'after', 'after', 'IN', 'I-PP', 'O', '((S[X]\NP)\(S[X]\NP))/NP').
+w(6, 9, '2000', '2000', 'CD', 'I-NP', 'I-DAT', 'N').
+w(6, 10, 'and', 'and', 'CC', 'O', 'O', 'conj').
+w(6, 11, 'in', 'in', 'IN', 'I-PP', 'O', '((S[X]\NP)\(S[X]\NP))/NP').
+w(6, 12, 'what', 'what', 'WDT', 'I-NP', 'O', 'NP[nb]/N').
+w(6, 13, 'year', 'year', 'NN', 'I-NP', 'O', 'N').
+w(6, 14, '?', '?', '.', 'O', 'O', '.').
