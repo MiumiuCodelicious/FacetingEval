@@ -1,6 +1,5 @@
 package Query;
 
-import java.lang.reflect.Array;
 import java.util.HashMap;
 import java.util.ArrayList;
 
@@ -15,7 +14,7 @@ import java.util.ArrayList;
  * --------------------------------------------------------+
  *
  */
-public class LuceneQuery extends KeywordQuery {
+public class LuceneSolrQuery extends KeywordQuery {
 
     protected HashMap<String, ArrayList<String>> original_queryfields;
     protected HashMap<String, ArrayList<String>> keyword_queryfields;
@@ -42,7 +41,7 @@ public class LuceneQuery extends KeywordQuery {
      * IMPORTANT: All fields in this query will be removed of stopwords and stemmed.
      * @param query
      */
-    public LuceneQuery(String query){
+    public LuceneSolrQuery(String query){
         this();
         original = query;
         original_queryfields = queryParser(query);
@@ -56,7 +55,7 @@ public class LuceneQuery extends KeywordQuery {
      * @param query     String query
      * @param fieldsWithoutStopwordsStem    a list of field names to remove stopwords from and to stem.
      */
-    public LuceneQuery(String query, String[] fieldsWithoutStopwordsStem){
+    public LuceneSolrQuery(String query, String[] fieldsWithoutStopwordsStem){
         this();
         original = query;
         original_queryfields = queryParser(query);
@@ -73,7 +72,7 @@ public class LuceneQuery extends KeywordQuery {
      * @param fieldsWithoutStopwords
      * @param fieldsToStem
      */
-    public LuceneQuery(String query, String[] fieldsWithoutStopwords, String[] fieldsToStem){
+    public LuceneSolrQuery(String query, String[] fieldsWithoutStopwords, String[] fieldsToStem){
         this();
         original = query;
         original_queryfields = queryParser(query);
@@ -258,7 +257,7 @@ public class LuceneQuery extends KeywordQuery {
         String[] fieldsWithoutStopwords = {"X", "Y"};
         String[] fieldsToStem = {"X", "Y"};
 
-        LuceneQuery luceneQ = new LuceneQuery(SolrQuery, fieldsWithoutStopwords, fieldsToStem);
+        LuceneSolrQuery luceneQ = new LuceneSolrQuery(SolrQuery, fieldsWithoutStopwords, fieldsToStem);
 
         System.out.println( luceneQ.toString("origin") );
         System.out.println( luceneQ.toString("Keywords"));
