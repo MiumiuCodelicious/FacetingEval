@@ -1,0 +1,69 @@
+-------- Documents Indexed -------- 
+
+................. Analyzing Facet field facet_X..................
+
+Qid: 4.2.2 What is Apple’s revenue during the past decade ?
+Processed query: Y:(Apple’s revenue) AND X:(the past decade) AND IMCategory:(Trend)
+Field facet_X: decade 
+Original Ranking nDCG@10 = 0.8046933
+Average number of facet_X values in each document is 5.0416665
+Average number of documents tagged with each facet value in the facet_X field is : 2.9876542
+
+Facet: quarter:	0.1672673	 nDCG@10 = 0.96759135	nDCG@10 Change = 0.16289806 ** 
+Facet: year:	0.08122677	 nDCG@10 = 0.74587226	nDCG@10 Change = -0.058821023
+Facet: month:	0.057008486	 nDCG@10 = 1.0	nDCG@10 Change = 0.19530672 ** 
+Facet: time:	0.056216836	 nDCG@10 = 0.74587226	nDCG@10 Change = -0.058821023
+Facet: company:	0.029103473	 nDCG@10 = 1.0	nDCG@10 Change = 0.19530672 ** 
+Facet: financial:	0.0134964725	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: business:	0.012564318	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: investment:	0.010564212	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: apple:	0.00780335	 nDCG@10 = 1.0	nDCG@10 Change = 0.19530672 ** 
+Facet: period:	0.00777481	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: history:	0.0071880985	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: hours:	0.005018168	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: economy:	0.004665703	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: increased:	0.0044437135	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: production:	0.004439016	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: companies:	0.004197057	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: avis budget:	0.0040461854	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: country:	0.003941282	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: day:	0.0031550727	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: citigroup:	0.0028314772	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: economic:	0.0027695822	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+
+There are 0 queries with nDCG@10 > 0.9
+There are 1 queries with nDCG@10 <= 0.9
+
+................. Analyzing Facet field facet_Y..................
+
+Qid: 4.2.2 What is Apple’s revenue during the past decade ?
+Processed query: Y:(Apple’s revenue) AND X:(the past decade) AND IMCategory:(Trend)
+Field facet_Y: apple revenue 
+Original Ranking nDCG@10 = 0.8046933
+Average number of facet_Y values in each document is 2.21875
+Average number of documents tagged with each facet value in the facet_Y field is : 2.13
+
+Facet: revenue:	0.17285666	 nDCG@10 = 0.8046933	nDCG@10 Change = 0.0
+Facet: apple inc:	0.11725612	 nDCG@10 = 0.59310216	nDCG@10 Change = -0.21159112
+Facet: sales:	0.0669418	 nDCG@10 = 0.79670763	nDCG@10 Change = -0.0079856515
+Facet: earnings share:	0.033612233	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: share finance:	0.030890029	 nDCG@10 = 1.0	nDCG@10 Change = 0.19530672 ** 
+Facet: price:	0.024782294	 nDCG@10 = 1.0	nDCG@10 Change = 0.19530672 ** 
+Facet: macintosh:	0.0227765	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: income:	0.01834122	 nDCG@10 = 1.0	nDCG@10 Change = 0.19530672 ** 
+Facet: market share:	0.0183151	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: earnings taxes:	0.013425912	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: net income:	0.01326533	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: flash memory:	0.012754277	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: investment:	0.011330495	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: sold grundy county auction incident:	0.010687867	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: internet service provider:	0.0096915	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: valuation finance:	0.009062843	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: fiscal year:	0.009033233	 nDCG@10 = 1.0	nDCG@10 Change = 0.19530672 ** 
+Facet: ipod:	0.008322949	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: retail:	0.007939061	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: software developer:	0.0072877724	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+Facet: cash:	0.007060042	 nDCG@10 = 0.0	nDCG@10 Change = -0.8046933
+
+There are 0 queries with nDCG@10 > 0.9
+There are 1 queries with nDCG@10 <= 0.9

@@ -28,7 +28,7 @@ public class LuceneSolrQuery extends KeywordQuery {
     /**
      * Defalt constructor
      */
-    public LuceneQuery(){
+    public LuceneSolrQuery(){
         super();
         original_queryfields = new HashMap<String, ArrayList<String>>();
         keyword_queryfields = new HashMap<String, ArrayList<String>>();
@@ -53,14 +53,14 @@ public class LuceneSolrQuery extends KeywordQuery {
      * Constructor given a String query, and a list of fields to remove stopwords from.
      * IMPORTANT: Only fields with stopwords removed will be stemmed.
      * @param query     String query
-     * @param fieldsWithoutStopwordsStem    a list of field names to remove stopwords from and to stem.
+     * @param fieldsWithoutStopwords    a list of field names to remove stopwords from.
      */
-    public LuceneSolrQuery(String query, String[] fieldsWithoutStopwordsStem){
+    public LuceneSolrQuery(String query, String[] fieldsWithoutStopwords){
         this();
         original = query;
         original_queryfields = queryParser(query);
-        keyword_queryfields = removeStopWordsIn(fieldsWithoutStopwordsStem);
-        keyword_stemmed_queryfields = stemIn(fieldsWithoutStopwordsStem);
+        keyword_queryfields = removeStopWordsIn(fieldsWithoutStopwords);
+        keyword_stemmed_queryfields = stemIn(fieldsWithoutStopwords);
     }
 
 

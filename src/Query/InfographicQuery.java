@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @author Jewel Li on 15-5-3. ivanka@udel.edu
  */
 
-public class InfographicQuery extends LuceneQuery{
+public class InfographicQuery extends LuceneSolrQuery{
 
     /**
      * Comply to the most common Luncene/Solr query field deliminer: "AND".
@@ -93,7 +93,7 @@ public class InfographicQuery extends LuceneQuery{
         String[] fieldsWithoutStopwordsStem = {"X", "Y"};
 
         InfographicQuery infographicQ = new InfographicQuery(infographicQuery, fieldsWithoutStopwordsStem);
-        
+
         System.out.println(infographicQ.toString("stem"));
 
     }

@@ -1,0 +1,17 @@
+@RELATION IM_classification
+@ATTRIBUTE number_of_X {0,1,2,3}
+@ATTRIBUTE number_of_Y {0,1,2,3}
+@ATTRIBUTE singular_Plural_X {0,1,2,3}
+@ATTRIBUTE superlatives {0,1}
+@ATTRIBUTE special_words {0,1,2}
+@ATTRIBUTE np_relation {0,1,2,3}
+@ATTRIBUTE time {0,1,2}
+@ATTRIBUTE modified_all_other_each {0,1,2,3}
+@ATTRIBUTE jjrInSent {0,1}
+@ATTRIBUTE what_which {0,1}
+@ATTRIBUTE how_many_much {0,1}
+@ATTRIBUTE how_do_have {0,1}
+@ATTRIBUTE what_is {0,1}
+@ATTRIBUTE class {GetRank, MaximumMinimumMultiple, MaximumMinimumSingle, GeneralMultiple, GeneralSingle, RelativeDifference, RankAll, Trend}
+@data
+0,0,1,0,1,1,0,0,0,0,0,1,0,?

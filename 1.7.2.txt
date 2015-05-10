@@ -1,0 +1,69 @@
+-------- Documents Indexed -------- 
+
+................. Analyzing Facet field facet_X..................
+
+Qid: 1.7.2 How has Ford’s revenue changed over the last 12 years ?
+Processed query: Y:(Ford’s revenue) AND X:(the last 12 years) AND IMCategory:(Trend)
+Field facet_X: 12 years 
+Original Ranking nDCG@10 = 0.828577
+Average number of facet_X values in each document is 5.209756
+Average number of documents tagged with each facet value in the facet_X field is : 3.042735
+
+Facet: year:	0.34256735	 nDCG@10 = 0.8213137	nDCG@10 Change = -0.007263303
+Facet: month:	0.16071165	 nDCG@10 = 0.63092977	nDCG@10 Change = -0.19764721
+Facet: time:	0.15327351	 nDCG@10 = 0.828577	nDCG@10 Change = 0.0
+Facet: quarter:	0.0640161	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: september:	0.028424356	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: ford:	0.023755992	 nDCG@10 = 0.5	nDCG@10 Change = -0.32857698
+Facet: production:	0.020814812	 nDCG@10 = 0.3868528	nDCG@10 Change = -0.44172418
+Facet: renault:	0.013210369	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: sales:	0.0100367945	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: minutes:	0.01003013	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: bmw:	0.009671438	 nDCG@10 = 0.63092977	nDCG@10 Change = -0.19764721
+Facet: ford india:	0.008990957	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: hyundai:	0.008583092	 nDCG@10 = 0.63092977	nDCG@10 Change = -0.19764721
+Facet: volkswagen:	0.008383916	 nDCG@10 = 0.63092977	nDCG@10 Change = -0.19764721
+Facet: volkswagen golf:	0.0082533825	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: day:	0.00786188	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: volkswagen india:	0.0076894592	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: volkswagen audi:	0.0065249237	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: hour:	0.006064887	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: generation:	0.0059508597	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: company:	0.0058627473	 nDCG@10 = 0.3868528	nDCG@10 Change = -0.44172418
+
+There are 0 queries with nDCG@10 > 0.9
+There are 1 queries with nDCG@10 <= 0.9
+
+................. Analyzing Facet field facet_Y..................
+
+Qid: 1.7.2 How has Ford’s revenue changed over the last 12 years ?
+Processed query: Y:(Ford’s revenue) AND X:(the last 12 years) AND IMCategory:(Trend)
+Field facet_Y: ford revenue 
+Original Ranking nDCG@10 = 0.828577
+Average number of facet_Y values in each document is 2.1463416
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1463416
+
+Facet: revenue:	0.32868233	 nDCG@10 = 0.8503449	nDCG@10 Change = 0.021767914 ** 
+Facet: sales:	0.19693579	 nDCG@10 = 0.63092977	nDCG@10 Change = -0.19764721
+Facet: automobile:	0.1337383	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: net income:	0.07627079	 nDCG@10 = 1.0	nDCG@10 Change = 0.17142302 ** 
+Facet: profit margin:	0.036679063	 nDCG@10 = 1.0	nDCG@10 Change = 0.17142302 ** 
+Facet: budget rent car:	0.030357344	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: apple inc:	0.030113868	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: price:	0.029998755	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: market share:	0.02041259	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: share finance:	0.01594499	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: avis rent car system:	0.015788263	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: earnings taxes:	0.015436459	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: emissions trading:	0.015038428	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: cash:	0.01305334	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: james polk:	0.012995224	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: passenger:	0.012334055	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: record producer:	0.010919197	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: profit accounting:	0.010390339	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: internet service provider:	0.01004751	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: toyota:	0.00973302	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+Facet: mid size car:	0.009460075	 nDCG@10 = 0.0	nDCG@10 Change = -0.828577
+
+There are 0 queries with nDCG@10 > 0.9
+There are 1 queries with nDCG@10 <= 0.9

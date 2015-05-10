@@ -1,0 +1,3 @@
+gcc distance_facet2.c -o distance_facet2
+
+./distance_facet2 vectors.bin ../facetvalues.txt

@@ -293,7 +293,7 @@ class IgAttributes():
             [self.qe.attrList[lo][1], self.qe.attrList[lo][4], self.qe.attrList[lo][5], self.qe.attrList[lo][6], self.qe.attrList[lo][7] ] )
         from ARFFheader import Add_ARFFheader
         Add_ARFFheader( "IM", IM_attr_matrix , location)
-        IM_weka_result = subprocess.check_output("java -cp weka-3-6-6/weka.jar weka.classifiers.trees.J48 -l weka-3-6-6/IMtree.j48.model -T " + location  + " -p 0" , shell=True)
+        IM_weka_result = subprocess.check_output("java -cp ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/weka.jar weka.classifiers.trees.J48 -l ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/IMtree.j48.model -T " + location  + " -p 0" , shell=True)
         for result in IM_weka_result.split("\n"):
             match = re.search("[1-8]:[GMRT]", result)
             if match:   

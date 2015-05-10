@@ -512,7 +512,7 @@ def runXYtree(entityChunks, attribute_matrix):
     from ARFFheader import Add_ARFFheader
     location = "newquery_XY.ARFF"
     Add_ARFFheader( "XY", attribute_matrix , location)
-    weka_result = subprocess.check_output("java -cp ./weka-3-6-6/weka.jar weka.classifiers.trees.J48 -l ./weka-3-6-6/XYtree.j48.model -T " + location  + " -p 0" , shell=True)
+    weka_result = subprocess.check_output("java -cp ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/weka.jar weka.classifiers.trees.J48 -l ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/XYtree.j48.model -T " + location  + " -p 0" , shell=True)
     XYClass = []
     for result in weka_result.split("\n"):
         match = re.search(":[XYN]", result)
@@ -541,7 +541,7 @@ def runFXtree(attribute_matrix, XYClass, entities, IMClass):
     print attribute_matrix
     from ARFFheader import Add_ARFFheader
     Add_ARFFheader( "FX", attribute_matrix , location)
-    FX_weka_result = subprocess.check_output("java -cp ./weka-3-6-6/weka.jar weka.classifiers.trees.J48 -l ./weka-3-6-6/FXtree.j48.model -T " + location  + " -p 0" , shell=True)
+    FX_weka_result = subprocess.check_output("java -cp ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/weka.jar weka.classifiers.trees.J48 -l ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/FXtree.j48.model -T " + location  + " -p 0" , shell=True)
     labellist = []
     for result in FX_weka_result.split("\n"):
         match = re.search("[1-2]:(F|NF)", result)
@@ -560,9 +560,11 @@ def getParseTree(query):
         query += " ?"
     elif query[-2] != " ":
         query = query.replace("?", " ?")
-    query = query.replace("'", "")
-        
-    parser_output = subprocess.check_output("echo \"" + query + "\" |  candc-1.00/bin/pos --model candc-1.00/models/pos/ | candc-1.00/bin/parser --parser candc-1.00/models/parser --super candc-1.00/models/super_questions/ --parser-seen_rules false --parser-question_rules true --printer prolog" , shell=True)
+
+    # handle 's
+    query = re.sub(r"[ ]*'s", "", query)
+
+    parser_output = subprocess.check_output("echo \"" + query + "\" |  ./src/Query/EntityExtractionSystem_03_2015/src/candc-1.00/bin/pos --model ./src/Query/EntityExtractionSystem_03_2015/src/candc-1.00/models/pos/ | ./src/Query/EntityExtractionSystem_03_2015/src/candc-1.00/bin/parser --parser ./src/Query/EntityExtractionSystem_03_2015/src/candc-1.00/models/parser --super ./src/Query/EntityExtractionSystem_03_2015/src/candc-1.00/models/super_questions/ --parser-seen_rules false --parser-question_rules true --printer prolog" , shell=True)
     parseTree = [line+"\n" for line in parser_output.split("\n")[7:]]
     print "From below parse tree -----------"
     print "".join(parseTree)

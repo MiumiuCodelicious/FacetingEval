@@ -1,0 +1,54 @@
+@RELATION focused_entity 
+@ATTRIBUTE superlative {0,1} 
+@ATTRIBUTE jjrInSent {0,1} 
+@ATTRIBUTE trend_word {0,1} 
+@ATTRIBUTE comparison_word {0,1} 
+@ATTRIBUTE what_which {0,1} 
+@ATTRIBUTE how_many_much {0,1} 
+@ATTRIBUTE how_do_have {0,1} 
+@ATTRIBUTE what_is {0,1} 
+@ATTRIBUTE trend_verb {0,1} 
+@ATTRIBUTE compare_verb {0,1} 
+@ATTRIBUTE cmpvb_IN {0,1} 
+@ATTRIBUTE cmpvb_IN_N_N_S {0,1} 
+@ATTRIBUTE cmpvb_IN_N_all {0,1} 
+@ATTRIBUTE cmpvb_IN_NS {0,1} 
+@ATTRIBUTE cmpvb_end {0,1} 
+@ATTRIBUTE more_2NP {0,1} 
+@ATTRIBUTE NP_conj {0,1} 
+@ATTRIBUTE NP_superlative {0,1} 
+@ATTRIBUTE NP_gradient {0,1} 
+@ATTRIBUTE NP_quantity {0,1} 
+@ATTRIBUTE NP_comparison {0,1} 
+@ATTRIBUTE NP_trend {0,1} 
+@ATTRIBUTE NP_all {0,1} 
+@ATTRIBUTE NP_other {0,1} 
+@ATTRIBUTE NP_each {0,1} 
+@ATTRIBUTE NP_modifiedByQuant {0,1} 
+@ATTRIBUTE NP_modifiedByTrend {0,1} 
+@ATTRIBUTE NP_modifiedByComp {0,1} 
+@ATTRIBUTE NP_modifiedByGrad{0, 1}
+@ATTRIBUTE what_which_NPdirect {0,1} 
+@ATTRIBUTE how_many_much_NPdirect {0,1} 
+@ATTRIBUTE how_do_have_NPdirect {0,1} 
+@ATTRIBUTE what_is_NPdirect {0,1} 
+@ATTRIBUTE cmpvb_leftNP {0,1} 
+@ATTRIBUTE cmpvb_rightNP {0,1} 
+@ATTRIBUTE chngvb_leftNP {0,1} 
+@ATTRIBUTE chngvb_rightNP {0,1} 
+@ATTRIBUTE NP_plural {0,1} 
+@ATTRIBUTE complexNP {0,1} 
+@ATTRIBUTE NP_headnoun {0,1} 
+@ATTRIBUTE full_NP {0,1} 
+@ATTRIBUTE conjBetween {0,1} 
+@ATTRIBUTE ppPreProcede {0,1,2,3} 
+@ATTRIBUTE determiner {0,1} 
+@ATTRIBUTE lastEntity {0,1,2} 
+@ATTRIBUTE containAdj {0,1} 
+@ATTRIBUTE time_type {0,1,2} 
+@ATTRIBUTE axes_result {X,Y,N} 
+@ATTRIBUTE intended_message {Get-Rank,Maximum-Minimum-Multiple,General-Multiple,General-Single,Maximum-Minimum-Single,Relative-Difference,Rank-All,Trend} 
+@ATTRIBUTE class {F,NF} 
+@DATA 
+0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,X,Relative-Difference,?
+0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,2,0,0,X,Relative-Difference,?

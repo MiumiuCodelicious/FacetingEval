@@ -32,16 +32,16 @@ qid: 1.4.4
 How do Ford , BMW , Toyota , and Honda compare in terms of revenue ?
 
 qid: 1.5.1
-How does Fords revenue compare to that of Toyota ?
+How does Ford’s revenue compare to that of Toyota ?
 
 qid: 1.5.2
 How does the revenue of Ford compare in 2008 to 2000 ?
 
 qid: 1.5.3
-How has Fords revenue changed from 2000 to 2008 ?
+How has Ford’s revenue changed from 2000 to 2008 ?
 
 qid: 1.5.4
-How does Fords manufacturing revenue compare to that of BMW , Toyota and Honda ?
+How does Ford’s manufacturing revenue compare to that of BMW , Toyota and Honda ?
 
 qid: 1.6.1
 How much revenue do Ford , BMW , Toyota , and Honda earn ?
@@ -59,10 +59,10 @@ qid: 1.7.1
 How does Ford rank compared to other car dealers in terms of revenue ?
 
 qid: 1.7.2
-How has Fords revenue changed over the last 12 years ?
+How has Ford’s revenue changed over the last 12 years ?
 
 qid: 1.7.3
-How has Fords revenue changed over the last 12 years ?
+How has Ford’s revenue changed over the last 12 years ?
 
 qid: 1.7.4
 How does Ford rank compared to other car dealers in terms of revenue ?
@@ -239,10 +239,10 @@ qid: 4.1.3
 How has Apple revenue changed over the past twenty years ?
 
 qid: 4.2.2
-What is Apples revenue during the past decade ?
+What is Apple’s revenue during the past decade ?
 
 qid: 4.2.3
-What is Apples revenue during the past decade ?
+What is Apple’s revenue during the past decade ?
 
 qid: 4.3.2
 How has the total revenue of all mobile sales increased over the years ?
@@ -272,7 +272,7 @@ qid: 4.6.4
 How does the revenue of Blackberry compare to that of other companies ?
 
 qid: 4.7.1
-How did Nokia , Apple , and Blackbery compare side by side ?
+How did Nokia , Apple , and Blackberry compare side by side ?
 
 qid: 4.8.1
 What company had the highest revenue in 2005 ?
