@@ -1,0 +1,88 @@
+-------- Documents Indexed -------- 
+Qid: 5.3.4 How much money did Goldman Sachs make in the last 20 years ?
+Processed query: Y:(money) AND Y:(Goldman Sachs) AND X:(the last 20 years) AND IMCategory:(Trend)
+Original Ranking nDCG@10 = 0.1112407
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 20 years 
+Average number of facet_X values in each document is 4.393617
+Average number of documents tagged with each facet value in the facet_X field is : 3.6875
+
+Facet: year:	0.19927923	 nDCG@10 = 0.116217464	nDCG@10 Change = 0.0049767643 ** 
+		 Gain @10 = 0.0049767615,  Loss @10 = 0.0
+Facet: month:	0.16173673	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: time:	0.08786955	 nDCG@10 = 0.1112407	nDCG@10 Change = 0.0
+		 Gain @10 = 0.0,  Loss @10 = 0.0
+Facet: quarter:	0.06835537	 nDCG@10 = 0.35569677	nDCG@10 Change = 0.24445607 ** 
+		 Gain @10 = 0.3012042,  Loss @10 = 0.056748148
+Facet: september:	0.009915514	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: population:	0.007111409	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: established:	0.006681039	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: history:	0.0066238637	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: citigroup:	0.0064946	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: investment:	0.0052720774	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: country:	0.0045352257	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Discounted Cumulative Facet Gain @5 = -0.0029605813, alpha = 1
+Discounted Cumulative Facet Gain @5 = 0.065868884, alpha = 0.5
+Only considering possitive gain, Discounted Cumulative Facet Gain @5 = 0.11025826, alpha = 1 
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: money goldman sachs 
+Average number of facet_Y values in each document is 2.1914895
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0295568
+
+Facet: revenue:	0.024773566	 nDCG@10 = 0.30745187	nDCG@10 Change = 0.19621117 ** 
+		 Gain @10 = 0.30745187,  Loss @10 = 0.1112407
+Facet: employment:	0.020394055	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: profit accounting:	0.019913033	 nDCG@10 = 0.18851326	nDCG@10 Change = 0.077272564 ** 
+		 Gain @10 = 0.13176511,  Loss @10 = 0.05449255
+Facet: net income:	0.017212812	 nDCG@10 = 0.11893863	nDCG@10 Change = 0.0076979324 ** 
+		 Gain @10 = 0.06444608,  Loss @10 = 0.056748148
+Facet: goldman:	0.014845523	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: price sales:	0.013183316	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: price:	0.0125580095	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: underwriting:	0.011937307	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: debt:	0.010700111	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: credit finance:	0.008807026	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Facet: insurance:	0.008574511	 nDCG@10 = 0.0	nDCG@10 Change = -0.1112407
+		 Gain @10 = 0.0,  Loss @10 = 0.1112407
+Discounted Cumulative Facet Gain @5 = 0.12494393, alpha = 1
+Discounted Cumulative Facet Gain @5 = 0.26301688, alpha = 0.5
+Only considering possitive gain, Discounted Cumulative Facet Gain @5 = 0.23816277, alpha = 1 
+
+Query 5.3.4 max Discounted Cumulative Facet Gain @5 = 0.12494393, alpha = 1
+Query 5.3.4 max Discounted Cumulative Facet Gain @5 = 0.26301688, alpha = 0.5
+
+
+Facet field facet_Xaverage Discounted Cumulative Facet Gain @5 = -0.0029605813, alpha = 1
+Facet field facet_Yaverage Discounted Cumulative Facet Gain @5 = 0.12494393, alpha = 1
+Facet field facet_Xaverage Discounted Cumulative Facet Gain @5 = 0.065868884, alpha = 0.5 
+Facet field facet_Yaverage Discounted Cumulative Facet Gain @5 = 0.26301688, alpha = 0.5 
+Only considering possitive gain, facet field facet_Xaverage Discounted Cumulative Facet Gain @5 = 0.065868884, alpha = 1 
+Only considering possitive gain, facet field facet_Yaverage Discounted Cumulative Facet Gain @5 = 0.26301688, alpha = 1 
+
+Average over all queries, Maximum Discounted Cumulative Facet Gain = 0.12494393, alpha = 1
+
+Average over all queries, Maximum Discounted Cumulative Facet Gain = 0.26301688, alpha = 0.5
+
+There are 0 queries with nDCG@10 > 0.9
+There are 1 queries with nDCG@10 <= 0.9
+
+--------------------------------
+

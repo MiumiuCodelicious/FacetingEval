@@ -72,7 +72,7 @@ public class TemplateFunctions {
     public static <T> int contains(T ele, T[] list){
         int index = 0;
         for ( T e : list){
-            if ( e.equals(ele) ) {
+            if ( e!= null && e.equals(ele) ) {
                 return index;
             }
             index ++;

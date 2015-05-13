@@ -51,10 +51,8 @@ public class DiscountedCumulativeGain {
 
         float[] dcglist = new float[topK];
 
-        int size = Math.min(rellist.length, topK);
-
         for ( int r = 0; r < topK; r ++ ){
-            if (r+1 >= size){
+            if (r+1 > rellist.length){
                 dcglist[r] = dcglist[r-1];
                 continue;
             }
@@ -81,19 +79,19 @@ public class DiscountedCumulativeGain {
 
         int rellist[] = new int[topK];
 
-        for ( int r = 0; r < topK; r ++){
-            if ( r+1 >= rankedlist.length ){
-                ideallist.add(0);
-                continue;
-            }
+        for ( int r = 0; r < rankedlist.length; r ++){
             ideallist.add(  Integer.parseInt(rankedlist[r][2]) );
         }
         Collections.sort(ideallist, Collections.reverseOrder());
 
         int r = 0;
         for (int rel : ideallist ){
-            rellist[r] = rel;
-            r ++;
+            if( r < topK ) {
+                rellist[r] = rel;
+                r++;
+            }else{
+                break;
+            }
         }
         return dcg(rellist, topK);
     }
@@ -115,6 +113,29 @@ public class DiscountedCumulativeGain {
         return nDCG;
     }
 
+
+    /**
+     * For facet document ranking evaluation, we still want to normalize to the ideal DCG of the original document ranking.
+     * @param facet_rankedlist
+     * @param original_rankedlist
+     * @param topK
+     * @return
+     */
+    public static float[] nDCGFacet(String[][] facet_rankedlist, String[][] original_rankedlist, int topK){
+
+        float[] nDCG = new float[topK];
+        float[] DCG = DCG(facet_rankedlist, topK);
+        float[] iDCG = iDCG(original_rankedlist, topK);
+
+        for ( int r = 0; r < topK; r ++ ){
+            if (iDCG[r] > 0) {
+                nDCG[r] = DCG[r] / iDCG[r];
+            }else{
+                nDCG[r] = 0;
+            }
+        }
+        return nDCG;
+    }
 
 
     /**

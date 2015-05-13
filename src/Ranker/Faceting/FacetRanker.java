@@ -470,7 +470,7 @@ public class FacetRanker {
             System.out.println("face value: " + facetvalue + ", relevance = " + relevance);
             System.out.println("face value: " + facetvalue + ", score = " + exp_promo * relevance + "\n");
 
-            facetExpPromo.put(facetvalue, score);
+            facetExpPromo.put(facetvalue, relevance);
 
         }
         return sortMapComparator(facetExpPromo, false);
