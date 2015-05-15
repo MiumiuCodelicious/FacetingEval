@@ -1,11 +1,11 @@
-package Ranker.Faceting;
+package Ranker.Faceting.FacetRanker;
 
 import Indexer.InverseIndex;
+import Ranker.Faceting.FacetStats;
 import Utility.Options;
 
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
  * Algorithms to rank facet values in a single facet field, given a ranked list of documents for a query.
  */
 
-public class FacetRanker {
+public class FacetUtilityRanker {
 
 
     private InverseIndex facetIndex;
@@ -30,7 +30,7 @@ public class FacetRanker {
     private static int topK = 10;
 
 
-    public FacetRanker(InverseIndex index){
+    public FacetUtilityRanker(InverseIndex index){
         if (index != null) {
 
             facetIndex = index;
@@ -444,7 +444,7 @@ public class FacetRanker {
         // set values in class variable: float[] zipf
         if ( zipfianDist(docs) < 1 )   return null;
 
-        HashMap<String, Float> facetExpPromo = new HashMap<String, Float>();
+        HashMap<String, Float> facetranked = new HashMap<String, Float>();
 
         HashMap<String, Float> word2vec = facetRelevance(queryFieldValue);
 
@@ -466,14 +466,14 @@ public class FacetRanker {
 
             }
 
-            System.out.println("face value: " + facetvalue + ", expected promo = " + exp_promo);
-            System.out.println("face value: " + facetvalue + ", relevance = " + relevance);
-            System.out.println("face value: " + facetvalue + ", score = " + exp_promo * relevance + "\n");
+//            System.out.println("face value: " + facetvalue + ", expected promo = " + exp_promo);
+//            System.out.println("face value: " + facetvalue + ", relevance = " + relevance);
+//            System.out.println("face value: " + facetvalue + ", score = " + exp_promo * relevance + "\n");
 
-            facetExpPromo.put(facetvalue, relevance);
+            facetranked.put(facetvalue, relevance);
 
         }
-        return sortMapComparator(facetExpPromo, false);
+        return sortMapComparator(facetranked, false);
 
     }
 
