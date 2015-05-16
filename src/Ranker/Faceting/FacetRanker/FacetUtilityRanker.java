@@ -16,15 +16,27 @@ import java.util.regex.Pattern;
  * Algorithms to rank facet values in a single facet field, given a ranked list of documents for a query.
  */
 
-public class FacetUtilityRanker {
+public class FacetUtilityRanker implements FacetRankerInterface {
 
 
-    private InverseIndex facetIndex;
+    /**
+     * The entire index of facet values.
+     * You still need the facetMap class variable, because in facetIndex, facet values are indexed by integer.
+     * Facet map actually hold a mapping from the String facet values to its integer index in the facet index.
+     */
+    protected InverseIndex facetIndex;
 
-    private HashMap<String, Integer> facetMap;
+    protected HashMap<String, Integer> facetMap;
 
-    private HashMap<String, Integer> subFacetCover = new HashMap<String, Integer>();
+    /**
+     * A container to hold a subset of facet values in a list of documents.
+     * The collection of covered facet values are the keys in the hash map, the number of documents associated with each facet value is the value.
+     */
+    protected HashMap<String, Integer> subFacetCover = new HashMap<String, Integer>();
 
+    /**
+     * Given a query, there is only one zipfian distribution based on the query's original document ranking.
+     */
     private float[] zipf;
 
     private static int topK = 10;

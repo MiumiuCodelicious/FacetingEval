@@ -50,5 +50,5 @@
 @ATTRIBUTE intended_message {Get-Rank,Maximum-Minimum-Multiple,General-Multiple,General-Single,Maximum-Minimum-Single,Relative-Difference,Rank-All,Trend} 
 @ATTRIBUTE class {F,NF} 
 @DATA 
-0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,Y,Relative-Difference,?
-0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,2,0,2,0,2,X,Relative-Difference,?
+1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,0,0,1,0,0,0,Y,Maximum-Minimum-Multiple,?
+1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,2,0,2,1,0,X,Maximum-Minimum-Multiple,?

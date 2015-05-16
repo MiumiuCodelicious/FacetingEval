@@ -23,7 +23,7 @@ public class Main {
     public static void main(String args[]) {
 
         try {
-            PrintWriter writer = new PrintWriter("./facet_ranking_by_relevance_0.7_max_dcfg.txt", "UTF-8");
+            PrintWriter writer = new PrintWriter("./1.2.4_5.7.4_relevance.txt", "UTF-8");
 
             /**
              * Step 1. First of all, create inverse indexes of a given document collection.
@@ -45,7 +45,7 @@ public class Main {
              * Rank.ReadRankedResult class reads in each query and the list of retrieved documents for each query.
              * @see Ranker.ReadRankedResult
              * */
-            ReadRankedResult mixtureModel = new ReadRankedResult(current_dir + "/src/Var/mixture_model_6_ranked_result.txt", current_dir + "/src/Var/QueryMap.txt");
+            ReadRankedResult mixtureModel = new ReadRankedResult(current_dir + "/src/Var/mixture_model_6_ranked_result_Mingzhi_relevance.txt", current_dir + "/src/Var/QueryMap.txt");
             if (Options.DEBUG == true) {
                 writer.write(mixtureModel.getQueryMap().toString() + "\n");
                 writer.write(mixtureModel.toString() + "\n");
@@ -71,7 +71,18 @@ public class Main {
                 avg_dcfg_non_negative.put(facetfield, 0.0f);
             }
 
-            float sum_max_ndcg_gain = -10.0f, sum_max_facet_gain = -10.0f;
+            /**
+             * sum of the maximum nDCG gain on either X or Y field, across all queries.
+             */
+            float sum_max_ndcg_gain = -0.0f;
+            /**
+             * sum of the maximum facet gain on either X or Y field, across all queries.
+             */
+            float sum_max_facet_gain = -0.0f;
+            /**
+             * sum of the maximum non-negative nDCG gain on either X or Y field, across all queries.
+             */
+            float sum_max_non_neg_ndcg_gain = -0.0f;
 
 
             for (String Qid : mixtureModel.getQueryMap().keySet()) {
@@ -79,7 +90,7 @@ public class Main {
                 /**
                  * For each query, calculate the maximum discounted nDCG gain:
                  */
-                float max_ndcg_gain = 0.0f;
+                float max_ndcg_gain = -10.0f;
                 /**
                  * maximum discounted facet gain:
                  */
@@ -93,12 +104,31 @@ public class Main {
 
                 String query = mixtureModel.getQueryMap().get(Qid);
 
-//                if (Qid.equals("1.8.3") == false) {
-//                    continue;
-//                }
+                if (Qid.equals("1.2.4") == false && Qid.equals("5.7.4") == false ) {
+                    continue;
+                }
 
                 System.out.println("Query " + Qid + ": " + mixtureModel.getQueryMap().get(Qid) + "\n");
                 writer.write("Qid: " + Qid + " " + mixtureModel.getQueryMap().get(Qid) + "\n");
+
+
+                /**
+                 * Step 3.1 Evaluate the nDCG of the original ranked list.
+                 */
+                float[] original_nDCG = DiscountedCumulativeGain.nDCG(mixtureModel.getResult(Qid), ndcg_topK);
+
+                if (original_nDCG[ndcg_topK-1] > 0.7) {
+                    high_ndcg_query_number ++;
+                    continue;
+                }
+                low_ndcg_query_number ++;
+
+                writer.write("Original Ranking nDCG@" + (ndcg_topK) + " = " + original_nDCG[ndcg_topK - 1] + "\n");
+
+
+                System.out.println("Ideal Ranking iDCG@" + (ndcg_topK) + " = " + DiscountedCumulativeGain.iDCG(mixtureModel.getResult(Qid), ndcg_topK)[ndcg_topK - 1]);
+
+
 
 
                 /**
@@ -124,29 +154,22 @@ public class Main {
 
 
                 /**
-                 * Step 3.1 Evaluate the nDCG of the original ranked list.
-                 */
-                float[] original_nDCG = DiscountedCumulativeGain.nDCG(mixtureModel.getResult(Qid), ndcg_topK);
-
-                if (original_nDCG[ndcg_topK-1] > 0.7) {
-                    high_ndcg_query_number ++;
-                    continue;
-                }
-                low_ndcg_query_number ++;
-
-                writer.write("Original Ranking nDCG@" + (ndcg_topK) + " = " + original_nDCG[ndcg_topK - 1] + "\n");
-
-
-                System.out.println("Ideal Ranking iDCG@" + (ndcg_topK) + " = " + DiscountedCumulativeGain.iDCG(mixtureModel.getResult(Qid), ndcg_topK)[ndcg_topK - 1]);
-
-
-                /**
                  * Step 4. Analyze each facet field.
                  */
                 for (String facetname : indexreader.getFacetedFields()) {
 
-
-                    float dcfg_ndcg = 0.0f, dcfg_gain = 0.0f, dcfg_non_negative = 0.0f;
+                    /**
+                     * discounted nDCG gain for this facet field:
+                     */
+                    float dcfg_ndcg = 0.0f;
+                    /**
+                     * discounted cumulative facet gain for this facet field, considering only relevance documents covered in facets:
+                     */
+                    float dcfg_gain = 0.0f;
+                    /**
+                     * discounted non-negative nDCG gain for this facet field, simulate to document ranking, do not consider negative penalty:
+                     */
+                    float dcfg_non_negative = 0.0f;
 
 
                     writer.write("\n................. Analyzing Facet field " + facetname + "..................\n");
@@ -155,7 +178,7 @@ public class Main {
                     FacetStats fstats = new FacetStats(indexreader.getFacetIndex(facetname));
                     fstats.setNumberFacetsForEval(20);
 
-                    FacetRanker franker = new FacetRanker(indexreader.getFacetIndex(facetname));
+                    RankFacet facet_ranking = new RankFacet(indexreader.getFacetIndex(facetname));
 
 
                     /**
@@ -198,7 +221,7 @@ public class Main {
                      */
                     int counter = 0;
 
-                    List<Map.Entry<String, Float>> sortedFacets = franker.rankFacets(queryFieldValue.toString(), mixtureModel.getResult(Qid));
+                    List<Map.Entry<String, Float>> sortedFacets = facet_ranking.rankFacets(queryFieldValue.toString(), mixtureModel.getResult(Qid));
                     if (sortedFacets == null) {
                         System.out.println("Error in getting sorted facet values by expected promotion. ");
                         return;
@@ -211,25 +234,24 @@ public class Main {
                         counter++;
                         writer.write("Facet: " + facet.getKey() + ":\t" + facet.getValue().toString() + "\t");
 
-                        System.out.println("----------> Facet: " + facet.getKey());
-
 
                         /**
                          * Evaluate each facet value print the nDCG change resulting from that facet value.
                          * */
-                        String[][] facetDocs = franker.reRankDocs(mixtureModel.getResult(Qid), facet.getKey());
+                        String[][] facetDocs = facet_ranking.reRankDocs(mixtureModel.getResult(Qid), facet.getKey());
+
 
 
                         float[] facet_nDCG = DiscountedCumulativeGain.nDCGFacet(facetDocs, mixtureModel.getResult(Qid), ndcg_topK);
 
 
-                        writer.write(" nDCG@" + (ndcg_topK) + " = " + facet_nDCG[ndcg_topK - 1] + "\tnDCG@" + ndcg_topK + " Change = " + (facet_nDCG[ndcg_topK - 1] - original_nDCG[ndcg_topK - 1]));
+                        writer.write(" nDCG@" + (ndcg_topK) + " = " + facet_nDCG[ndcg_topK - 1] + "\tnDCG@" + ndcg_topK + "\t nDCG gain = " + (facet_nDCG[ndcg_topK - 1] - original_nDCG[ndcg_topK - 1]));
 
 
                         if (facet_nDCG[ndcg_topK-1] - original_nDCG[ndcg_topK-1] > 0){
-                            writer.write(" ** \t");
+                            writer.write(" ** \n");
                         }else{
-                            writer.write("\t");
+                            writer.write("\n");
                         }
 
 
@@ -239,12 +261,15 @@ public class Main {
                          */
                         float facet_gain = FacetDiscountedCumulativeGain.facetGain(facetDocs, mixtureModel.getResult(Qid), ndcg_topK);
 
-                        writer.write("\nGain @" + ndcg_topK + " = " + facet_gain + ", ");
+                        writer.write("\t\tfacet gain @" + ndcg_topK + " = " + facet_gain + ", ");
 
                         float facet_loss = FacetDiscountedCumulativeGain.facetLoss(facetDocs, mixtureModel.getResult(Qid), ndcg_topK);
 
-                        writer.write("Loss @" + ndcg_topK + " = " + facet_loss + "\n");
+                        writer.write("facet loss @" + ndcg_topK + " = " + facet_loss + "\n");
 
+                        /**
+                         * Discounting facet nDCG gain, facet gain, non-negative nDCG gain by facet rank:
+                         */
                         if (counter <= 5) {
                             dcfg_ndcg += (facet_gain - facet_loss) / (float) (Math.log(counter + 1) / Math.log(2));
                             dcfg_gain += (facet_gain) / (float) (Math.log(counter + 1) / Math.log(2));
@@ -255,11 +280,20 @@ public class Main {
                         }
 
 
+                        /**
+                         * Comment out when not want to show top ranked documents by this facet.
+                         */
+                        int bound = Math.min(ndcg_topK, facetDocs.length);
+                        for (int i = 0; i < bound; i ++){
+                            writer.write("\n\t" + facetDocs[i][0] + "\t" + facetDocs[i][2] + "\n");
+                        }
+
+
                     }
-                    writer.write("\nDiscounted nDCG Gain @5 = " + dcfg_ndcg + ", alpha = 1, this measures difference between nDCG.\n");
-                    writer.write("Discounted Cumulative Facet Gain @5 = " + dcfg_gain + ", alpha = 0, only considering relevance documents covered by facets. \n");
-                    writer.write("Only considering possitive gain, Discounted Cumulative Facet Gain @5 = " + dcfg_non_negative + ", alpha = 1 ");
-                    writer.write("\n\n");
+                    writer.write("\n" +facetname + ", discounted nDCG Gain @5 = " + dcfg_ndcg + ", alpha = 1 (this measures difference between nDCG).\n");
+                    writer.write(facetname + ", discounted cumulative facet Gain @5 = " + dcfg_gain + ", alpha = 0 (only considering documents covered by each facet value). \n");
+                    writer.write(facetname + ", discounted non-negative nDCG Gain @5 = " + dcfg_non_negative + ", alpha = 1 (assume users know the correct facet values to choose.) \n");
+                    writer.write("\n");
 
                     float sum_dcfg1 = avg_dcfg_ndcg.get(facetname) + dcfg_ndcg;
                     avg_dcfg_ndcg.put(facetname, sum_dcfg1);
@@ -276,33 +310,41 @@ public class Main {
                     if (dcfg_gain > max_facet_gain) {
                         max_facet_gain = dcfg_gain;
                     }
+                    if (dcfg_non_negative > max_non_neg_ndcg_gain){
+                        max_non_neg_ndcg_gain = dcfg_non_negative;
+                    }
                 }
 
                 sum_max_ndcg_gain += max_ndcg_gain;
                 sum_max_facet_gain += max_facet_gain;
+                sum_max_non_neg_ndcg_gain += max_non_neg_ndcg_gain;
 
-                writer.write("For query " + Qid + ", the maximum nDCG Gain @5 = " + max_ndcg_gain + " on either X or Y field, alpha = 1. \n");
-                writer.write("For query " + Qid + ", the maximum Discounted Cumulative Facet Gain @5 = " + max_facet_gain + ", alpha = 0, only consider relevance documents covered by facets. \n\n\n");
+                writer.write("For query " + Qid + ", on either X or Y field, the maximum nDCG Gain @5 = " + max_ndcg_gain + ", alpha = 1 (assume user know which axis to choose).\n");
+                writer.write("For query " + Qid + ", on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = " + max_facet_gain + ", alpha = 0 (only consider documents covered by facets). \n");
+                writer.write("For query " + Qid + ", on either X or Y field, the maximum non-negative nDCG Gain @5 = " + max_non_neg_ndcg_gain + ", alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). \n\n");
 
             }
 
             for (String facetfield : avg_dcfg_ndcg.keySet() ) {
-                writer.write("Facet field " + facetfield + "average Discounted Cumulative Facet Gain @5 = " + avg_dcfg_ndcg.get(facetfield)/(float)low_ndcg_query_number + ", alpha = 1\n");
+                writer.write("Facet field " + facetfield + " across all queries, average discounted nDCG Gain @5 = " + avg_dcfg_ndcg.get(facetfield)/(float)low_ndcg_query_number + ", alpha = 1.\n");
             }
             for (String facetfield: avg_dcfg_gain.keySet()) {
-                writer.write("Facet field " + facetfield + "average Discounted Cumulative Facet Gain @5 = " + avg_dcfg_gain.get(facetfield)/(float)low_ndcg_query_number + ", alpha = 0.5 \n");
+                writer.write("Facet field " + facetfield + " across all queries, average discounted cumulative facet gain @5 = " + avg_dcfg_gain.get(facetfield)/(float)low_ndcg_query_number + ", alpha = 0.\n");
             }
             for (String facetfield: avg_dcfg_non_negative.keySet()) {
-                writer.write("Only considering possitive gain, facet field " + facetfield + "average Discounted Cumulative Facet Gain @5 = " + avg_dcfg_non_negative.get(facetfield)/(float)low_ndcg_query_number + ", alpha = 1 \n");
+                writer.write("Facet field " + facetfield + " across all queries, discounted non-negative nDCG Gain @5 = " + avg_dcfg_non_negative.get(facetfield)/(float)low_ndcg_query_number + ", alpha = 1. Only considering non-negative nDCG changes.\n");
             }
 
-            writer.write("\nAverage over all queries, Maximum nDCG Gain = " + sum_max_ndcg_gain/(float)low_ndcg_query_number + ", alpha = 1\n");
+            writer.write("\nAcross all queries, on either X or Y axis, the maximum nDCG Gain = " + sum_max_ndcg_gain/(float)low_ndcg_query_number + ", alpha = 1\n");
 
-            writer.write("\nAverage over all queries, Maximum Discounted Cumulative Facet Gain = " + sum_max_facet_gain/(float)low_ndcg_query_number + ", alpha = 0.5\n\n");
+            writer.write("Across all queries, on either X or Y axis, the maximum discounted cumulative facet Gain = " + sum_max_facet_gain/(float)low_ndcg_query_number + ", alpha = 0\n");
 
-            writer.write("There are " + high_ndcg_query_number + " queries with nDCG@" + ndcg_topK + " > 0.9\n");
-            writer.write("There are " + low_ndcg_query_number + " queries with nDCG@" + ndcg_topK + " <= 0.9\n\n");
-            writer.write("--------------------------------\n\n");
+            writer.write("Across all queries, on either X or Y axis, the maximum discounted non-negative nDCG Gain = " + sum_max_non_neg_ndcg_gain/(float)low_ndcg_query_number + ", alpha = 1\n");
+
+
+            writer.write("There are " + high_ndcg_query_number + " queries with nDCG@" + ndcg_topK + " > 0.7 that are not faceted.\n");
+            writer.write("There are " + low_ndcg_query_number + " queries with nDCG@" + ndcg_topK + " <= 0.7 that are faceted. \n\n");
+            writer.write("------------------------------------------------------------------\n\n");
 
         writer.close();
 
