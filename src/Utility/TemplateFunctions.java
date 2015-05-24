@@ -107,6 +107,30 @@ public class TemplateFunctions {
         return col;
     }
 
-
+    /**
+     * Given a 2D String array, fetch column using column_no.
+     *
+     * @param input_matrix  the 2D matrix
+     * @param column_no     column number to retrieve, starting from 0
+     * @param topK          the top K elements in the column to retrieve
+     * @param <T>           generic type
+     * @return              the wanted row as an anrray
+     */
+    public static <T> T[] fetchColumn(T[][] input_matrix, int column_no, int topK){
+        if ( input_matrix.length < 1 ){
+            return null;
+        }
+        if ( column_no > input_matrix[0].length - 1 ){
+            return null;
+        }
+        T[] col = (T[]) Array.newInstance(input_matrix.getClass().getComponentType().getComponentType(), topK);
+        int rowno = 0;
+        for (T[] row : input_matrix){
+            col[rowno] = row[column_no];
+            rowno ++;
+            if(rowno >= topK){break;}
+        }
+        return col;
+    }
 
 }

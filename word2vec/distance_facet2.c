@@ -277,7 +277,7 @@ int main(int argc, char **argv) {
 			len = 0;
 			for (a = 0; a < size; a++) len += vec1[a] * vec1[a];
 			len = sqrt(len);
-			for (a = 0; a < size; a++) {vec1[a] /= len; }//printf("%f,", vec1[a]);
+			for (a = 0; a < size; a++) {vec1[a] /= len;} // vec1[a] /= cn1; }//printf("%f,", vec1[a]);
 //			printf("\n\n");
 			
 			// simply add each word of p2 together.
@@ -288,7 +288,7 @@ int main(int argc, char **argv) {
 			len = 0;
 			for (a = 0; a < size; a++) len += vec2[a] * vec2[a];
 			len = sqrt(len);
-			for (a = 0; a < size; a++) {vec2[a] /= len; } //printf("%f,", vec2[a]);
+			for (a = 0; a < size; a++) {vec2[a] /= len; }// vec2[a] /= cn2;} //printf("%f,", vec2[a]);
 //			printf("\n\n");
 			
 			dist = 0;

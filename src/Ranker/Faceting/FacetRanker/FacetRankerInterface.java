@@ -9,7 +9,7 @@ import java.util.Map;
  *
  * An interfacet for all kinds of facet value rankers.
  */
-public class FacetRanker {
+public interface FacetRankerInterface {
 
     /**
      * A container to hold a subset of facet values in a list of documents.

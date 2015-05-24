@@ -1,0 +1,2178 @@
+-------- Documents Indexed -------- 
+Qid: 5.3.4 How much money did Goldman Sachs make in the last 20 years ?
+Original Ranking nDCG@5 = 0.1858351
+Original Recall@5 = 0.071428575
+Processed query: Y:(money) AND Y:(Goldman Sachs) AND X:(the last 20 years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 20 years 
+Average number of facet_X values in each document is 4.393617
+Average number of documents tagged with each facet value in the facet_X field is : 3.6875
+
+Facet: time:	0.8244681	 nDCG@5 = 0.1858351	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.071428575	facet gains recall 0.0
+Facet: year:	0.7659575	 nDCG@5 = 0.1858351	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.071428575	facet gains recall 0.0
+Facet: month:	0.17021276	 nDCG@5 = 0.1858351	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.1858351, facet loss @5 = 0.1858351	novel docs @5 = 1	Facet: quarter:	0.13297872	 nDCG@5 = 0.3652848	nDCG@5	 nDCG gain = 0.1794497 ** 
+		facet gain @5 = 0.3652848, facet loss @5 = 0.1858351	novel docs @5 = 5	Facet: company:	0.10638298	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: united:	0.095744684	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: financial:	0.08510638	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: business:	0.07978723	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: services:	0.06382979	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: investment:	0.047872342	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: bank america:	0.047872342	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.9285714
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: money goldman sachs 
+Average number of facet_Y values in each document is 2.1914895
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0295568
+
+Facet: revenue:	0.2393617	 nDCG@5 = 0.20205598	nDCG@5	 nDCG gain = 0.016220883 ** 
+		facet gain @5 = 0.20205598, facet loss @5 = 0.1858351	novel docs @5 = 2	recall @5 = 0.14285715	facet gains recall 0.071428575
+Facet: goldman sachs:	0.13297872	 nDCG@5 = 0.1858351	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.071428575	facet gains recall 0.0
+Facet: sales:	0.122340426	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: apple inc:	0.08510638	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: mobile phone:	0.047872342	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: automobile:	0.04255319	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: share finance:	0.03723404	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: profit accounting:	0.03723404	 nDCG@5 = 0.264001	nDCG@5	 nDCG gain = 0.07816592 ** 
+		facet gain @5 = 0.264001, facet loss @5 = 0.1858351	novel docs @5 = 3	Facet: price:	0.031914894	 nDCG@5 = 0.078165926	nDCG@5	 nDCG gain = -0.10766917
+		facet gain @5 = 0.078165926, facet loss @5 = 0.1858351	novel docs @5 = 1	Facet: toyota:	0.026595745	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.1858351
+		facet gain @5 = 0.0, facet loss @5 = 0.1858351	novel docs @5 = 0	Facet: united:	0.026595745	 nDCG@5 = 0.123890065	nDCG@5	 nDCG gain = -0.06194503
+		facet gain @5 = 0.123890065, facet loss @5 = 0.1858351	novel docs @5 = 1	
+facet_Y, discounted nDCG Gain @5 = 0.016220883, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.20205598, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 1.0
+facet_Y, total recall @5 = 0.9285714	facet gains recall 0.8571428
+
+For query 5.3.4, on either X or Y field, the maximum nDCG Gain @5 = 0.016220883, alpha = 1 (assume user know which axis to choose).
+For query 5.3.4, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.20205598, alpha = 0 (only consider documents covered by facets). 
+For query 5.3.4, on either X or Y field, the maximum binary nDCG Gain @5 = 1.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.7.1 How does the revenue of Goldman Sachs compare over the past 15 years ?
+Qid: 5.7.2 What was the revenue of Goldman Sachs in 1990 compared to future revenues ?
+Qid: 5.7.3 What was the revenue of Goldman Sachs in 2005 compared to previous years ?
+Original Ranking nDCG@5 = 0.2371977
+Original Recall@5 = 0.5
+Processed query: Y:(the revenue) AND Y:(Goldman Sachs) AND X:(to previous years) AND X:(in 2005) AND IMCategory:(Relative-Difference) AND focusX:(to previous years,in 2005)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: years 2005 
+Average number of facet_X values in each document is 4.1614585
+Average number of documents tagged with each facet value in the facet_X field is : 3.6651375
+
+Facet: time:	0.8072917	 nDCG@5 = 0.2371977	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.5	facet gains recall 0.0
+Facet: year:	0.75	 nDCG@5 = 0.2371977	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.5	facet gains recall 0.0
+Facet: month:	0.16666667	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: quarter:	0.13020833	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: company:	0.125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: united:	0.104166664	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: business:	0.088541664	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: companies:	0.083333336	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: financial:	0.083333336	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: discover financial services:	0.041666668	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: services:	0.041666668	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.5
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.2135417
+Average number of documents tagged with each facet value in the facet_Y field is : 2.125
+
+Facet: revenue:	0.328125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.5
+Facet: goldman sachs:	0.13020833	 nDCG@5 = 0.2371977	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.5	facet gains recall 0.0
+Facet: sales:	0.119791664	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: apple inc:	0.083333336	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: mobile phone:	0.046875	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: automobile:	0.041666668	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: share finance:	0.036458332	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: profit accounting:	0.036458332	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: price:	0.03125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: iphone:	0.03125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	Facet: toyota:	0.026041666	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.2371977
+		facet gain @5 = 0.0, facet loss @5 = 0.2371977	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = -0.2371977, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = -1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 1.0	facet gains recall 0.5
+
+For query 5.7.3, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 5.7.3, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 5.7.3, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 4.11.3 What is the revenue of Apple ?
+Qid: 5.7.4 How has there been a change in Goldman Sachs revenue since 1990 ?
+Qid: 4.11.2 What is the total mobile revenue since the 90s ?
+Qid: 1.8.3 What is the revenue trend of the company Ford since 2000 ?
+Qid: 1.8.4 What company has the highest revenue :  Ford , BMW , Toyota , or Honda ?
+Qid: 4.1.2 How has Total Mobile revenue changed over the past twenty years ?
+Qid: 4.5.1 How does Nokia , Apple , and Blackberry compare in terms of revenue ?
+Qid: 4.5.2 What is the trend of the total mobile revenue over the past 20 years ?
+Qid: 4.1.3 How has Apple revenue changed over the past twenty years ?
+Qid: 2.12.2 How does the revenue for Visa and Discover compare to Mastercard and American Express ?
+Qid: 5.15.1 Has Goldman Sachs been increasing in revenue over the last 15 years ?
+Qid: 2.12.1 How has the revenue for credit card companies changed from 2007 to 2009 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(credit card companies) AND X:(from 2007 to 2009) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2007 2009 
+Average number of facet_X values in each document is 6.174107
+Average number of documents tagged with each facet value in the facet_X field is : 2.9177215
+
+Facet: time:	0.6339286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.59375	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.23660715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.16071428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.12053572	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.116071425	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.10714286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.09821428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.071428575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.8	facet gains recall 0.8
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.1517856
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1909091
+
+Facet: revenue:	0.29464287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.11160714	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.102678575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.058035713	 nDCG@5 = 0.21398626	nDCG@5	 nDCG gain = 0.21398626 ** 
+		facet gain @5 = 0.21398626, facet loss @5 = 0.0	novel docs @5 = 1	Facet: automobile:	0.058035713	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04464286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035714287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.03125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.026785715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02232143	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.6	facet gains recall 0.6
+
+For query 2.12.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.12.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.12.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.15.2 Has Goldman Sachs been increasing in revenue over the last 20 years ?
+Qid: 5.15.3 What is the revenue for Goldman Sachs ?
+Qid: 2.16.2 How does Visa compare to other credit card companies ?
+Qid: 2.16.1 How has the credit card industry changed over the last 5 years ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the credit card industry) AND X:(the last 5 years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 5 years 
+Average number of facet_X values in each document is 4.882353
+Average number of documents tagged with each facet value in the facet_X field is : 3.2442997
+
+Facet: time:	0.75490195	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.7058824	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.16176471	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.15686275	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.12254902	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.11764706	 nDCG@5 = 0.1510196	nDCG@5	 nDCG gain = 0.1510196 ** 
+		facet gain @5 = 0.1510196, facet loss @5 = 0.0	novel docs @5 = 1	Facet: financial:	0.09803922	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.083333336	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.05392157	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: american express:	0.04901961	 nDCG@5 = 0.1510196	nDCG@5	 nDCG gain = 0.1510196 ** 
+		facet gain @5 = 0.1510196, facet loss @5 = 0.0	novel docs @5 = 1	Facet: history:	0.04411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.0	facet gains recall 0.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: credit card industry 
+Average number of facet_Y values in each document is 2.1421568
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0325582
+
+Facet: revenue:	0.2647059	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.12254902	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.1127451	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.078431375	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.05392157	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.039215688	 nDCG@5 = 0.5143372	nDCG@5	 nDCG gain = 0.5143372 ** 
+		facet gain @5 = 0.5143372, facet loss @5 = 0.0	novel docs @5 = 3	Facet: profit accounting:	0.039215688	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.029411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.024509804	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.024509804	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.0	facet gains recall 0.0
+
+For query 2.16.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.16.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.16.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.16.4 Does Visa or Mastercard make more money ?
+Qid: 2.16.3 How does Mastercard compare to other credit card companies ?
+Qid: 3.3.2 How has Avis revenue changed over the course of the past 15 years ?
+Qid: 3.3.4 How does Avis revenue compare to other companies in the year 2010 ?
+Qid: 5.10.1 How does revenue for Goldman sachs change from 1990 to 2010 ?
+Qid: 5.10.2 How does revenue for Goldman sachs change from 1990 to 2000 ?
+Qid: 5.10.3 What 5 year range is the revenue for Goldman Sachs the lowest ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: X:(5 year range) AND Y:(the revenue) AND Y:(Goldman Sachs) AND IMCategory:(Maximum-Minimum-Multiple)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 5 year range 
+Average number of facet_X values in each document is 4.2331605
+Average number of documents tagged with each facet value in the facet_X field is : 3.7136364
+
+Facet: time:	0.8031088	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.746114	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: month:	0.1658031	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.12953368	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: company:	0.12953368	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.103626944	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.0880829	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.08290155	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.08290155	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: discover financial services:	0.041450776	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: services:	0.041450776	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.207254
+Average number of documents tagged with each facet value in the facet_Y field is : 2.119403
+
+Facet: revenue:	0.32642487	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.12953368	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.119170986	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.08290155	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.046632126	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.041450776	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.03626943	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.03626943	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.031088082	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.031088082	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.025906736	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.5	facet gains recall 0.5
+
+For query 5.10.3, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 5.10.3, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 5.10.3, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.10.4 In what year is the revenue for Goldman Sachs is the lowest ?
+Original Ranking nDCG@5 = 0.23770012
+Original Recall@5 = 0.22222222
+Processed query: X:(year) AND Y:(the revenue) AND Y:(Goldman Sachs) AND IMCategory:(Maximum-Minimum-Multiple)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: year 
+Average number of facet_X values in each document is 4.2331605
+Average number of documents tagged with each facet value in the facet_X field is : 3.7136364
+
+Facet: time:	0.8031088	 nDCG@5 = 0.27805114	nDCG@5	 nDCG gain = 0.04035102 ** 
+		facet gain @5 = 0.04035103, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.11111112
+Facet: year:	0.746114	 nDCG@5 = 0.27805114	nDCG@5	 nDCG gain = 0.04035102 ** 
+		facet gain @5 = 0.04035103, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.11111112
+Facet: month:	0.1658031	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: quarter:	0.12953368	 nDCG@5 = 0.11677353	nDCG@5	 nDCG gain = -0.12092659
+		facet gain @5 = 0.0264252, facet loss @5 = 0.14735179	novel docs @5 = 0	Facet: company:	0.12953368	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: united:	0.103626944	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: business:	0.0880829	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: companies:	0.08290155	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: financial:	0.08290155	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: discover financial services:	0.041450776	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: services:	0.041450776	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0658097, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0658097, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 1.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.7777778
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.207254
+Average number of documents tagged with each facet value in the facet_Y field is : 2.119403
+
+Facet: revenue:	0.32642487	 nDCG@5 = 0.14735179	nDCG@5	 nDCG gain = -0.09034833
+		facet gain @5 = 0.057003457, facet loss @5 = 0.14735179	novel docs @5 = 0	recall @5 = 0.11111111	facet gains recall -0.11111111
+Facet: goldman sachs:	0.12953368	 nDCG@5 = 0.1774679	nDCG@5	 nDCG gain = -0.060232222
+		facet gain @5 = 0.030116111, facet loss @5 = 0.090348326	novel docs @5 = 1	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: sales:	0.119170986	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: apple inc:	0.08290155	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: mobile phone:	0.046632126	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: automobile:	0.041450776	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: share finance:	0.03626943	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: profit accounting:	0.03626943	 nDCG@5 = 0.14735179	nDCG@5	 nDCG gain = -0.09034833
+		facet gain @5 = 0.14735179, facet loss @5 = 0.23770012	novel docs @5 = 1	Facet: price:	0.031088082	 nDCG@5 = 0.07784902	nDCG@5	 nDCG gain = -0.1598511
+		facet gain @5 = 0.07784902, facet loss @5 = 0.23770012	novel docs @5 = 1	Facet: iphone:	0.031088082	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	Facet: toyota:	0.025906736	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.23770012
+		facet gain @5 = 0.0, facet loss @5 = 0.23770012	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = -0.12835063, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.07600461, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = -1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 0.7777778	facet gains recall 0.5555556
+
+For query 5.10.4, on either X or Y field, the maximum nDCG Gain @5 = 0.0658097, alpha = 1 (assume user know which axis to choose).
+For query 5.10.4, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.07600461, alpha = 0 (only consider documents covered by facets). 
+For query 5.10.4, on either X or Y field, the maximum binary nDCG Gain @5 = 1.6309297, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.1.2 How does the revenue earned by major credit card companies compare in 2010 ?
+Qid: 5.14.1 What is the revenue of Goldman Sachs ?
+Qid: 4.6.4 How does the revenue of Blackberry compare to that of other companies ?
+Qid: 4.6.2 How has the total mobile revenue changed since the 1990 ?
+Qid: 4.6.3 What is the revenue pattern change of Apple over the past 20 years ?
+Qid: 1.7.1 How does Ford rank compared to other car dealers in terms of revenue ?
+Qid: 1.7.2 How has Ford’s revenue changed over the last 12 years ?
+Qid: 1.7.3 How has Ford’s revenue changed over the last 12 years ?
+Qid: 4.11.4 How do the revenues of the companies Nokia , Apple , and Blackberry compare ?
+Qid: 5.2.1 How does Goldman Sachs revenue in 1995 compare to that of 2010 ?
+Qid: 5.2.2 How does Goldman Sachs revenue in 1990 compare to that of 2000 ?
+Qid: 5.2.3 How does Goldman Sachs revenue in 2005 - 2010 rank among those of the past 15 years ?
+Original Ranking nDCG@5 = 0.11861331
+Original Recall@5 = 0.5
+Processed query: Y:(Goldman Sachs revenue) AND X:(2010 rank) AND X:(those of the past 15 years) AND X:(in 2005 - 2010) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2010 rank 15 years 2005 2010 
+Average number of facet_X values in each document is 4.740196
+Average number of documents tagged with each facet value in the facet_X field is : 3.3460207
+
+Facet: time:	0.75980395	 nDCG@5 = 0.11861331	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.5	facet gains recall 0.0
+Facet: year:	0.7058824	 nDCG@5 = 0.11861331	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.5	facet gains recall 0.0
+Facet: month:	0.15686275	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: company:	0.13725491	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: united:	0.12745099	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: quarter:	0.12254902	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: business:	0.0882353	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: financial:	0.0882353	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: companies:	0.078431375	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: history:	0.063725494	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: services:	0.04411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.5
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: goldman sachs revenue 
+Average number of facet_Y values in each document is 2.1813726
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1090047
+
+Facet: revenue:	0.3137255	 nDCG@5 = 0.3196312	nDCG@5	 nDCG gain = 0.20101789 ** 
+		facet gain @5 = 0.3196312, facet loss @5 = 0.11861331	novel docs @5 = 1	recall @5 = 0.5	facet gains recall 0.0
+Facet: sales:	0.12254902	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.5
+Facet: goldman sachs:	0.12254902	 nDCG@5 = 0.11861331	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.078431375	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: mobile phone:	0.04411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: automobile:	0.039215688	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: share finance:	0.034313727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: united:	0.034313727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: profit accounting:	0.034313727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: price:	0.029411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	Facet: iphone:	0.029411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.11861331
+		facet gain @5 = 0.0, facet loss @5 = 0.11861331	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.12618122, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.3196312, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.36907023, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 0.5	facet gains recall 0.0
+
+For query 5.2.3, on either X or Y field, the maximum nDCG Gain @5 = 0.12618122, alpha = 1 (assume user know which axis to choose).
+For query 5.2.3, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.3196312, alpha = 0 (only consider documents covered by facets). 
+For query 5.2.3, on either X or Y field, the maximum binary nDCG Gain @5 = 0.36907023, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.2.4 How has Goldman Sachs revenue changed in the last 20 years ?
+Qid: 5.6.1 What is the revenue growth of Goldman Sachs starting in 1995 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue growth) AND Y:(Goldman Sachs) AND X:(1995) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 1995 
+Average number of facet_X values in each document is 5.172727
+Average number of documents tagged with each facet value in the facet_X field is : 3.010582
+
+Facet: time:	0.6818182	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.6636364	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: united:	0.19090909	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: company:	0.19090909	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.14545454	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.14545454	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.13636364	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.13636364	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: history:	0.08181818	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: discover financial services:	0.07272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.07272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.0	facet gains recall 0.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.1545455
+Average number of documents tagged with each facet value in the facet_Y field is : 2.2358491
+
+Facet: revenue:	0.5	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.22727273	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: apple inc:	0.1	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.045454547	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.045454547	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.036363635	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: net income:	0.036363635	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: employment:	0.036363635	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.027272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.027272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.027272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.0	facet gains recall 0.0
+
+For query 5.6.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 5.6.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 5.6.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.6.2 What is the revenue growth of Goldman Sachs starting in 1990 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue growth) AND Y:(Goldman Sachs) AND X:(1990) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 1990 
+Average number of facet_X values in each document is 5.172727
+Average number of documents tagged with each facet value in the facet_X field is : 3.010582
+
+Facet: time:	0.6818182	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.6636364	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: united:	0.19090909	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: company:	0.19090909	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.14545454	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.14545454	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.13636364	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.13636364	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: history:	0.08181818	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: discover financial services:	0.07272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.07272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.0	facet gains recall 0.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.1363637
+Average number of documents tagged with each facet value in the facet_Y field is : 2.2596154
+
+Facet: revenue:	0.5	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.22727273	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: apple inc:	0.09090909	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.045454547	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.045454547	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.036363635	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: net income:	0.036363635	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.036363635	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: employment:	0.036363635	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.027272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.027272727	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.0	facet gains recall 0.0
+
+For query 5.6.2, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 5.6.2, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 5.6.2, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.6.3 How has the revenue model of Goldman Sachs decreased over time ?
+Qid: 5.6.4 What is the revenue model of Goldman Sachs over the past 20 years ?
+Qid: 4.2.2 What is Apple’s revenue during the past decade ?
+Qid: 4.2.3 What is Apple’s revenue during the past decade ?
+Qid: 2.13.1 How does the revenue of credit card companies compare from 2008 to 2009 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(credit card companies) AND IMCategory:(Relative-Difference)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 
+Average number of facet_X values in each document is 6.1809955
+Average number of documents tagged with each facet value in the facet_X field is : 2.8940678
+
+Facet: time:	0.6334842	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.5927602	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.239819	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.15837105	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.11764706	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.11764706	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.108597286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.09954751	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.07239819	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.06787331	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06787331	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.1674209
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1872146
+
+Facet: revenue:	0.29864255	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.11312217	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.1040724	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.06787331	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.05882353	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.05882353	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04524887	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.036199097	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.03167421	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.027149322	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.022624435	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.75	facet gains recall 0.75
+
+For query 2.13.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.13.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.13.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.14.2 What is the revenue of the company Goldman Sachs ?
+Qid: 5.14.3 What is the revenue of Goldman Sachs since the 90s ?
+Qid: 2.13.3 How does the revenue of American Express in 2008 compare to Discover , Mastercard , and Visa during the same year ?
+Qid: 5.14.4 How has the revenue of the company Goldman Sachs changed since the 90s ?
+Qid: 2.13.2 How does the revenue of Discover compare to American Express in 2010 ?
+Qid: 2.17.1 What is the revenue of the top credit card companies ?
+Qid: 2.13.4 How does the revenue of Visa in 2007 compare to 2008 and 2009 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND X:(Visa) AND Y:(to 2008 and 2009) AND X:(in 2007) AND IMCategory:(Relative-Difference) AND focusX:(Visa,in 2007)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: visa 2007 
+Average number of facet_X values in each document is 4.9931507
+Average number of documents tagged with each facet value in the facet_X field is : 3.5217392
+
+Facet: time:	0.6917808	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.6849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.20547946	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.1849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.1369863	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.11643836	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.11643836	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.09589041	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.06849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: american express:	0.061643835	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: history:	0.061643835	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue 2008 2009 
+Average number of facet_Y values in each document is 2.171233
+Average number of documents tagged with each facet value in the facet_Y field is : 2.006329
+
+Facet: revenue:	0.4178082	 nDCG@5 = 0.38685277	nDCG@5	 nDCG gain = 0.38685277 ** 
+		facet gain @5 = 0.38685277, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 1.0	facet gains recall 1.0
+Facet: goldman sachs:	0.0890411	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: apple inc:	0.07534247	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.05479452	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.05479452	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.04109589	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: sales:	0.04109589	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: employment:	0.034246575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.02739726	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: net income:	0.02739726	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.02739726	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.38685277, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.38685277, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 1.0	facet gains recall 1.0
+
+For query 2.13.4, on either X or Y field, the maximum nDCG Gain @5 = 0.38685277, alpha = 1 (assume user know which axis to choose).
+For query 2.13.4, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.38685277, alpha = 0 (only consider documents covered by facets). 
+For query 2.13.4, on either X or Y field, the maximum binary nDCG Gain @5 = 1.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.7.3 How do Visa , Mastercard , Discover and American Express relate in terms of revenue models ?
+Qid: 2.17.2 In 2010 , what is the revenue of the top credit companies ?
+Qid: 3.4.1 How does the revenue of HERTZ compare to AVIS in 1995 ?
+Qid: 3.4.2 How has the revenue of AVIS changed from 1995 to 2010 ?
+Qid: 3.4.3 How does the revenue of AVIS compare to HERTZ in 2000 ?
+Qid: 3.4.4 How does AVIS revenue compare to HERTZ and Budget in 2010 ?
+Qid: 3.5.4 How does the revenue of Avis compare to other companies in 2010 ?
+Qid: 2.2.4 What credit card company made the most money in 2008 ?
+Original Ranking nDCG@5 = 0.16036522
+Original Recall@5 = 0.17391305
+Processed query: X:(credit card company) AND Y:(the most money) AND IMCategory:(Maximum-Minimum-Multiple)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: credit card company 
+Average number of facet_X values in each document is 6.2798166
+Average number of documents tagged with each facet value in the facet_X field is : 2.8700209
+
+Facet: time:	0.6330275	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.17391305
+Facet: year:	0.5917431	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.17391305
+Facet: company:	0.24311927	 nDCG@5 = 0.16036522	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.018743582, facet loss @5 = 0.018743582	novel docs @5 = 1	Facet: united:	0.16513762	 nDCG@5 = 0.2330424	nDCG@5	 nDCG gain = 0.07267718 ** 
+		facet gain @5 = 0.09142077, facet loss @5 = 0.018743582	novel docs @5 = 2	Facet: month:	0.119266056	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: financial:	0.119266056	 nDCG@5 = 0.22879577	nDCG@5	 nDCG gain = 0.06843054 ** 
+		facet gain @5 = 0.08717412, facet loss @5 = 0.018743582	novel docs @5 = 2	Facet: business:	0.110091746	 nDCG@5 = 0.12411357	nDCG@5	 nDCG gain = -0.036251657
+		facet gain @5 = 0.04509264, facet loss @5 = 0.081344314	novel docs @5 = 2	Facet: quarter:	0.09633028	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: companies:	0.07339449	 nDCG@5 = 0.6608398	nDCG@5	 nDCG gain = 0.5004746 ** 
+		facet gain @5 = 0.6608398, facet loss @5 = 0.16036522	novel docs @5 = 4	Facet: vehicles:	0.07339449	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: production:	0.06880734	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = -0.2615444, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = -1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.0	facet gains recall -0.17391305
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: money 
+Average number of facet_Y values in each document is 2.1880734
+Average number of documents tagged with each facet value in the facet_Y field is : 2.2083333
+
+Facet: revenue:	0.3027523	 nDCG@5 = 0.9250257	nDCG@5	 nDCG gain = 0.7646605 ** 
+		facet gain @5 = 0.9250257, facet loss @5 = 0.16036522	novel docs @5 = 5	recall @5 = 0.2173913	facet gains recall 0.04347825
+Facet: goldman sachs:	0.1146789	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.17391305
+Facet: sales:	0.10550459	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: apple inc:	0.07339449	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: share finance:	0.059633028	 nDCG@5 = 0.07267719	nDCG@5	 nDCG gain = -0.087688036
+		facet gain @5 = 0.05393361, facet loss @5 = 0.14162165	novel docs @5 = 1	Facet: automobile:	0.059633028	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: mobile phone:	0.041284405	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: price:	0.03211009	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: profit accounting:	0.03211009	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: iphone:	0.027522936	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	Facet: toyota:	0.02293578	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.16036522
+		facet gain @5 = 0.0, facet loss @5 = 0.16036522	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.6634813, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.9250257, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.36907023, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 2.5
+facet_Y, total recall @5 = 0.3478261	facet gains recall 0.17391305
+
+For query 2.2.4, on either X or Y field, the maximum nDCG Gain @5 = 0.6634813, alpha = 1 (assume user know which axis to choose).
+For query 2.2.4, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.9250257, alpha = 0 (only consider documents covered by facets). 
+For query 2.2.4, on either X or Y field, the maximum binary nDCG Gain @5 = 0.36907023, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.2.2 How do Visa and Discover compare in 2010 ?
+Qid: 5.13.1 How much revenue did Goldman Sachs earn from 1995 to 2010 ?
+Qid: 2.2.1 How has the revenue of the Credit Card Companies changed in the past two years ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(the Credit Card Companies) AND X:(the past two years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: years 
+Average number of facet_X values in each document is 5.987342
+Average number of documents tagged with each facet value in the facet_X field is : 2.9748428
+
+Facet: time:	0.65822786	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.6075949	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.22362868	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.15189873	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.13502109	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.10970464	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.10548523	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.101265825	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.067510545	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.06329114	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06329114	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.625	facet gains recall 0.625
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.1603374
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1603374
+
+Facet: revenue:	0.278481	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.11814346	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.10548523	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.067510545	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.05485232	 nDCG@5 = 0.44685355	nDCG@5	 nDCG gain = 0.44685355 ** 
+		facet gain @5 = 0.44685355, facet loss @5 = 0.0	novel docs @5 = 3	Facet: automobile:	0.05485232	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.042194095	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.033755273	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.029535865	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.025316456	 nDCG@5 = 0.21398626	nDCG@5	 nDCG gain = 0.21398626 ** 
+		facet gain @5 = 0.21398626, facet loss @5 = 0.0	novel docs @5 = 1	Facet: iphone:	0.025316456	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.375	facet gains recall 0.375
+
+For query 2.2.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.2.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.2.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 4.7.1 How did Nokia , Apple , and Blackberry compare side by side ?
+Qid: 1.4.2 What is the Ford revenue model every four years beginning in 2000 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the Ford revenue model) AND X:(in 2000) AND X:(every four years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2000 years 
+Average number of facet_X values in each document is 5.231884
+Average number of documents tagged with each facet value in the facet_X field is : 3.0251396
+
+Facet: time:	0.7536232	 nDCG@5 = 0.3127697	nDCG@5	 nDCG gain = 0.3127697 ** 
+		facet gain @5 = 0.3127697, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.33333334
+Facet: year:	0.6956522	 nDCG@5 = 0.40641758	nDCG@5	 nDCG gain = 0.40641758 ** 
+		facet gain @5 = 0.40641758, facet loss @5 = 0.0	novel docs @5 = 2	recall @5 = 0.6666667	facet gains recall 0.6666667
+Facet: company:	0.16425121	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.15458937	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.12077295	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.10628019	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.077294685	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.072463766	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.06763285	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.06763285	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.062801935	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.5691906, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.5691906, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 1.5
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: ford revenue model 
+Average number of facet_Y values in each document is 2.1545894
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1442308
+
+Facet: revenue:	0.30917874	 nDCG@5 = 0.36311436	nDCG@5	 nDCG gain = 0.36311436 ** 
+		facet gain @5 = 0.36311436, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.33333334
+Facet: sales:	0.14009662	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.11111111	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.077294685	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.062801935	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04347826	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.038647342	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.033816423	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.028985508	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.028985508	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.024154589	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.36311436, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.36311436, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 0.33333334	facet gains recall 0.33333334
+
+For query 1.4.2, on either X or Y field, the maximum nDCG Gain @5 = 0.5691906, alpha = 1 (assume user know which axis to choose).
+For query 1.4.2, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.5691906, alpha = 0 (only consider documents covered by facets). 
+For query 1.4.2, on either X or Y field, the maximum binary nDCG Gain @5 = 1.6309297, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 1.4.3 How has the revenue model of Ford changed over time ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue model) AND Y:(Ford) AND X:(time) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: time 
+Average number of facet_X values in each document is 5.4009433
+Average number of documents tagged with each facet value in the facet_X field is : 2.772397
+
+Facet: time:	0.740566	 nDCG@5 = 0.23284444	nDCG@5	 nDCG gain = 0.23284444 ** 
+		facet gain @5 = 0.23284444, facet loss @5 = 0.0	novel docs @5 = 2	recall @5 = 0.4	facet gains recall 0.4
+Facet: year:	0.6792453	 nDCG@5 = 0.34014976	nDCG@5	 nDCG gain = 0.34014976 ** 
+		facet gain @5 = 0.34014976, facet loss @5 = 0.0	novel docs @5 = 2	recall @5 = 0.4	facet gains recall 0.4
+Facet: company:	0.16509435	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.1509434	 nDCG@5 = 0.15684879	nDCG@5	 nDCG gain = 0.15684879 ** 
+		facet gain @5 = 0.15684879, facet loss @5 = 0.0	novel docs @5 = 2	Facet: quarter:	0.11792453	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.0990566	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.0754717	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.070754714	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.070754714	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.06603774	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: engine:	0.056603774	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.44745505, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.44745505, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 2.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue model ford 
+Average number of facet_Y values in each document is 2.1509433
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1209302
+
+Facet: revenue:	0.3018868	 nDCG@5 = 0.20803519	nDCG@5	 nDCG gain = 0.20803519 ** 
+		facet gain @5 = 0.20803519, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.2	facet gains recall 0.2
+Facet: sales:	0.13679245	 nDCG@5 = 0.12907565	nDCG@5	 nDCG gain = 0.12907565 ** 
+		facet gain @5 = 0.12907565, facet loss @5 = 0.0	novel docs @5 = 2	recall @5 = 0.4	facet gains recall 0.4
+Facet: goldman sachs:	0.11320755	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.0754717	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.061320756	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04245283	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.03773585	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.03301887	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.028301887	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.028301887	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.023584906	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.28947285, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.28947285, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 1.5
+facet_Y, total recall @5 = 0.6	facet gains recall 0.6
+
+For query 1.4.3, on either X or Y field, the maximum nDCG Gain @5 = 0.44745505, alpha = 1 (assume user know which axis to choose).
+For query 1.4.3, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.44745505, alpha = 0 (only consider documents covered by facets). 
+For query 1.4.3, on either X or Y field, the maximum binary nDCG Gain @5 = 1.6309297, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 1.4.4 How do Ford , BMW , Toyota , and Honda compare in terms of revenue ?
+Qid: 1.8.1 What is the revenue of the top car manufacturing companies ?
+Qid: 1.8.2 What is the revenue of Ford in 2000 , 2004 and 2008 ?
+Qid: 5.1.1 During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?
+Qid: 5.1.2 How does revenue earned by Goldman Sachs for each five year time period compare for the past twenty years ?
+Original Ranking nDCG@5 = 0.14600019
+Original Recall@5 = 0.16666667
+Processed query: X:(revenue) AND Y:(Goldman Sachs) AND X:(for the past twenty years) AND X:(for each five year time period) AND IMCategory:(Relative-Difference) AND focusX:(revenue,for the past twenty years,for each five year time period)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: revenue twenty years five year time period 
+Average number of facet_X values in each document is 4.7438426
+Average number of documents tagged with each facet value in the facet_X field is : 2.8575668
+
+Facet: time:	0.773399	 nDCG@5 = 0.19819884	nDCG@5	 nDCG gain = 0.05219865 ** 
+		facet gain @5 = 0.052198637, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.16666667	facet gains recall 0.0
+Facet: year:	0.7093596	 nDCG@5 = 0.19819884	nDCG@5	 nDCG gain = 0.05219865 ** 
+		facet gain @5 = 0.052198637, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.16666667	facet gains recall 0.0
+Facet: month:	0.15763547	 nDCG@5 = 0.034257393	nDCG@5	 nDCG gain = -0.111742795
+		facet gain @5 = 0.034257393, facet loss @5 = 0.14600019	novel docs @5 = 1	Facet: company:	0.13300492	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: quarter:	0.12315271	 nDCG@5 = 0.20079467	nDCG@5	 nDCG gain = 0.054794475 ** 
+		facet gain @5 = 0.15756667, facet loss @5 = 0.102772176	novel docs @5 = 2	Facet: united:	0.10837439	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: business:	0.093596056	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: companies:	0.07881773	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: financial:	0.07881773	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: services:	0.044334974	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: history:	0.044334974	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.085132316, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.085132316, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.8333333
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: goldman sachs 
+Average number of facet_Y values in each document is 2.2068965
+Average number of documents tagged with each facet value in the facet_Y field is : 2.083721
+
+Facet: revenue:	0.31034482	 nDCG@5 = 0.12968405	nDCG@5	 nDCG gain = -0.016316146
+		facet gain @5 = 0.12968405, facet loss @5 = 0.14600019	novel docs @5 = 1	recall @5 = 0.083333336	facet gains recall -0.083333336
+Facet: goldman sachs:	0.12315271	 nDCG@5 = 0.14600019	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.16666667	facet gains recall 0.0
+Facet: sales:	0.113300495	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: apple inc:	0.07881773	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: automobile:	0.044334974	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: mobile phone:	0.044334974	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: share finance:	0.03448276	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: price:	0.03448276	 nDCG@5 = 0.06851479	nDCG@5	 nDCG gain = -0.077485405
+		facet gain @5 = 0.06851479, facet loss @5 = 0.14600019	novel docs @5 = 1	Facet: profit accounting:	0.03448276	 nDCG@5 = 0.1755079	nDCG@5	 nDCG gain = 0.029507712 ** 
+		facet gain @5 = 0.1755079, facet loss @5 = 0.14600019	novel docs @5 = 4	Facet: iphone:	0.02955665	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	Facet: toyota:	0.024630541	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.14600019
+		facet gain @5 = 0.0, facet loss @5 = 0.14600019	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = -0.016316146, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.12968405, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = -1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 0.8333333	facet gains recall 0.6666666
+
+For query 5.1.2, on either X or Y field, the maximum nDCG Gain @5 = 0.085132316, alpha = 1 (assume user know which axis to choose).
+For query 5.1.2, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.12968405, alpha = 0 (only consider documents covered by facets). 
+For query 5.1.2, on either X or Y field, the maximum binary nDCG Gain @5 = 1.6309297, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.1.3 During which five year periods did revenue earned by Goldman Sachs decrease in the past twenty years ?
+Qid: 5.1.4 How has revenue earned by Goldman Sachs changed over the past twenty years ?
+Qid: 5.9.1 During what time periods has Goldman Sachs revenue been higher than other time periods ?
+Qid: 5.9.2 How has Goldman Sachs revenue changed over time ?
+Qid: 5.9.3 How does the Goldman Sachs revenue for the past 5 years compare to other 5 year periods ?
+Qid: 5.9.4 How has Goldman Sachs revenue changed over the course of the past 20 years ?
+Qid: 4.3.3 How has Apple revenue fluctuated over the years ?
+Qid: 4.3.2 How has the total revenue of all mobile sales increased over the years ?
+Qid: 2.14.2 How does the revenue of various credit card companies compare to each other ?
+Qid: 2.14.1 How has the revenue of Credit Card Companies changed over time from 2007 to 2009 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(Credit Card Companies) AND X:(from 2007 to 2009) AND X:(over time) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2007 2009 time 
+Average number of facet_X values in each document is 6.091286
+Average number of documents tagged with each facet value in the facet_X field is : 2.8954635
+
+Facet: time:	0.6514523	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.5975104	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.21991701	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.1493776	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.13278009	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.10788382	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.10373444	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.099585064	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.066390045	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.062240664	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.062240664	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.8	facet gains recall 0.8
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.1493776
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1404958
+
+Facet: revenue:	0.27385893	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.11618257	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.10373444	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.066390045	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.05394191	 nDCG@5 = 0.21398626	nDCG@5	 nDCG gain = 0.21398626 ** 
+		facet gain @5 = 0.21398626, facet loss @5 = 0.0	novel docs @5 = 1	Facet: automobile:	0.05394191	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.041493777	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.033195022	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.029045643	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.024896266	 nDCG@5 = 0.21398626	nDCG@5	 nDCG gain = 0.21398626 ** 
+		facet gain @5 = 0.21398626, facet loss @5 = 0.0	novel docs @5 = 1	Facet: iphone:	0.024896266	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.6	facet gains recall 0.6
+
+For query 2.14.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.14.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.14.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.8.2 How does the revenue in 2010 of Discover compare to other credit card companies ?
+Qid: 3.1.4 How does the revenue of Avis compare to that of other companies ?
+Qid: 3.5.2 How does the revenue of Avis change from 1995 to 2010 ?
+Qid: 3.1.2 How has the revenue of Avis fluctuated over the past several decades ?
+Qid: 3.6.3 Did Avis or Hertz have a greater revenue in 2010 ?
+Qid: 3.6.4 How does Avis rank compared to other car rental companies in revenue ?
+Qid: 2.7.1 How has the revenue model of credit card companies changed over the past 3 years ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue model) AND Y:(credit card companies) AND X:(the past 3 years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 3 years 
+Average number of facet_X values in each document is 6.0208335
+Average number of documents tagged with each facet value in the facet_X field is : 2.9610655
+
+Facet: time:	0.65	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.6	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.22083333	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.15416667	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.13333334	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.108333334	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.104166664	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.1	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.06666667	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06666667	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.0625	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.5555556	facet gains recall 0.5555556
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue model credit card companies 
+Average number of facet_Y values in each document is 2.15
+Average number of documents tagged with each facet value in the facet_Y field is : 2.15
+
+Facet: revenue:	0.275	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.12083333	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.104166664	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.06666667	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.054166667	 nDCG@5 = 0.54818493	nDCG@5	 nDCG gain = 0.54818493 ** 
+		facet gain @5 = 0.54818493, facet loss @5 = 0.0	novel docs @5 = 3	Facet: automobile:	0.054166667	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.041666668	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.033333335	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.029166667	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.025	 nDCG@5 = 0.08750373	nDCG@5	 nDCG gain = 0.08750373 ** 
+		facet gain @5 = 0.08750373, facet loss @5 = 0.0	novel docs @5 = 1	Facet: iphone:	0.025	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.33333334	facet gains recall 0.33333334
+
+For query 2.7.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.7.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.7.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.7.2 What are the most profitable credit card companies in 2010 ?
+Original Ranking nDCG@5 = 0.043735024
+Original Recall@5 = 0.055555556
+Processed query: Y:(the most profitable credit card companies) AND IMCategory:(Maximum-Minimum-Multiple)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 
+Average number of facet_X values in each document is 6.3013697
+Average number of documents tagged with each facet value in the facet_X field is : 2.804878
+
+Facet: time:	0.6255708	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.055555556
+Facet: year:	0.5753425	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.055555556
+Facet: company:	0.24200913	 nDCG@5 = 0.092424475	nDCG@5	 nDCG gain = 0.04868945 ** 
+		facet gain @5 = 0.04868945, facet loss @5 = 0.0	novel docs @5 = 1	Facet: united:	0.15981735	 nDCG@5 = 0.18773176	nDCG@5	 nDCG gain = 0.14399673 ** 
+		facet gain @5 = 0.18773176, facet loss @5 = 0.043735024	novel docs @5 = 2	Facet: month:	0.11872146	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: financial:	0.11872146	 nDCG@5 = 0.105216146	nDCG@5	 nDCG gain = 0.061481122 ** 
+		facet gain @5 = 0.061481126, facet loss @5 = 0.0	novel docs @5 = 1	Facet: business:	0.10958904	 nDCG@5 = 0.0565267	nDCG@5	 nDCG gain = 0.012791675 ** 
+		facet gain @5 = 0.012791675, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.10045662	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: companies:	0.07305936	 nDCG@5 = 0.4468535	nDCG@5	 nDCG gain = 0.40311846 ** 
+		facet gain @5 = 0.4468535, facet loss @5 = 0.043735024	novel docs @5 = 3	Facet: production:	0.06849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: vehicles:	0.06849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = -0.07132875, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = -1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.055555556	facet gains recall 0.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: profitable credit card companies 
+Average number of facet_Y values in each document is 2.1643836
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1643836
+
+Facet: revenue:	0.29223743	 nDCG@5 = 0.66083974	nDCG@5	 nDCG gain = 0.6171047 ** 
+		facet gain @5 = 0.66083974, facet loss @5 = 0.043735024	novel docs @5 = 4	recall @5 = 0.22222222	facet gains recall 0.16666667
+Facet: sales:	0.11415525	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.055555556
+Facet: goldman sachs:	0.10502283	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: apple inc:	0.06849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: share finance:	0.05936073	 nDCG@5 = 0.07132875	nDCG@5	 nDCG gain = 0.027593728 ** 
+		facet gain @5 = 0.07132875, facet loss @5 = 0.043735024	novel docs @5 = 1	Facet: automobile:	0.05936073	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: mobile phone:	0.0456621	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: price:	0.03196347	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: profit accounting:	0.03196347	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: iphone:	0.02739726	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	Facet: toyota:	0.02283105	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.043735024
+		facet gain @5 = 0.0, facet loss @5 = 0.043735024	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.589511, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.66083974, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.36907023, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 2.0
+facet_Y, total recall @5 = 0.5	facet gains recall 0.44444445
+
+For query 2.7.2, on either X or Y field, the maximum nDCG Gain @5 = 0.589511, alpha = 1 (assume user know which axis to choose).
+For query 2.7.2, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.66083974, alpha = 0 (only consider documents covered by facets). 
+For query 2.7.2, on either X or Y field, the maximum binary nDCG Gain @5 = 0.36907023, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.3.3 How does the revenue of Visa , Mastercard , Discover , and American Express compare ?
+Qid: 2.3.1 How has the total revenue of credit card companies changed over the past several years ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the total revenue) AND Y:(credit card companies) AND X:(the past several years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: years 
+Average number of facet_X values in each document is 5.987342
+Average number of documents tagged with each facet value in the facet_X field is : 2.9748428
+
+Facet: time:	0.65822786	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.6075949	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.22362868	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.15189873	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.13502109	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.10970464	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.10548523	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.101265825	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.067510545	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.06329114	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06329114	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.625	facet gains recall 0.625
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.1603374
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1603374
+
+Facet: revenue:	0.278481	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.11814346	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.10548523	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.067510545	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.05485232	 nDCG@5 = 0.44685355	nDCG@5	 nDCG gain = 0.44685355 ** 
+		facet gain @5 = 0.44685355, facet loss @5 = 0.0	novel docs @5 = 3	Facet: automobile:	0.05485232	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.042194095	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.033755273	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.029535865	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.025316456	 nDCG@5 = 0.21398626	nDCG@5	 nDCG gain = 0.21398626 ** 
+		facet gain @5 = 0.21398626, facet loss @5 = 0.0	novel docs @5 = 1	Facet: iphone:	0.025316456	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.375	facet gains recall 0.375
+
+For query 2.3.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.3.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.3.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.3.2 How do Visa and Discover compare against other top credit card companies ?
+Qid: 5.12.1 How has the revenue of Goldman Sachs decreased over 5 year intervals from 1995 to 2010 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(Goldman Sachs) AND X:(5 year intervals) AND X:(from 1995 to 2010) AND X:(over 5 year) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 5 year intervals 1995 2010 5 year 
+Average number of facet_X values in each document is 4.4467006
+Average number of documents tagged with each facet value in the facet_X field is : 3.2686567
+
+Facet: time:	0.78680205	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.7309645	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: month:	0.16243654	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: company:	0.13197969	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.10659899	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.08629441	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: history:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: discover financial services:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.2030456
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0966184
+
+Facet: revenue:	0.31979695	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02538071	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.5	facet gains recall 0.5
+
+For query 5.12.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 5.12.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 5.12.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.10.2 In 2010 , how do the revenues of Visa and Discover compare with other credit card companies ?
+Qid: 5.12.2 How has the revenue of Goldman Sachs varied over 5 year intervals from 1995 to 2010 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(Goldman Sachs) AND X:(5 year intervals) AND X:(from 1995 to 2010) AND X:(over 5 year) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 5 year intervals 1995 2010 5 year 
+Average number of facet_X values in each document is 4.4467006
+Average number of documents tagged with each facet value in the facet_X field is : 3.2686567
+
+Facet: time:	0.78680205	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.7309645	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: month:	0.16243654	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: company:	0.13197969	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.10659899	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.08629441	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: history:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: discover financial services:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.2030456
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0966184
+
+Facet: revenue:	0.31979695	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02538071	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.5	facet gains recall 0.5
+
+For query 5.12.2, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 5.12.2, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 5.12.2, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.10.1 How has the total revenue of credit card companies changed from 2007 to 2009 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the total revenue) AND Y:(credit card companies) AND X:(from 2007 to 2009) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2007 2009 
+Average number of facet_X values in each document is 6.174107
+Average number of documents tagged with each facet value in the facet_X field is : 2.9177215
+
+Facet: time:	0.6339286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.59375	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.23660715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.16071428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.12053572	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.116071425	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.10714286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.09821428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.071428575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.8	facet gains recall 0.8
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.1517856
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1909091
+
+Facet: revenue:	0.29464287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.11160714	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.102678575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.058035713	 nDCG@5 = 0.21398626	nDCG@5	 nDCG gain = 0.21398626 ** 
+		facet gain @5 = 0.21398626, facet loss @5 = 0.0	novel docs @5 = 1	Facet: automobile:	0.058035713	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04464286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035714287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.03125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.026785715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02232143	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.6	facet gains recall 0.6
+
+For query 2.10.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.10.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.10.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 1.1.2 How does the revenue earned by Ford compare every four years ?
+Qid: 4.8.2 What year was the total mobile revenue at a minimum ?
+Qid: 1.1.3 How has Ford revenue changed since 2000 ?
+Qid: 4.8.3 At what year does Apple Revenue increase at the highest rate ?
+Qid: 1.1.4 How do the total revenues earned by each major car manufacturer compare ?
+Qid: 1.5.1 How does Ford’s revenue compare to that of Toyota ?
+Qid: 4.8.1 What company had the highest revenue in 2005 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: X:(company) AND Y:(the highest revenue) AND IMCategory:(Maximum-Minimum-Multiple)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: company 
+Average number of facet_X values in each document is 6.568421
+Average number of documents tagged with each facet value in the facet_X field is : 2.8363636
+
+Facet: time:	0.6105263	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.5631579	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.2736842	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.16842106	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.13157895	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.12631579	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.12631579	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.08947369	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.08421053	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.078947365	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.078947365	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.0	facet gains recall 0.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue 
+Average number of facet_Y values in each document is 2.1578948
+Average number of documents tagged with each facet value in the facet_Y field is : 2.180851
+
+Facet: revenue:	0.32105264	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.12105263	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.10526316	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.07368421	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.06842105	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.06842105	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.036842104	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.031578947	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: ford motor company:	0.02631579	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.02631579	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02631579	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.0	facet gains recall 0.0
+
+For query 4.8.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 4.8.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 4.8.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 1.5.2 How does the revenue of Ford compare in 2008 to 2000 ?
+Qid: 1.5.3 How has Ford’s revenue changed from 2000 to 2008 ?
+Qid: 1.5.4 How does Ford’s manufacturing revenue compare to that of BMW , Toyota and Honda ?
+Qid: 5.4.1 How does Goldman Sachs revenue in five year terms compare ?
+Qid: 1.1.1 How do the total revenues earned by each major car manufacturer compare ?
+Qid: 5.4.3 Has the revenue for Goldman Sachs been steadily increasing ?
+Qid: 5.4.4 How does the fluctuation in the revenue of Goldman Sachs compare from 1990 to 2011 ?
+Qid: 5.8.2 What were the revenues of Goldman Sachs from 1990 to 2010 ?
+Qid: 5.8.3 How does the revenue of Goldman Sachs from 2005 to 2010 compare with previous years ?
+Original Ranking nDCG@5 = 0.08585952
+Original Recall@5 = 0.25
+Processed query: Y:(the revenue) AND Y:(Goldman Sachs) AND X:(with previous years) AND X:(from 2005 to 2010) AND IMCategory:(Relative-Difference) AND focusX:(with previous years,from 2005 to 2010)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: years 2005 2010 
+Average number of facet_X values in each document is 4.4467006
+Average number of documents tagged with each facet value in the facet_X field is : 3.2686567
+
+Facet: time:	0.78680205	 nDCG@5 = 0.08585952	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.25	facet gains recall 0.0
+Facet: year:	0.7309645	 nDCG@5 = 0.08585952	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.25	facet gains recall 0.0
+Facet: month:	0.16243654	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: company:	0.13197969	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: quarter:	0.12690355	 nDCG@5 = 0.17171904	nDCG@5	 nDCG gain = 0.08585952 ** 
+		facet gain @5 = 0.08585952, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.10659899	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: business:	0.08629441	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: companies:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: financial:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: history:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: discover financial services:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.75
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.2030456
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0966184
+
+Facet: revenue:	0.31979695	 nDCG@5 = 0.371009	nDCG@5	 nDCG gain = 0.28514946 ** 
+		facet gain @5 = 0.28514948, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.5	facet gains recall 0.25
+Facet: sales:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.25
+Facet: goldman sachs:	0.12690355	 nDCG@5 = 0.08585952	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: mobile phone:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: automobile:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: share finance:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: profit accounting:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: price:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: iphone:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	Facet: toyota:	0.02538071	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.08585952
+		facet gain @5 = 0.0, facet loss @5 = 0.08585952	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.23097816, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.28514948, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.36907023, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 0.5	facet gains recall 0.25
+
+For query 5.8.3, on either X or Y field, the maximum nDCG Gain @5 = 0.23097816, alpha = 1 (assume user know which axis to choose).
+For query 5.8.3, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.28514948, alpha = 0 (only consider documents covered by facets). 
+For query 5.8.3, on either X or Y field, the maximum binary nDCG Gain @5 = 0.36907023, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 4.10.3 How much revenue did Apple earn from 1990 to 2010 ?
+Qid: 5.8.4 How does the trend in revenue of Goldman Sachs change from 1990 to 2010 ?
+Qid: 4.10.2 What is the total mobile revenue from 1990 to 2010 ?
+Qid: 1.7.4 How does Ford rank compared to other car dealers in terms of revenue ?
+Qid: 4.4.1 What is the difference in revenue between Nokia , Apple , and Blackberry ?
+Qid: 2.11.2 What are the two top credit card companies economically speaking ?
+Original Ranking nDCG@5 = 0.18832369
+Original Recall@5 = 0.10526316
+Processed query: X:(the two top credit card companies) AND IMCategory:(Maximum-Minimum-Multiple)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: credit card companies 
+Average number of facet_X values in each document is 6.7958117
+Average number of documents tagged with each facet value in the facet_X field is : 2.761702
+
+Facet: time:	0.58638746	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.10526316
+Facet: year:	0.539267	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.10526316
+Facet: company:	0.27748692	 nDCG@5 = 0.18832369	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.18324608	 nDCG@5 = 0.30078518	nDCG@5	 nDCG gain = 0.11246149 ** 
+		facet gain @5 = 0.13120507, facet loss @5 = 0.018743582	novel docs @5 = 1	Facet: financial:	0.13612565	 nDCG@5 = 0.30078518	nDCG@5	 nDCG gain = 0.11246149 ** 
+		facet gain @5 = 0.13120507, facet loss @5 = 0.018743582	novel docs @5 = 1	Facet: business:	0.12565444	 nDCG@5 = 0.16481194	nDCG@5	 nDCG gain = -0.023511752
+		facet gain @5 = 0.16481194, facet loss @5 = 0.18832369	novel docs @5 = 2	Facet: month:	0.12565444	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: quarter:	0.09424084	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: companies:	0.083769634	 nDCG@5 = 0.9250257	nDCG@5	 nDCG gain = 0.736702 ** 
+		facet gain @5 = 0.9250257, facet loss @5 = 0.18832369	novel docs @5 = 5	Facet: production:	0.07853403	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: vehicles:	0.07853403	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = -0.3071427, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = -1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.0	facet gains recall -0.10526316
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: 
+Average number of facet_Y values in each document is 2.1675394
+Average number of documents tagged with each facet value in the facet_Y field is : 2.2021277
+
+Facet: revenue:	0.31937173	 nDCG@5 = 0.9250257	nDCG@5	 nDCG gain = 0.736702 ** 
+		facet gain @5 = 0.9250257, facet loss @5 = 0.18832369	novel docs @5 = 5	recall @5 = 0.2631579	facet gains recall 0.15789475
+Facet: goldman sachs:	0.12041885	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	recall @5 = 0.0	facet gains recall -0.10526316
+Facet: sales:	0.09947644	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: apple inc:	0.07329843	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: share finance:	0.06806283	 nDCG@5 = 0.048451457	nDCG@5	 nDCG gain = -0.13987224
+		facet gain @5 = 0.048451457, facet loss @5 = 0.18832369	novel docs @5 = 1	Facet: automobile:	0.06806283	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: mobile phone:	0.04712042	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: price:	0.03141361	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: profit accounting:	0.03141361	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: user computing:	0.02617801	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	Facet: ford motor company:	0.02617801	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.18832369
+		facet gain @5 = 0.0, facet loss @5 = 0.18832369	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.617883, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.9250257, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.36907023, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 2.5
+facet_Y, total recall @5 = 0.42105263	facet gains recall 0.31578946
+
+For query 2.11.2, on either X or Y field, the maximum nDCG Gain @5 = 0.617883, alpha = 1 (assume user know which axis to choose).
+For query 2.11.2, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.9250257, alpha = 0 (only consider documents covered by facets). 
+For query 2.11.2, on either X or Y field, the maximum binary nDCG Gain @5 = 0.36907023, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.15.1 How much revenue ( in millions ) did credit card companies earn from 2007 to 2009 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(much revenue) AND Y:(credit card companies) AND X:(from 2007 to 2009) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2007 2009 
+Average number of facet_X values in each document is 6.174107
+Average number of documents tagged with each facet value in the facet_X field is : 2.9177215
+
+Facet: time:	0.6339286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.59375	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.23660715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.16071428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.12053572	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.116071425	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.10714286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.09821428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.071428575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.8	facet gains recall 0.8
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.1517856
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1909091
+
+Facet: revenue:	0.29464287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.11160714	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.102678575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.058035713	 nDCG@5 = 0.21398626	nDCG@5	 nDCG gain = 0.21398626 ** 
+		facet gain @5 = 0.21398626, facet loss @5 = 0.0	novel docs @5 = 1	Facet: automobile:	0.058035713	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04464286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035714287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.03125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.026785715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02232143	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.6	facet gains recall 0.6
+
+For query 2.15.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.15.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.15.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.15.2 How much revenue ( in millions ) did the top four credit card companies earn in 2010 ?
+Qid: 2.9.2 How do Visa and Discover differ from Mastercard and American Express in 2010 ?
+Qid: 3.2.3 How does Hertz and Avis compare in terms of revenue ?
+Qid: 3.2.4 How does Avis compare to its competitors in terms of revenue ?
+Qid: 3.6.1 How has Hertz revenue changed over the last 15 years ?
+Qid: 3.6.2 How has Avis revenue changed over the last 15 years ?
+Qid: 3.2.2 What is the Avis revenue model over the past 20 years ?
+Qid: 2.8.1 How does the revenue of credit card companies in 2007 compare to the revenue in 2009 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(credit card companies) AND Y:(the revenue) AND X:(in 2009) AND X:(in 2007) AND IMCategory:(Relative-Difference) AND focusX:(in 2009,in 2007)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2009 2007 
+Average number of facet_X values in each document is 6.174107
+Average number of documents tagged with each facet value in the facet_X field is : 2.9177215
+
+Facet: time:	0.6339286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.59375	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.23660715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.16071428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.12053572	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.116071425	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.10714286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.09821428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.071428575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.8	facet gains recall 0.8
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies revenue 
+Average number of facet_Y values in each document is 2.1517856
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1909091
+
+Facet: revenue:	0.29464287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.11160714	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.102678575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.06696428	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.058035713	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.058035713	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04464286	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035714287	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.03125	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.026785715	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02232143	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.6	facet gains recall 0.6
+
+For query 2.8.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.8.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.8.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.4.2 What credit card company gained the most revenue in 2010 ?
+Qid: 5.11.1 How does the revenue of Goldman Sachs from 2005 - 2010 compare to the years 1995 - 2000 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(Goldman Sachs) AND X:(2000) AND Y:(to the years 1995) AND X:(from 2005 - 2010) AND IMCategory:(Relative-Difference) AND focusX:(2000,from 2005 - 2010)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2000 2005 2010 
+Average number of facet_X values in each document is 4.4467006
+Average number of documents tagged with each facet value in the facet_X field is : 3.2686567
+
+Facet: time:	0.78680205	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.7309645	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: month:	0.16243654	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: company:	0.13197969	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.10659899	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.08629441	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: history:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: discover financial services:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs years 1995 
+Average number of facet_Y values in each document is 2.2030456
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0966184
+
+Facet: revenue:	0.31979695	 nDCG@5 = 0.23463936	nDCG@5	 nDCG gain = 0.23463936 ** 
+		facet gain @5 = 0.23463936, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.33333334
+Facet: sales:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02538071	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.23463936, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.23463936, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 0.33333334	facet gains recall 0.33333334
+
+For query 5.11.1, on either X or Y field, the maximum nDCG Gain @5 = 0.23463936, alpha = 1 (assume user know which axis to choose).
+For query 5.11.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.23463936, alpha = 0 (only consider documents covered by facets). 
+For query 5.11.1, on either X or Y field, the maximum binary nDCG Gain @5 = 1.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 2.4.1 How much revenue have credit card companies gained over the past five years ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(revenue) AND Y:(credit card companies) AND X:(the past five years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: five years 
+Average number of facet_X values in each document is 6.0336137
+Average number of documents tagged with each facet value in the facet_X field is : 3.010482
+
+Facet: time:	0.6554622	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: year:	0.60504204	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: company:	0.22268908	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.15546219	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: month:	0.13445379	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.1092437	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.10504202	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.10084034	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.067226894	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: production:	0.063025214	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: vehicles:	0.063025214	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 0.5555556	facet gains recall 0.5555556
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue credit card companies 
+Average number of facet_Y values in each document is 2.159664
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1506276
+
+Facet: revenue:	0.27731094	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: sales:	0.11764706	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.10504202	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.067226894	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.05462185	 nDCG@5 = 0.54818493	nDCG@5	 nDCG gain = 0.54818493 ** 
+		facet gain @5 = 0.54818493, facet loss @5 = 0.0	novel docs @5 = 3	Facet: automobile:	0.05462185	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.042016808	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.033613447	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.029411765	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.025210084	 nDCG@5 = 0.08750373	nDCG@5	 nDCG gain = 0.08750373 ** 
+		facet gain @5 = 0.08750373, facet loss @5 = 0.0	novel docs @5 = 1	Facet: iphone:	0.025210084	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.33333334	facet gains recall 0.33333334
+
+For query 2.4.1, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 2.4.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.0, alpha = 0 (only consider documents covered by facets). 
+For query 2.4.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.11.2 How does the revenue of Goldman Sachs compare in the years 2005 - 2010 to the years 2000 - 2005 ?
+Qid: 5.11.3 How does the revenue of Goldman Sachs in the years 2005 - 2010 compare to the revenue in 1995 - 2000 ?
+Original Ranking nDCG@5 = 0.0
+Original Recall@5 = 0.0
+Processed query: Y:(the revenue) AND Y:(Goldman Sachs) AND X:(the revenue) AND X:(2000) AND X:(in 1995) AND X:(in the years 2005 - 2010) AND IMCategory:(Relative-Difference) AND focusX:(the revenue,2000,in 1995,in the years 2005 - 2010)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: revenue 2000 1995 years 2005 2010 
+Average number of facet_X values in each document is 4.4467006
+Average number of documents tagged with each facet value in the facet_X field is : 3.2686567
+
+Facet: time:	0.78680205	 nDCG@5 = 0.1815418	nDCG@5	 nDCG gain = 0.1815418 ** 
+		facet gain @5 = 0.1815418, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.33333334
+Facet: year:	0.7309645	 nDCG@5 = 0.1815418	nDCG@5	 nDCG gain = 0.1815418 ** 
+		facet gain @5 = 0.1815418, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.33333334
+Facet: month:	0.16243654	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: company:	0.13197969	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: quarter:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: united:	0.10659899	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: business:	0.08629441	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: companies:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: financial:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: history:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: discover financial services:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.29608193, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.29608193, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 1.6309297, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 1.0
+facet_X, total recall @5 = 1.0	facet gains recall 1.0
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.2030456
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0966184
+
+Facet: revenue:	0.31979695	 nDCG@5 = 0.23463936	nDCG@5	 nDCG gain = 0.23463936 ** 
+		facet gain @5 = 0.23463936, facet loss @5 = 0.0	novel docs @5 = 1	recall @5 = 0.33333334	facet gains recall 0.33333334
+Facet: sales:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.0	facet gains recall 0.0
+Facet: goldman sachs:	0.12690355	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: apple inc:	0.08121827	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: mobile phone:	0.04568528	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: automobile:	0.040609136	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: share finance:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: profit accounting:	0.035532996	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: price:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: iphone:	0.030456852	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	Facet: toyota:	0.02538071	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.23463936, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.23463936, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.5
+facet_Y, total recall @5 = 0.33333334	facet gains recall 0.33333334
+
+For query 5.11.3, on either X or Y field, the maximum nDCG Gain @5 = 0.29608193, alpha = 1 (assume user know which axis to choose).
+For query 5.11.3, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.29608193, alpha = 0 (only consider documents covered by facets). 
+For query 5.11.3, on either X or Y field, the maximum binary nDCG Gain @5 = 1.6309297, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.11.4 How has the revenue of Goldman Sachs changed from 2005 to 2010 ?
+Original Ranking nDCG@5 = 0.15985538
+Original Recall@5 = 0.22222222
+Processed query: Y:(the revenue) AND Y:(Goldman Sachs) AND X:(from 2005 to 2010) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 2005 2010 
+Average number of facet_X values in each document is 4.732877
+Average number of documents tagged with each facet value in the facet_X field is : 2.9656653
+
+Facet: time:	0.739726	 nDCG@5 = 0.15985538	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: year:	0.72602737	 nDCG@5 = 0.15985538	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: company:	0.15068494	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: united:	0.1369863	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: quarter:	0.13013698	 nDCG@5 = 0.18390258	nDCG@5	 nDCG gain = 0.024047196 ** 
+		facet gain @5 = 0.1393008, facet loss @5 = 0.11525361	novel docs @5 = 2	Facet: companies:	0.10958904	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: business:	0.10958904	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: financial:	0.10273973	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: month:	0.06849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: history:	0.061643835	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: discover financial services:	0.05479452	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.7777778
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenue goldman sachs 
+Average number of facet_Y values in each document is 2.1780822
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1486487
+
+Facet: revenue:	0.4178082	 nDCG@5 = 0.08920353	nDCG@5	 nDCG gain = -0.07065185
+		facet gain @5 = 0.044601765, facet loss @5 = 0.11525361	novel docs @5 = 0	recall @5 = 0.11111111	facet gains recall -0.11111111
+Facet: goldman sachs:	0.17123288	 nDCG@5 = 0.15985538	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: apple inc:	0.06849315	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: sales:	0.061643835	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: mobile phone:	0.047945205	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: iphone:	0.04109589	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: share finance:	0.04109589	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: market:	0.034246575	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.15985538
+		facet gain @5 = 0.0, facet loss @5 = 0.15985538	novel docs @5 = 0	Facet: price:	0.02739726	 nDCG@5 = 0.08920353	nDCG@5	 nDCG gain = -0.07065185
+		facet gain @5 = 0.08920353, facet loss @5 = 0.15985538	novel docs @5 = 1	Facet: profit accounting:	0.02739726	 nDCG@5 = 0.14548469	nDCG@5	 nDCG gain = -0.014370695
+		facet gain @5 = 0.18390258, facet loss @5 = 0.15985538	novel docs @5 = 3	Facet: net income:	0.02739726	 nDCG@5 = 0.32389176	nDCG@5	 nDCG gain = 0.16403638 ** 
+		facet gain @5 = 0.20863815, facet loss @5 = 0.044601765	novel docs @5 = 1	
+facet_Y, discounted nDCG Gain @5 = -0.070651844, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.044601765, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = -1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 0.0
+facet_Y, total recall @5 = 0.7777778	facet gains recall 0.5555556
+
+For query 5.11.4, on either X or Y field, the maximum nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose).
+For query 5.11.4, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.044601765, alpha = 0 (only consider documents covered by facets). 
+For query 5.11.4, on either X or Y field, the maximum binary nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 1.2.1 How does the revenue of Ford and Toyota compare to that of other car manufacturing companies ?
+Qid: 4.9.1 How does the revenue of Nokia from 2005 - 2010 compare to the revenue of Apple and Blackberry during that same time period ?
+Qid: 1.2.2 How has Ford revenue changed over the past 10 years ?
+Qid: 4.9.2 How has the total mobile revenue changed from 1990 to 2010 ?
+Qid: 1.2.3 How has Ford revenue changed over the past 10 years ?
+Qid: 4.5.3 What is the revenue model of Apple over the past 20 years ?
+Qid: 1.2.4 How do the revenues of 4 top car manufacturing companies compare ?
+Qid: 1.6.1 How much revenue do Ford , BMW , Toyota , and Honda earn ?
+Qid: 1.6.2 How much revenue did Ford earn every four years after 2000 ?
+Qid: 1.6.3 How much revenue did Ford earn from 2000 to 2008 ?
+Qid: 4.9.3 How has the total mobile revenue changed from 1990 to 2010 ?
+Qid: 1.6.4 How much revenue do Ford , BMW , Toyota , and Honda earn ?
+Qid: 4.9.4 How does the revenue of Apple compare to that of Blackberry and Nokia ?
+Qid: 5.3.1 How much money did Goldman Sachs make in the 21st century ?
+Original Ranking nDCG@5 = 0.24846172
+Original Recall@5 = 0.22222222
+Processed query: Y:(money) AND Y:(Goldman Sachs) AND X:(the 21st century) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 21st century 
+Average number of facet_X values in each document is 6.7674417
+Average number of documents tagged with each facet value in the facet_X field is : 2.6697247
+
+Facet: time:	0.627907	 nDCG@5 = 0.24846172	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: year:	0.59302324	 nDCG@5 = 0.24846172	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: united:	0.23255815	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: company:	0.19767442	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: financial:	0.18604651	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: business:	0.1627907	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: services:	0.12790698	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: history:	0.12790698	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: investment:	0.10465116	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: established:	0.093023255	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: bank america:	0.093023255	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.7777778
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: money goldman sachs 
+Average number of facet_Y values in each document is 2.0930233
+Average number of documents tagged with each facet value in the facet_Y field is : 1.7647059
+
+Facet: goldman sachs:	0.29069766	 nDCG@5 = 0.24846172	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: revenue:	0.1627907	 nDCG@5 = 0.40120134	nDCG@5	 nDCG gain = 0.15273961 ** 
+		facet gain @5 = 0.40120134, facet loss @5 = 0.24846172	novel docs @5 = 2	recall @5 = 0.22222222	facet gains recall 0.0
+Facet: share finance:	0.069767445	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: sales:	0.058139537	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: price:	0.046511628	 nDCG@5 = 0.08750373	nDCG@5	 nDCG gain = -0.16095799
+		facet gain @5 = 0.08750373, facet loss @5 = 0.24846172	novel docs @5 = 1	Facet: credit card:	0.046511628	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: united:	0.046511628	 nDCG@5 = 0.41607037	nDCG@5	 nDCG gain = 0.16760865 ** 
+		facet gain @5 = 0.41607037, facet loss @5 = 0.24846172	novel docs @5 = 1	Facet: apple inc:	0.034883723	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	Facet: profit accounting:	0.034883723	 nDCG@5 = 0.22619385	nDCG@5	 nDCG gain = -0.022267878
+		facet gain @5 = 0.20803519, facet loss @5 = 0.16095798	novel docs @5 = 2	Facet: net income:	0.034883723	 nDCG@5 = 0.50357413	nDCG@5	 nDCG gain = 0.2551124 ** 
+		facet gain @5 = 0.34261614, facet loss @5 = 0.08750373	novel docs @5 = 1	Facet: stock market:	0.034883723	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.24846172
+		facet gain @5 = 0.0, facet loss @5 = 0.24846172	novel docs @5 = 0	
+facet_Y, discounted nDCG Gain @5 = 0.09636797, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.25312987, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.63092977, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 1.0
+facet_Y, total recall @5 = 1.0	facet gains recall 0.7777778
+
+For query 5.3.1, on either X or Y field, the maximum nDCG Gain @5 = 0.09636797, alpha = 1 (assume user know which axis to choose).
+For query 5.3.1, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.25312987, alpha = 0 (only consider documents covered by facets). 
+For query 5.3.1, on either X or Y field, the maximum binary nDCG Gain @5 = 0.63092977, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.3.2 How much money did Goldman Sachs make in the last 20 years ?
+Original Ranking nDCG@5 = 0.20803519
+Original Recall@5 = 0.083333336
+Processed query: Y:(money) AND Y:(Goldman Sachs) AND X:(the last 20 years) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 20 years 
+Average number of facet_X values in each document is 4.393617
+Average number of documents tagged with each facet value in the facet_X field is : 3.6875
+
+Facet: time:	0.8244681	 nDCG@5 = 0.20803519	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.083333336	facet gains recall 0.0
+Facet: year:	0.7659575	 nDCG@5 = 0.20803519	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.083333336	facet gains recall 0.0
+Facet: month:	0.17021276	 nDCG@5 = 0.20803519	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.20803519, facet loss @5 = 0.20803519	novel docs @5 = 1	Facet: quarter:	0.13297872	 nDCG@5 = 0.40892217	nDCG@5	 nDCG gain = 0.20088698 ** 
+		facet gain @5 = 0.40892217, facet loss @5 = 0.20803519	novel docs @5 = 5	Facet: company:	0.10638298	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: united:	0.095744684	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: financial:	0.08510638	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: business:	0.07978723	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: services:	0.06382979	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: investment:	0.047872342	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: bank america:	0.047872342	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	
+facet_X, discounted nDCG Gain @5 = 0.0, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.0, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_X, average novel documents per facet value @5 = 0.0
+facet_X, total recall @5 = 1.0	facet gains recall 0.9166667
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: money goldman sachs 
+Average number of facet_Y values in each document is 2.1914895
+Average number of documents tagged with each facet value in the facet_Y field is : 2.0295568
+
+Facet: revenue:	0.2393617	 nDCG@5 = 0.22619385	nDCG@5	 nDCG gain = 0.01815866 ** 
+		facet gain @5 = 0.22619385, facet loss @5 = 0.20803519	novel docs @5 = 2	recall @5 = 0.16666667	facet gains recall 0.083333336
+Facet: goldman sachs:	0.13297872	 nDCG@5 = 0.20803519	nDCG@5	 nDCG gain = 0.0
+		facet gain @5 = 0.0, facet loss @5 = 0.0	novel docs @5 = 0	recall @5 = 0.083333336	facet gains recall 0.0
+Facet: sales:	0.122340426	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: apple inc:	0.08510638	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: mobile phone:	0.047872342	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: automobile:	0.04255319	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: share finance:	0.03723404	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: profit accounting:	0.03723404	 nDCG@5 = 0.2955389	nDCG@5	 nDCG gain = 0.08750372 ** 
+		facet gain @5 = 0.2955389, facet loss @5 = 0.20803519	novel docs @5 = 3	Facet: price:	0.031914894	 nDCG@5 = 0.08750373	nDCG@5	 nDCG gain = -0.120531455
+		facet gain @5 = 0.08750373, facet loss @5 = 0.20803519	novel docs @5 = 1	Facet: toyota:	0.026595745	 nDCG@5 = 0.0	nDCG@5	 nDCG gain = -0.20803519
+		facet gain @5 = 0.0, facet loss @5 = 0.20803519	novel docs @5 = 0	Facet: united:	0.026595745	 nDCG@5 = 0.13869013	nDCG@5	 nDCG gain = -0.06934506
+		facet gain @5 = 0.13869013, facet loss @5 = 0.20803519	novel docs @5 = 1	
+facet_Y, discounted nDCG Gain @5 = 0.01815866, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.22619385, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 1.0, alpha = 1 (assume users know the correct facet values to choose.) 
+facet_Y, average novel documents per facet value @5 = 1.0
+facet_Y, total recall @5 = 0.8333333	facet gains recall 0.75
+
+For query 5.3.2, on either X or Y field, the maximum nDCG Gain @5 = 0.01815866, alpha = 1 (assume user know which axis to choose).
+For query 5.3.2, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.22619385, alpha = 0 (only consider documents covered by facets). 
+For query 5.3.2, on either X or Y field, the maximum binary nDCG Gain @5 = 1.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 5.3.3 How does Goldman Sachs revenue in five year terms compare ?
+Facet field facet_X across all queries, average discounted nDCG Gain @5 = 0.024225108, alpha = 1.
+Facet field facet_Y across all queries, average discounted nDCG Gain @5 = 0.100440726, alpha = 1.
+Facet field facet_X across all queries, average discounted cumulative facet gain @5 = 0.04304911, alpha = 0.
+Facet field facet_Y across all queries, average discounted cumulative facet gain @5 = 0.16341355, alpha = 0.
+Facet field facet_X across all queries, discounted binary nDCG Gain @5 = 0.095937036, alpha = 1. Using binary facet value judgement.
+Facet field facet_Y across all queries, discounted binary nDCG Gain @5 = 0.1610671, alpha = 1. Using binary facet value judgement.
+Facet field facet_X across all queries, novel relevant docs @5 = 0.16176471.
+Facet field facet_Y across all queries, novel relevant docs @5 = 0.45588234.
+Facet field facet_X across all queries, facet recall @5 = 0.7181372.
+Facet field facet_Y across all queries, facet recall @5 = 0.5201865.
+
+Across all queries, on either X or Y axis, the maximum nDCG Gain = 0.13070422, alpha = 1
+Across all queries, on either X or Y axis, the maximum discounted cumulative facet Gain = 0.17592826, alpha = 0
+Across all queries, on either X or Y axis, the maximum discounted binary nDCG Gain = 0.43032146, alpha = 1
+There are 118 queries with nDCG@5 not in [0.0, 0.25) that are not faceted.
+There are 34 queries with nDCG@5 in [0.0, 0.25) that are faceted. 
+
+------------------------------------------------------------------
+

@@ -138,6 +138,38 @@ public class DiscountedCumulativeGain {
     }
 
 
+
+    /**
+     * Measure the recall at top K for a given ranked list of documents
+     * @param rankedlist   a ranked list of documents
+     * @param topK  top K documents to consider
+     * @return  recall of the ranked list
+     */
+    public static float recall(String[][] rankedlist, int topK){
+        int sum = 0, top_sum = 0;
+        for (int i = 0; i < rankedlist.length; i++){
+            if( Integer.parseInt( rankedlist[i][2] ) > 0 ){
+                sum += 1;
+            }
+        }
+        if( sum <= 0 ){
+            System.out.println("No relevant document for this query. Recall should be 0.");
+            return 0.0f;
+        }
+
+        int bound = Math.min(topK, rankedlist.length);
+        for(int i = 0; i < bound; i ++){
+            if ( Integer.parseInt( rankedlist[i][2] ) > 0){
+                top_sum += 1;
+            }
+        }
+        return (float)top_sum/(float)sum;
+    }
+
+
+
+
+
     /**
      * If no top K is specified, get the Cumulative Gain of the entire ranked list.
      * @param rankedlist     an array of String array. Outer rows are each documents, inner rows are the doc ID, score, and relevance judgement.

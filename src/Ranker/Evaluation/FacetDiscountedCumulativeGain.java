@@ -1,6 +1,5 @@
 package Ranker.Evaluation;
 
-import Ranker.Faceting.FacetRanker;
 import Utility.Options;
 
 import java.util.List;
@@ -23,6 +22,7 @@ public class FacetDiscountedCumulativeGain {
 
 
     /**
+     * @TODO this is currently done in Main.class
      * Given a list of ranked facets
      * @param rankedFacets
      * @param original_rankedlist
@@ -96,7 +96,9 @@ public class FacetDiscountedCumulativeGain {
 
             float doc_facet_dcg =  (float)( Math.pow( 2, rel) -1) / ((float)Math.log(i+2) / (float)Math.log(2)) ;
 
-//            System.out.println( docID + ", relevance = " + rel + "  in facet ranking = " + (i+1) + ", facet DCG = " + doc_facet_dcg);
+            if (Options.DEBUG == true) {
+                System.out.println(docID + ", relevance = " + rel + "  in facet ranking = " + (i + 1) + ", facet DCG = " + doc_facet_dcg);
+            }
 
             /**
              * if each document covered by this facet is found in the topK original ranking: increment facet gain by dcg gain
@@ -107,8 +109,10 @@ public class FacetDiscountedCumulativeGain {
 
                 facet_gain +=  (doc_facet_dcg - doc_original_dcg)  ;
 
-//                System.out.println( ", in original ranking = " + (original_rank+1) + ", original DCG = " + doc_original_dcg );
-//                System.out.println(" gain = " + (doc_facet_dcg-doc_original_dcg) + "\n");
+                if (Options.DEBUG == true) {
+                    System.out.println(", in original ranking = " + (original_rank + 1) + ", original DCG = " + doc_original_dcg);
+                    System.out.println(" gain = " + (doc_facet_dcg - doc_original_dcg) + "\n");
+                }
 
                 /**
                  * if a document covered by this facet is not within the topK original ranking: increment facet gain by new dcg
@@ -122,9 +126,6 @@ public class FacetDiscountedCumulativeGain {
 
         }
 
-
-//        System.out.println(" Gain " + (facet_gain) + "\n");
-//        System.out.println(" Normalized Gain " + (facet_gain / original_iDCG) + "\n");
 
         if (Options.DEBUG == true) {
             System.out.println(" Gain " + (facet_gain) + "\n");
@@ -183,15 +184,12 @@ public class FacetDiscountedCumulativeGain {
             }else{
 
                 facet_loss += doc_original_dcg;
-
-//                System.out.println( docID + ", relevance = " + rel + ", original rank = " + (i+1) + ", original DCG = " + doc_original_dcg + " is lost");
-
+                if (Options.DEBUG == true) {
+                    System.out.println(docID + ", relevance = " + rel + ", original rank = " + (i + 1) + ", original DCG = " + doc_original_dcg + " is lost");
+                }
             }
 
         }
-
-//        System.out.println(" Loss " + (facet_loss) + "\n");
-//        System.out.println(" Normalized Loss " + (facet_loss / original_iDCG) + "\n");
 
         if (Options.DEBUG == true) {
             System.out.println(" Loss " + (facet_loss) + "\n");
