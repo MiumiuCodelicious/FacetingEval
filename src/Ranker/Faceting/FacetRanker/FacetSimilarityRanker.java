@@ -3,7 +3,6 @@ package Ranker.Faceting.FacetRanker;
 import Indexer.InverseIndex;
 import Ranker.Faceting.FacetStats;
 import Utility.Options;
-import com.sun.tools.javac.main.Option;
 
 import java.io.*;
 import java.util.HashMap;
