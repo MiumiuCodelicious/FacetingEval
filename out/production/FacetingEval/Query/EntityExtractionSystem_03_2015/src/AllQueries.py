@@ -510,7 +510,7 @@ def main(argv):
     
 def runXYtree(entityChunks, attribute_matrix):
     from ARFFheader import Add_ARFFheader
-    location = "newquery_XY.ARFF"
+    location = "temp/newquery_XY.ARFF"
     Add_ARFFheader( "XY", attribute_matrix , location)
     weka_result = subprocess.check_output("java -cp ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/weka.jar weka.classifiers.trees.J48 -l ./src/Query/EntityExtractionSystem_03_2015/src/weka-3-6-6/XYtree.j48.model -T " + location  + " -p 0" , shell=True)
     XYClass = []
@@ -523,8 +523,8 @@ def runXYtree(entityChunks, attribute_matrix):
     
     
 def runIMtree(XYClass, entities):
-    EntityAttrPath = "newquery_XY.ARFF"
-    location = "newquery_IM.ARFF"
+    EntityAttrPath = "temp/newquery_XY.ARFF"
+    location = "temp/newquery_IM.ARFF"
     from IgAttributes import IgAttributes
     igAttr = IgAttributes(";".join(XYClass), ";".join(entities), EntityAttrPath, "", 1)
     return igAttr.classifyIM(location)
@@ -534,8 +534,8 @@ def runFXtree(attribute_matrix, XYClass, entities, IMClass):
     '''
      attribute_matrix will have N rows for N entities, XYClass will have N elements for N entities. IMClass only has 1 value.
     '''
-    EntityAttrPath = "newquery_XY.ARFF"
-    location = "newquery_FX.ARFF"
+    EntityAttrPath = "temp/newquery_XY.ARFF"
+    location = "temp/newquery_FX.ARFF"
     for no, attr in enumerate( attribute_matrix ):
         attr += [XYClass[no]] + [IMClass]
     print attribute_matrix

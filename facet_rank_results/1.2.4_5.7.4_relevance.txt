@@ -1,0 +1,458 @@
+-------- Documents Indexed -------- 
+Qid: 5.7.4 How has there been a change in Goldman Sachs revenue since 1990 ?
+Original Ranking nDCG@10 = 0.6983929
+Processed query: Y:(Goldman Sachs) AND Y:(revenue) AND X:(1990) AND IMCategory:(Trend)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 1990 
+Average number of facet_X values in each document is 5.23
+Average number of documents tagged with each facet value in the facet_X field is : 3.0231214
+
+Facet: year:	1.0	 nDCG@10 = 0.70683634	nDCG@10	 nDCG gain = 0.008443415 ** 
+		facet gain @10 = 0.008443455, facet loss @10 = 0.0
+
+	set5_31_exp.xml	2
+
+	set5_5-1_exp.xml	1
+
+	set5_30_exp.xml	1
+
+	set5_37_exp.xml	1
+
+	set5_32-1_exp.xml	0
+
+	set5_32-2_exp.xml	0
+
+	set5_16_exp.xml	0
+
+	set5_11_exp.xml	1
+
+	set5_24_exp.xml	0
+
+	set5_10_exp.xml	0
+Facet: month:	0.673333	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_16_exp.xml	0
+
+	set5_18_exp.xml	0
+
+	set5_35_exp.xml	0
+
+	set5_43_exp.xml	0
+
+	set3_26-1_exp.xml	0
+
+	set5_25_exp.xml	0
+
+	set1_33_exp.xml	0
+
+	set3_26-2_exp.xml	0
+Facet: day:	0.473092	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set4_30_exp.xml	0
+Facet: hours:	0.406063	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set4_30_exp.xml	0
+Facet: time:	0.403035	 nDCG@10 = 0.70683634	nDCG@10	 nDCG gain = 0.008443415 ** 
+		facet gain @10 = 0.008443455, facet loss @10 = 0.0
+
+	set5_31_exp.xml	2
+
+	set5_5-1_exp.xml	1
+
+	set5_30_exp.xml	1
+
+	set5_37_exp.xml	1
+
+	set5_32-1_exp.xml	0
+
+	set5_32-2_exp.xml	0
+
+	set5_16_exp.xml	0
+
+	set5_11_exp.xml	1
+
+	set5_24_exp.xml	0
+
+	set5_10_exp.xml	0
+Facet: september:	0.400319	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_12_exp.xml	0
+
+	set5_4_exp.xml	0
+
+	set5_28_exp.xml	0
+Facet: quarter:	0.365418	 nDCG@10 = 0.37125486	nDCG@10	 nDCG gain = -0.32713807
+		facet gain @10 = 0.16372022, facet loss @10 = 0.49085823
+
+	set5_5-1_exp.xml	1
+
+	set5_30_exp.xml	1
+
+	set5_11_exp.xml	1
+
+	set5_33_exp.xml	1
+
+	set5_5-2_exp.xml	0
+
+	set5_5-3_exp.xml	0
+
+	set4_37_exp.xml	0
+
+	set5_13_exp.xml	0
+
+	set4_33_exp.xml	0
+
+	set4_53_exp.xml	0
+Facet: period:	0.337702	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set4_30_exp.xml	0
+Facet: gdp:	0.215445	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_17-1_exp.xml	0
+
+	set5_17-2_exp.xml	0
+Facet: city:	0.214021	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set2_23_exp.xml	0
+Facet: country:	0.212985	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_17-1_exp.xml	0
+
+	set5_17-2_exp.xml	0
+
+	set4_30_exp.xml	0
+
+facet_X, discounted nDCG Gain @5 = -1.078905, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.01170983, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.01170983, alpha = 1 (assume users know the correct facet values to choose.) 
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: goldman sachs revenue 
+Average number of facet_Y values in each document is 2.15
+Average number of documents tagged with each facet value in the facet_Y field is : 2.15
+
+Facet: goldman sachs:	0.832085	 nDCG@10 = 0.6547645	nDCG@10	 nDCG gain = -0.043628454
+		facet gain @10 = 0.0, facet loss @10 = 0.043628428
+
+	set5_31_exp.xml	2
+
+	set5_5-1_exp.xml	1
+
+	set5_30_exp.xml	1
+
+	set5_21_exp.xml	0
+
+	set5_37_exp.xml	1
+
+	set5_32-1_exp.xml	0
+
+	set5_32-2_exp.xml	0
+
+	set5_16_exp.xml	0
+
+	set5_24_exp.xml	0
+
+	set5_10_exp.xml	0
+Facet: goldman:	0.663662	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_43_exp.xml	0
+Facet: revenue:	0.420347	 nDCG@10 = 0.23637144	nDCG@10	 nDCG gain = -0.46202147
+		facet gain @10 = 0.10130206, facet loss @10 = 0.56332344
+
+	set5_5-1_exp.xml	1
+
+	set5_11_exp.xml	1
+
+	set4_32_exp.xml	0
+
+	set5_41_exp.xml	0
+
+	set5_12_exp.xml	0
+
+	set4_17_exp.xml	0
+
+	set5_4_exp.xml	0
+
+	set4_3-3_exp.xml	0
+
+	set1_22_exp.xml	0
+
+	set2_20_exp.xml	0
+Facet: hm revenue customs:	0.273389	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set4_14_exp.xml	0
+Facet: debt:	0.252486	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_32-2_exp.xml	0
+Facet: earnings taxes:	0.230106	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set3_18_exp.xml	0
+
+	set3_19_exp.xml	0
+Facet: income:	0.215737	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_21_exp.xml	0
+
+	set2_24_exp.xml	0
+Facet: net income:	0.215206	 nDCG@10 = 0.5262324	nDCG@10	 nDCG gain = -0.1721605
+		facet gain @10 = 0.018975716, facet loss @10 = 0.19113615
+
+	set5_31_exp.xml	2
+
+	set5_30_exp.xml	1
+
+	set5_28_exp.xml	0
+
+	set1_15_exp.xml	0
+Facet: investment banking:	0.2081	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.10130206, facet loss @10 = 0.6547645
+
+	set5_11_exp.xml	1
+Facet: net profit:	0.20622	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.08886372, facet loss @10 = 0.6423261
+
+	set5_37_exp.xml	1
+Facet: welfare:	0.201934	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.6983929
+		facet gain @10 = 0.0, facet loss @10 = 0.6983929
+
+	set5_5-2_exp.xml	0
+
+facet_Y, discounted nDCG Gain @5 = -1.2862327, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.05065103, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+
+For query 5.7.4, on either X or Y field, the maximum nDCG Gain @5 = -1.078905, alpha = 1 (assume user know which axis to choose).
+For query 5.7.4, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.05065103, alpha = 0 (only consider documents covered by facets). 
+For query 5.7.4, on either X or Y field, the maximum non-negative nDCG Gain @5 = 0.01170983, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Qid: 1.2.4 How do the revenues of 4 top car manufacturing companies compare ?
+Original Ranking nDCG@10 = 0.45258182
+Processed query: Y:(the revenues) AND X:(4 top car manufacturing companies) AND IMCategory:(Maximum-Minimum-Multiple)
+
+................. Analyzing Facet field facet_X..................
+Field facet_X: 4 car manufacturing companies 
+Average number of facet_X values in each document is 6.80829
+Average number of documents tagged with each facet value in the facet_X field is : 2.676171
+
+Facet: companies:	0.744043	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set5_41_exp.xml	0
+
+	set2_22_exp.xml	0
+
+	set4_28_exp.xml	0
+
+	set2_21_exp.xml	0
+
+	set2_30_exp.xml	0
+
+	set2_36_exp.xml	0
+
+	set2_38_exp.xml	0
+
+	set2_23_exp.xml	0
+
+	set2_41_exp.xml	0
+
+	set1_50_exp.xml	0
+Facet: car manufacturer:	0.729225	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set1_2_exp.xml	0
+Facet: gm cars minivans bochum germany:	0.630221	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set1_13_exp.xml	0
+Facet: car:	0.628771	 nDCG@10 = 0.2331038	nDCG@10	 nDCG gain = -0.21947803
+		facet gain @10 = 0.3554339, facet loss @10 = 0.43219352
+
+	set1_59_exp.xml	1
+
+	set1_37_exp.xml	1
+
+	set1_47-1_exp.xml	2
+
+	set1_42_exp.xml	2
+
+	set1_6-1_exp.xml	3
+Facet: toyota motor sales:	0.625256	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set1_45_exp.xml	0
+Facet: company:	0.615588	 nDCG@10 = 0.5611669	nDCG@10	 nDCG gain = 0.10858506 ** 
+		facet gain @10 = 0.10858503, facet loss @10 = 0.0
+
+	set1_1_exp.xml	3
+
+	set1_59_exp.xml	1
+
+	set1_34_exp.xml	1
+
+	set1_68_exp.xml	0
+
+	set1_20_exp.xml	2
+
+	set1_37_exp.xml	1
+
+	set1_9_exp.xml	2
+
+	set5_41_exp.xml	0
+
+	set2_22_exp.xml	0
+
+	set4_28_exp.xml	0
+Facet: toyota motor:	0.593691	 nDCG@10 = 0.1581094	nDCG@10	 nDCG gain = -0.29447243
+		facet gain @10 = 0.19136137, facet loss @10 = 0.45258182
+
+	set1_47-1_exp.xml	2
+
+	set1_66_exp.xml	1
+Facet: cars:	0.592985	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set1_68_exp.xml	0
+
+	set1_31_exp.xml	0
+Facet: tata motors:	0.586465	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.11240553, facet loss @10 = 0.406878
+
+	set1_20_exp.xml	2
+Facet: automobiles:	0.584245	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set1_31_exp.xml	0
+Facet: suppliers converging industries:	0.578395	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set1_50_exp.xml	0
+
+facet_X, discounted nDCG Gain @5 = -1.1725612, alpha = 1 (this measures difference between nDCG).
+facet_X, discounted cumulative facet Gain @5 = 0.15307705, alpha = 0 (only considering documents covered by each facet value). 
+facet_X, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+
+
+................. Analyzing Facet field facet_Y..................
+Field facet_Y: revenues 
+Average number of facet_Y values in each document is 2.134715
+Average number of documents tagged with each facet value in the facet_Y field is : 2.1458333
+
+Facet: revenue:	0.673237	 nDCG@10 = 0.3689219	nDCG@10	 nDCG gain = -0.08365992
+		facet gain @10 = 0.0, facet loss @10 = 0.08365993
+
+	set1_1_exp.xml	3
+
+	set1_10_exp.xml	0
+
+	set1_14_exp.xml	0
+
+	set4_9_exp.xml	0
+
+	set1_22_exp.xml	0
+
+	set1_43_exp.xml	0
+
+	set5_41_exp.xml	0
+
+	set3_32_exp.xml	0
+
+	set2_22_exp.xml	0
+
+	set4_28_exp.xml	0
+Facet: earnings taxes:	0.650225	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set3_18_exp.xml	0
+
+	set3_19_exp.xml	0
+Facet: income:	0.566065	 nDCG@10 = 0.05270313	nDCG@10	 nDCG gain = -0.39987868
+		facet gain @10 = 0.05270313, facet loss @10 = 0.45258182
+
+	set1_66_exp.xml	1
+
+	set2_24_exp.xml	0
+
+	set5_21_exp.xml	0
+
+	set4_43_exp.xml	0
+Facet: net income:	0.521766	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set1_15_exp.xml	0
+
+	set5_30_exp.xml	0
+
+	set5_31_exp.xml	0
+
+	set5_28_exp.xml	0
+Facet: budget:	0.511184	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set3_26-2_exp.xml	0
+Facet: earnings share:	0.469232	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set4_42_exp.xml	0
+
+	set5_27-2_exp.xml	0
+Facet: investment banking:	0.46419	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set5_11_exp.xml	0
+Facet: property tax:	0.455621	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set3_26-1_exp.xml	0
+Facet: budget rent car:	0.44539	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set3_21_exp.xml	0
+
+	set3_25_exp.xml	0
+Facet: debt:	0.43535	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set5_32-2_exp.xml	0
+Facet: hm revenue customs:	0.434602	 nDCG@10 = 0.0	nDCG@10	 nDCG gain = -0.45258182
+		facet gain @10 = 0.0, facet loss @10 = 0.45258182
+
+	set4_14_exp.xml	0
+
+facet_Y, discounted nDCG Gain @5 = -0.93914557, alpha = 1 (this measures difference between nDCG).
+facet_Y, discounted cumulative facet Gain @5 = 0.026351565, alpha = 0 (only considering documents covered by each facet value). 
+facet_Y, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume users know the correct facet values to choose.) 
+
+For query 1.2.4, on either X or Y field, the maximum nDCG Gain @5 = -0.93914557, alpha = 1 (assume user know which axis to choose).
+For query 1.2.4, on either X or Y field, the maximum Discounted Cumulative Facet Gain @5 = 0.15307705, alpha = 0 (only consider documents covered by facets). 
+For query 1.2.4, on either X or Y field, the maximum non-negative nDCG Gain @5 = 0.0, alpha = 1 (assume user know which axis to choose, only consider non-negative nDCG.). 
+
+Facet field facet_X across all queries, average discounted nDCG Gain @5 = -1.1257331, alpha = 1.
+Facet field facet_Y across all queries, average discounted nDCG Gain @5 = -1.1126891, alpha = 1.
+Facet field facet_X across all queries, average discounted cumulative facet gain @5 = 0.08239344, alpha = 0.
+Facet field facet_Y across all queries, average discounted cumulative facet gain @5 = 0.038501296, alpha = 0.
+Facet field facet_X across all queries, discounted non-negative nDCG Gain @5 = 0.005854915, alpha = 1. Only considering non-negative nDCG changes.
+Facet field facet_Y across all queries, discounted non-negative nDCG Gain @5 = 0.0, alpha = 1. Only considering non-negative nDCG changes.
+
+Across all queries, on either X or Y axis, the maximum nDCG Gain = -1.0090253, alpha = 1
+Across all queries, on either X or Y axis, the maximum discounted cumulative facet Gain = 0.10186404, alpha = 0
+Across all queries, on either X or Y axis, the maximum discounted non-negative nDCG Gain = 0.005854915, alpha = 1
+There are 0 queries with nDCG@10 > 0.7 that are not faceted.
+There are 2 queries with nDCG@10 <= 0.7 that are faceted. 
+
+------------------------------------------------------------------
+
